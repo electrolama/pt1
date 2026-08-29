@@ -1,0 +1,29 @@
+name: Improvement proposal
+description: Propose a hardware, enclosure, tooling, example, or documentation improvement.
+title: "[proposal]: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: Describe the workflow or limitation before proposing a solution.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed approach
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Compatibility and risk
+      description: Cover revisions, interfaces, power, USB, enclosure fit, manufacturing, and documentation as relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: How should it be validated?
+
