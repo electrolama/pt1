@@ -1,0 +1,61 @@
+name: Hardware problem
+description: Report a reproducible electrical, USB, serial, power, or enclosure problem.
+title: "[hardware]: "
+labels:
+  - hardware
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Disconnect unsafe or overheating hardware first. Do not include secrets or
+        personal information in logs or photographs.
+  - type: input
+    id: revision
+    attributes:
+      label: Revision
+      description: PCB revision and enclosure variant, as marked or identified.
+      placeholder: PCB Rev A2; case Rev A with header
+    validations:
+      required: true
+  - type: textarea
+    id: setup
+    attributes:
+      label: Complete setup
+      description: Host OS, USB cable/path, target, wiring, external supplies, and expected load.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Provide the smallest exact sequence that reproduces the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+      description: Include enumeration, serial, DTR, RI, PWR LED, and measurement observations where relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Logs, photographs, and measurements
+      description: Include instrument/setup details and measurement conditions.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-flight checks
+      options:
+        - label: I used a known data-capable USB cable and tested without downstream devices.
+          required: true
+        - label: I checked for conflicting power sources and stopped if hardware became unsafe.
+          required: true
+

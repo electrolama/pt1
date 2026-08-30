@@ -1,0 +1,29 @@
+name: Documentation problem
+description: Report an incorrect, unclear, missing, or inaccessible documentation item.
+title: "[docs]: "
+labels:
+  - documentation
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Page or file
+      placeholder: documentation/power-control.md, section “Safe control sequence”
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong or unclear?
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Suggested correction or missing evidence
+  - type: input
+    id: revision
+    attributes:
+      label: Relevant hardware revision
+      description: Leave blank only when the report is revision-independent.
+

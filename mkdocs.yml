@@ -1,0 +1,74 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+site_name: pt1 documentation
+site_description: A compact USB hub, UART adapter, and software-controlled power tool for hardware bring-up.
+repo_url: https://github.com/electrolama/pt1
+repo_name: electrolama/pt1
+edit_uri: edit/main/documentation/
+docs_dir: documentation
+strict: true
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.path
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: pt1-light
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: pt1-dark
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - Use pt1:
+      - Getting started: getting-started.md
+      - Pinout and connections: pinout.md
+      - Power control: power-control.md
+      - Troubleshooting: troubleshooting.md
+  - Understand it:
+      - Hardware overview: hardware.md
+      - Design reference: reference.md
+      - Enclosures: enclosures.md
+  - Build it:
+      - Build and manufacture: manufacturing.md
+      - Repository guide: repository-guide.md
+      - Contributing: contributing.md
+  - Project:
+      - Documentation research: research.md
+      - Visual asset provenance: assets/IMAGE_PROMPTS.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+copyright: Hardware source licensed under CERN-OHL-W-2.0

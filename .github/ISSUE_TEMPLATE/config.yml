@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Published pt1 documentation
+    url: https://lab.electrolama.com/project/pt1
+    about: Read the project overview and usage guide before opening an issue.
+  - name: Support checklist
+    url: https://github.com/electrolama/pt1/blob/main/SUPPORT.md
+    about: Collect the revision, host, wiring, load, and signal details needed for diagnosis.
+
