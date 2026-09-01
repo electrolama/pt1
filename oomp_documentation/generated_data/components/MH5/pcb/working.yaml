@@ -1,0 +1,105 @@
+available: true
+reference: MH5
+value: Mounting Hole 0.8 mm Round Plated
+library_id: JING_912-121A2023S10100
+side: mechanical
+position:
+  x: 142.1011
+  y: 83.6386
+  rotation: 90.0
+  units: mm
+pads: []
+mounting_holes:
+- id: CON3_hole_1
+  reference: CON3
+  pad_number: P$5
+  role: shield_mount
+  plating: plated
+  style: round
+  drill_size:
+    x: 0.8
+    y: 0.8
+    diameter: 0.8
+    units: mm
+  pad_size:
+    x: 2.616
+    y: 1.308
+    units: mm
+  pad_shape: oval
+  local_position:
+    x: -6.4
+    y: -2.24
+    rotation: 90.0
+  position:
+    x: 142.1011
+    y: 83.6386
+  rotation: 90.0
+  layers:
+  - '*.Cu'
+  - '*.Mask'
+  net: GND
+  classification_reason: plated pad uses a mechanical mounting/shield identifier
+  oomp_id: mechanical_mounting_hole_0_8_mm_round_plated
+  component_reference: CON3
+  component_oomp_id: electronic_connector_usb_a_surface_mount_4_pin_shenzhen_jing_tuo_jin_electronics_912121a2023s10100
+  component_footprint: JING_912-121A2023S10100
+  component_side: front
+  dedicated_footprint: false
+  oomp_reference: MH5
+  classification:
+    name: Mounting Hole 0.8 mm Round Plated
+    class: mechanical
+    type: mounting_hole
+    taxonomy:
+    - level: 1
+      key: taxonomy_1
+      value: mechanical
+    - level: 2
+      key: taxonomy_2
+      value: mounting_hole
+    - level: 3
+      key: taxonomy_3
+      value: 0_8_mm
+    - level: 4
+      key: taxonomy_4
+      value: round
+    - level: 5
+      key: taxonomy_5
+      value: plated
+    taxonomy_path:
+    - mechanical
+    - mounting_hole
+    - 0_8_mm
+    - round
+    - plated
+  name: Mounting Hole 0.8 mm Round Plated
+  oomp:
+    status: matched
+    accepted: true
+    oomp_id: mechanical_mounting_hole_0_8_mm_round_plated
+    confidence: 1.0
+    proposed_oomp_id: mechanical_mounting_hole_0_8_mm_round_plated
+    inferred:
+      kind: mounting_hole
+      style: round
+      plating: plated
+      drill_size:
+        x: 0.8
+        y: 0.8
+        diameter: 0.8
+        units: mm
+    reasons:
+    - Exact mechanical mounting-hole OOMP ID constructed from drill size, style, and plating.
+    candidates: []
+is_mounting_hole: true
+size:
+  drill:
+    measurement: mounting-hole drill dimensions
+    units: mm
+    available: true
+    width: 0.8
+    height: 0.8
+    center:
+      x: 0.0
+      y: 0.0
+connected_components: []

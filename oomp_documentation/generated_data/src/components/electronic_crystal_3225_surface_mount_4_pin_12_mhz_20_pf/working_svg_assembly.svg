@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg data-pin-one-x="0.2000" data-pin-one-y="2.3000" data-pin-one-identifiers="1" xmlns="http://www.w3.org/2000/svg"
+     width="3.2000mm" height="2.5000mm"
+     viewBox="0 0 3.2000 2.5000">
+  <rect x="0.0000" y="0.0000" width="3.2000" height="2.5000"  fill="none" stroke="none" />
+  <rect x="0.2000" y="0.2000" width="2.8000" height="2.1000" rx="0.1500" ry="0.1500"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0000" y="2.1500" width="0.4000" height="0.3000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0000" y="0.0500" width="0.4000" height="0.3000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.8000" y="2.1500" width="0.4000" height="0.3000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.8000" y="0.0500" width="0.4000" height="0.3000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+</svg>

@@ -1,0 +1,1287 @@
+bip_39_2_word_array:
+- vintage
+- prefer
+bip_39_2_word_no_space: vintageprefer
+bip_39_2_word_space: vintage prefer
+bip_39_2_word_underscore: vintage_prefer
+bip_39_3_word_array:
+- vintage
+- prefer
+- clay
+bip_39_3_word_no_space: vintagepreferclay
+bip_39_3_word_space: vintage prefer clay
+bip_39_3_word_underscore: vintage_prefer_clay
+bip_39_full_array:
+- vintage
+- prefer
+- clay
+- outside
+- milk
+- antique
+- opinion
+- boat
+- change
+- public
+- various
+- hello
+bip_39_full_no_space: vintagepreferclayoutsidemilkantiqueopinionboatchangepublicvarioushello
+bip_39_full_space: vintage prefer clay outside milk antique opinion boat change public
+    various hello
+bip_39_full_underscore: vintage_prefer_clay_outside_milk_antique_opinion_boat_change_public_various_hello
+dimensions_mm:
+    length: 2.9
+    width: 1.6
+directory: parts/electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+id: electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+id_no_class: electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+id_no_size: electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+id_no_type: electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+md5: f43538a8cec8c813e6d8c62635a3c635
+md5_10: f43538a8ce
+md5_10_upper: F43538A8CE
+md5_5: f4353
+md5_5_upper: F4353
+md5_6: f43538
+md5_6_alpha: 9j12w
+md5_6_alpha_upper: 9J12W
+md5_6_upper: F43538
+name: Electronic Diode Tvs Array Sot 23 6 Protek Srv054Pt7
+name_no_class: Electronic Diode Tvs Array Sot 23 6 Protek Srv054Pt7
+name_no_size: Electronic Diode Tvs Array Sot 23 6 Protek Srv054Pt7
+name_no_type: Electronic Diode Tvs Array Sot 23 6 Protek Srv054Pt7
+name_proper: Electronic Diode Tvs Array Sot 23 6 Protek Srv054Pt7
+name_short: Diode Tvs Array Sot 23 6
+name_space: electronic diode tvs array sot 23 6 protek srv054pt7
+name_upper: ELECTRONIC DIODE TVS ARRAY SOT 23 6 PROTEK SRV054PT7
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: run_python
+        description: Generate this component's standard SVG and PNG diagrams with
+            working_svg.py.
+        file_output: working_svg_assembly.svg
+        file_python: kicad_agents/component_svg_action.py
+        part_id: electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+        regenerate_pngs: false
+        timeout: '600'
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_square_pins_300.png
+        file_source: working_svg_square_pins.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_outline_300.png
+        file_source: working_svg_outline.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_part_id_300.png
+        file_source: working_svg_part_id.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_md5_6_alpha_300.png
+        file_source: working_svg_md5_6_alpha.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_bip_39_3_word_300.png
+        file_source: working_svg_bip_39_3_word.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_square_300.png
+        file_source: working_svg_square.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_dimensioned_300.png
+        file_source: working_svg_dimensioned.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_dimensioned_titles_300.png
+        file_source: working_svg_dimensioned_titles.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    description: Build component diagrams and proportional 300-pixel README previews
+        with deterministic Python actions.
+    file_test: ''
+    retries_until_complete: 0
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            dimensions_mm:
+                length: 2.9
+                width: 1.6
+            directory: parts\electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+            name: electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+            name_proper: Electronic Diode Tvs Array Sot 23 6 Protek Srv054Pt7
+            name_short: Diode Tvs Array Sot 23 6
+            name_space: electronic diode tvs array sot 23 6 protek srv054pt7
+            name_upper: ELECTRONIC DIODE TVS ARRAY SOT 23 6 PROTEK SRV054PT7
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: run_python
+                    description: Generate this component's standard SVG and PNG diagrams
+                        with working_svg.py.
+                    file_output: working_svg_assembly.svg
+                    file_python: kicad_agents/component_svg_action.py
+                    part_id: electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+                    regenerate_pngs: false
+                    timeout: '600'
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_square_pins_300.png
+                    file_source: working_svg_square_pins.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_outline_300.png
+                    file_source: working_svg_outline.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_part_id_300.png
+                    file_source: working_svg_part_id.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_md5_6_alpha_300.png
+                    file_source: working_svg_md5_6_alpha.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_bip_39_3_word_300.png
+                    file_source: working_svg_bip_39_3_word.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_square_300.png
+                    file_source: working_svg_square.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_dimensioned_300.png
+                    file_source: working_svg_dimensioned.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_dimensioned_titles_300.png
+                    file_source: working_svg_dimensioned_titles.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                description: Build component diagrams and proportional 300-pixel README
+                    previews with deterministic Python actions.
+                file_test: ''
+                retries_until_complete: 0
+            part_id: D1
+            part_number_lcsc: C85364
+            part_number_manufacturer: SRV05-4-P-T7
+            part_page:
+                diagrams:
+                -   png: ''
+                    preview: working_svg_assembly.svg
+                    svg: working_svg_assembly.svg
+                    title: Assembly
+                -   png: working_svg_outline.png
+                    preview: working_svg_outline_300.png
+                    svg: working_svg_outline.svg
+                    title: Outline
+                -   png: working_svg_part_id.png
+                    preview: working_svg_part_id_300.png
+                    svg: working_svg_part_id.svg
+                    title: Part ID
+                -   png: working_svg_md5_6_alpha.png
+                    preview: working_svg_md5_6_alpha_300.png
+                    svg: working_svg_md5_6_alpha.svg
+                    title: MD5 alpha
+                -   png: working_svg_bip_39_3_word.png
+                    preview: working_svg_bip_39_3_word_300.png
+                    svg: working_svg_bip_39_3_word.svg
+                    title: BIP 39 words
+                -   png: working_svg_square.png
+                    preview: working_svg_square_300.png
+                    svg: working_svg_square.svg
+                    title: Square summary
+                -   png: working_svg_dimensioned.png
+                    preview: working_svg_dimensioned_300.png
+                    svg: working_svg_dimensioned.svg
+                    title: Dimensions
+                -   png: working_svg_dimensioned_titles.png
+                    preview: working_svg_dimensioned_titles_300.png
+                    svg: working_svg_dimensioned_titles.svg
+                    title: Dimensions with labels
+                file_previews:
+                -   preview: working_svg_square_pins_300.png
+                    title: Pinout drawing
+                -   preview: working_svg_outline_300.png
+                    title: Outline
+                -   preview: working_svg_part_id_300.png
+                    title: Part ID
+                -   preview: working_svg_md5_6_alpha_300.png
+                    title: MD5 alpha
+                -   preview: working_svg_bip_39_3_word_300.png
+                    title: BIP 39 words
+                -   preview: working_svg_square_300.png
+                    title: Square summary
+                -   preview: working_svg_dimensioned_300.png
+                    title: Dimensions
+                -   preview: working_svg_dimensioned_titles_300.png
+                    title: Dimensions with labels
+                has_datasheet: false
+                identifiers:
+                -   title: Manufacturer part number
+                    value: SRV05-4-P-T7
+                -   title: LCSC
+                    value: C85364
+                main_image:
+                    png: working_svg_square_pins.png
+                    preview: working_svg_square_pins_300.png
+                    svg: working_svg_square_pins.svg
+                    title: Pinout
+                oomp_id: electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+                pins: []
+                quick_facts:
+                -   title: OOMP ID
+                    value: electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+                -   title: Type
+                    value: Diode
+                -   title: Package / style
+                    value: tvs array
+                -   title: Nominal size
+                    value: "2.9 \xD7 1.6 mm"
+                repository_url: https://github.com/oomlout/oomp_electronic_version_5/tree/main/parts/electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+                summary: "Diode Tvs Array Sot 23 6 is an OOMP electronic diode definition.\
+                    \ It uses the tvs array package or form factor. Its nominal drawing\
+                    \ size is 2.9 \xD7 1.6 mm."
+                taxonomy:
+                -   level: 1
+                    value: electronic
+                -   level: 2
+                    value: diode
+                -   level: 3
+                    value: tvs_array
+                -   level: 4
+                    value: sot_23_6
+                -   level: 14
+                    value: protek
+                -   level: 15
+                    value: srv054pt7
+            regenerate_pngs: false
+            svg_details:
+            -   filename_extra: assembly
+                make_a4: false
+                output_formats:
+                - svg
+                padding: 0
+                stylesheet: style_oomp_assembly
+                svg_name: oomp_component_assembly
+                write_yaml: false
+            -   filename_extra: assembly_pins
+                make_a4: false
+                output_formats:
+                - svg
+                padding: 0
+                stylesheet: style_oomp_assembly
+                svg_name: oomp_component_assembly_pins
+                write_yaml: false
+            -   filename_extra: outline
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_outline
+                write_yaml: false
+            -   filename_extra: part_id
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_part_id
+                write_yaml: false
+            -   filename_extra: md5_6_alpha
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_md5_6_alpha
+                write_yaml: false
+            -   filename_extra: bip_39_3_word
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_bip_39_3_word
+                write_yaml: false
+            -   filename_extra: square
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_square
+                write_yaml: false
+            -   filename_extra: square_pins
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_square_pins
+                write_yaml: false
+            -   filename_extra: dimensioned
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_dimensioned
+                write_yaml: false
+            -   filename_extra: dimensioned_titles
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_dimensioned_titles
+                write_yaml: false
+            taxonomy_1: electronic
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: protek
+            taxonomy_15: srv054pt7
+            taxonomy_2: diode
+            taxonomy_3: tvs_array
+            taxonomy_4: sot_23_6
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: source_file\template_jinja\oomp_category\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_3:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            dimensions_mm:
+                length: 2.9
+                width: 1.6
+            directory: parts\electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+            name: electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+            name_proper: Electronic Diode Tvs Array Sot 23 6 Protek Srv054Pt7
+            name_short: Diode Tvs Array Sot 23 6
+            name_space: electronic diode tvs array sot 23 6 protek srv054pt7
+            name_upper: ELECTRONIC DIODE TVS ARRAY SOT 23 6 PROTEK SRV054PT7
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: run_python
+                    description: Generate this component's standard SVG and PNG diagrams
+                        with working_svg.py.
+                    file_output: working_svg_assembly.svg
+                    file_python: kicad_agents/component_svg_action.py
+                    part_id: electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+                    regenerate_pngs: false
+                    timeout: '600'
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_square_pins_300.png
+                    file_source: working_svg_square_pins.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_outline_300.png
+                    file_source: working_svg_outline.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_part_id_300.png
+                    file_source: working_svg_part_id.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_md5_6_alpha_300.png
+                    file_source: working_svg_md5_6_alpha.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_bip_39_3_word_300.png
+                    file_source: working_svg_bip_39_3_word.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_square_300.png
+                    file_source: working_svg_square.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_dimensioned_300.png
+                    file_source: working_svg_dimensioned.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_dimensioned_titles_300.png
+                    file_source: working_svg_dimensioned_titles.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                description: Build component diagrams and proportional 300-pixel README
+                    previews with deterministic Python actions.
+                file_test: ''
+                retries_until_complete: 0
+            oomlout_ai_roboclick_2:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        dimensions_mm:
+                            length: 2.9
+                            width: 1.6
+                        directory: parts\electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+                        name: electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+                        name_proper: Electronic Diode Tvs Array Sot 23 6 Protek Srv054Pt7
+                        name_short: Diode Tvs Array Sot 23 6
+                        name_space: electronic diode tvs array sot 23 6 protek srv054pt7
+                        name_upper: ELECTRONIC DIODE TVS ARRAY SOT 23 6 PROTEK SRV054PT7
+                        oomlout_ai_roboclick_1:
+                            actions:
+                            -   command: run_python
+                                description: Generate this component's standard SVG
+                                    and PNG diagrams with working_svg.py.
+                                file_output: working_svg_assembly.svg
+                                file_python: kicad_agents/component_svg_action.py
+                                part_id: electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+                                regenerate_pngs: false
+                                timeout: '600'
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_square_pins_300.png
+                                file_source: working_svg_square_pins.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_outline_300.png
+                                file_source: working_svg_outline.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_part_id_300.png
+                                file_source: working_svg_part_id.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_md5_6_alpha_300.png
+                                file_source: working_svg_md5_6_alpha.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_bip_39_3_word_300.png
+                                file_source: working_svg_bip_39_3_word.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_square_300.png
+                                file_source: working_svg_square.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_dimensioned_300.png
+                                file_source: working_svg_dimensioned.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_dimensioned_titles_300.png
+                                file_source: working_svg_dimensioned_titles.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            description: Build component diagrams and proportional
+                                300-pixel README previews with deterministic Python
+                                actions.
+                            file_test: ''
+                            retries_until_complete: 0
+                        part_id: D1
+                        part_number_lcsc: C85364
+                        part_number_manufacturer: SRV05-4-P-T7
+                        part_page:
+                            diagrams:
+                            -   png: ''
+                                preview: working_svg_assembly.svg
+                                svg: working_svg_assembly.svg
+                                title: Assembly
+                            -   png: working_svg_outline.png
+                                preview: working_svg_outline_300.png
+                                svg: working_svg_outline.svg
+                                title: Outline
+                            -   png: working_svg_part_id.png
+                                preview: working_svg_part_id_300.png
+                                svg: working_svg_part_id.svg
+                                title: Part ID
+                            -   png: working_svg_md5_6_alpha.png
+                                preview: working_svg_md5_6_alpha_300.png
+                                svg: working_svg_md5_6_alpha.svg
+                                title: MD5 alpha
+                            -   png: working_svg_bip_39_3_word.png
+                                preview: working_svg_bip_39_3_word_300.png
+                                svg: working_svg_bip_39_3_word.svg
+                                title: BIP 39 words
+                            -   png: working_svg_square.png
+                                preview: working_svg_square_300.png
+                                svg: working_svg_square.svg
+                                title: Square summary
+                            -   png: working_svg_dimensioned.png
+                                preview: working_svg_dimensioned_300.png
+                                svg: working_svg_dimensioned.svg
+                                title: Dimensions
+                            -   png: working_svg_dimensioned_titles.png
+                                preview: working_svg_dimensioned_titles_300.png
+                                svg: working_svg_dimensioned_titles.svg
+                                title: Dimensions with labels
+                            file_previews:
+                            -   preview: working_svg_square_pins_300.png
+                                title: Pinout drawing
+                            -   preview: working_svg_outline_300.png
+                                title: Outline
+                            -   preview: working_svg_part_id_300.png
+                                title: Part ID
+                            -   preview: working_svg_md5_6_alpha_300.png
+                                title: MD5 alpha
+                            -   preview: working_svg_bip_39_3_word_300.png
+                                title: BIP 39 words
+                            -   preview: working_svg_square_300.png
+                                title: Square summary
+                            -   preview: working_svg_dimensioned_300.png
+                                title: Dimensions
+                            -   preview: working_svg_dimensioned_titles_300.png
+                                title: Dimensions with labels
+                            has_datasheet: false
+                            identifiers:
+                            -   title: Manufacturer part number
+                                value: SRV05-4-P-T7
+                            -   title: LCSC
+                                value: C85364
+                            main_image:
+                                png: working_svg_square_pins.png
+                                preview: working_svg_square_pins_300.png
+                                svg: working_svg_square_pins.svg
+                                title: Pinout
+                            oomp_id: electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+                            pins: []
+                            quick_facts:
+                            -   title: OOMP ID
+                                value: electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+                            -   title: Type
+                                value: Diode
+                            -   title: Package / style
+                                value: tvs array
+                            -   title: Nominal size
+                                value: "2.9 \xD7 1.6 mm"
+                            repository_url: https://github.com/oomlout/oomp_electronic_version_5/tree/main/parts/electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+                            summary: "Diode Tvs Array Sot 23 6 is an OOMP electronic\
+                                \ diode definition. It uses the tvs array package\
+                                \ or form factor. Its nominal drawing size is 2.9\
+                                \ \xD7 1.6 mm."
+                            taxonomy:
+                            -   level: 1
+                                value: electronic
+                            -   level: 2
+                                value: diode
+                            -   level: 3
+                                value: tvs_array
+                            -   level: 4
+                                value: sot_23_6
+                            -   level: 14
+                                value: protek
+                            -   level: 15
+                                value: srv054pt7
+                        regenerate_pngs: false
+                        svg_details:
+                        -   filename_extra: assembly
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            padding: 0
+                            stylesheet: style_oomp_assembly
+                            svg_name: oomp_component_assembly
+                            write_yaml: false
+                        -   filename_extra: assembly_pins
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            padding: 0
+                            stylesheet: style_oomp_assembly
+                            svg_name: oomp_component_assembly_pins
+                            write_yaml: false
+                        -   filename_extra: outline
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_outline
+                            write_yaml: false
+                        -   filename_extra: part_id
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_part_id
+                            write_yaml: false
+                        -   filename_extra: md5_6_alpha
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_md5_6_alpha
+                            write_yaml: false
+                        -   filename_extra: bip_39_3_word
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_bip_39_3_word
+                            write_yaml: false
+                        -   filename_extra: square
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_square
+                            write_yaml: false
+                        -   filename_extra: square_pins
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_square_pins
+                            write_yaml: false
+                        -   filename_extra: dimensioned
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_dimensioned
+                            write_yaml: false
+                        -   filename_extra: dimensioned_titles
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_dimensioned_titles
+                            write_yaml: false
+                        taxonomy_1: electronic
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: protek
+                        taxonomy_15: srv054pt7
+                        taxonomy_2: diode
+                        taxonomy_3: tvs_array
+                        taxonomy_4: sot_23_6
+                        taxonomy_5: ''
+                        taxonomy_6: ''
+                        taxonomy_7: ''
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        url_chat: ''
+                    dict_data_files: {}
+                    dict_data_files_exists: {}
+                    file_output: label_oomp.svg
+                    file_template: source_file\template_jinja\oomp_category\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+                retries_until_complete: 0
+            part_id: D1
+            part_number_lcsc: C85364
+            part_number_manufacturer: SRV05-4-P-T7
+            part_page:
+                diagrams:
+                -   png: ''
+                    preview: working_svg_assembly.svg
+                    svg: working_svg_assembly.svg
+                    title: Assembly
+                -   png: working_svg_outline.png
+                    preview: working_svg_outline_300.png
+                    svg: working_svg_outline.svg
+                    title: Outline
+                -   png: working_svg_part_id.png
+                    preview: working_svg_part_id_300.png
+                    svg: working_svg_part_id.svg
+                    title: Part ID
+                -   png: working_svg_md5_6_alpha.png
+                    preview: working_svg_md5_6_alpha_300.png
+                    svg: working_svg_md5_6_alpha.svg
+                    title: MD5 alpha
+                -   png: working_svg_bip_39_3_word.png
+                    preview: working_svg_bip_39_3_word_300.png
+                    svg: working_svg_bip_39_3_word.svg
+                    title: BIP 39 words
+                -   png: working_svg_square.png
+                    preview: working_svg_square_300.png
+                    svg: working_svg_square.svg
+                    title: Square summary
+                -   png: working_svg_dimensioned.png
+                    preview: working_svg_dimensioned_300.png
+                    svg: working_svg_dimensioned.svg
+                    title: Dimensions
+                -   png: working_svg_dimensioned_titles.png
+                    preview: working_svg_dimensioned_titles_300.png
+                    svg: working_svg_dimensioned_titles.svg
+                    title: Dimensions with labels
+                file_previews:
+                -   preview: working_svg_square_pins_300.png
+                    title: Pinout drawing
+                -   preview: working_svg_outline_300.png
+                    title: Outline
+                -   preview: working_svg_part_id_300.png
+                    title: Part ID
+                -   preview: working_svg_md5_6_alpha_300.png
+                    title: MD5 alpha
+                -   preview: working_svg_bip_39_3_word_300.png
+                    title: BIP 39 words
+                -   preview: working_svg_square_300.png
+                    title: Square summary
+                -   preview: working_svg_dimensioned_300.png
+                    title: Dimensions
+                -   preview: working_svg_dimensioned_titles_300.png
+                    title: Dimensions with labels
+                has_datasheet: false
+                identifiers:
+                -   title: Manufacturer part number
+                    value: SRV05-4-P-T7
+                -   title: LCSC
+                    value: C85364
+                main_image:
+                    png: working_svg_square_pins.png
+                    preview: working_svg_square_pins_300.png
+                    svg: working_svg_square_pins.svg
+                    title: Pinout
+                oomp_id: electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+                pins: []
+                quick_facts:
+                -   title: OOMP ID
+                    value: electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+                -   title: Type
+                    value: Diode
+                -   title: Package / style
+                    value: tvs array
+                -   title: Nominal size
+                    value: "2.9 \xD7 1.6 mm"
+                repository_url: https://github.com/oomlout/oomp_electronic_version_5/tree/main/parts/electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+                summary: "Diode Tvs Array Sot 23 6 is an OOMP electronic diode definition.\
+                    \ It uses the tvs array package or form factor. Its nominal drawing\
+                    \ size is 2.9 \xD7 1.6 mm."
+                taxonomy:
+                -   level: 1
+                    value: electronic
+                -   level: 2
+                    value: diode
+                -   level: 3
+                    value: tvs_array
+                -   level: 4
+                    value: sot_23_6
+                -   level: 14
+                    value: protek
+                -   level: 15
+                    value: srv054pt7
+            regenerate_pngs: false
+            svg_details:
+            -   filename_extra: assembly
+                make_a4: false
+                output_formats:
+                - svg
+                padding: 0
+                stylesheet: style_oomp_assembly
+                svg_name: oomp_component_assembly
+                write_yaml: false
+            -   filename_extra: assembly_pins
+                make_a4: false
+                output_formats:
+                - svg
+                padding: 0
+                stylesheet: style_oomp_assembly
+                svg_name: oomp_component_assembly_pins
+                write_yaml: false
+            -   filename_extra: outline
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_outline
+                write_yaml: false
+            -   filename_extra: part_id
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_part_id
+                write_yaml: false
+            -   filename_extra: md5_6_alpha
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_md5_6_alpha
+                write_yaml: false
+            -   filename_extra: bip_39_3_word
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_bip_39_3_word
+                write_yaml: false
+            -   filename_extra: square
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_square
+                write_yaml: false
+            -   filename_extra: square_pins
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_square_pins
+                write_yaml: false
+            -   filename_extra: dimensioned
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_dimensioned
+                write_yaml: false
+            -   filename_extra: dimensioned_titles
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_dimensioned_titles
+                write_yaml: false
+            taxonomy_1: electronic
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: protek
+            taxonomy_15: srv054pt7
+            taxonomy_2: diode
+            taxonomy_3: tvs_array
+            taxonomy_4: sot_23_6
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: README.md
+        file_template: C:\gh\oomp_electronic_version_5\source_file\template_jinja\oomp_category\template_jinja_markdown\working.md.j2
+        search_and_replace: []
+    file_test: ''
+    retries_until_complete: 0
+oomp_key: oomp_electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+part_id: D1
+part_number_lcsc: C85364
+part_number_manufacturer: SRV05-4-P-T7
+part_page:
+    diagrams:
+    -   png: ''
+        preview: working_svg_assembly.svg
+        svg: working_svg_assembly.svg
+        title: Assembly
+    -   png: working_svg_outline.png
+        preview: working_svg_outline_300.png
+        svg: working_svg_outline.svg
+        title: Outline
+    -   png: working_svg_part_id.png
+        preview: working_svg_part_id_300.png
+        svg: working_svg_part_id.svg
+        title: Part ID
+    -   png: working_svg_md5_6_alpha.png
+        preview: working_svg_md5_6_alpha_300.png
+        svg: working_svg_md5_6_alpha.svg
+        title: MD5 alpha
+    -   png: working_svg_bip_39_3_word.png
+        preview: working_svg_bip_39_3_word_300.png
+        svg: working_svg_bip_39_3_word.svg
+        title: BIP 39 words
+    -   png: working_svg_square.png
+        preview: working_svg_square_300.png
+        svg: working_svg_square.svg
+        title: Square summary
+    -   png: working_svg_dimensioned.png
+        preview: working_svg_dimensioned_300.png
+        svg: working_svg_dimensioned.svg
+        title: Dimensions
+    -   png: working_svg_dimensioned_titles.png
+        preview: working_svg_dimensioned_titles_300.png
+        svg: working_svg_dimensioned_titles.svg
+        title: Dimensions with labels
+    file_previews:
+    -   preview: working_svg_square_pins_300.png
+        title: Pinout drawing
+    -   preview: working_svg_outline_300.png
+        title: Outline
+    -   preview: working_svg_part_id_300.png
+        title: Part ID
+    -   preview: working_svg_md5_6_alpha_300.png
+        title: MD5 alpha
+    -   preview: working_svg_bip_39_3_word_300.png
+        title: BIP 39 words
+    -   preview: working_svg_square_300.png
+        title: Square summary
+    -   preview: working_svg_dimensioned_300.png
+        title: Dimensions
+    -   preview: working_svg_dimensioned_titles_300.png
+        title: Dimensions with labels
+    has_datasheet: false
+    identifiers:
+    -   title: Manufacturer part number
+        value: SRV05-4-P-T7
+    -   title: LCSC
+        value: C85364
+    main_image:
+        png: working_svg_square_pins.png
+        preview: working_svg_square_pins_300.png
+        svg: working_svg_square_pins.svg
+        title: Pinout
+    oomp_id: electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+    pins: []
+    quick_facts:
+    -   title: OOMP ID
+        value: electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+    -   title: Type
+        value: Diode
+    -   title: Package / style
+        value: tvs array
+    -   title: Nominal size
+        value: "2.9 \xD7 1.6 mm"
+    repository_url: https://github.com/oomlout/oomp_electronic_version_5/tree/main/parts/electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+    summary: "Diode Tvs Array Sot 23 6 is an OOMP electronic diode definition. It\
+        \ uses the tvs array package or form factor. Its nominal drawing size is 2.9\
+        \ \xD7 1.6 mm."
+    taxonomy:
+    -   level: 1
+        value: electronic
+    -   level: 2
+        value: diode
+    -   level: 3
+        value: tvs_array
+    -   level: 4
+        value: sot_23_6
+    -   level: 14
+        value: protek
+    -   level: 15
+        value: srv054pt7
+regenerate_pngs: false
+svg_details:
+-   filename_extra: assembly
+    make_a4: false
+    output_formats:
+    - svg
+    padding: 0
+    stylesheet: style_oomp_assembly
+    svg_name: oomp_component_assembly
+    write_yaml: false
+-   filename_extra: assembly_pins
+    make_a4: false
+    output_formats:
+    - svg
+    padding: 0
+    stylesheet: style_oomp_assembly
+    svg_name: oomp_component_assembly_pins
+    write_yaml: false
+-   filename_extra: outline
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_outline
+    write_yaml: false
+-   filename_extra: part_id
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_part_id
+    write_yaml: false
+-   filename_extra: md5_6_alpha
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_md5_6_alpha
+    write_yaml: false
+-   filename_extra: bip_39_3_word
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_bip_39_3_word
+    write_yaml: false
+-   filename_extra: square
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_square
+    write_yaml: false
+-   filename_extra: square_pins
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_square_pins
+    write_yaml: false
+-   filename_extra: dimensioned
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_dimensioned
+    write_yaml: false
+-   filename_extra: dimensioned_titles
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_dimensioned_titles
+    write_yaml: false
+taxonomy_1: electronic
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: protek
+taxonomy_14_capital: Protek
+taxonomy_14_first_letter: p
+taxonomy_14_first_letter_upper: P
+taxonomy_14_length_1: p
+taxonomy_14_length_2: pr
+taxonomy_14_length_3: pro
+taxonomy_14_length_4: prot
+taxonomy_14_length_5: prote
+taxonomy_14_upper: PROTEK
+taxonomy_14_upper_length_1: P
+taxonomy_14_upper_length_2: PR
+taxonomy_14_upper_length_3: PRO
+taxonomy_14_upper_length_4: PROT
+taxonomy_14_upper_length_5: PROTE
+taxonomy_15: srv054pt7
+taxonomy_15_capital: Srv054Pt7
+taxonomy_15_first_letter: s
+taxonomy_15_first_letter_upper: S
+taxonomy_15_length_1: s
+taxonomy_15_length_2: sr
+taxonomy_15_length_3: srv
+taxonomy_15_length_4: srv0
+taxonomy_15_length_5: srv05
+taxonomy_15_upper: SRV054PT7
+taxonomy_15_upper_length_1: S
+taxonomy_15_upper_length_2: SR
+taxonomy_15_upper_length_3: SRV
+taxonomy_15_upper_length_4: SRV0
+taxonomy_15_upper_length_5: SRV05
+taxonomy_1_capital: Electronic
+taxonomy_1_first_letter: e
+taxonomy_1_first_letter_upper: E
+taxonomy_1_length_1: e
+taxonomy_1_length_2: el
+taxonomy_1_length_3: ele
+taxonomy_1_length_4: elec
+taxonomy_1_length_5: elect
+taxonomy_1_upper: ELECTRONIC
+taxonomy_1_upper_length_1: E
+taxonomy_1_upper_length_2: EL
+taxonomy_1_upper_length_3: ELE
+taxonomy_1_upper_length_4: ELEC
+taxonomy_1_upper_length_5: ELECT
+taxonomy_2: diode
+taxonomy_2_capital: Diode
+taxonomy_2_first_letter: d
+taxonomy_2_first_letter_upper: D
+taxonomy_2_length_1: d
+taxonomy_2_length_2: di
+taxonomy_2_length_3: dio
+taxonomy_2_length_4: diod
+taxonomy_2_length_5: diode
+taxonomy_2_upper: DIODE
+taxonomy_2_upper_length_1: D
+taxonomy_2_upper_length_2: DI
+taxonomy_2_upper_length_3: DIO
+taxonomy_2_upper_length_4: DIOD
+taxonomy_2_upper_length_5: DIODE
+taxonomy_3: tvs_array
+taxonomy_3_capital: Tvs Array
+taxonomy_3_first_letter: t
+taxonomy_3_first_letter_upper: T
+taxonomy_3_length_1: t
+taxonomy_3_length_2: tv
+taxonomy_3_length_3: tvs
+taxonomy_3_length_4: tvs_
+taxonomy_3_length_5: tvs_a
+taxonomy_3_upper: TVS_ARRAY
+taxonomy_3_upper_length_1: T
+taxonomy_3_upper_length_2: TV
+taxonomy_3_upper_length_3: TVS
+taxonomy_3_upper_length_4: TVS_
+taxonomy_3_upper_length_5: TVS_A
+taxonomy_4: sot_23_6
+taxonomy_4_capital: Sot 23.6
+taxonomy_4_first_letter: s
+taxonomy_4_first_letter_upper: S
+taxonomy_4_length_1: s
+taxonomy_4_length_2: so
+taxonomy_4_length_3: sot
+taxonomy_4_length_4: sot_
+taxonomy_4_length_5: sot_2
+taxonomy_4_upper: SOT_23_6
+taxonomy_4_upper_length_1: S
+taxonomy_4_upper_length_2: SO
+taxonomy_4_upper_length_3: SOT
+taxonomy_4_upper_length_4: SOT_
+taxonomy_4_upper_length_5: SOT_2
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+url_chat: ''

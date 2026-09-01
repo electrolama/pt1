@@ -1,0 +1,125 @@
+available: true
+units:
+- reference: C13
+  source_file: kicad_file.kicad_sch
+  uuid: f1637691-69e9-43e4-8707-8fae1731f179
+  library_id: project-tool-mini-RevA2-eagle-import:CAP-0402
+  unit: 1
+  body_style: 1
+  position:
+    x: 41.91
+    y: 153.67
+    rotation: 270.0
+    mirror: x
+    units: mm
+  properties:
+    Reference: C13
+    Value: 10u
+    Footprint: project-tool-mini-RevA2:_PKG_C_0402
+    Datasheet: ''
+    Description: ''
+    JLCASSY: C15525
+    MPN: CL05A106MQ5NUNC
+  in_bom: true
+  on_board: true
+  in_position_files: true
+  dnp: false
+  pins:
+  - number: '1'
+    name: '1'
+    electrical_type: passive
+    graphic_style: line
+    local_position:
+      x: -2.54
+      y: 0.0
+      rotation: 0.0
+    length: 0.0
+    position:
+      x: 41.91
+      y: 156.21
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '2'
+    name: '2'
+    electrical_type: passive
+    graphic_style: line
+    local_position:
+      x: 2.54
+      y: 0.0
+      rotation: 180.0
+    length: 0.0
+    position:
+      x: 41.91
+      y: 151.13
+    net: VUSB
+    net_aliases:
+    - VUSB
+    net_scope: global
+    no_connect: false
+    connected_to:
+    - reference: C10
+      pin_number: '1'
+      pin_name: '1'
+    - reference: CON1
+      pin_number: DN1
+      pin_name: DN1
+    - reference: IC1
+      pin_number: '2'
+      pin_name: GND
+    - reference: IC2
+      pin_number: '11'
+      pin_name: VDD5
+    - reference: SJ1
+      pin_number: '1'
+      pin_name: '1'
+  size:
+    local_graphics:
+      measurement: symbol graphics only; excludes pins, properties, and text
+      units: mm
+      available: true
+      min:
+        x: -2.6162
+        y: -1.2668
+      max:
+        x: 2.6162
+        y: 1.2668
+      width: 5.2324
+      height: 2.5336
+      center:
+        x: 0.0
+        y: 0.0
+    placed_graphics:
+      measurement: axis-aligned bounds after schematic placement, rotation, and mirroring
+      units: mm
+      available: true
+      min:
+        x: 40.6432
+        y: 151.0538
+      max:
+        x: 43.1768
+        y: 156.2862
+      width: 2.5336
+      height: 5.2324
+      center:
+        x: 41.91
+        y: 153.67
+  warnings: []
+connected_components:
+- reference: C10
+  pin_number: '1'
+  pin_name: '1'
+- reference: CON1
+  pin_number: DN1
+  pin_name: DN1
+- reference: IC1
+  pin_number: '2'
+  pin_name: GND
+- reference: IC2
+  pin_number: '11'
+  pin_name: VDD5
+- reference: SJ1
+  pin_number: '1'
+  pin_name: '1'

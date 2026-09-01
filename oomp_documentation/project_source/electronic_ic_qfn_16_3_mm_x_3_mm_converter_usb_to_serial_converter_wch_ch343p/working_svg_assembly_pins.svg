@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg data-pin-one-x="0.6600" data-pin-one-y="2.9000" data-pin-one-identifiers="1" xmlns="http://www.w3.org/2000/svg"
+     width="3.3040mm" height="3.3040mm"
+     viewBox="0 0 3.3040 3.3040">
+  <rect x="0.1520" y="0.1520" width="3.0000" height="3.0000"  fill="none" stroke="none" />
+  <rect x="-0.0000" y="0.6860" width="0.5040" height="0.2520"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="-0.0000" y="1.2460" width="0.5040" height="0.2520"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="-0.0000" y="1.8060" width="0.5040" height="0.2520"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="-0.0000" y="2.3660" width="0.5040" height="0.2520"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.6860" y="-0.0000" width="0.2520" height="0.5040"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="1.2460" y="-0.0000" width="0.2520" height="0.5040"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="1.8060" y="-0.0000" width="0.2520" height="0.5040"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.3660" y="-0.0000" width="0.2520" height="0.5040"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.8000" y="0.6860" width="0.5040" height="0.2520"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.8000" y="1.2460" width="0.5040" height="0.2520"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.8000" y="1.8060" width="0.5040" height="0.2520"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.8000" y="2.3660" width="0.5040" height="0.2520"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.6860" y="2.8000" width="0.2520" height="0.5040"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="1.2460" y="2.8000" width="0.2520" height="0.5040"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="1.8060" y="2.8000" width="0.2520" height="0.5040"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.3660" y="2.8000" width="0.2520" height="0.5040"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.2520" y="0.2520" width="2.8000" height="2.8000" rx="0.0700" ry="0.0700"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="1.0360" y="1.0360" width="1.2320" height="1.2320"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <circle cx="0.3620" cy="2.9420" r="0.0650"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.2520" y="0.8120" font-family="Arial, sans-serif" font-size="0.1764" text-anchor="middle" dominant-baseline="middle" fill="#000000">rts</text>
+  <text x="0.2520" y="1.3720" font-family="Arial, sans-serif" font-size="0.1764" text-anchor="middle" dominant-baseline="middle" fill="#000000">dsr</text>
+  <text x="0.2520" y="1.9320" font-family="Arial, sans-serif" font-size="0.1764" text-anchor="middle" dominant-baseline="middle" fill="#000000">cts</text>
+  <text x="0.2520" y="2.4920" font-family="Arial, sans-serif" font-size="0.1764" text-anchor="middle" dominant-baseline="middle" fill="#000000">ri</text>
+  <text x="0.8120" y="0.2520" font-family="Arial, sans-serif" font-size="0.0990" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.8120,0.2520)">dtr_tnow</text>
+  <text x="1.3720" y="0.2520" font-family="Arial, sans-serif" font-size="0.1764" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,1.3720,0.2520)">dcd</text>
+  <text x="1.9320" y="0.2520" font-family="Arial, sans-serif" font-size="0.1764" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,1.9320,0.2520)">act</text>
+  <text x="2.4920" y="0.2520" font-family="Arial, sans-serif" font-size="0.1764" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,2.4920,0.2520)">vbus</text>
+  <text x="3.0520" y="0.8120" font-family="Arial, sans-serif" font-size="0.0720" text-anchor="middle" dominant-baseline="middle" fill="#000000">ud_negative</text>
+  <text x="3.0520" y="1.3720" font-family="Arial, sans-serif" font-size="0.0720" text-anchor="middle" dominant-baseline="middle" fill="#000000">ud_positive</text>
+  <text x="3.0520" y="1.9320" font-family="Arial, sans-serif" font-size="0.1764" text-anchor="middle" dominant-baseline="middle" fill="#000000">v3</text>
+  <text x="3.0520" y="2.4920" font-family="Arial, sans-serif" font-size="0.1764" text-anchor="middle" dominant-baseline="middle" fill="#000000">rxd</text>
+  <text x="0.8120" y="3.0520" font-family="Arial, sans-serif" font-size="0.1764" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.8120,3.0520)">vio</text>
+  <text x="1.3720" y="3.0520" font-family="Arial, sans-serif" font-size="0.1764" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,1.3720,3.0520)">gnd</text>
+  <text x="1.9320" y="3.0520" font-family="Arial, sans-serif" font-size="0.1764" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,1.9320,3.0520)">vdd5</text>
+  <text x="2.4920" y="3.0520" font-family="Arial, sans-serif" font-size="0.1764" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,2.4920,3.0520)">txd</text>
+  <text x="1.6520" y="1.6520" font-family="Arial, sans-serif" font-size="0.6453" text-anchor="middle" dominant-baseline="middle" fill="#000000">gnd</text>
+</svg>

@@ -1,0 +1,13 @@
+status: matched
+accepted: true
+oomp_id: electronic_resistor_0402_100000_ohm
+confidence: 1.0
+proposed_oomp_id: electronic_resistor_0402_100000_ohm
+inferred:
+  kind: resistor
+  package_size: '0402'
+  value: 100k
+  mpn: 0402WGF1003TCE
+reasons:
+- Exact OOMP ID constructed from component type, package size, and normalized value.
+candidates: []

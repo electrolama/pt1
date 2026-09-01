@@ -1,0 +1,280 @@
+reference: '#GND11'
+schematic:
+  available: true
+  units:
+  - reference: '#GND11'
+    source_file: kicad_file.kicad_sch
+    uuid: a9e40b2e-ac90-480a-8def-ccf8c4d23024
+    library_id: project-tool-mini-RevA2-eagle-import:GND
+    unit: 1
+    body_style: 1
+    position:
+      x: 246.38
+      y: 45.72
+      rotation: 0.0
+      mirror: null
+      units: mm
+    properties:
+      Reference: '#GND11'
+      Value: GND
+      Footprint: ''
+      Datasheet: ''
+      Description: ''
+    in_bom: true
+    on_board: true
+    in_position_files: true
+    dnp: false
+    pins:
+    - number: '1'
+      name: GND
+      electrical_type: power_in
+      graphic_style: line
+      local_position:
+        x: 0.0
+        y: 2.54
+        rotation: 270.0
+      length: 2.54
+      position:
+        x: 246.38
+        y: 48.26
+      net: GND
+      net_aliases:
+      - GND
+      net_scope: global
+      no_connect: false
+      connected_to:
+      - reference: '#GND1'
+        pin_number: '1'
+        pin_name: GND
+      - reference: '#GND2'
+        pin_number: '1'
+        pin_name: GND
+      - reference: '#GND3'
+        pin_number: '1'
+        pin_name: GND
+      - reference: '#GND4'
+        pin_number: '1'
+        pin_name: GND
+      - reference: '#GND5'
+        pin_number: '1'
+        pin_name: GND
+      - reference: '#GND6'
+        pin_number: '1'
+        pin_name: GND
+      - reference: '#GND7'
+        pin_number: '1'
+        pin_name: GND
+      - reference: '#GND8'
+        pin_number: '1'
+        pin_name: GND
+      - reference: '#GND9'
+        pin_number: '1'
+        pin_name: GND
+      - reference: '#GND10'
+        pin_number: '1'
+        pin_name: GND
+      - reference: '#GND12'
+        pin_number: '1'
+        pin_name: GND
+      - reference: '#GND13'
+        pin_number: '1'
+        pin_name: GND
+      - reference: '#GND15'
+        pin_number: '1'
+        pin_name: GND
+      - reference: '#GND16'
+        pin_number: '1'
+        pin_name: GND
+      - reference: '#GND17'
+        pin_number: '1'
+        pin_name: GND
+      - reference: '#GND18'
+        pin_number: '1'
+        pin_name: GND
+      - reference: '#GND19'
+        pin_number: '1'
+        pin_name: GND
+      - reference: '#GND20'
+        pin_number: '1'
+        pin_name: GND
+      - reference: '#GND21'
+        pin_number: '1'
+        pin_name: GND
+      - reference: '#GND22'
+        pin_number: '1'
+        pin_name: GND
+      - reference: '#GND23'
+        pin_number: '1'
+        pin_name: GND
+      - reference: '#GND24'
+        pin_number: '1'
+        pin_name: GND
+      - reference: '#GND25'
+        pin_number: '1'
+        pin_name: GND
+      - reference: '#GND26'
+        pin_number: '1'
+        pin_name: GND
+      - reference: '#GND27'
+        pin_number: '1'
+        pin_name: GND
+      - reference: '#GND28'
+        pin_number: '1'
+        pin_name: GND
+      - reference: '#GND37'
+        pin_number: '1'
+        pin_name: GND
+      - reference: '#GND38'
+        pin_number: '1'
+        pin_name: GND
+      - reference: '#GND41'
+        pin_number: '1'
+        pin_name: GND
+    size:
+      local_graphics:
+        measurement: symbol graphics only; excludes pins, properties, and text
+        units: mm
+        available: true
+        min:
+          x: -2.032
+          y: -0.127
+        max:
+          x: 2.032
+          y: 0.127
+        width: 4.064
+        height: 0.254
+        center:
+          x: 0.0
+          y: 0.0
+      placed_graphics:
+        measurement: axis-aligned bounds after schematic placement, rotation, and mirroring
+        units: mm
+        available: true
+        min:
+          x: 244.348
+          y: 45.593
+        max:
+          x: 248.412
+          y: 45.847
+        width: 4.064
+        height: 0.254
+        center:
+          x: 246.38
+          y: 45.72
+    warnings: []
+  connected_components:
+  - reference: '#GND1'
+    pin_number: '1'
+    pin_name: GND
+  - reference: '#GND2'
+    pin_number: '1'
+    pin_name: GND
+  - reference: '#GND3'
+    pin_number: '1'
+    pin_name: GND
+  - reference: '#GND4'
+    pin_number: '1'
+    pin_name: GND
+  - reference: '#GND5'
+    pin_number: '1'
+    pin_name: GND
+  - reference: '#GND6'
+    pin_number: '1'
+    pin_name: GND
+  - reference: '#GND7'
+    pin_number: '1'
+    pin_name: GND
+  - reference: '#GND8'
+    pin_number: '1'
+    pin_name: GND
+  - reference: '#GND9'
+    pin_number: '1'
+    pin_name: GND
+  - reference: '#GND10'
+    pin_number: '1'
+    pin_name: GND
+  - reference: '#GND12'
+    pin_number: '1'
+    pin_name: GND
+  - reference: '#GND13'
+    pin_number: '1'
+    pin_name: GND
+  - reference: '#GND15'
+    pin_number: '1'
+    pin_name: GND
+  - reference: '#GND16'
+    pin_number: '1'
+    pin_name: GND
+  - reference: '#GND17'
+    pin_number: '1'
+    pin_name: GND
+  - reference: '#GND18'
+    pin_number: '1'
+    pin_name: GND
+  - reference: '#GND19'
+    pin_number: '1'
+    pin_name: GND
+  - reference: '#GND20'
+    pin_number: '1'
+    pin_name: GND
+  - reference: '#GND21'
+    pin_number: '1'
+    pin_name: GND
+  - reference: '#GND22'
+    pin_number: '1'
+    pin_name: GND
+  - reference: '#GND23'
+    pin_number: '1'
+    pin_name: GND
+  - reference: '#GND24'
+    pin_number: '1'
+    pin_name: GND
+  - reference: '#GND25'
+    pin_number: '1'
+    pin_name: GND
+  - reference: '#GND26'
+    pin_number: '1'
+    pin_name: GND
+  - reference: '#GND27'
+    pin_number: '1'
+    pin_name: GND
+  - reference: '#GND28'
+    pin_number: '1'
+    pin_name: GND
+  - reference: '#GND37'
+    pin_number: '1'
+    pin_name: GND
+  - reference: '#GND38'
+    pin_number: '1'
+    pin_name: GND
+  - reference: '#GND41'
+    pin_number: '1'
+    pin_name: GND
+pcb: null
+connectivity_cross_check:
+  available: false
+  policy: Named schematic nets are compared with PCB pad nets using matching pin/pad numbers.
+  comparisons:
+  - pin_or_pad_number: '1'
+    schematic_nets:
+    - GND
+    pcb_nets: []
+    status: incomplete
+  agree_count: 0
+  disagree_count: 0
+  incomplete_count: 1
+oomp:
+  status: not_applicable
+  accepted: false
+  oomp_id: null
+  confidence: 0.0
+  proposed_oomp_id: null
+  inferred:
+    kind: null
+    package_size: null
+    value: GND
+    mpn: null
+  reasons:
+  - The symbol has no physical PCB/OOMP part requirement.
+  candidates: []
+generated_directory: components/_GND11

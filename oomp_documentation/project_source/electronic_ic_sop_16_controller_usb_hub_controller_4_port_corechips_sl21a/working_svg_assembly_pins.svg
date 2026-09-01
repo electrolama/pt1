@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg data-pin-one-x="0.5852" data-pin-one-y="0.7063" data-pin-one-identifiers="1" xmlns="http://www.w3.org/2000/svg"
+     width="6.0400mm" height="9.9000mm"
+     viewBox="0 0 6.0400 9.9000">
+  <rect x="0.0000" y="0.0000" width="6.0400" height="9.9000"  fill="none" stroke="none" />
+  <rect x="0.0360" y="0.5074" width="1.0984" height="0.3978"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0360" y="1.7199" width="1.0984" height="0.3978"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0360" y="2.9324" width="1.0984" height="0.3978"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0360" y="4.1449" width="1.0984" height="0.3978"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0360" y="5.3574" width="1.0984" height="0.3978"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0360" y="6.5699" width="1.0984" height="0.3978"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0360" y="7.7824" width="1.0984" height="0.3978"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0360" y="8.9949" width="1.0984" height="0.3978"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="4.9056" y="0.5074" width="1.0984" height="0.3978"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="4.9056" y="1.7199" width="1.0984" height="0.3978"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="4.9056" y="2.9324" width="1.0984" height="0.3978"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="4.9056" y="4.1449" width="1.0984" height="0.3978"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="4.9056" y="5.3574" width="1.0984" height="0.3978"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="4.9056" y="6.5699" width="1.0984" height="0.3978"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="4.9056" y="7.7824" width="1.0984" height="0.3978"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="4.9056" y="8.9949" width="1.0984" height="0.3978"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="1.1094" y="0.1000" width="3.8212" height="9.7000" rx="0.0800" ry="0.0800"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <circle cx="1.2194" cy="0.2100" r="0.0650"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.5852" y="0.7063" font-family="Arial, sans-serif" font-size="0.2785" text-anchor="middle" dominant-baseline="middle" fill="#000000">dm4</text>
+  <text x="0.5852" y="1.9188" font-family="Arial, sans-serif" font-size="0.2785" text-anchor="middle" dominant-baseline="middle" fill="#000000">dp4</text>
+  <text x="0.5852" y="3.1313" font-family="Arial, sans-serif" font-size="0.2785" text-anchor="middle" dominant-baseline="middle" fill="#000000">dm3</text>
+  <text x="0.5852" y="4.3438" font-family="Arial, sans-serif" font-size="0.2785" text-anchor="middle" dominant-baseline="middle" fill="#000000">dp3</text>
+  <text x="0.5852" y="5.5563" font-family="Arial, sans-serif" font-size="0.2785" text-anchor="middle" dominant-baseline="middle" fill="#000000">dm2</text>
+  <text x="0.5852" y="6.7688" font-family="Arial, sans-serif" font-size="0.2785" text-anchor="middle" dominant-baseline="middle" fill="#000000">dp2</text>
+  <text x="0.5852" y="7.9813" font-family="Arial, sans-serif" font-size="0.2785" text-anchor="middle" dominant-baseline="middle" fill="#000000">dm1</text>
+  <text x="0.5852" y="9.1937" font-family="Arial, sans-serif" font-size="0.2785" text-anchor="middle" dominant-baseline="middle" fill="#000000">dp1</text>
+  <text x="5.4548" y="0.7063" font-family="Arial, sans-serif" font-size="0.2785" text-anchor="middle" dominant-baseline="middle" fill="#000000">xin</text>
+  <text x="5.4548" y="1.9188" font-family="Arial, sans-serif" font-size="0.2785" text-anchor="middle" dominant-baseline="middle" fill="#000000">xout</text>
+  <text x="5.4548" y="3.1313" font-family="Arial, sans-serif" font-size="0.2785" text-anchor="middle" dominant-baseline="middle" fill="#000000">vdd18</text>
+  <text x="5.4548" y="4.3438" font-family="Arial, sans-serif" font-size="0.2785" text-anchor="middle" dominant-baseline="middle" fill="#000000">vdd33</text>
+  <text x="5.4548" y="5.5563" font-family="Arial, sans-serif" font-size="0.2785" text-anchor="middle" dominant-baseline="middle" fill="#000000">vss</text>
+  <text x="5.4548" y="6.7688" font-family="Arial, sans-serif" font-size="0.2785" text-anchor="middle" dominant-baseline="middle" fill="#000000">vcc5</text>
+  <text x="5.4548" y="7.9813" font-family="Arial, sans-serif" font-size="0.2785" text-anchor="middle" dominant-baseline="middle" fill="#000000">udp</text>
+  <text x="5.4548" y="9.1937" font-family="Arial, sans-serif" font-size="0.2785" text-anchor="middle" dominant-baseline="middle" fill="#000000">udm</text>
+</svg>

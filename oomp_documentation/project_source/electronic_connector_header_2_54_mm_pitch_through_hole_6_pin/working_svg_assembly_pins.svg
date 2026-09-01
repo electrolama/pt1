@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg data-pin-one-x="1.2400" data-pin-one-y="1.2700" data-pin-one-identifiers="1" xmlns="http://www.w3.org/2000/svg"
+     width="2.4800mm" height="15.2400mm"
+     viewBox="0 0 2.4800 15.2400">
+  <rect x="0.0000" y="0.0000" width="2.4800" height="15.2400"  fill="none" stroke="none" />
+  <rect x="0.0000" y="0.0000" width="2.4800" height="15.2400" rx="0.1000" ry="0.1000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.9200" y="0.9500" width="0.6400" height="0.6400"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.9200" y="3.4900" width="0.6400" height="0.6400"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.9200" y="6.0300" width="0.6400" height="0.6400"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.9200" y="8.5700" width="0.6400" height="0.6400"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.9200" y="11.1100" width="0.6400" height="0.6400"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.9200" y="13.6500" width="0.6400" height="0.6400"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <circle cx="0.4960" cy="1.2700" r="0.1488"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="1.2400" y="1.2700" font-family="Arial, sans-serif" font-size="0.2011" text-anchor="middle" dominant-baseline="middle" fill="#000000">pin 1</text>
+  <text x="1.2400" y="3.8100" font-family="Arial, sans-serif" font-size="0.2011" text-anchor="middle" dominant-baseline="middle" fill="#000000">pin 2</text>
+  <text x="1.2400" y="6.3500" font-family="Arial, sans-serif" font-size="0.2011" text-anchor="middle" dominant-baseline="middle" fill="#000000">pin 3</text>
+  <text x="1.2400" y="8.8900" font-family="Arial, sans-serif" font-size="0.2011" text-anchor="middle" dominant-baseline="middle" fill="#000000">pin 4</text>
+  <text x="1.2400" y="11.4300" font-family="Arial, sans-serif" font-size="0.2011" text-anchor="middle" dominant-baseline="middle" fill="#000000">pin 5</text>
+  <text x="1.2400" y="13.9700" font-family="Arial, sans-serif" font-size="0.2011" text-anchor="middle" dominant-baseline="middle" fill="#000000">pin 6</text>
+</svg>

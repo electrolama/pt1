@@ -1,0 +1,13 @@
+reference: MH8
+available: true
+measurement_policy: Footprint text is excluded. Separate pad, courtyard, fabrication, silkscreen, and overall bounds are retained.
+measurements:
+  drill:
+    measurement: mounting-hole drill dimensions
+    units: mm
+    available: true
+    width: 2.0
+    height: 2.0
+    center:
+      x: 0.0
+      y: 0.0

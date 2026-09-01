@@ -1,0 +1,131 @@
+available: true
+units:
+- reference: R4
+  source_file: kicad_file.kicad_sch
+  uuid: 7e16bb8c-3ffc-4a3a-be61-b5f4200e2bfd
+  library_id: project-tool-mini-RevA2-eagle-import:RES-0402
+  unit: 1
+  body_style: 1
+  position:
+    x: 228.6
+    y: 66.04
+    rotation: 0.0
+    mirror: y
+    units: mm
+  properties:
+    Reference: R4
+    Value: 2k2
+    Footprint: project-tool-mini-RevA2:_PKG_R_0402
+    Datasheet: ''
+    Description: ''
+    JLCASSY: C25879
+    MPN: 0402WGF2201TCE
+  in_bom: true
+  on_board: true
+  in_position_files: true
+  dnp: false
+  pins:
+  - number: '1'
+    name: '1'
+    electrical_type: passive
+    graphic_style: line
+    local_position:
+      x: -2.54
+      y: 0.0
+      rotation: 0.0
+    length: 0.0
+    position:
+      x: 231.14
+      y: 66.04
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to:
+    - reference: LED1
+      pin_number: A
+      pin_name: A
+  - number: '2'
+    name: '2'
+    electrical_type: passive
+    graphic_style: line
+    local_position:
+      x: 2.54
+      y: 0.0
+      rotation: 180.0
+    length: 0.0
+    position:
+      x: 226.06
+      y: 66.04
+    net: VUSB_SW_OUT
+    net_aliases:
+    - VUSB_SW_OUT
+    net_scope: global
+    no_connect: false
+    connected_to:
+    - reference: C7
+      pin_number: '1'
+      pin_name: '1'
+    - reference: C8
+      pin_number: '1'
+      pin_name: '1'
+    - reference: C9
+      pin_number: '1'
+      pin_name: '1'
+    - reference: J1
+      pin_number: '5'
+      pin_name: '5'
+    - reference: SJ1
+      pin_number: '3'
+      pin_name: '3'
+  size:
+    local_graphics:
+      measurement: symbol graphics only; excludes pins, properties, and text
+      units: mm
+      available: true
+      min:
+        x: -2.6162
+        y: -0.6477
+      max:
+        x: 2.6162
+        y: 0.6477
+      width: 5.2324
+      height: 1.2954
+      center:
+        x: 0.0
+        y: 0.0
+    placed_graphics:
+      measurement: axis-aligned bounds after schematic placement, rotation, and mirroring
+      units: mm
+      available: true
+      min:
+        x: 225.9838
+        y: 65.3923
+      max:
+        x: 231.2162
+        y: 66.6877
+      width: 5.2324
+      height: 1.2954
+      center:
+        x: 228.6
+        y: 66.04
+  warnings: []
+connected_components:
+- reference: C7
+  pin_number: '1'
+  pin_name: '1'
+- reference: C8
+  pin_number: '1'
+  pin_name: '1'
+- reference: C9
+  pin_number: '1'
+  pin_name: '1'
+- reference: J1
+  pin_number: '5'
+  pin_name: '5'
+- reference: LED1
+  pin_number: A
+  pin_name: A
+- reference: SJ1
+  pin_number: '3'
+  pin_name: '3'

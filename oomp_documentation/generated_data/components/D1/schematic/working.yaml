@@ -1,0 +1,173 @@
+available: true
+units:
+- reference: D1
+  source_file: kicad_file.kicad_sch
+  uuid: a9dac754-f38a-4567-8915-404998280927
+  library_id: project-tool-mini-RevA2-eagle-import:DIODE-TVS-SRV05-4
+  unit: 1
+  body_style: 1
+  position:
+    x: 229.87
+    y: 91.44
+    rotation: 0.0
+    mirror: null
+    units: mm
+  properties:
+    Reference: D1
+    Value: SRV05-4-P-T7
+    Footprint: project-tool-mini-RevA2:SOT95P280X145-6N
+    Datasheet: ''
+    Description: ''
+    HEIGHT: 1.45mm
+    MANUFACTURER_NAME: ProTek Devices
+    MANUFACTURER_PART_NUMBER: SRV05-4-P-T7
+    JLCASSY: C85364
+    MPN: SRV05-4-P-T7
+  in_bom: true
+  on_board: true
+  in_position_files: true
+  dnp: false
+  pins:
+  - number: '1'
+    name: I/O_1
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 0.0
+      y: 0.0
+      rotation: 0.0
+    length: 5.08
+    position:
+      x: 229.87
+      y: 91.44
+    net: USB2_N
+    net_aliases:
+    - USB2_N
+    net_scope: global
+    no_connect: false
+    connected_to:
+    - reference: CON3
+      pin_number: GND
+      pin_name: G
+  - number: '2'
+    name: GND
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 0.0
+      y: -2.54
+      rotation: 0.0
+    length: 5.08
+    position:
+      x: 229.87
+      y: 88.9
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '3'
+    name: I/O_2
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 0.0
+      y: -5.08
+      rotation: 0.0
+    length: 5.08
+    position:
+      x: 229.87
+      y: 86.36
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '4'
+    name: I/O_3
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 30.48
+      y: -5.08
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 260.35
+      y: 86.36
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '5'
+    name: REF
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 30.48
+      y: -2.54
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 260.35
+      y: 88.9
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '6'
+    name: I/O_4
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 30.48
+      y: 0.0
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 260.35
+      y: 91.44
+    net: USB1_P
+    net_aliases:
+    - USB1_P
+    net_scope: global
+    no_connect: false
+    connected_to: []
+  size:
+    local_graphics:
+      measurement: symbol graphics only; excludes pins, properties, and text
+      units: mm
+      available: true
+      min:
+        x: 4.953
+        y: -7.747
+      max:
+        x: 25.527
+        y: 2.667
+      width: 20.574
+      height: 10.414
+      center:
+        x: 15.24
+        y: -2.54
+    placed_graphics:
+      measurement: axis-aligned bounds after schematic placement, rotation, and mirroring
+      units: mm
+      available: true
+      min:
+        x: 234.823
+        y: 83.693
+      max:
+        x: 255.397
+        y: 94.107
+      width: 20.574
+      height: 10.414
+      center:
+        x: 245.11
+        y: 88.9
+  warnings: []
+connected_components:
+- reference: CON3
+  pin_number: GND
+  pin_name: G

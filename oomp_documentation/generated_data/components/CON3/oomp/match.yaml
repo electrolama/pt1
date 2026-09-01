@@ -1,0 +1,13 @@
+status: matched
+accepted: true
+oomp_id: electronic_connector_usb_a_surface_mount_4_pin_shenzhen_jing_tuo_jin_electronics_912121a2023s10100
+confidence: 1.0
+proposed_oomp_id: null
+inferred:
+  kind: null
+  package_size: null
+  value: USB-A Female
+  mpn: 912-121A2023S10100
+reasons:
+- Accepted from the AI/human match override file.
+candidates: []

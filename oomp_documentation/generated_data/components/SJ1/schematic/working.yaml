@@ -1,0 +1,172 @@
+available: true
+units:
+- reference: SJ1
+  source_file: kicad_file.kicad_sch
+  uuid: 0b390e90-bf45-4016-9b1c-9bfe5037e5e5
+  library_id: project-tool-mini-RevA2-eagle-import:SJ2W
+  unit: 1
+  body_style: 1
+  position:
+    x: 186.69
+    y: 121.92
+    rotation: 0.0
+    mirror: y
+    units: mm
+  properties:
+    Reference: SJ1
+    Value: SJ2W
+    Footprint: project-tool-mini-RevA2:SJ_2
+    Datasheet: ''
+    Description: ''
+    POPULARITY: '7'
+  in_bom: true
+  on_board: true
+  in_position_files: true
+  dnp: false
+  pins:
+  - number: '1'
+    name: '1'
+    electrical_type: passive
+    graphic_style: line
+    local_position:
+      x: 0.0
+      y: 5.08
+      rotation: 270.0
+    length: 2.54
+    position:
+      x: 186.69
+      y: 127.0
+    net: VUSB
+    net_aliases:
+    - VUSB
+    net_scope: global
+    no_connect: false
+    connected_to:
+    - reference: C10
+      pin_number: '1'
+      pin_name: '1'
+    - reference: C13
+      pin_number: '2'
+      pin_name: '2'
+    - reference: CON1
+      pin_number: DN1
+      pin_name: DN1
+    - reference: IC1
+      pin_number: '2'
+      pin_name: GND
+    - reference: IC2
+      pin_number: '11'
+      pin_name: VDD5
+  - number: '2'
+    name: '2'
+    electrical_type: passive
+    graphic_style: line
+    local_position:
+      x: -5.08
+      y: 0.0
+      rotation: 0.0
+    length: 2.54
+    position:
+      x: 191.77
+      y: 121.92
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '3'
+    name: '3'
+    electrical_type: passive
+    graphic_style: line
+    local_position:
+      x: 0.0
+      y: -5.08
+      rotation: 90.0
+    length: 2.54
+    position:
+      x: 186.69
+      y: 116.84
+    net: VUSB_SW_OUT
+    net_aliases:
+    - VUSB_SW_OUT
+    net_scope: global
+    no_connect: false
+    connected_to:
+    - reference: C7
+      pin_number: '1'
+      pin_name: '1'
+    - reference: C8
+      pin_number: '1'
+      pin_name: '1'
+    - reference: C9
+      pin_number: '1'
+      pin_name: '1'
+    - reference: J1
+      pin_number: '5'
+      pin_name: '5'
+    - reference: R4
+      pin_number: '2'
+      pin_name: '2'
+  size:
+    local_graphics:
+      measurement: symbol graphics only; excludes pins, properties, and text
+      units: mm
+      available: true
+      min:
+        x: -2.6162
+        y: -2.66705
+      max:
+        x: 1.3462
+        y: 2.66705
+      width: 3.9624
+      height: 5.3341
+      center:
+        x: -0.635
+        y: 0.0
+    placed_graphics:
+      measurement: axis-aligned bounds after schematic placement, rotation, and mirroring
+      units: mm
+      available: true
+      min:
+        x: 185.3438
+        y: 119.25295
+      max:
+        x: 189.3062
+        y: 124.58705
+      width: 3.9624
+      height: 5.3341
+      center:
+        x: 187.325
+        y: 121.92
+  warnings: []
+connected_components:
+- reference: C7
+  pin_number: '1'
+  pin_name: '1'
+- reference: C8
+  pin_number: '1'
+  pin_name: '1'
+- reference: C9
+  pin_number: '1'
+  pin_name: '1'
+- reference: C10
+  pin_number: '1'
+  pin_name: '1'
+- reference: C13
+  pin_number: '2'
+  pin_name: '2'
+- reference: CON1
+  pin_number: DN1
+  pin_name: DN1
+- reference: IC1
+  pin_number: '2'
+  pin_name: GND
+- reference: IC2
+  pin_number: '11'
+  pin_name: VDD5
+- reference: J1
+  pin_number: '5'
+  pin_name: '5'
+- reference: R4
+  pin_number: '2'
+  pin_name: '2'

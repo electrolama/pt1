@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64.0000mm" height="64.0000mm"
+     viewBox="0 0 64.0000 64.0000">
+  <text x="32.0000" y="5.0000" font-family="Arial, sans-serif" font-size="3.6000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#000000">IC Sot 23 6 Logic</text>
+  <text x="32.0000" y="9.0000" font-family="Arial, sans-serif" font-size="3.6000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#000000">Configurable Multi Function</text>
+  <text x="32.0000" y="13.0000" font-family="Arial, sans-serif" font-size="3.6000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#000000">Gate SN74LVC1G57DBVR</text>
+  <rect x="24.9914" y="23.5098" width="3.3966" height="1.8103"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="24.9914" y="28.0948" width="3.3966" height="1.8103"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="24.9914" y="32.6798" width="3.3966" height="1.8103"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="35.6121" y="23.5098" width="3.3966" height="1.8103"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="35.6121" y="28.0948" width="3.3966" height="1.8103"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="35.6121" y="32.6798" width="3.3966" height="1.8103"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="28.1379" y="22.0000" width="7.7241" height="14.0000" rx="0.8000" ry="0.8000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.8" />
+  <circle cx="29.2379" cy="23.1000" r="0.6500"  fill="#FFFFFF" stroke="#000000" stroke-width="0.55" />
+  <text x="24.3914" y="24.4150" font-family="Arial, sans-serif" font-size="2.2000" text-anchor="end" dominant-baseline="middle" fill="#000000">in1</text>
+  <text x="24.3914" y="29.0000" font-family="Arial, sans-serif" font-size="2.2000" text-anchor="end" dominant-baseline="middle" fill="#000000">gnd</text>
+  <text x="24.3914" y="33.5850" font-family="Arial, sans-serif" font-size="2.2000" text-anchor="end" dominant-baseline="middle" fill="#000000">in0</text>
+  <text x="39.6086" y="24.4150" font-family="Arial, sans-serif" font-size="2.2000" text-anchor="start" dominant-baseline="middle" fill="#000000">in2</text>
+  <text x="39.6086" y="29.0000" font-family="Arial, sans-serif" font-size="2.2000" text-anchor="start" dominant-baseline="middle" fill="#000000">vcc</text>
+  <text x="39.6086" y="33.5850" font-family="Arial, sans-serif" font-size="2.2000" text-anchor="start" dominant-baseline="middle" fill="#000000">y</text>
+  <text x="32.0000" y="46.0000" font-family="Consolas, monospace" font-size="3.6000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#000000">1PVH5</text>
+  <text x="32.0000" y="53.0000" font-family="Consolas, monospace" font-size="2.8000" text-anchor="middle" dominant-baseline="middle" fill="#000000">clown gospel grit</text>
+</svg>

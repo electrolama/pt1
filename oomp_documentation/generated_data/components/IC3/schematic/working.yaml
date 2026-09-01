@@ -1,0 +1,182 @@
+available: true
+units:
+- reference: IC3
+  source_file: kicad_file.kicad_sch
+  uuid: 2c3c7e71-f5d4-4780-b775-bdc80532437c
+  library_id: project-tool-mini-RevA2-eagle-import:LOGIC-MULTI-SN74LVC1G57DBV
+  unit: 1
+  body_style: 1
+  position:
+    x: 142.24
+    y: 45.72
+    rotation: 0.0
+    mirror: null
+    units: mm
+  properties:
+    Reference: IC3
+    Value: SN74LVC1G57DBV
+    Footprint: project-tool-mini-RevA2:SOT95P280X145-6N
+    Datasheet: ''
+    Description: ''
+    ARROW_PART_NUMBER: SN74LVC1G57DBVRG4
+    ARROW_PRICE-STOCK: https://www.arrow.com/en/products/sn74lvc1g57dbvrg4/texas-instruments
+    HEIGHT: 1.45mm
+    MANUFACTURER_NAME: Texas Instruments
+    MANUFACTURER_PART_NUMBER: SN74LVC1G57DBVRG4
+    MOUSER_PART_NUMBER: 595-74LVC1G57DBVRG4
+    MOUSER_PRICE-STOCK: https://www.mouser.com/Search/Refine.aspx?Keyword=595-74LVC1G57DBVRG4
+    JLCASSY: C485080
+    MPN: SN74LVC1G57DBVR
+  in_bom: true
+  on_board: true
+  in_position_files: true
+  dnp: false
+  pins:
+  - number: '1'
+    name: IN1
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 0.0
+      y: 0.0
+      rotation: 0.0
+    length: 5.08
+    position:
+      x: 142.24
+      y: 45.72
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to:
+    - reference: C5
+      pin_number: '2'
+      pin_name: '2'
+    - reference: R3
+      pin_number: '2'
+      pin_name: '2'
+  - number: '2'
+    name: GND
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 0.0
+      y: -2.54
+      rotation: 0.0
+    length: 5.08
+    position:
+      x: 142.24
+      y: 43.18
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '3'
+    name: IN0
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 0.0
+      y: -5.08
+      rotation: 0.0
+    length: 5.08
+    position:
+      x: 142.24
+      y: 40.64
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '4'
+    name: Y
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 25.4
+      y: -5.08
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 167.64
+      y: 40.64
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '5'
+    name: VCC
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 25.4
+      y: -2.54
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 167.64
+      y: 43.18
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '6'
+    name: IN2
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 25.4
+      y: 0.0
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 167.64
+      y: 45.72
+    net: SER_DTR
+    net_aliases:
+    - SER_DTR
+    net_scope: global
+    no_connect: false
+    connected_to: []
+  size:
+    local_graphics:
+      measurement: symbol graphics only; excludes pins, properties, and text
+      units: mm
+      available: true
+      min:
+        x: 4.953
+        y: -7.747
+      max:
+        x: 20.447
+        y: 2.667
+      width: 15.494
+      height: 10.414
+      center:
+        x: 12.7
+        y: -2.54
+    placed_graphics:
+      measurement: axis-aligned bounds after schematic placement, rotation, and mirroring
+      units: mm
+      available: true
+      min:
+        x: 147.193
+        y: 37.973
+      max:
+        x: 162.687
+        y: 48.387
+      width: 15.494
+      height: 10.414
+      center:
+        x: 154.94
+        y: 43.18
+  warnings: []
+connected_components:
+- reference: C5
+  pin_number: '2'
+  pin_name: '2'
+- reference: R3
+  pin_number: '2'
+  pin_name: '2'

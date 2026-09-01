@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64.0000mm" height="64.0000mm"
+     viewBox="0 0 64.0000 64.0000">
+  <rect x="0.0000" y="0.0000" width="64.0000" height="64.0000"  fill="#FFFFFF" stroke="none" />
+  <text x="32.0000" y="5.0000" font-family="Arial, sans-serif" font-size="3.6000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#000000">Diode Tvs Array Sot 23 6</text>
+  <rect x="23.7500" y="24.2750" width="3.5000" height="1.2000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="23.7500" y="25.0250" width="3.5000" height="1.2000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="23.7500" y="25.7750" width="3.5000" height="1.2000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="23.7500" y="26.5250" width="3.5000" height="1.2000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="23.7500" y="27.2750" width="3.5000" height="1.2000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="23.7500" y="28.0250" width="3.5000" height="1.2000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="23.7500" y="28.7750" width="3.5000" height="1.2000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="23.7500" y="29.5250" width="3.5000" height="1.2000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="23.7500" y="30.2750" width="3.5000" height="1.2000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="23.7500" y="31.0250" width="3.5000" height="1.2000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="23.7500" y="31.7750" width="3.5000" height="1.2000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="23.7500" y="32.5250" width="3.5000" height="1.2000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="36.7500" y="24.3091" width="3.5000" height="1.2000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="36.7500" y="25.1273" width="3.5000" height="1.2000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="36.7500" y="25.9455" width="3.5000" height="1.2000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="36.7500" y="26.7636" width="3.5000" height="1.2000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="36.7500" y="27.5818" width="3.5000" height="1.2000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="36.7500" y="28.4000" width="3.5000" height="1.2000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="36.7500" y="29.2182" width="3.5000" height="1.2000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="36.7500" y="30.0364" width="3.5000" height="1.2000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="36.7500" y="30.8545" width="3.5000" height="1.2000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="36.7500" y="31.6727" width="3.5000" height="1.2000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="36.7500" y="32.4909" width="3.5000" height="1.2000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="27.0000" y="24.5000" width="10.0000" height="9.0000" rx="0.8000" ry="0.8000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.8" />
+  <circle cx="28.1000" cy="25.6000" r="0.6500"  fill="#FFFFFF" stroke="#000000" stroke-width="0.55" />
+  <text x="19.0000" y="20.0000" font-family="Arial, sans-serif" font-size="1.5000" text-anchor="end" dominant-baseline="middle" fill="#000000">pin 1</text>
+  <text x="19.0000" y="21.6364" font-family="Arial, sans-serif" font-size="1.5000" text-anchor="end" dominant-baseline="middle" fill="#000000">pin 2</text>
+  <text x="19.0000" y="23.2727" font-family="Arial, sans-serif" font-size="1.5000" text-anchor="end" dominant-baseline="middle" fill="#000000">pin 3</text>
+  <text x="19.0000" y="24.9091" font-family="Arial, sans-serif" font-size="1.5000" text-anchor="end" dominant-baseline="middle" fill="#000000">pin 4</text>
+  <text x="19.0000" y="26.5455" font-family="Arial, sans-serif" font-size="1.5000" text-anchor="end" dominant-baseline="middle" fill="#000000">pin 5</text>
+  <text x="19.0000" y="28.1818" font-family="Arial, sans-serif" font-size="1.5000" text-anchor="end" dominant-baseline="middle" fill="#000000">pin 6</text>
+  <text x="19.0000" y="29.8182" font-family="Arial, sans-serif" font-size="1.5000" text-anchor="end" dominant-baseline="middle" fill="#000000">pin 7</text>
+  <text x="19.0000" y="31.4545" font-family="Arial, sans-serif" font-size="1.5000" text-anchor="end" dominant-baseline="middle" fill="#000000">pin 8</text>
+  <text x="19.0000" y="33.0909" font-family="Arial, sans-serif" font-size="1.5000" text-anchor="end" dominant-baseline="middle" fill="#000000">pin 9</text>
+  <text x="19.0000" y="34.7273" font-family="Arial, sans-serif" font-size="1.5000" text-anchor="end" dominant-baseline="middle" fill="#000000">pin 10</text>
+  <text x="19.0000" y="36.3636" font-family="Arial, sans-serif" font-size="1.5000" text-anchor="end" dominant-baseline="middle" fill="#000000">pin 11</text>
+  <text x="19.0000" y="38.0000" font-family="Arial, sans-serif" font-size="1.5000" text-anchor="end" dominant-baseline="middle" fill="#000000">pin 12</text>
+  <text x="45.0000" y="20.0000" font-family="Arial, sans-serif" font-size="1.5000" text-anchor="start" dominant-baseline="middle" fill="#000000">pin 13</text>
+  <text x="45.0000" y="21.8000" font-family="Arial, sans-serif" font-size="1.5000" text-anchor="start" dominant-baseline="middle" fill="#000000">pin 14</text>
+  <text x="45.0000" y="23.6000" font-family="Arial, sans-serif" font-size="1.5000" text-anchor="start" dominant-baseline="middle" fill="#000000">pin 15</text>
+  <text x="45.0000" y="25.4000" font-family="Arial, sans-serif" font-size="1.5000" text-anchor="start" dominant-baseline="middle" fill="#000000">pin 16</text>
+  <text x="45.0000" y="27.2000" font-family="Arial, sans-serif" font-size="1.5000" text-anchor="start" dominant-baseline="middle" fill="#000000">pin 17</text>
+  <text x="45.0000" y="29.0000" font-family="Arial, sans-serif" font-size="1.5000" text-anchor="start" dominant-baseline="middle" fill="#000000">pin 18</text>
+  <text x="45.0000" y="30.8000" font-family="Arial, sans-serif" font-size="1.5000" text-anchor="start" dominant-baseline="middle" fill="#000000">pin 19</text>
+  <text x="45.0000" y="32.6000" font-family="Arial, sans-serif" font-size="1.5000" text-anchor="start" dominant-baseline="middle" fill="#000000">pin 20</text>
+  <text x="45.0000" y="34.4000" font-family="Arial, sans-serif" font-size="1.5000" text-anchor="start" dominant-baseline="middle" fill="#000000">pin 21</text>
+  <text x="45.0000" y="36.2000" font-family="Arial, sans-serif" font-size="1.5000" text-anchor="start" dominant-baseline="middle" fill="#000000">pin 22</text>
+  <text x="45.0000" y="38.0000" font-family="Arial, sans-serif" font-size="1.5000" text-anchor="start" dominant-baseline="middle" fill="#000000">pin 23</text>
+  <text x="32.0000" y="46.0000" font-family="Consolas, monospace" font-size="3.6000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#000000">9J12W</text>
+  <text x="32.0000" y="53.0000" font-family="Consolas, monospace" font-size="2.8000" text-anchor="middle" dominant-baseline="middle" fill="#000000">vintage prefer clay</text>
+</svg>

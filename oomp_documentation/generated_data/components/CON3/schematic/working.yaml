@@ -1,0 +1,170 @@
+available: true
+units:
+- reference: CON3
+  source_file: kicad_file.kicad_sch
+  uuid: fb178100-5099-4f16-81aa-6f3c22f7a7e6
+  library_id: project-tool-mini-RevA2-eagle-import:USB-A-FEMALE-JING-912-121A2023S10100
+  unit: 1
+  body_style: 1
+  position:
+    x: 262.89
+    y: 143.51
+    rotation: 0.0
+    mirror: y
+    units: mm
+  properties:
+    Reference: CON3
+    Value: USB-A Female
+    Footprint: project-tool-mini-RevA2:JING_912-121A2023S10100
+    Datasheet: ''
+    Description: ''
+    JLCASSY: C42428
+    MPN: 912-121A2023S10100
+  in_bom: true
+  on_board: true
+  in_position_files: true
+  dnp: false
+  pins:
+  - number: DM
+    name: D-
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 10.16
+      y: 2.54
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 252.73
+      y: 146.05
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: DP
+    name: D+
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 10.16
+      y: 0.0
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 252.73
+      y: 143.51
+    net: USB2_P
+    net_aliases:
+    - USB2_P
+    net_scope: global
+    no_connect: false
+    connected_to: []
+  - number: GND
+    name: G
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 10.16
+      y: -2.54
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 252.73
+      y: 140.97
+    net: USB2_N
+    net_aliases:
+    - USB2_N
+    net_scope: global
+    no_connect: false
+    connected_to:
+    - reference: D1
+      pin_number: '1'
+      pin_name: I/O_1
+  - number: P$5
+    name: SHIELD1
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 0.0
+      y: -7.62
+      rotation: 90.0
+    length: 2.54
+    position:
+      x: 262.89
+      y: 135.89
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: P$6
+    name: SHIELD2
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 2.54
+      y: -7.62
+      rotation: 90.0
+    length: 2.54
+    position:
+      x: 260.35
+      y: 135.89
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: VBUS
+    name: V
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 10.16
+      y: 5.08
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 252.73
+      y: 148.59
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  size:
+    local_graphics:
+      measurement: symbol graphics only; excludes pins, properties, and text
+      units: mm
+      available: true
+      min:
+        x: -6.5532
+        y: -5.2832
+      max:
+        x: 5.2832
+        y: 7.8232
+      width: 11.8364
+      height: 13.1064
+      center:
+        x: -0.635
+        y: 1.27
+    placed_graphics:
+      measurement: axis-aligned bounds after schematic placement, rotation, and mirroring
+      units: mm
+      available: true
+      min:
+        x: 257.6068
+        y: 138.2268
+      max:
+        x: 269.4432
+        y: 151.3332
+      width: 11.8364
+      height: 13.1064
+      center:
+        x: 263.525
+        y: 144.78
+  warnings: []
+connected_components:
+- reference: D1
+  pin_number: '1'
+  pin_name: I/O_1

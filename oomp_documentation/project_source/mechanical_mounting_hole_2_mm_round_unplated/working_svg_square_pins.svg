@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64.0000mm" height="64.0000mm"
+     viewBox="0 0 64.0000 64.0000">
+  <rect x="0.0000" y="0.0000" width="64.0000" height="64.0000"  fill="#FFFFFF" stroke="none" />
+  <text x="32.0000" y="5.0000" font-family="Arial, sans-serif" font-size="3.6000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#000000">Mounting Hole 2 mm</text>
+  <text x="32.0000" y="9.0000" font-family="Arial, sans-serif" font-size="3.6000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#000000">Round Unplated</text>
+  <circle cx="32.0000" cy="29.0000" r="4.5000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.25" />
+  <text x="32.0000" y="46.0000" font-family="Consolas, monospace" font-size="3.6000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#000000">3FRYE</text>
+  <text x="32.0000" y="53.0000" font-family="Consolas, monospace" font-size="2.8000" text-anchor="middle" dominant-baseline="middle" fill="#000000">fix vendor quantum</text>
+</svg>

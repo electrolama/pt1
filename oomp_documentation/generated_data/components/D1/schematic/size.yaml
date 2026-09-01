@@ -1,0 +1,36 @@
+reference: D1
+measurement_policy: Only embedded symbol graphics are measured; pins, properties, and text are excluded.
+units:
+- unit: 1
+  body_style: 1
+  source_file: kicad_file.kicad_sch
+  local_graphics:
+    measurement: symbol graphics only; excludes pins, properties, and text
+    units: mm
+    available: true
+    min:
+      x: 4.953
+      y: -7.747
+    max:
+      x: 25.527
+      y: 2.667
+    width: 20.574
+    height: 10.414
+    center:
+      x: 15.24
+      y: -2.54
+  placed_graphics:
+    measurement: axis-aligned bounds after schematic placement, rotation, and mirroring
+    units: mm
+    available: true
+    min:
+      x: 234.823
+      y: 83.693
+    max:
+      x: 255.397
+      y: 94.107
+    width: 20.574
+    height: 10.414
+    center:
+      x: 245.11
+      y: 88.9

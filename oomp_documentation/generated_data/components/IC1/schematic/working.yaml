@@ -1,0 +1,409 @@
+available: true
+units:
+- reference: IC1
+  source_file: kicad_file.kicad_sch
+  uuid: 432284d6-b6e0-44a1-a072-1c7f3a6c16ce
+  library_id: project-tool-mini-RevA2-eagle-import:INTERFACE-CH343P
+  unit: 1
+  body_style: 1
+  position:
+    x: 85.09
+    y: 163.83
+    rotation: 0.0
+    mirror: null
+    units: mm
+  properties:
+    Reference: IC1
+    Value: CH343P
+    Footprint: project-tool-mini-RevA2:QFN16_L3.0-W3.0-P0.50-EP1.7
+    Datasheet: ''
+    Description: ''
+    JLCASSY: C2846043
+    MPN: CH343P
+  in_bom: true
+  on_board: true
+  in_position_files: true
+  dnp: false
+  pins:
+  - number: '0'
+    name: EP(GND)
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: -15.24
+      y: -17.78
+      rotation: 0.0
+    length: 5.08
+    position:
+      x: 69.85
+      y: 146.05
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '1'
+    name: VIO
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: -15.24
+      y: 2.54
+      rotation: 0.0
+    length: 5.08
+    position:
+      x: 69.85
+      y: 166.37
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '2'
+    name: GND
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: -15.24
+      y: -15.24
+      rotation: 0.0
+    length: 5.08
+    position:
+      x: 69.85
+      y: 148.59
+    net: VUSB
+    net_aliases:
+    - VUSB
+    net_scope: global
+    no_connect: false
+    connected_to:
+    - reference: C10
+      pin_number: '1'
+      pin_name: '1'
+    - reference: C13
+      pin_number: '2'
+      pin_name: '2'
+    - reference: CON1
+      pin_number: DN1
+      pin_name: DN1
+    - reference: IC2
+      pin_number: '11'
+      pin_name: VDD5
+    - reference: SJ1
+      pin_number: '1'
+      pin_name: '1'
+  - number: '3'
+    name: VDD5
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: -15.24
+      y: 12.7
+      rotation: 0.0
+    length: 5.08
+    position:
+      x: 69.85
+      y: 176.53
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '4'
+    name: TXD
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 15.24
+      y: 10.16
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 100.33
+      y: 173.99
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: true
+    connected_to: []
+  - number: '5'
+    name: RXD
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 15.24
+      y: 12.7
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 100.33
+      y: 176.53
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: true
+    connected_to: []
+  - number: '6'
+    name: V3
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: -15.24
+      y: 7.62
+      rotation: 0.0
+    length: 5.08
+    position:
+      x: 69.85
+      y: 171.45
+    net: USB4_P
+    net_aliases:
+    - USB4_P
+    net_scope: global
+    no_connect: false
+    connected_to: []
+  - number: '7'
+    name: UD+
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: -15.24
+      y: -7.62
+      rotation: 0.0
+    length: 5.08
+    position:
+      x: 69.85
+      y: 156.21
+    net: SER_3V3
+    net_aliases:
+    - SER_3V3
+    net_scope: global
+    no_connect: false
+    connected_to:
+    - reference: C14
+      pin_number: '2'
+      pin_name: '2'
+    - reference: R6
+      pin_number: '1'
+      pin_name: '1'
+  - number: '8'
+    name: UD-
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: -15.24
+      y: -5.08
+      rotation: 0.0
+    length: 5.08
+    position:
+      x: 69.85
+      y: 158.75
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '9'
+    name: VBUS
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: -15.24
+      y: 15.24
+      rotation: 0.0
+    length: 5.08
+    position:
+      x: 69.85
+      y: 179.07
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '10'
+    name: ACT#
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 15.24
+      y: -15.24
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 100.33
+      y: 148.59
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '11'
+    name: DCD
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 15.24
+      y: -12.7
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 100.33
+      y: 151.13
+    net: RX_IN
+    net_aliases:
+    - RX_IN
+    net_scope: sheet
+    no_connect: false
+    connected_to:
+    - reference: J1
+      pin_number: '4'
+      pin_name: '4'
+  - number: '12'
+    name: DTR
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 15.24
+      y: 2.54
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 100.33
+      y: 166.37
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '13'
+    name: RTS
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 15.24
+      y: 5.08
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 100.33
+      y: 168.91
+    net: SER_RI
+    net_aliases:
+    - SER_RI
+    net_scope: global
+    no_connect: false
+    connected_to: []
+  - number: '14'
+    name: DSR
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 15.24
+      y: -10.16
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 100.33
+      y: 153.67
+    net: TX_OUT
+    net_aliases:
+    - TX_OUT
+    net_scope: sheet
+    no_connect: false
+    connected_to:
+    - reference: J1
+      pin_number: '3'
+      pin_name: '3'
+  - number: '15'
+    name: CTS
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 15.24
+      y: -7.62
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 100.33
+      y: 156.21
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '16'
+    name: RI
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 15.24
+      y: -5.08
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 100.33
+      y: 158.75
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: true
+    connected_to: []
+  size:
+    local_graphics:
+      measurement: symbol graphics only; excludes pins, properties, and text
+      units: mm
+      available: true
+      min:
+        x: -10.2362
+        y: -20.3962
+      max:
+        x: 10.2362
+        y: 17.8562
+      width: 20.4724
+      height: 38.2524
+      center:
+        x: 0.0
+        y: -1.27
+    placed_graphics:
+      measurement: axis-aligned bounds after schematic placement, rotation, and mirroring
+      units: mm
+      available: true
+      min:
+        x: 74.8538
+        y: 143.4338
+      max:
+        x: 95.3262
+        y: 181.6862
+      width: 20.4724
+      height: 38.2524
+      center:
+        x: 85.09
+        y: 162.56
+  warnings: []
+connected_components:
+- reference: C10
+  pin_number: '1'
+  pin_name: '1'
+- reference: C13
+  pin_number: '2'
+  pin_name: '2'
+- reference: C14
+  pin_number: '2'
+  pin_name: '2'
+- reference: CON1
+  pin_number: DN1
+  pin_name: DN1
+- reference: IC2
+  pin_number: '11'
+  pin_name: VDD5
+- reference: J1
+  pin_number: '3'
+  pin_name: '3'
+- reference: J1
+  pin_number: '4'
+  pin_name: '4'
+- reference: R6
+  pin_number: '1'
+  pin_name: '1'
+- reference: SJ1
+  pin_number: '1'
+  pin_name: '1'

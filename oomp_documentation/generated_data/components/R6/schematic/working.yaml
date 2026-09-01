@@ -1,0 +1,114 @@
+available: true
+units:
+- reference: R6
+  source_file: kicad_file.kicad_sch
+  uuid: 0f4a4724-dadb-45cd-b272-e116816cf25f
+  library_id: project-tool-mini-RevA2-eagle-import:RES-0402
+  unit: 1
+  body_style: 1
+  position:
+    x: 237.49
+    y: 43.18
+    rotation: 0.0
+    mirror: x
+    units: mm
+  properties:
+    Reference: R6
+    Value: 100k
+    Footprint: project-tool-mini-RevA2:_PKG_R_0402
+    Datasheet: ''
+    Description: ''
+    JLCASSY: C25741
+    MPN: 0402WGF1003TCE
+  in_bom: true
+  on_board: true
+  in_position_files: true
+  dnp: false
+  pins:
+  - number: '1'
+    name: '1'
+    electrical_type: passive
+    graphic_style: line
+    local_position:
+      x: -2.54
+      y: 0.0
+      rotation: 0.0
+    length: 0.0
+    position:
+      x: 234.95
+      y: 43.18
+    net: SER_3V3
+    net_aliases:
+    - SER_3V3
+    net_scope: global
+    no_connect: false
+    connected_to:
+    - reference: C14
+      pin_number: '2'
+      pin_name: '2'
+    - reference: IC1
+      pin_number: '7'
+      pin_name: UD+
+  - number: '2'
+    name: '2'
+    electrical_type: passive
+    graphic_style: line
+    local_position:
+      x: 2.54
+      y: 0.0
+      rotation: 180.0
+    length: 0.0
+    position:
+      x: 240.03
+      y: 43.18
+    net: SER_RI
+    net_aliases:
+    - SER_RI
+    net_scope: sheet
+    no_connect: false
+    connected_to:
+    - reference: IC4
+      pin_number: '3'
+      pin_name: ~{FLG}
+  size:
+    local_graphics:
+      measurement: symbol graphics only; excludes pins, properties, and text
+      units: mm
+      available: true
+      min:
+        x: -2.6162
+        y: -0.6477
+      max:
+        x: 2.6162
+        y: 0.6477
+      width: 5.2324
+      height: 1.2954
+      center:
+        x: 0.0
+        y: 0.0
+    placed_graphics:
+      measurement: axis-aligned bounds after schematic placement, rotation, and mirroring
+      units: mm
+      available: true
+      min:
+        x: 234.8738
+        y: 42.5323
+      max:
+        x: 240.1062
+        y: 43.8277
+      width: 5.2324
+      height: 1.2954
+      center:
+        x: 237.49
+        y: 43.18
+  warnings: []
+connected_components:
+- reference: C14
+  pin_number: '2'
+  pin_name: '2'
+- reference: IC1
+  pin_number: '7'
+  pin_name: UD+
+- reference: IC4
+  pin_number: '3'
+  pin_name: ~{FLG}

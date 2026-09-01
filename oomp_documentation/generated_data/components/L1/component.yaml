@@ -1,0 +1,533 @@
+reference: L1
+schematic:
+  available: true
+  units:
+  - reference: L1
+    source_file: kicad_file.kicad_sch
+    uuid: 70279a87-c689-42dc-b7b8-1c088ba1b736
+    library_id: project-tool-mini-RevA2-eagle-import:INDUCTOR-0805
+    unit: 1
+    body_style: 1
+    position:
+      x: 78.74
+      y: 33.02
+      rotation: 0.0
+      mirror: null
+      units: mm
+    properties:
+      Reference: L1
+      Value: FB, 2A
+      Footprint: project-tool-mini-RevA2:_PKG_C_0805
+      Datasheet: ''
+      Description: ''
+      JLCASSY: C85840
+      MPN: BLM21PG221SN1D
+    in_bom: true
+    on_board: true
+    in_position_files: true
+    dnp: false
+    pins:
+    - number: '1'
+      name: '1'
+      electrical_type: passive
+      graphic_style: line
+      local_position:
+        x: -2.54
+        y: 0.0
+        rotation: 0.0
+      length: 0.0
+      position:
+        x: 76.2
+        y: 33.02
+      net: VUSB_IN
+      net_aliases:
+      - VUSB_IN
+      net_scope: sheet
+      no_connect: false
+      connected_to:
+      - reference: C1
+        pin_number: '1'
+        pin_name: '1'
+    - number: '2'
+      name: '2'
+      electrical_type: passive
+      graphic_style: line
+      local_position:
+        x: 2.54
+        y: 0.0
+        rotation: 180.0
+      length: 0.0
+      position:
+        x: 81.28
+        y: 33.02
+      net: VUSB
+      net_aliases:
+      - VUSB
+      net_scope: sheet
+      no_connect: false
+      connected_to:
+      - reference: C2
+        pin_number: '1'
+        pin_name: '1'
+      - reference: C3
+        pin_number: '2'
+        pin_name: '2'
+      - reference: C4
+        pin_number: '2'
+        pin_name: '2'
+      - reference: C6
+        pin_number: '1'
+        pin_name: '1'
+      - reference: IC4
+        pin_number: '2'
+        pin_name: GND
+      - reference: R3
+        pin_number: '1'
+        pin_name: '1'
+    size:
+      local_graphics:
+        measurement: symbol graphics only; excludes pins, properties, and text
+        units: mm
+        available: true
+        min:
+          x: -2.6162
+          y: -0.0762
+        max:
+          x: 2.6162
+          y: 0.7112
+        width: 5.2324
+        height: 0.7874
+        center:
+          x: 0.0
+          y: 0.3175
+      placed_graphics:
+        measurement: axis-aligned bounds after schematic placement, rotation, and mirroring
+        units: mm
+        available: true
+        min:
+          x: 76.1238
+          y: 32.9438
+        max:
+          x: 81.3562
+          y: 33.7312
+        width: 5.2324
+        height: 0.7874
+        center:
+          x: 78.74
+          y: 33.3375
+    warnings: []
+  connected_components:
+  - reference: C1
+    pin_number: '1'
+    pin_name: '1'
+  - reference: C2
+    pin_number: '1'
+    pin_name: '1'
+  - reference: C3
+    pin_number: '2'
+    pin_name: '2'
+  - reference: C4
+    pin_number: '2'
+    pin_name: '2'
+  - reference: C6
+    pin_number: '1'
+    pin_name: '1'
+  - reference: IC4
+    pin_number: '2'
+    pin_name: GND
+  - reference: R3
+    pin_number: '1'
+    pin_name: '1'
+pcb:
+  reference: L1
+  value: FB, 2A
+  source_file: kicad_file.kicad_pcb
+  uuid: 80d151d5-b315-4fb4-8e39-06205a83dafe
+  library_id: _PKG_C_0805
+  layer: F.Cu
+  side: front
+  position:
+    x: 146.8761
+    y: 119.0036
+    rotation: -180.0
+    rotation_kicad: 180.0
+    units: mm
+  properties:
+    Reference: L1
+    Value: FB, 2A
+    Datasheet: ''
+    Description: ''
+  attributes: []
+  exclude_from_bom: false
+  exclude_from_position_files: false
+  pads:
+  - number: '1'
+    type: smd
+    shape: roundrect
+    local_position:
+      x: -0.935
+      y: 0.0
+      rotation: 0.0
+    position:
+      x: 147.8111
+      y: 119.0036
+    placed_rotation: -180.0
+    size:
+      x: 1.0
+      y: 1.42
+      units: mm
+    drill:
+      available: false
+      shape: null
+      x: null
+      y: null
+      diameter: null
+      units: mm
+    layers:
+    - F.Cu
+    - F.Mask
+    - F.Paste
+    net: VUSB_IN
+    net_number: null
+    pin_function: null
+    pin_type: null
+    bounds:
+      local:
+        measurement: pad bounds in footprint-local coordinates
+        units: mm
+        available: true
+        min:
+          x: -1.435
+          y: -0.71
+        max:
+          x: -0.435
+          y: 0.71
+        width: 1.0
+        height: 1.42
+        center:
+          x: -0.935
+          y: 0.0
+      placed:
+        measurement: pad bounds after footprint placement and rotation
+        units: mm
+        available: true
+        min:
+          x: 147.3111
+          y: 118.2936
+        max:
+          x: 148.3111
+          y: 119.7136
+        width: 1.0
+        height: 1.42
+        center:
+          x: 147.8111
+          y: 119.0036
+    plating: null
+    is_mounting_hole: false
+    connected_to:
+    - reference: C1
+      pad_number: '2'
+    - reference: CON1
+      pad_number: VBUS@1
+    - reference: CON1
+      pad_number: VBUS@2
+  - number: '2'
+    type: smd
+    shape: roundrect
+    local_position:
+      x: 0.935
+      y: 0.0
+      rotation: 180.0
+    position:
+      x: 145.9411
+      y: 119.0036
+    placed_rotation: 0.0
+    size:
+      x: 1.0
+      y: 1.42
+      units: mm
+    drill:
+      available: false
+      shape: null
+      x: null
+      y: null
+      diameter: null
+      units: mm
+    layers:
+    - F.Cu
+    - F.Mask
+    - F.Paste
+    net: VUSB
+    net_number: null
+    pin_function: null
+    pin_type: null
+    bounds:
+      local:
+        measurement: pad bounds in footprint-local coordinates
+        units: mm
+        available: true
+        min:
+          x: 0.435
+          y: -0.71
+        max:
+          x: 1.435
+          y: 0.71
+        width: 1.0
+        height: 1.42
+        center:
+          x: 0.935
+          y: 0.0
+      placed:
+        measurement: pad bounds after footprint placement and rotation
+        units: mm
+        available: true
+        min:
+          x: 145.4411
+          y: 118.2936
+        max:
+          x: 146.4411
+          y: 119.7136
+        width: 1.0
+        height: 1.42
+        center:
+          x: 145.9411
+          y: 119.0036
+    plating: null
+    is_mounting_hole: false
+    connected_to:
+    - reference: C2
+      pad_number: '2'
+    - reference: C3
+      pad_number: '1'
+    - reference: C4
+      pad_number: '1'
+    - reference: C6
+      pad_number: '2'
+    - reference: C10
+      pad_number: '2'
+    - reference: C13
+      pad_number: '2'
+    - reference: D1
+      pad_number: '5'
+    - reference: D2
+      pad_number: '5'
+    - reference: IC1
+      pad_number: '3'
+    - reference: IC1
+      pad_number: '9'
+    - reference: IC2
+      pad_number: '11'
+    - reference: IC3
+      pad_number: '3'
+    - reference: IC3
+      pad_number: '5'
+    - reference: IC4
+      pad_number: '5'
+    - reference: R3
+      pad_number: '1'
+    - reference: SJ1
+      pad_number: '3'
+  mounting_holes: []
+  is_mounting_hole: false
+  size:
+    pads_local:
+      measurement: all footprint pads in footprint-local coordinates
+      units: mm
+      available: true
+      min:
+        x: -1.435
+        y: -0.71
+      max:
+        x: 1.435
+        y: 0.71
+      width: 2.87
+      height: 1.42
+      center:
+        x: 0.0
+        y: 0.0
+    pads_placed:
+      measurement: all pads after PCB placement and rotation
+      units: mm
+      available: true
+      min:
+        x: 145.4411
+        y: 118.2936
+      max:
+        x: 148.3111
+        y: 119.7136
+      width: 2.87
+      height: 1.42
+      center:
+        x: 146.8761
+        y: 119.0036
+    courtyard_local:
+      measurement: F.CrtYd and B.CrtYd graphics; text excluded
+      units: mm
+      available: true
+      min:
+        x: -1.715
+        y: -0.985
+      max:
+        x: 1.715
+        y: 0.985
+      width: 3.43
+      height: 1.97
+      center:
+        x: 0.0
+        y: 0.0
+    courtyard_placed:
+      measurement: courtyard after PCB placement and rotation
+      units: mm
+      available: true
+      min:
+        x: 145.1611
+        y: 118.0186
+      max:
+        x: 148.5911
+        y: 119.9886
+      width: 3.43
+      height: 1.97
+      center:
+        x: 146.8761
+        y: 119.0036
+    fabrication_local:
+      measurement: F.Fab and B.Fab graphics; text excluded
+      units: mm
+      available: true
+      min:
+        x: -1.14
+        y: -0.76
+      max:
+        x: 1.14
+        y: 0.76
+      width: 2.28
+      height: 1.52
+      center:
+        x: 0.0
+        y: 0.0
+    fabrication_placed:
+      measurement: fabrication graphics after placement
+      units: mm
+      available: true
+      min:
+        x: 145.7361
+        y: 118.2436
+      max:
+        x: 148.0161
+        y: 119.7636
+      width: 2.28
+      height: 1.52
+      center:
+        x: 146.8761
+        y: 119.0036
+    silkscreen_local:
+      measurement: F.SilkS and B.SilkS graphics; text excluded
+      units: mm
+      available: true
+      min:
+        x: -0.315
+        y: -0.76
+      max:
+        x: 0.315
+        y: 0.76
+      width: 0.63
+      height: 1.52
+      center:
+        x: 0.0
+        y: 0.0
+    silkscreen_placed:
+      measurement: silkscreen graphics after placement
+      units: mm
+      available: true
+      min:
+        x: 146.5611
+        y: 118.2436
+      max:
+        x: 147.1911
+        y: 119.7636
+      width: 0.63
+      height: 1.52
+      center:
+        x: 146.8761
+        y: 119.0036
+    overall_local:
+      measurement: all non-text footprint graphics and pads
+      units: mm
+      available: true
+      min:
+        x: -1.715
+        y: -0.985
+      max:
+        x: 1.715
+        y: 0.985
+      width: 3.43
+      height: 1.97
+      center:
+        x: 0.0
+        y: 0.0
+    overall_placed:
+      measurement: all non-text footprint graphics and pads after placement
+      units: mm
+      available: true
+      min:
+        x: 145.1611
+        y: 118.0186
+      max:
+        x: 148.5911
+        y: 119.9886
+      width: 3.43
+      height: 1.97
+      center:
+        x: 146.8761
+        y: 119.0036
+  connected_components:
+  - C1
+  - C2
+  - C3
+  - C4
+  - C6
+  - C10
+  - C13
+  - CON1
+  - D1
+  - D2
+  - IC1
+  - IC2
+  - IC3
+  - IC4
+  - R3
+  - SJ1
+connectivity_cross_check:
+  available: true
+  policy: Named schematic nets are compared with PCB pad nets using matching pin/pad numbers.
+  comparisons:
+  - pin_or_pad_number: '1'
+    schematic_nets:
+    - VUSB_IN
+    pcb_nets:
+    - VUSB_IN
+    status: agree
+  - pin_or_pad_number: '2'
+    schematic_nets:
+    - VUSB
+    pcb_nets:
+    - VUSB
+    status: agree
+  agree_count: 2
+  disagree_count: 0
+  incomplete_count: 0
+oomp:
+  status: matched
+  accepted: true
+  oomp_id: electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+  confidence: 1.0
+  proposed_oomp_id: null
+  inferred:
+    kind: null
+    package_size: 0805
+    value: FB, 2A
+    mpn: BLM21PG221SN1D
+  reasons:
+  - Accepted from the AI/human match override file.
+  candidates: []
+generated_directory: components/L1

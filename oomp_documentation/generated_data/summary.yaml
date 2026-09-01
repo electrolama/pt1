@@ -1,0 +1,12 @@
+component_count: 67
+schematic_symbol_count: 64
+pcb_footprint_count: 37
+matched_component_count: 36
+unmatched_physical_component_count: 0
+non_physical_symbol_count: 31
+mounting_hole_count: 9
+dedicated_mounting_hole_count: 3
+mounting_hole_oomp_item_count: 9
+unmatched_mounting_hole_oomp_item_count: 0
+connectivity_named_net_agreement_count: 19
+connectivity_named_net_disagreement_count: 21

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64.0000mm" height="64.0000mm"
+     viewBox="0 0 64.0000 64.0000">
+  <rect x="0.0000" y="0.0000" width="64.0000" height="64.0000"  fill="#FFFFFF" stroke="none" />
+  <text x="32.0000" y="5.0000" font-family="Arial, sans-serif" font-size="3.6000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#000000">IC Tsot 23 5 Power Management</text>
+  <text x="32.0000" y="9.0000" font-family="Arial, sans-serif" font-size="3.6000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#000000">High Side Power Switch With</text>
+  <text x="32.0000" y="13.0000" font-family="Arial, sans-serif" font-size="3.6000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#000000">Flag RT9742CGJ5</text>
+  <rect x="26.1755" y="32.7564" width="2.1510" height="3.4936"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="30.9245" y="32.7564" width="2.1510" height="3.4936"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="35.6735" y="32.7564" width="2.1510" height="3.4936"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="26.1755" y="21.7500" width="2.1510" height="3.4936"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="35.6735" y="21.7500" width="2.1510" height="3.4936"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="24.7496" y="24.9936" width="14.5008" height="8.0129" rx="0.8000" ry="0.8000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.8" />
+  <line x1="24.8496" y1="32.9064" x2="24.8496" y2="31.3064"  fill="#000000" stroke="#000000" stroke-width="0.35" />
+  <line x1="24.8496" y1="31.3064" x2="26.4496" y2="32.9064"  fill="#000000" stroke="#000000" stroke-width="0.35" />
+  <line x1="26.4496" y1="32.9064" x2="24.8496" y2="32.9064"  fill="#000000" stroke="#000000" stroke-width="0.35" />
+  <text x="27.2510" y="36.9500" font-family="Arial, sans-serif" font-size="1.9000" text-anchor="end" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,27.2510,36.9500)">vout</text>
+  <text x="32.0000" y="36.9500" font-family="Arial, sans-serif" font-size="1.9000" text-anchor="end" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,32.0000,36.9500)">gnd</text>
+  <text x="36.7490" y="36.9500" font-family="Arial, sans-serif" font-size="1.9000" text-anchor="end" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,36.7490,36.9500)">flg</text>
+  <text x="27.2510" y="21.0500" font-family="Arial, sans-serif" font-size="1.9000" text-anchor="start" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,27.2510,21.0500)">vin</text>
+  <text x="36.7490" y="21.0500" font-family="Arial, sans-serif" font-size="1.9000" text-anchor="start" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,36.7490,21.0500)">en</text>
+  <text x="32.0000" y="46.0000" font-family="Consolas, monospace" font-size="3.6000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#000000">1JAQY</text>
+  <text x="32.0000" y="53.0000" font-family="Consolas, monospace" font-size="2.8000" text-anchor="middle" dominant-baseline="middle" fill="#000000">chef vanish pupil</text>
+</svg>

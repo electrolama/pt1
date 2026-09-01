@@ -1,0 +1,1217 @@
+bip_39_2_word_array:
+- reject
+- donate
+bip_39_2_word_no_space: rejectdonate
+bip_39_2_word_space: reject donate
+bip_39_2_word_underscore: reject_donate
+bip_39_3_word_array:
+- reject
+- donate
+- strong
+bip_39_3_word_no_space: rejectdonatestrong
+bip_39_3_word_space: reject donate strong
+bip_39_3_word_underscore: reject_donate_strong
+bip_39_full_array:
+- reject
+- donate
+- strong
+- service
+- divert
+- magic
+- retire
+- muscle
+- people
+- curtain
+- file
+- rural
+bip_39_full_no_space: rejectdonatestrongservicedivertmagicretiremusclepeoplecurtainfilerural
+bip_39_full_space: reject donate strong service divert magic retire muscle people
+    curtain file rural
+bip_39_full_underscore: reject_donate_strong_service_divert_magic_retire_muscle_people_curtain_file_rural
+dimensions_mm:
+    length: 1.6
+    width: 0.8
+directory: parts/electronic_led_0603_green
+id: electronic_led_0603_green
+id_no_class: electronic_led_0603_green
+id_no_size: electronic_led_0603_green
+id_no_type: electronic_led_0603_green
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/electronic_led_0603_green
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/electronic_led_0603_green
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/electronic_led_0603_green
+md5: b4e8235ce213fd0badfc8ca2c6c558de
+md5_10: b4e8235ce2
+md5_10_upper: B4E8235CE2
+md5_5: b4e82
+md5_5_upper: B4E82
+md5_6: b4e823
+md5_6_alpha: 7242r
+md5_6_alpha_upper: 7242R
+md5_6_upper: B4E823
+name: Electronic Led 0603 Green
+name_no_class: Electronic Led 0603 Green
+name_no_size: Electronic Led 0603 Green
+name_no_type: Electronic Led 0603 Green
+name_proper: Electronic Led 0603 Green
+name_short: LED 0603 Green
+name_space: electronic led 0603 green
+name_upper: ELECTRONIC LED 0603 GREEN
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: run_python
+        description: Generate this component's standard SVG and PNG diagrams with
+            working_svg.py.
+        file_output: working_svg_assembly.svg
+        file_python: kicad_agents/component_svg_action.py
+        part_id: electronic_led_0603_green
+        regenerate_pngs: false
+        timeout: '600'
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_square_pins_300.png
+        file_source: working_svg_square_pins.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_outline_300.png
+        file_source: working_svg_outline.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_part_id_300.png
+        file_source: working_svg_part_id.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_md5_6_alpha_300.png
+        file_source: working_svg_md5_6_alpha.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_bip_39_3_word_300.png
+        file_source: working_svg_bip_39_3_word.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_square_300.png
+        file_source: working_svg_square.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_dimensioned_300.png
+        file_source: working_svg_dimensioned.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_dimensioned_titles_300.png
+        file_source: working_svg_dimensioned_titles.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    description: Build component diagrams and proportional 300-pixel README previews
+        with deterministic Python actions.
+    file_test: ''
+    retries_until_complete: 0
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            dimensions_mm:
+                length: 1.6
+                width: 0.8
+            directory: parts\electronic_led_0603_green
+            name: electronic_led_0603_green
+            name_proper: Electronic Led 0603 Green
+            name_short: LED 0603 Green
+            name_space: electronic led 0603 green
+            name_upper: ELECTRONIC LED 0603 GREEN
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: run_python
+                    description: Generate this component's standard SVG and PNG diagrams
+                        with working_svg.py.
+                    file_output: working_svg_assembly.svg
+                    file_python: kicad_agents/component_svg_action.py
+                    part_id: electronic_led_0603_green
+                    regenerate_pngs: false
+                    timeout: '600'
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_square_pins_300.png
+                    file_source: working_svg_square_pins.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_outline_300.png
+                    file_source: working_svg_outline.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_part_id_300.png
+                    file_source: working_svg_part_id.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_md5_6_alpha_300.png
+                    file_source: working_svg_md5_6_alpha.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_bip_39_3_word_300.png
+                    file_source: working_svg_bip_39_3_word.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_square_300.png
+                    file_source: working_svg_square.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_dimensioned_300.png
+                    file_source: working_svg_dimensioned.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_dimensioned_titles_300.png
+                    file_source: working_svg_dimensioned_titles.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                description: Build component diagrams and proportional 300-pixel README
+                    previews with deterministic Python actions.
+                file_test: ''
+                retries_until_complete: 0
+            part_id: D1
+            part_page:
+                diagrams:
+                -   png: ''
+                    preview: working_svg_assembly.svg
+                    svg: working_svg_assembly.svg
+                    title: Assembly
+                -   png: working_svg_outline.png
+                    preview: working_svg_outline_300.png
+                    svg: working_svg_outline.svg
+                    title: Outline
+                -   png: working_svg_part_id.png
+                    preview: working_svg_part_id_300.png
+                    svg: working_svg_part_id.svg
+                    title: Part ID
+                -   png: working_svg_md5_6_alpha.png
+                    preview: working_svg_md5_6_alpha_300.png
+                    svg: working_svg_md5_6_alpha.svg
+                    title: MD5 alpha
+                -   png: working_svg_bip_39_3_word.png
+                    preview: working_svg_bip_39_3_word_300.png
+                    svg: working_svg_bip_39_3_word.svg
+                    title: BIP 39 words
+                -   png: working_svg_square.png
+                    preview: working_svg_square_300.png
+                    svg: working_svg_square.svg
+                    title: Square summary
+                -   png: working_svg_dimensioned.png
+                    preview: working_svg_dimensioned_300.png
+                    svg: working_svg_dimensioned.svg
+                    title: Dimensions
+                -   png: working_svg_dimensioned_titles.png
+                    preview: working_svg_dimensioned_titles_300.png
+                    svg: working_svg_dimensioned_titles.svg
+                    title: Dimensions with labels
+                file_previews:
+                -   preview: working_svg_square_pins_300.png
+                    title: Pinout drawing
+                -   preview: working_svg_outline_300.png
+                    title: Outline
+                -   preview: working_svg_part_id_300.png
+                    title: Part ID
+                -   preview: working_svg_md5_6_alpha_300.png
+                    title: MD5 alpha
+                -   preview: working_svg_bip_39_3_word_300.png
+                    title: BIP 39 words
+                -   preview: working_svg_square_300.png
+                    title: Square summary
+                -   preview: working_svg_dimensioned_300.png
+                    title: Dimensions
+                -   preview: working_svg_dimensioned_titles_300.png
+                    title: Dimensions with labels
+                has_datasheet: false
+                identifiers: []
+                main_image:
+                    png: working_svg_square_pins.png
+                    preview: working_svg_square_pins_300.png
+                    svg: working_svg_square_pins.svg
+                    title: Pinout
+                oomp_id: electronic_led_0603_green
+                pins: []
+                quick_facts:
+                -   title: OOMP ID
+                    value: electronic_led_0603_green
+                -   title: Type
+                    value: Led
+                -   title: Package / style
+                    value: '0603'
+                -   title: Nominal size
+                    value: "1.6 \xD7 0.8 mm"
+                repository_url: https://github.com/oomlout/oomp_electronic_version_5/tree/main/parts/electronic_led_0603_green
+                summary: "LED 0603 Green is an OOMP electronic led definition. It\
+                    \ uses the 0603 package or form factor. Its nominal drawing size\
+                    \ is 1.6 \xD7 0.8 mm."
+                taxonomy:
+                -   level: 1
+                    value: electronic
+                -   level: 2
+                    value: led
+                -   level: 3
+                    value: '0603'
+                -   level: 4
+                    value: green
+            regenerate_pngs: false
+            svg_details:
+            -   filename_extra: assembly
+                make_a4: false
+                output_formats:
+                - svg
+                padding: 0
+                stylesheet: style_oomp_assembly
+                svg_name: oomp_component_assembly
+                write_yaml: false
+            -   filename_extra: assembly_pins
+                make_a4: false
+                output_formats:
+                - svg
+                padding: 0
+                stylesheet: style_oomp_assembly
+                svg_name: oomp_component_assembly_pins
+                write_yaml: false
+            -   filename_extra: outline
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_outline
+                write_yaml: false
+            -   filename_extra: part_id
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_part_id
+                write_yaml: false
+            -   filename_extra: md5_6_alpha
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_md5_6_alpha
+                write_yaml: false
+            -   filename_extra: bip_39_3_word
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_bip_39_3_word
+                write_yaml: false
+            -   filename_extra: square
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_square
+                write_yaml: false
+            -   filename_extra: square_pins
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_square_pins
+                write_yaml: false
+            -   filename_extra: dimensioned
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_dimensioned
+                write_yaml: false
+            -   filename_extra: dimensioned_titles
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_dimensioned_titles
+                write_yaml: false
+            taxonomy_1: electronic
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: led
+            taxonomy_3: '0603'
+            taxonomy_4: green
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: source_file\template_jinja\oomp_category\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_3:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            dimensions_mm:
+                length: 1.6
+                width: 0.8
+            directory: parts\electronic_led_0603_green
+            name: electronic_led_0603_green
+            name_proper: Electronic Led 0603 Green
+            name_short: LED 0603 Green
+            name_space: electronic led 0603 green
+            name_upper: ELECTRONIC LED 0603 GREEN
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: run_python
+                    description: Generate this component's standard SVG and PNG diagrams
+                        with working_svg.py.
+                    file_output: working_svg_assembly.svg
+                    file_python: kicad_agents/component_svg_action.py
+                    part_id: electronic_led_0603_green
+                    regenerate_pngs: false
+                    timeout: '600'
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_square_pins_300.png
+                    file_source: working_svg_square_pins.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_outline_300.png
+                    file_source: working_svg_outline.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_part_id_300.png
+                    file_source: working_svg_part_id.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_md5_6_alpha_300.png
+                    file_source: working_svg_md5_6_alpha.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_bip_39_3_word_300.png
+                    file_source: working_svg_bip_39_3_word.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_square_300.png
+                    file_source: working_svg_square.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_dimensioned_300.png
+                    file_source: working_svg_dimensioned.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_dimensioned_titles_300.png
+                    file_source: working_svg_dimensioned_titles.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                description: Build component diagrams and proportional 300-pixel README
+                    previews with deterministic Python actions.
+                file_test: ''
+                retries_until_complete: 0
+            oomlout_ai_roboclick_2:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        dimensions_mm:
+                            length: 1.6
+                            width: 0.8
+                        directory: parts\electronic_led_0603_green
+                        name: electronic_led_0603_green
+                        name_proper: Electronic Led 0603 Green
+                        name_short: LED 0603 Green
+                        name_space: electronic led 0603 green
+                        name_upper: ELECTRONIC LED 0603 GREEN
+                        oomlout_ai_roboclick_1:
+                            actions:
+                            -   command: run_python
+                                description: Generate this component's standard SVG
+                                    and PNG diagrams with working_svg.py.
+                                file_output: working_svg_assembly.svg
+                                file_python: kicad_agents/component_svg_action.py
+                                part_id: electronic_led_0603_green
+                                regenerate_pngs: false
+                                timeout: '600'
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_square_pins_300.png
+                                file_source: working_svg_square_pins.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_outline_300.png
+                                file_source: working_svg_outline.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_part_id_300.png
+                                file_source: working_svg_part_id.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_md5_6_alpha_300.png
+                                file_source: working_svg_md5_6_alpha.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_bip_39_3_word_300.png
+                                file_source: working_svg_bip_39_3_word.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_square_300.png
+                                file_source: working_svg_square.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_dimensioned_300.png
+                                file_source: working_svg_dimensioned.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_dimensioned_titles_300.png
+                                file_source: working_svg_dimensioned_titles.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            description: Build component diagrams and proportional
+                                300-pixel README previews with deterministic Python
+                                actions.
+                            file_test: ''
+                            retries_until_complete: 0
+                        part_id: D1
+                        part_page:
+                            diagrams:
+                            -   png: ''
+                                preview: working_svg_assembly.svg
+                                svg: working_svg_assembly.svg
+                                title: Assembly
+                            -   png: working_svg_outline.png
+                                preview: working_svg_outline_300.png
+                                svg: working_svg_outline.svg
+                                title: Outline
+                            -   png: working_svg_part_id.png
+                                preview: working_svg_part_id_300.png
+                                svg: working_svg_part_id.svg
+                                title: Part ID
+                            -   png: working_svg_md5_6_alpha.png
+                                preview: working_svg_md5_6_alpha_300.png
+                                svg: working_svg_md5_6_alpha.svg
+                                title: MD5 alpha
+                            -   png: working_svg_bip_39_3_word.png
+                                preview: working_svg_bip_39_3_word_300.png
+                                svg: working_svg_bip_39_3_word.svg
+                                title: BIP 39 words
+                            -   png: working_svg_square.png
+                                preview: working_svg_square_300.png
+                                svg: working_svg_square.svg
+                                title: Square summary
+                            -   png: working_svg_dimensioned.png
+                                preview: working_svg_dimensioned_300.png
+                                svg: working_svg_dimensioned.svg
+                                title: Dimensions
+                            -   png: working_svg_dimensioned_titles.png
+                                preview: working_svg_dimensioned_titles_300.png
+                                svg: working_svg_dimensioned_titles.svg
+                                title: Dimensions with labels
+                            file_previews:
+                            -   preview: working_svg_square_pins_300.png
+                                title: Pinout drawing
+                            -   preview: working_svg_outline_300.png
+                                title: Outline
+                            -   preview: working_svg_part_id_300.png
+                                title: Part ID
+                            -   preview: working_svg_md5_6_alpha_300.png
+                                title: MD5 alpha
+                            -   preview: working_svg_bip_39_3_word_300.png
+                                title: BIP 39 words
+                            -   preview: working_svg_square_300.png
+                                title: Square summary
+                            -   preview: working_svg_dimensioned_300.png
+                                title: Dimensions
+                            -   preview: working_svg_dimensioned_titles_300.png
+                                title: Dimensions with labels
+                            has_datasheet: false
+                            identifiers: []
+                            main_image:
+                                png: working_svg_square_pins.png
+                                preview: working_svg_square_pins_300.png
+                                svg: working_svg_square_pins.svg
+                                title: Pinout
+                            oomp_id: electronic_led_0603_green
+                            pins: []
+                            quick_facts:
+                            -   title: OOMP ID
+                                value: electronic_led_0603_green
+                            -   title: Type
+                                value: Led
+                            -   title: Package / style
+                                value: '0603'
+                            -   title: Nominal size
+                                value: "1.6 \xD7 0.8 mm"
+                            repository_url: https://github.com/oomlout/oomp_electronic_version_5/tree/main/parts/electronic_led_0603_green
+                            summary: "LED 0603 Green is an OOMP electronic led definition.\
+                                \ It uses the 0603 package or form factor. Its nominal\
+                                \ drawing size is 1.6 \xD7 0.8 mm."
+                            taxonomy:
+                            -   level: 1
+                                value: electronic
+                            -   level: 2
+                                value: led
+                            -   level: 3
+                                value: '0603'
+                            -   level: 4
+                                value: green
+                        regenerate_pngs: false
+                        svg_details:
+                        -   filename_extra: assembly
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            padding: 0
+                            stylesheet: style_oomp_assembly
+                            svg_name: oomp_component_assembly
+                            write_yaml: false
+                        -   filename_extra: assembly_pins
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            padding: 0
+                            stylesheet: style_oomp_assembly
+                            svg_name: oomp_component_assembly_pins
+                            write_yaml: false
+                        -   filename_extra: outline
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_outline
+                            write_yaml: false
+                        -   filename_extra: part_id
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_part_id
+                            write_yaml: false
+                        -   filename_extra: md5_6_alpha
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_md5_6_alpha
+                            write_yaml: false
+                        -   filename_extra: bip_39_3_word
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_bip_39_3_word
+                            write_yaml: false
+                        -   filename_extra: square
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_square
+                            write_yaml: false
+                        -   filename_extra: square_pins
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_square_pins
+                            write_yaml: false
+                        -   filename_extra: dimensioned
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_dimensioned
+                            write_yaml: false
+                        -   filename_extra: dimensioned_titles
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_dimensioned_titles
+                            write_yaml: false
+                        taxonomy_1: electronic
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: ''
+                        taxonomy_15: ''
+                        taxonomy_2: led
+                        taxonomy_3: '0603'
+                        taxonomy_4: green
+                        taxonomy_5: ''
+                        taxonomy_6: ''
+                        taxonomy_7: ''
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        url_chat: ''
+                    dict_data_files: {}
+                    dict_data_files_exists: {}
+                    file_output: label_oomp.svg
+                    file_template: source_file\template_jinja\oomp_category\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+                retries_until_complete: 0
+            part_id: D1
+            part_page:
+                diagrams:
+                -   png: ''
+                    preview: working_svg_assembly.svg
+                    svg: working_svg_assembly.svg
+                    title: Assembly
+                -   png: working_svg_outline.png
+                    preview: working_svg_outline_300.png
+                    svg: working_svg_outline.svg
+                    title: Outline
+                -   png: working_svg_part_id.png
+                    preview: working_svg_part_id_300.png
+                    svg: working_svg_part_id.svg
+                    title: Part ID
+                -   png: working_svg_md5_6_alpha.png
+                    preview: working_svg_md5_6_alpha_300.png
+                    svg: working_svg_md5_6_alpha.svg
+                    title: MD5 alpha
+                -   png: working_svg_bip_39_3_word.png
+                    preview: working_svg_bip_39_3_word_300.png
+                    svg: working_svg_bip_39_3_word.svg
+                    title: BIP 39 words
+                -   png: working_svg_square.png
+                    preview: working_svg_square_300.png
+                    svg: working_svg_square.svg
+                    title: Square summary
+                -   png: working_svg_dimensioned.png
+                    preview: working_svg_dimensioned_300.png
+                    svg: working_svg_dimensioned.svg
+                    title: Dimensions
+                -   png: working_svg_dimensioned_titles.png
+                    preview: working_svg_dimensioned_titles_300.png
+                    svg: working_svg_dimensioned_titles.svg
+                    title: Dimensions with labels
+                file_previews:
+                -   preview: working_svg_square_pins_300.png
+                    title: Pinout drawing
+                -   preview: working_svg_outline_300.png
+                    title: Outline
+                -   preview: working_svg_part_id_300.png
+                    title: Part ID
+                -   preview: working_svg_md5_6_alpha_300.png
+                    title: MD5 alpha
+                -   preview: working_svg_bip_39_3_word_300.png
+                    title: BIP 39 words
+                -   preview: working_svg_square_300.png
+                    title: Square summary
+                -   preview: working_svg_dimensioned_300.png
+                    title: Dimensions
+                -   preview: working_svg_dimensioned_titles_300.png
+                    title: Dimensions with labels
+                has_datasheet: false
+                identifiers: []
+                main_image:
+                    png: working_svg_square_pins.png
+                    preview: working_svg_square_pins_300.png
+                    svg: working_svg_square_pins.svg
+                    title: Pinout
+                oomp_id: electronic_led_0603_green
+                pins: []
+                quick_facts:
+                -   title: OOMP ID
+                    value: electronic_led_0603_green
+                -   title: Type
+                    value: Led
+                -   title: Package / style
+                    value: '0603'
+                -   title: Nominal size
+                    value: "1.6 \xD7 0.8 mm"
+                repository_url: https://github.com/oomlout/oomp_electronic_version_5/tree/main/parts/electronic_led_0603_green
+                summary: "LED 0603 Green is an OOMP electronic led definition. It\
+                    \ uses the 0603 package or form factor. Its nominal drawing size\
+                    \ is 1.6 \xD7 0.8 mm."
+                taxonomy:
+                -   level: 1
+                    value: electronic
+                -   level: 2
+                    value: led
+                -   level: 3
+                    value: '0603'
+                -   level: 4
+                    value: green
+            regenerate_pngs: false
+            svg_details:
+            -   filename_extra: assembly
+                make_a4: false
+                output_formats:
+                - svg
+                padding: 0
+                stylesheet: style_oomp_assembly
+                svg_name: oomp_component_assembly
+                write_yaml: false
+            -   filename_extra: assembly_pins
+                make_a4: false
+                output_formats:
+                - svg
+                padding: 0
+                stylesheet: style_oomp_assembly
+                svg_name: oomp_component_assembly_pins
+                write_yaml: false
+            -   filename_extra: outline
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_outline
+                write_yaml: false
+            -   filename_extra: part_id
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_part_id
+                write_yaml: false
+            -   filename_extra: md5_6_alpha
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_md5_6_alpha
+                write_yaml: false
+            -   filename_extra: bip_39_3_word
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_bip_39_3_word
+                write_yaml: false
+            -   filename_extra: square
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_square
+                write_yaml: false
+            -   filename_extra: square_pins
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_square_pins
+                write_yaml: false
+            -   filename_extra: dimensioned
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_dimensioned
+                write_yaml: false
+            -   filename_extra: dimensioned_titles
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_dimensioned_titles
+                write_yaml: false
+            taxonomy_1: electronic
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: led
+            taxonomy_3: '0603'
+            taxonomy_4: green
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: README.md
+        file_template: C:\gh\oomp_electronic_version_5\source_file\template_jinja\oomp_category\template_jinja_markdown\working.md.j2
+        search_and_replace: []
+    file_test: ''
+    retries_until_complete: 0
+oomp_key: oomp_electronic_led_0603_green
+part_id: D1
+part_page:
+    diagrams:
+    -   png: ''
+        preview: working_svg_assembly.svg
+        svg: working_svg_assembly.svg
+        title: Assembly
+    -   png: working_svg_outline.png
+        preview: working_svg_outline_300.png
+        svg: working_svg_outline.svg
+        title: Outline
+    -   png: working_svg_part_id.png
+        preview: working_svg_part_id_300.png
+        svg: working_svg_part_id.svg
+        title: Part ID
+    -   png: working_svg_md5_6_alpha.png
+        preview: working_svg_md5_6_alpha_300.png
+        svg: working_svg_md5_6_alpha.svg
+        title: MD5 alpha
+    -   png: working_svg_bip_39_3_word.png
+        preview: working_svg_bip_39_3_word_300.png
+        svg: working_svg_bip_39_3_word.svg
+        title: BIP 39 words
+    -   png: working_svg_square.png
+        preview: working_svg_square_300.png
+        svg: working_svg_square.svg
+        title: Square summary
+    -   png: working_svg_dimensioned.png
+        preview: working_svg_dimensioned_300.png
+        svg: working_svg_dimensioned.svg
+        title: Dimensions
+    -   png: working_svg_dimensioned_titles.png
+        preview: working_svg_dimensioned_titles_300.png
+        svg: working_svg_dimensioned_titles.svg
+        title: Dimensions with labels
+    file_previews:
+    -   preview: working_svg_square_pins_300.png
+        title: Pinout drawing
+    -   preview: working_svg_outline_300.png
+        title: Outline
+    -   preview: working_svg_part_id_300.png
+        title: Part ID
+    -   preview: working_svg_md5_6_alpha_300.png
+        title: MD5 alpha
+    -   preview: working_svg_bip_39_3_word_300.png
+        title: BIP 39 words
+    -   preview: working_svg_square_300.png
+        title: Square summary
+    -   preview: working_svg_dimensioned_300.png
+        title: Dimensions
+    -   preview: working_svg_dimensioned_titles_300.png
+        title: Dimensions with labels
+    has_datasheet: false
+    identifiers: []
+    main_image:
+        png: working_svg_square_pins.png
+        preview: working_svg_square_pins_300.png
+        svg: working_svg_square_pins.svg
+        title: Pinout
+    oomp_id: electronic_led_0603_green
+    pins: []
+    quick_facts:
+    -   title: OOMP ID
+        value: electronic_led_0603_green
+    -   title: Type
+        value: Led
+    -   title: Package / style
+        value: '0603'
+    -   title: Nominal size
+        value: "1.6 \xD7 0.8 mm"
+    repository_url: https://github.com/oomlout/oomp_electronic_version_5/tree/main/parts/electronic_led_0603_green
+    summary: "LED 0603 Green is an OOMP electronic led definition. It uses the 0603\
+        \ package or form factor. Its nominal drawing size is 1.6 \xD7 0.8 mm."
+    taxonomy:
+    -   level: 1
+        value: electronic
+    -   level: 2
+        value: led
+    -   level: 3
+        value: '0603'
+    -   level: 4
+        value: green
+regenerate_pngs: false
+svg_details:
+-   filename_extra: assembly
+    make_a4: false
+    output_formats:
+    - svg
+    padding: 0
+    stylesheet: style_oomp_assembly
+    svg_name: oomp_component_assembly
+    write_yaml: false
+-   filename_extra: assembly_pins
+    make_a4: false
+    output_formats:
+    - svg
+    padding: 0
+    stylesheet: style_oomp_assembly
+    svg_name: oomp_component_assembly_pins
+    write_yaml: false
+-   filename_extra: outline
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_outline
+    write_yaml: false
+-   filename_extra: part_id
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_part_id
+    write_yaml: false
+-   filename_extra: md5_6_alpha
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_md5_6_alpha
+    write_yaml: false
+-   filename_extra: bip_39_3_word
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_bip_39_3_word
+    write_yaml: false
+-   filename_extra: square
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_square
+    write_yaml: false
+-   filename_extra: square_pins
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_square_pins
+    write_yaml: false
+-   filename_extra: dimensioned
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_dimensioned
+    write_yaml: false
+-   filename_extra: dimensioned_titles
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_dimensioned_titles
+    write_yaml: false
+taxonomy_1: electronic
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Electronic
+taxonomy_1_first_letter: e
+taxonomy_1_first_letter_upper: E
+taxonomy_1_length_1: e
+taxonomy_1_length_2: el
+taxonomy_1_length_3: ele
+taxonomy_1_length_4: elec
+taxonomy_1_length_5: elect
+taxonomy_1_upper: ELECTRONIC
+taxonomy_1_upper_length_1: E
+taxonomy_1_upper_length_2: EL
+taxonomy_1_upper_length_3: ELE
+taxonomy_1_upper_length_4: ELEC
+taxonomy_1_upper_length_5: ELECT
+taxonomy_2: led
+taxonomy_2_capital: Led
+taxonomy_2_first_letter: l
+taxonomy_2_first_letter_upper: L
+taxonomy_2_length_1: l
+taxonomy_2_length_2: le
+taxonomy_2_length_3: led
+taxonomy_2_length_4: led
+taxonomy_2_length_5: led
+taxonomy_2_upper: LED
+taxonomy_2_upper_length_1: L
+taxonomy_2_upper_length_2: LE
+taxonomy_2_upper_length_3: LED
+taxonomy_2_upper_length_4: LED
+taxonomy_2_upper_length_5: LED
+taxonomy_3: '0603'
+taxonomy_3_capital: '0603'
+taxonomy_3_first_letter: '0'
+taxonomy_3_first_letter_upper: '0'
+taxonomy_3_length_1: '0'
+taxonomy_3_length_2: '06'
+taxonomy_3_length_3: '060'
+taxonomy_3_length_4: '0603'
+taxonomy_3_length_5: '0603'
+taxonomy_3_upper: '0603'
+taxonomy_3_upper_length_1: '0'
+taxonomy_3_upper_length_2: '06'
+taxonomy_3_upper_length_3: '060'
+taxonomy_3_upper_length_4: '0603'
+taxonomy_3_upper_length_5: '0603'
+taxonomy_4: green
+taxonomy_4_capital: Green
+taxonomy_4_first_letter: g
+taxonomy_4_first_letter_upper: G
+taxonomy_4_length_1: g
+taxonomy_4_length_2: gr
+taxonomy_4_length_3: gre
+taxonomy_4_length_4: gree
+taxonomy_4_length_5: green
+taxonomy_4_upper: GREEN
+taxonomy_4_upper_length_1: G
+taxonomy_4_upper_length_2: GR
+taxonomy_4_upper_length_3: GRE
+taxonomy_4_upper_length_4: GREE
+taxonomy_4_upper_length_5: GREEN
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+url_chat: ''

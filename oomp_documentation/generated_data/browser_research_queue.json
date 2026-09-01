@@ -1,0 +1,17 @@
+{
+  "format_version": 1,
+  "generated_by": "kicad_agents.browser_research_agent",
+  "network_policy": {
+    "research_surface": "available interactive browser",
+    "python_http_clients_allowed": false,
+    "download_method": "browser download followed by validated local import"
+  },
+  "instructions": [
+    "Open the supplied URLs with the available browser; do not replace this with requests, urllib, curl, or an unofficial API.",
+    "Confirm exact package, suffix, pinout, and dimensions from the manufacturer datasheet before accepting a match.",
+    "Record uncertain results as unresolved instead of guessing.",
+    "Download PDFs with the browser, then import them with the import-datasheet command documented in AGENT_GUIDE.md."
+  ],
+  "task_count": 0,
+  "tasks": []
+}

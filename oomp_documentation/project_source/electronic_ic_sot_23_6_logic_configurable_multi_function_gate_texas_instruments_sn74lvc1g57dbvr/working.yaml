@@ -1,0 +1,1594 @@
+bip_39_2_word_array:
+- clown
+- gospel
+bip_39_2_word_no_space: clowngospel
+bip_39_2_word_space: clown gospel
+bip_39_2_word_underscore: clown_gospel
+bip_39_3_word_array:
+- clown
+- gospel
+- grit
+bip_39_3_word_no_space: clowngospelgrit
+bip_39_3_word_space: clown gospel grit
+bip_39_3_word_underscore: clown_gospel_grit
+bip_39_full_array:
+- clown
+- gospel
+- grit
+- you
+- champion
+- stay
+- shoot
+- carpet
+- priority
+- attract
+- uniform
+- pill
+bip_39_full_no_space: clowngospelgrityouchampionstayshootcarpetpriorityattractuniformpill
+bip_39_full_space: clown gospel grit you champion stay shoot carpet priority attract
+    uniform pill
+bip_39_full_underscore: clown_gospel_grit_you_champion_stay_shoot_carpet_priority_attract_uniform_pill
+dimensions_mm:
+    length: 2.9
+    width: 1.6
+directory: parts/electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+file_copy:
+-   file_destination: datasheet.pdf
+    file_source: parts_source/electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr/datasheet.pdf
+ic_dimensions_mm:
+    body_length: 2.9
+    body_length_max: 3.05
+    body_length_min: 2.75
+    body_width: 1.6
+    body_width_max: 1.75
+    body_width_min: 1.45
+    overall_width: 2.8
+    overall_width_max: 3.0
+    overall_width_min: 2.6
+    pin_length: 0.45
+    pin_pitch: 0.95
+    pin_width: 0.375
+id: electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+id_no_class: electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+id_no_size: electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+id_no_type: electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+md5: 2c0c999aff9261a9f1a116aae1dbb5d2
+md5_10: 2c0c999aff
+md5_10_upper: 2C0C999AFF
+md5_5: 2c0c9
+md5_5_upper: 2C0C9
+md5_6: 2c0c99
+md5_6_alpha: 1pvh5
+md5_6_alpha_upper: 1PVH5
+md5_6_upper: 2C0C99
+name: Electronic Ic Sot 23 6 Logic Configurable Multi Function Gate Texas Instruments
+    Sn74Lvc1G57Dbvr
+name_no_class: Electronic Ic Sot 23 6 Logic Configurable Multi Function Gate Texas
+    Instruments Sn74Lvc1G57Dbvr
+name_no_size: Electronic Ic Sot 23 6 Logic Configurable Multi Function Gate Texas
+    Instruments Sn74Lvc1G57Dbvr
+name_no_type: Electronic Ic Sot 23 6 Logic Configurable Multi Function Gate Texas
+    Instruments Sn74Lvc1G57Dbvr
+name_proper: Electronic Ic Sot 23 6 Logic Configurable Multi Function Gate Texas Instruments
+    Sn74Lvc1G57Dbvr
+name_short: IC Sot 23 6 Logic Configurable Multi Function Gate SN74LVC1G57DBVR
+name_space: electronic ic sot 23 6 logic configurable multi function gate texas instruments
+    sn74lvc1g57dbvr
+name_upper: ELECTRONIC IC SOT 23 6 LOGIC CONFIGURABLE MULTI FUNCTION GATE TEXAS INSTRUMENTS
+    SN74LVC1G57DBVR
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: file_copy
+        delete_before_copy: true
+        exit_on_missing: true
+        file_destination: datasheet.pdf
+        file_source: parts_source/electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr/datasheet.pdf
+    -   command: run_python
+        description: Generate this component's standard SVG and PNG diagrams with
+            working_svg.py.
+        file_output: working_svg_assembly.svg
+        file_python: kicad_agents/component_svg_action.py
+        part_id: electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+        regenerate_pngs: false
+        timeout: '600'
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_square_pins_300.png
+        file_source: working_svg_square_pins.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_outline_300.png
+        file_source: working_svg_outline.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_part_id_300.png
+        file_source: working_svg_part_id.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_md5_6_alpha_300.png
+        file_source: working_svg_md5_6_alpha.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_bip_39_3_word_300.png
+        file_source: working_svg_bip_39_3_word.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_square_300.png
+        file_source: working_svg_square.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_dimensioned_300.png
+        file_source: working_svg_dimensioned.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_dimensioned_titles_300.png
+        file_source: working_svg_dimensioned_titles.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    description: Build component diagrams and proportional 300-pixel README previews
+        with deterministic Python actions.
+    file_test: ''
+    retries_until_complete: 0
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            dimensions_mm:
+                length: 2.9
+                width: 1.6
+            directory: parts\electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+            file_copy:
+            -   file_destination: datasheet.pdf
+                file_source: parts_source/electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr/datasheet.pdf
+            ic_dimensions_mm:
+                body_length: 2.9
+                body_length_max: 3.05
+                body_length_min: 2.75
+                body_width: 1.6
+                body_width_max: 1.75
+                body_width_min: 1.45
+                overall_width: 2.8
+                overall_width_max: 3.0
+                overall_width_min: 2.6
+                pin_length: 0.45
+                pin_pitch: 0.95
+                pin_width: 0.375
+            name: electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+            name_proper: Electronic Ic Sot 23 6 Logic Configurable Multi Function
+                Gate Texas Instruments Sn74Lvc1G57Dbvr
+            name_short: IC Sot 23 6 Logic Configurable Multi Function Gate SN74LVC1G57DBVR
+            name_space: electronic ic sot 23 6 logic configurable multi function gate
+                texas instruments sn74lvc1g57dbvr
+            name_upper: ELECTRONIC IC SOT 23 6 LOGIC CONFIGURABLE MULTI FUNCTION GATE
+                TEXAS INSTRUMENTS SN74LVC1G57DBVR
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: file_copy
+                    delete_before_copy: true
+                    exit_on_missing: true
+                    file_destination: datasheet.pdf
+                    file_source: parts_source/electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr/datasheet.pdf
+                -   command: run_python
+                    description: Generate this component's standard SVG and PNG diagrams
+                        with working_svg.py.
+                    file_output: working_svg_assembly.svg
+                    file_python: kicad_agents/component_svg_action.py
+                    part_id: electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+                    regenerate_pngs: false
+                    timeout: '600'
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_square_pins_300.png
+                    file_source: working_svg_square_pins.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_outline_300.png
+                    file_source: working_svg_outline.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_part_id_300.png
+                    file_source: working_svg_part_id.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_md5_6_alpha_300.png
+                    file_source: working_svg_md5_6_alpha.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_bip_39_3_word_300.png
+                    file_source: working_svg_bip_39_3_word.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_square_300.png
+                    file_source: working_svg_square.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_dimensioned_300.png
+                    file_source: working_svg_dimensioned.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_dimensioned_titles_300.png
+                    file_source: working_svg_dimensioned_titles.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                description: Build component diagrams and proportional 300-pixel README
+                    previews with deterministic Python actions.
+                file_test: ''
+                retries_until_complete: 0
+            part_id: U1
+            part_number_lcsc: C485080
+            part_number_manufacturer: SN74LVC1G57DBVR
+            part_page:
+                diagrams:
+                -   png: ''
+                    preview: working_svg_assembly.svg
+                    svg: working_svg_assembly.svg
+                    title: Assembly
+                -   png: working_svg_outline.png
+                    preview: working_svg_outline_300.png
+                    svg: working_svg_outline.svg
+                    title: Outline
+                -   png: working_svg_part_id.png
+                    preview: working_svg_part_id_300.png
+                    svg: working_svg_part_id.svg
+                    title: Part ID
+                -   png: working_svg_md5_6_alpha.png
+                    preview: working_svg_md5_6_alpha_300.png
+                    svg: working_svg_md5_6_alpha.svg
+                    title: MD5 alpha
+                -   png: working_svg_bip_39_3_word.png
+                    preview: working_svg_bip_39_3_word_300.png
+                    svg: working_svg_bip_39_3_word.svg
+                    title: BIP 39 words
+                -   png: working_svg_square.png
+                    preview: working_svg_square_300.png
+                    svg: working_svg_square.svg
+                    title: Square summary
+                -   png: working_svg_dimensioned.png
+                    preview: working_svg_dimensioned_300.png
+                    svg: working_svg_dimensioned.svg
+                    title: Dimensions
+                -   png: working_svg_dimensioned_titles.png
+                    preview: working_svg_dimensioned_titles_300.png
+                    svg: working_svg_dimensioned_titles.svg
+                    title: Dimensions with labels
+                file_previews:
+                -   preview: working_svg_square_pins_300.png
+                    title: Pinout drawing
+                -   preview: working_svg_outline_300.png
+                    title: Outline
+                -   preview: working_svg_part_id_300.png
+                    title: Part ID
+                -   preview: working_svg_md5_6_alpha_300.png
+                    title: MD5 alpha
+                -   preview: working_svg_bip_39_3_word_300.png
+                    title: BIP 39 words
+                -   preview: working_svg_square_300.png
+                    title: Square summary
+                -   preview: working_svg_dimensioned_300.png
+                    title: Dimensions
+                -   preview: working_svg_dimensioned_titles_300.png
+                    title: Dimensions with labels
+                has_datasheet: true
+                identifiers:
+                -   title: Manufacturer part number
+                    value: SN74LVC1G57DBVR
+                -   title: LCSC
+                    value: C485080
+                main_image:
+                    png: working_svg_square_pins.png
+                    preview: working_svg_square_pins_300.png
+                    svg: working_svg_square_pins.svg
+                    title: Pinout
+                oomp_id: electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+                pins:
+                -   name: in1
+                    number: '1'
+                    type: signal
+                -   name: gnd
+                    number: '2'
+                    type: gnd
+                -   name: in0
+                    number: '3'
+                    type: signal
+                -   name: y
+                    number: '4'
+                    type: signal
+                -   name: vcc
+                    number: '5'
+                    type: power
+                -   name: in2
+                    number: '6'
+                    type: signal
+                quick_facts:
+                -   title: OOMP ID
+                    value: electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+                -   title: Type
+                    value: Ic
+                -   title: Package / style
+                    value: sot 23 6
+                -   title: Nominal size
+                    value: "2.9 \xD7 1.6 mm"
+                -   title: Documented pins
+                    value: 6
+                repository_url: https://github.com/oomlout/oomp_electronic_version_5/tree/main/parts/electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+                summary: "IC Sot 23 6 Logic Configurable Multi Function Gate SN74LVC1G57DBVR\
+                    \ is an OOMP electronic ic definition. It uses the sot 23 6 package\
+                    \ or form factor. Its nominal drawing size is 2.9 \xD7 1.6 mm.\
+                    \ The definition includes 6 documented pins."
+                taxonomy:
+                -   level: 1
+                    value: electronic
+                -   level: 2
+                    value: ic
+                -   level: 3
+                    value: sot_23_6
+                -   level: 4
+                    value: logic
+                -   level: 5
+                    value: configurable_multi_function_gate
+                -   level: 14
+                    value: texas_instruments
+                -   level: 15
+                    value: sn74lvc1g57dbvr
+            pins:
+                pin_1:
+                    name: in1
+                    number: '1'
+                    type: signal
+                pin_2:
+                    name: gnd
+                    number: '2'
+                    type: gnd
+                pin_3:
+                    name: in0
+                    number: '3'
+                    type: signal
+                pin_4:
+                    name: y
+                    number: '4'
+                    type: signal
+                pin_5:
+                    name: vcc
+                    number: '5'
+                    type: power
+                pin_6:
+                    name: in2
+                    number: '6'
+                    type: signal
+            regenerate_pngs: false
+            svg_details:
+            -   filename_extra: assembly
+                make_a4: false
+                output_formats:
+                - svg
+                padding: 0
+                stylesheet: style_oomp_assembly
+                svg_name: oomp_component_assembly
+                write_yaml: false
+            -   filename_extra: assembly_pins
+                make_a4: false
+                output_formats:
+                - svg
+                padding: 0
+                stylesheet: style_oomp_assembly
+                svg_name: oomp_component_assembly_pins
+                write_yaml: false
+            -   filename_extra: outline
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_outline
+                write_yaml: false
+            -   filename_extra: part_id
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_part_id
+                write_yaml: false
+            -   filename_extra: md5_6_alpha
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_md5_6_alpha
+                write_yaml: false
+            -   filename_extra: bip_39_3_word
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_bip_39_3_word
+                write_yaml: false
+            -   filename_extra: square
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_square
+                write_yaml: false
+            -   filename_extra: square_pins
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_square_pins
+                write_yaml: false
+            -   filename_extra: dimensioned
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_dimensioned
+                write_yaml: false
+            -   filename_extra: dimensioned_titles
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_dimensioned_titles
+                write_yaml: false
+            taxonomy_1: electronic
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: texas_instruments
+            taxonomy_15: sn74lvc1g57dbvr
+            taxonomy_2: ic
+            taxonomy_3: sot_23_6
+            taxonomy_4: logic
+            taxonomy_5: configurable_multi_function_gate
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: source_file\template_jinja\oomp_category\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_3:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            dimensions_mm:
+                length: 2.9
+                width: 1.6
+            directory: parts\electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+            file_copy:
+            -   file_destination: datasheet.pdf
+                file_source: parts_source/electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr/datasheet.pdf
+            ic_dimensions_mm:
+                body_length: 2.9
+                body_length_max: 3.05
+                body_length_min: 2.75
+                body_width: 1.6
+                body_width_max: 1.75
+                body_width_min: 1.45
+                overall_width: 2.8
+                overall_width_max: 3.0
+                overall_width_min: 2.6
+                pin_length: 0.45
+                pin_pitch: 0.95
+                pin_width: 0.375
+            name: electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+            name_proper: Electronic Ic Sot 23 6 Logic Configurable Multi Function
+                Gate Texas Instruments Sn74Lvc1G57Dbvr
+            name_short: IC Sot 23 6 Logic Configurable Multi Function Gate SN74LVC1G57DBVR
+            name_space: electronic ic sot 23 6 logic configurable multi function gate
+                texas instruments sn74lvc1g57dbvr
+            name_upper: ELECTRONIC IC SOT 23 6 LOGIC CONFIGURABLE MULTI FUNCTION GATE
+                TEXAS INSTRUMENTS SN74LVC1G57DBVR
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: file_copy
+                    delete_before_copy: true
+                    exit_on_missing: true
+                    file_destination: datasheet.pdf
+                    file_source: parts_source/electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr/datasheet.pdf
+                -   command: run_python
+                    description: Generate this component's standard SVG and PNG diagrams
+                        with working_svg.py.
+                    file_output: working_svg_assembly.svg
+                    file_python: kicad_agents/component_svg_action.py
+                    part_id: electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+                    regenerate_pngs: false
+                    timeout: '600'
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_square_pins_300.png
+                    file_source: working_svg_square_pins.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_outline_300.png
+                    file_source: working_svg_outline.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_part_id_300.png
+                    file_source: working_svg_part_id.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_md5_6_alpha_300.png
+                    file_source: working_svg_md5_6_alpha.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_bip_39_3_word_300.png
+                    file_source: working_svg_bip_39_3_word.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_square_300.png
+                    file_source: working_svg_square.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_dimensioned_300.png
+                    file_source: working_svg_dimensioned.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_dimensioned_titles_300.png
+                    file_source: working_svg_dimensioned_titles.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                description: Build component diagrams and proportional 300-pixel README
+                    previews with deterministic Python actions.
+                file_test: ''
+                retries_until_complete: 0
+            oomlout_ai_roboclick_2:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        dimensions_mm:
+                            length: 2.9
+                            width: 1.6
+                        directory: parts\electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+                        file_copy:
+                        -   file_destination: datasheet.pdf
+                            file_source: parts_source/electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr/datasheet.pdf
+                        ic_dimensions_mm:
+                            body_length: 2.9
+                            body_length_max: 3.05
+                            body_length_min: 2.75
+                            body_width: 1.6
+                            body_width_max: 1.75
+                            body_width_min: 1.45
+                            overall_width: 2.8
+                            overall_width_max: 3.0
+                            overall_width_min: 2.6
+                            pin_length: 0.45
+                            pin_pitch: 0.95
+                            pin_width: 0.375
+                        name: electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+                        name_proper: Electronic Ic Sot 23 6 Logic Configurable Multi
+                            Function Gate Texas Instruments Sn74Lvc1G57Dbvr
+                        name_short: IC Sot 23 6 Logic Configurable Multi Function
+                            Gate SN74LVC1G57DBVR
+                        name_space: electronic ic sot 23 6 logic configurable multi
+                            function gate texas instruments sn74lvc1g57dbvr
+                        name_upper: ELECTRONIC IC SOT 23 6 LOGIC CONFIGURABLE MULTI
+                            FUNCTION GATE TEXAS INSTRUMENTS SN74LVC1G57DBVR
+                        oomlout_ai_roboclick_1:
+                            actions:
+                            -   command: file_copy
+                                delete_before_copy: true
+                                exit_on_missing: true
+                                file_destination: datasheet.pdf
+                                file_source: parts_source/electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr/datasheet.pdf
+                            -   command: run_python
+                                description: Generate this component's standard SVG
+                                    and PNG diagrams with working_svg.py.
+                                file_output: working_svg_assembly.svg
+                                file_python: kicad_agents/component_svg_action.py
+                                part_id: electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+                                regenerate_pngs: false
+                                timeout: '600'
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_square_pins_300.png
+                                file_source: working_svg_square_pins.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_outline_300.png
+                                file_source: working_svg_outline.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_part_id_300.png
+                                file_source: working_svg_part_id.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_md5_6_alpha_300.png
+                                file_source: working_svg_md5_6_alpha.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_bip_39_3_word_300.png
+                                file_source: working_svg_bip_39_3_word.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_square_300.png
+                                file_source: working_svg_square.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_dimensioned_300.png
+                                file_source: working_svg_dimensioned.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_dimensioned_titles_300.png
+                                file_source: working_svg_dimensioned_titles.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            description: Build component diagrams and proportional
+                                300-pixel README previews with deterministic Python
+                                actions.
+                            file_test: ''
+                            retries_until_complete: 0
+                        part_id: U1
+                        part_number_lcsc: C485080
+                        part_number_manufacturer: SN74LVC1G57DBVR
+                        part_page:
+                            diagrams:
+                            -   png: ''
+                                preview: working_svg_assembly.svg
+                                svg: working_svg_assembly.svg
+                                title: Assembly
+                            -   png: working_svg_outline.png
+                                preview: working_svg_outline_300.png
+                                svg: working_svg_outline.svg
+                                title: Outline
+                            -   png: working_svg_part_id.png
+                                preview: working_svg_part_id_300.png
+                                svg: working_svg_part_id.svg
+                                title: Part ID
+                            -   png: working_svg_md5_6_alpha.png
+                                preview: working_svg_md5_6_alpha_300.png
+                                svg: working_svg_md5_6_alpha.svg
+                                title: MD5 alpha
+                            -   png: working_svg_bip_39_3_word.png
+                                preview: working_svg_bip_39_3_word_300.png
+                                svg: working_svg_bip_39_3_word.svg
+                                title: BIP 39 words
+                            -   png: working_svg_square.png
+                                preview: working_svg_square_300.png
+                                svg: working_svg_square.svg
+                                title: Square summary
+                            -   png: working_svg_dimensioned.png
+                                preview: working_svg_dimensioned_300.png
+                                svg: working_svg_dimensioned.svg
+                                title: Dimensions
+                            -   png: working_svg_dimensioned_titles.png
+                                preview: working_svg_dimensioned_titles_300.png
+                                svg: working_svg_dimensioned_titles.svg
+                                title: Dimensions with labels
+                            file_previews:
+                            -   preview: working_svg_square_pins_300.png
+                                title: Pinout drawing
+                            -   preview: working_svg_outline_300.png
+                                title: Outline
+                            -   preview: working_svg_part_id_300.png
+                                title: Part ID
+                            -   preview: working_svg_md5_6_alpha_300.png
+                                title: MD5 alpha
+                            -   preview: working_svg_bip_39_3_word_300.png
+                                title: BIP 39 words
+                            -   preview: working_svg_square_300.png
+                                title: Square summary
+                            -   preview: working_svg_dimensioned_300.png
+                                title: Dimensions
+                            -   preview: working_svg_dimensioned_titles_300.png
+                                title: Dimensions with labels
+                            has_datasheet: true
+                            identifiers:
+                            -   title: Manufacturer part number
+                                value: SN74LVC1G57DBVR
+                            -   title: LCSC
+                                value: C485080
+                            main_image:
+                                png: working_svg_square_pins.png
+                                preview: working_svg_square_pins_300.png
+                                svg: working_svg_square_pins.svg
+                                title: Pinout
+                            oomp_id: electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+                            pins:
+                            -   name: in1
+                                number: '1'
+                                type: signal
+                            -   name: gnd
+                                number: '2'
+                                type: gnd
+                            -   name: in0
+                                number: '3'
+                                type: signal
+                            -   name: y
+                                number: '4'
+                                type: signal
+                            -   name: vcc
+                                number: '5'
+                                type: power
+                            -   name: in2
+                                number: '6'
+                                type: signal
+                            quick_facts:
+                            -   title: OOMP ID
+                                value: electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+                            -   title: Type
+                                value: Ic
+                            -   title: Package / style
+                                value: sot 23 6
+                            -   title: Nominal size
+                                value: "2.9 \xD7 1.6 mm"
+                            -   title: Documented pins
+                                value: 6
+                            repository_url: https://github.com/oomlout/oomp_electronic_version_5/tree/main/parts/electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+                            summary: "IC Sot 23 6 Logic Configurable Multi Function\
+                                \ Gate SN74LVC1G57DBVR is an OOMP electronic ic definition.\
+                                \ It uses the sot 23 6 package or form factor. Its\
+                                \ nominal drawing size is 2.9 \xD7 1.6 mm. The definition\
+                                \ includes 6 documented pins."
+                            taxonomy:
+                            -   level: 1
+                                value: electronic
+                            -   level: 2
+                                value: ic
+                            -   level: 3
+                                value: sot_23_6
+                            -   level: 4
+                                value: logic
+                            -   level: 5
+                                value: configurable_multi_function_gate
+                            -   level: 14
+                                value: texas_instruments
+                            -   level: 15
+                                value: sn74lvc1g57dbvr
+                        pins:
+                            pin_1:
+                                name: in1
+                                number: '1'
+                                type: signal
+                            pin_2:
+                                name: gnd
+                                number: '2'
+                                type: gnd
+                            pin_3:
+                                name: in0
+                                number: '3'
+                                type: signal
+                            pin_4:
+                                name: y
+                                number: '4'
+                                type: signal
+                            pin_5:
+                                name: vcc
+                                number: '5'
+                                type: power
+                            pin_6:
+                                name: in2
+                                number: '6'
+                                type: signal
+                        regenerate_pngs: false
+                        svg_details:
+                        -   filename_extra: assembly
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            padding: 0
+                            stylesheet: style_oomp_assembly
+                            svg_name: oomp_component_assembly
+                            write_yaml: false
+                        -   filename_extra: assembly_pins
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            padding: 0
+                            stylesheet: style_oomp_assembly
+                            svg_name: oomp_component_assembly_pins
+                            write_yaml: false
+                        -   filename_extra: outline
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_outline
+                            write_yaml: false
+                        -   filename_extra: part_id
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_part_id
+                            write_yaml: false
+                        -   filename_extra: md5_6_alpha
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_md5_6_alpha
+                            write_yaml: false
+                        -   filename_extra: bip_39_3_word
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_bip_39_3_word
+                            write_yaml: false
+                        -   filename_extra: square
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_square
+                            write_yaml: false
+                        -   filename_extra: square_pins
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_square_pins
+                            write_yaml: false
+                        -   filename_extra: dimensioned
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_dimensioned
+                            write_yaml: false
+                        -   filename_extra: dimensioned_titles
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_dimensioned_titles
+                            write_yaml: false
+                        taxonomy_1: electronic
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: texas_instruments
+                        taxonomy_15: sn74lvc1g57dbvr
+                        taxonomy_2: ic
+                        taxonomy_3: sot_23_6
+                        taxonomy_4: logic
+                        taxonomy_5: configurable_multi_function_gate
+                        taxonomy_6: ''
+                        taxonomy_7: ''
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        url_chat: ''
+                    dict_data_files: {}
+                    dict_data_files_exists: {}
+                    file_output: label_oomp.svg
+                    file_template: source_file\template_jinja\oomp_category\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+                retries_until_complete: 0
+            part_id: U1
+            part_number_lcsc: C485080
+            part_number_manufacturer: SN74LVC1G57DBVR
+            part_page:
+                diagrams:
+                -   png: ''
+                    preview: working_svg_assembly.svg
+                    svg: working_svg_assembly.svg
+                    title: Assembly
+                -   png: working_svg_outline.png
+                    preview: working_svg_outline_300.png
+                    svg: working_svg_outline.svg
+                    title: Outline
+                -   png: working_svg_part_id.png
+                    preview: working_svg_part_id_300.png
+                    svg: working_svg_part_id.svg
+                    title: Part ID
+                -   png: working_svg_md5_6_alpha.png
+                    preview: working_svg_md5_6_alpha_300.png
+                    svg: working_svg_md5_6_alpha.svg
+                    title: MD5 alpha
+                -   png: working_svg_bip_39_3_word.png
+                    preview: working_svg_bip_39_3_word_300.png
+                    svg: working_svg_bip_39_3_word.svg
+                    title: BIP 39 words
+                -   png: working_svg_square.png
+                    preview: working_svg_square_300.png
+                    svg: working_svg_square.svg
+                    title: Square summary
+                -   png: working_svg_dimensioned.png
+                    preview: working_svg_dimensioned_300.png
+                    svg: working_svg_dimensioned.svg
+                    title: Dimensions
+                -   png: working_svg_dimensioned_titles.png
+                    preview: working_svg_dimensioned_titles_300.png
+                    svg: working_svg_dimensioned_titles.svg
+                    title: Dimensions with labels
+                file_previews:
+                -   preview: working_svg_square_pins_300.png
+                    title: Pinout drawing
+                -   preview: working_svg_outline_300.png
+                    title: Outline
+                -   preview: working_svg_part_id_300.png
+                    title: Part ID
+                -   preview: working_svg_md5_6_alpha_300.png
+                    title: MD5 alpha
+                -   preview: working_svg_bip_39_3_word_300.png
+                    title: BIP 39 words
+                -   preview: working_svg_square_300.png
+                    title: Square summary
+                -   preview: working_svg_dimensioned_300.png
+                    title: Dimensions
+                -   preview: working_svg_dimensioned_titles_300.png
+                    title: Dimensions with labels
+                has_datasheet: true
+                identifiers:
+                -   title: Manufacturer part number
+                    value: SN74LVC1G57DBVR
+                -   title: LCSC
+                    value: C485080
+                main_image:
+                    png: working_svg_square_pins.png
+                    preview: working_svg_square_pins_300.png
+                    svg: working_svg_square_pins.svg
+                    title: Pinout
+                oomp_id: electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+                pins:
+                -   name: in1
+                    number: '1'
+                    type: signal
+                -   name: gnd
+                    number: '2'
+                    type: gnd
+                -   name: in0
+                    number: '3'
+                    type: signal
+                -   name: y
+                    number: '4'
+                    type: signal
+                -   name: vcc
+                    number: '5'
+                    type: power
+                -   name: in2
+                    number: '6'
+                    type: signal
+                quick_facts:
+                -   title: OOMP ID
+                    value: electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+                -   title: Type
+                    value: Ic
+                -   title: Package / style
+                    value: sot 23 6
+                -   title: Nominal size
+                    value: "2.9 \xD7 1.6 mm"
+                -   title: Documented pins
+                    value: 6
+                repository_url: https://github.com/oomlout/oomp_electronic_version_5/tree/main/parts/electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+                summary: "IC Sot 23 6 Logic Configurable Multi Function Gate SN74LVC1G57DBVR\
+                    \ is an OOMP electronic ic definition. It uses the sot 23 6 package\
+                    \ or form factor. Its nominal drawing size is 2.9 \xD7 1.6 mm.\
+                    \ The definition includes 6 documented pins."
+                taxonomy:
+                -   level: 1
+                    value: electronic
+                -   level: 2
+                    value: ic
+                -   level: 3
+                    value: sot_23_6
+                -   level: 4
+                    value: logic
+                -   level: 5
+                    value: configurable_multi_function_gate
+                -   level: 14
+                    value: texas_instruments
+                -   level: 15
+                    value: sn74lvc1g57dbvr
+            pins:
+                pin_1:
+                    name: in1
+                    number: '1'
+                    type: signal
+                pin_2:
+                    name: gnd
+                    number: '2'
+                    type: gnd
+                pin_3:
+                    name: in0
+                    number: '3'
+                    type: signal
+                pin_4:
+                    name: y
+                    number: '4'
+                    type: signal
+                pin_5:
+                    name: vcc
+                    number: '5'
+                    type: power
+                pin_6:
+                    name: in2
+                    number: '6'
+                    type: signal
+            regenerate_pngs: false
+            svg_details:
+            -   filename_extra: assembly
+                make_a4: false
+                output_formats:
+                - svg
+                padding: 0
+                stylesheet: style_oomp_assembly
+                svg_name: oomp_component_assembly
+                write_yaml: false
+            -   filename_extra: assembly_pins
+                make_a4: false
+                output_formats:
+                - svg
+                padding: 0
+                stylesheet: style_oomp_assembly
+                svg_name: oomp_component_assembly_pins
+                write_yaml: false
+            -   filename_extra: outline
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_outline
+                write_yaml: false
+            -   filename_extra: part_id
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_part_id
+                write_yaml: false
+            -   filename_extra: md5_6_alpha
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_md5_6_alpha
+                write_yaml: false
+            -   filename_extra: bip_39_3_word
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_bip_39_3_word
+                write_yaml: false
+            -   filename_extra: square
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_square
+                write_yaml: false
+            -   filename_extra: square_pins
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_square_pins
+                write_yaml: false
+            -   filename_extra: dimensioned
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_dimensioned
+                write_yaml: false
+            -   filename_extra: dimensioned_titles
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_dimensioned_titles
+                write_yaml: false
+            taxonomy_1: electronic
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: texas_instruments
+            taxonomy_15: sn74lvc1g57dbvr
+            taxonomy_2: ic
+            taxonomy_3: sot_23_6
+            taxonomy_4: logic
+            taxonomy_5: configurable_multi_function_gate
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: README.md
+        file_template: C:\gh\oomp_electronic_version_5\source_file\template_jinja\oomp_category\template_jinja_markdown\working.md.j2
+        search_and_replace: []
+    file_test: ''
+    retries_until_complete: 0
+oomp_key: oomp_electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+part_id: U1
+part_number_lcsc: C485080
+part_number_manufacturer: SN74LVC1G57DBVR
+part_page:
+    diagrams:
+    -   png: ''
+        preview: working_svg_assembly.svg
+        svg: working_svg_assembly.svg
+        title: Assembly
+    -   png: working_svg_outline.png
+        preview: working_svg_outline_300.png
+        svg: working_svg_outline.svg
+        title: Outline
+    -   png: working_svg_part_id.png
+        preview: working_svg_part_id_300.png
+        svg: working_svg_part_id.svg
+        title: Part ID
+    -   png: working_svg_md5_6_alpha.png
+        preview: working_svg_md5_6_alpha_300.png
+        svg: working_svg_md5_6_alpha.svg
+        title: MD5 alpha
+    -   png: working_svg_bip_39_3_word.png
+        preview: working_svg_bip_39_3_word_300.png
+        svg: working_svg_bip_39_3_word.svg
+        title: BIP 39 words
+    -   png: working_svg_square.png
+        preview: working_svg_square_300.png
+        svg: working_svg_square.svg
+        title: Square summary
+    -   png: working_svg_dimensioned.png
+        preview: working_svg_dimensioned_300.png
+        svg: working_svg_dimensioned.svg
+        title: Dimensions
+    -   png: working_svg_dimensioned_titles.png
+        preview: working_svg_dimensioned_titles_300.png
+        svg: working_svg_dimensioned_titles.svg
+        title: Dimensions with labels
+    file_previews:
+    -   preview: working_svg_square_pins_300.png
+        title: Pinout drawing
+    -   preview: working_svg_outline_300.png
+        title: Outline
+    -   preview: working_svg_part_id_300.png
+        title: Part ID
+    -   preview: working_svg_md5_6_alpha_300.png
+        title: MD5 alpha
+    -   preview: working_svg_bip_39_3_word_300.png
+        title: BIP 39 words
+    -   preview: working_svg_square_300.png
+        title: Square summary
+    -   preview: working_svg_dimensioned_300.png
+        title: Dimensions
+    -   preview: working_svg_dimensioned_titles_300.png
+        title: Dimensions with labels
+    has_datasheet: true
+    identifiers:
+    -   title: Manufacturer part number
+        value: SN74LVC1G57DBVR
+    -   title: LCSC
+        value: C485080
+    main_image:
+        png: working_svg_square_pins.png
+        preview: working_svg_square_pins_300.png
+        svg: working_svg_square_pins.svg
+        title: Pinout
+    oomp_id: electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+    pins:
+    -   name: in1
+        number: '1'
+        type: signal
+    -   name: gnd
+        number: '2'
+        type: gnd
+    -   name: in0
+        number: '3'
+        type: signal
+    -   name: y
+        number: '4'
+        type: signal
+    -   name: vcc
+        number: '5'
+        type: power
+    -   name: in2
+        number: '6'
+        type: signal
+    quick_facts:
+    -   title: OOMP ID
+        value: electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+    -   title: Type
+        value: Ic
+    -   title: Package / style
+        value: sot 23 6
+    -   title: Nominal size
+        value: "2.9 \xD7 1.6 mm"
+    -   title: Documented pins
+        value: 6
+    repository_url: https://github.com/oomlout/oomp_electronic_version_5/tree/main/parts/electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+    summary: "IC Sot 23 6 Logic Configurable Multi Function Gate SN74LVC1G57DBVR is\
+        \ an OOMP electronic ic definition. It uses the sot 23 6 package or form factor.\
+        \ Its nominal drawing size is 2.9 \xD7 1.6 mm. The definition includes 6 documented\
+        \ pins."
+    taxonomy:
+    -   level: 1
+        value: electronic
+    -   level: 2
+        value: ic
+    -   level: 3
+        value: sot_23_6
+    -   level: 4
+        value: logic
+    -   level: 5
+        value: configurable_multi_function_gate
+    -   level: 14
+        value: texas_instruments
+    -   level: 15
+        value: sn74lvc1g57dbvr
+pins:
+    pin_1:
+        name: in1
+        number: '1'
+        type: signal
+    pin_2:
+        name: gnd
+        number: '2'
+        type: gnd
+    pin_3:
+        name: in0
+        number: '3'
+        type: signal
+    pin_4:
+        name: y
+        number: '4'
+        type: signal
+    pin_5:
+        name: vcc
+        number: '5'
+        type: power
+    pin_6:
+        name: in2
+        number: '6'
+        type: signal
+regenerate_pngs: false
+svg_details:
+-   filename_extra: assembly
+    make_a4: false
+    output_formats:
+    - svg
+    padding: 0
+    stylesheet: style_oomp_assembly
+    svg_name: oomp_component_assembly
+    write_yaml: false
+-   filename_extra: assembly_pins
+    make_a4: false
+    output_formats:
+    - svg
+    padding: 0
+    stylesheet: style_oomp_assembly
+    svg_name: oomp_component_assembly_pins
+    write_yaml: false
+-   filename_extra: outline
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_outline
+    write_yaml: false
+-   filename_extra: part_id
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_part_id
+    write_yaml: false
+-   filename_extra: md5_6_alpha
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_md5_6_alpha
+    write_yaml: false
+-   filename_extra: bip_39_3_word
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_bip_39_3_word
+    write_yaml: false
+-   filename_extra: square
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_square
+    write_yaml: false
+-   filename_extra: square_pins
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_square_pins
+    write_yaml: false
+-   filename_extra: dimensioned
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_dimensioned
+    write_yaml: false
+-   filename_extra: dimensioned_titles
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_dimensioned_titles
+    write_yaml: false
+taxonomy_1: electronic
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: texas_instruments
+taxonomy_14_capital: Texas Instruments
+taxonomy_14_first_letter: t
+taxonomy_14_first_letter_upper: T
+taxonomy_14_length_1: t
+taxonomy_14_length_2: te
+taxonomy_14_length_3: tex
+taxonomy_14_length_4: texa
+taxonomy_14_length_5: texas
+taxonomy_14_upper: TEXAS_INSTRUMENTS
+taxonomy_14_upper_length_1: T
+taxonomy_14_upper_length_2: TE
+taxonomy_14_upper_length_3: TEX
+taxonomy_14_upper_length_4: TEXA
+taxonomy_14_upper_length_5: TEXAS
+taxonomy_15: sn74lvc1g57dbvr
+taxonomy_15_capital: Sn74Lvc1G57Dbvr
+taxonomy_15_first_letter: s
+taxonomy_15_first_letter_upper: S
+taxonomy_15_length_1: s
+taxonomy_15_length_2: sn
+taxonomy_15_length_3: sn7
+taxonomy_15_length_4: sn74
+taxonomy_15_length_5: sn74l
+taxonomy_15_upper: SN74LVC1G57DBVR
+taxonomy_15_upper_length_1: S
+taxonomy_15_upper_length_2: SN
+taxonomy_15_upper_length_3: SN7
+taxonomy_15_upper_length_4: SN74
+taxonomy_15_upper_length_5: SN74L
+taxonomy_1_capital: Electronic
+taxonomy_1_first_letter: e
+taxonomy_1_first_letter_upper: E
+taxonomy_1_length_1: e
+taxonomy_1_length_2: el
+taxonomy_1_length_3: ele
+taxonomy_1_length_4: elec
+taxonomy_1_length_5: elect
+taxonomy_1_upper: ELECTRONIC
+taxonomy_1_upper_length_1: E
+taxonomy_1_upper_length_2: EL
+taxonomy_1_upper_length_3: ELE
+taxonomy_1_upper_length_4: ELEC
+taxonomy_1_upper_length_5: ELECT
+taxonomy_2: ic
+taxonomy_2_capital: Ic
+taxonomy_2_first_letter: i
+taxonomy_2_first_letter_upper: I
+taxonomy_2_length_1: i
+taxonomy_2_length_2: ic
+taxonomy_2_length_3: ic
+taxonomy_2_length_4: ic
+taxonomy_2_length_5: ic
+taxonomy_2_upper: IC
+taxonomy_2_upper_length_1: I
+taxonomy_2_upper_length_2: IC
+taxonomy_2_upper_length_3: IC
+taxonomy_2_upper_length_4: IC
+taxonomy_2_upper_length_5: IC
+taxonomy_3: sot_23_6
+taxonomy_3_capital: Sot 23.6
+taxonomy_3_first_letter: s
+taxonomy_3_first_letter_upper: S
+taxonomy_3_length_1: s
+taxonomy_3_length_2: so
+taxonomy_3_length_3: sot
+taxonomy_3_length_4: sot_
+taxonomy_3_length_5: sot_2
+taxonomy_3_upper: SOT_23_6
+taxonomy_3_upper_length_1: S
+taxonomy_3_upper_length_2: SO
+taxonomy_3_upper_length_3: SOT
+taxonomy_3_upper_length_4: SOT_
+taxonomy_3_upper_length_5: SOT_2
+taxonomy_4: logic
+taxonomy_4_capital: Logic
+taxonomy_4_first_letter: l
+taxonomy_4_first_letter_upper: L
+taxonomy_4_length_1: l
+taxonomy_4_length_2: lo
+taxonomy_4_length_3: log
+taxonomy_4_length_4: logi
+taxonomy_4_length_5: logic
+taxonomy_4_upper: LOGIC
+taxonomy_4_upper_length_1: L
+taxonomy_4_upper_length_2: LO
+taxonomy_4_upper_length_3: LOG
+taxonomy_4_upper_length_4: LOGI
+taxonomy_4_upper_length_5: LOGIC
+taxonomy_5: configurable_multi_function_gate
+taxonomy_5_capital: Configurable Multi Function Gate
+taxonomy_5_first_letter: c
+taxonomy_5_first_letter_upper: C
+taxonomy_5_length_1: c
+taxonomy_5_length_2: co
+taxonomy_5_length_3: con
+taxonomy_5_length_4: conf
+taxonomy_5_length_5: confi
+taxonomy_5_upper: CONFIGURABLE_MULTI_FUNCTION_GATE
+taxonomy_5_upper_length_1: C
+taxonomy_5_upper_length_2: CO
+taxonomy_5_upper_length_3: CON
+taxonomy_5_upper_length_4: CONF
+taxonomy_5_upper_length_5: CONFI
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+url_chat: ''

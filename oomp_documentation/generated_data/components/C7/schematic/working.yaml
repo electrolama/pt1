@@ -1,0 +1,126 @@
+available: true
+units:
+- reference: C7
+  source_file: kicad_file.kicad_sch
+  uuid: 697969a5-6d67-4e82-a59b-70c5a0f2f5b7
+  library_id: project-tool-mini-RevA2-eagle-import:CAP-1206
+  unit: 1
+  body_style: 1
+  position:
+    x: 246.38
+    y: 38.1
+    rotation: 90.0
+    mirror: null
+    units: mm
+  properties:
+    Reference: C7
+    Value: 47u
+    Footprint: project-tool-mini-RevA2:_PKG_C_1206
+    Datasheet: ''
+    Description: ''
+    JLCASSY: C96123
+    MPN: CL31A476MPHNNNE
+    SPICEPREFIX: C
+  in_bom: true
+  on_board: true
+  in_position_files: true
+  dnp: false
+  pins:
+  - number: '1'
+    name: '1'
+    electrical_type: passive
+    graphic_style: line
+    local_position:
+      x: -2.54
+      y: 0.0
+      rotation: 0.0
+    length: 0.0
+    position:
+      x: 246.38
+      y: 35.56
+    net: VUSB_SW_OUT
+    net_aliases:
+    - VUSB_SW_OUT
+    net_scope: global
+    no_connect: false
+    connected_to:
+    - reference: C8
+      pin_number: '1'
+      pin_name: '1'
+    - reference: C9
+      pin_number: '1'
+      pin_name: '1'
+    - reference: J1
+      pin_number: '5'
+      pin_name: '5'
+    - reference: R4
+      pin_number: '2'
+      pin_name: '2'
+    - reference: SJ1
+      pin_number: '3'
+      pin_name: '3'
+  - number: '2'
+    name: '2'
+    electrical_type: passive
+    graphic_style: line
+    local_position:
+      x: 2.54
+      y: 0.0
+      rotation: 180.0
+    length: 0.0
+    position:
+      x: 246.38
+      y: 40.64
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  size:
+    local_graphics:
+      measurement: symbol graphics only; excludes pins, properties, and text
+      units: mm
+      available: true
+      min:
+        x: -2.6162
+        y: -1.2668
+      max:
+        x: 2.6162
+        y: 1.2668
+      width: 5.2324
+      height: 2.5336
+      center:
+        x: 0.0
+        y: 0.0
+    placed_graphics:
+      measurement: axis-aligned bounds after schematic placement, rotation, and mirroring
+      units: mm
+      available: true
+      min:
+        x: 245.1132
+        y: 35.4838
+      max:
+        x: 247.6468
+        y: 40.7162
+      width: 2.5336
+      height: 5.2324
+      center:
+        x: 246.38
+        y: 38.1
+  warnings: []
+connected_components:
+- reference: C8
+  pin_number: '1'
+  pin_name: '1'
+- reference: C9
+  pin_number: '1'
+  pin_name: '1'
+- reference: J1
+  pin_number: '5'
+  pin_name: '5'
+- reference: R4
+  pin_number: '2'
+  pin_name: '2'
+- reference: SJ1
+  pin_number: '3'
+  pin_name: '3'

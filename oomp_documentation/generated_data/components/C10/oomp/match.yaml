@@ -1,0 +1,13 @@
+status: matched
+accepted: true
+oomp_id: electronic_capacitor_0402_100_nano_farad
+confidence: 1.0
+proposed_oomp_id: electronic_capacitor_0402_100_nano_farad
+inferred:
+  kind: capacitor
+  package_size: '0402'
+  value: 100n
+  mpn: CL05B104KO5NNNC
+reasons:
+- Exact OOMP ID constructed from component type, package size, and normalized value.
+candidates: []

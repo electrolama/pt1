@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="34.0000mm" height="20.0000mm"
+     viewBox="0 0 34.0000 20.0000">
+  <rect x="0.0000" y="0.0000" width="34.0000" height="20.0000"  fill="#FFFFFF" stroke="none" />
+  <rect x="3.2587" y="2.0000" width="27.4825" height="16.0000" rx="0.9619" ry="0.9619"  fill="#FFFFFF" stroke="#000000" stroke-width="0.8" />
+  <rect x="2.0000" y="7.2800" width="2.5175" height="5.4400"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="29.4825" y="7.2800" width="2.5175" height="5.4400"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="9.6573" y="2.0000" width="2.0979" height="2.2400"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="13.8531" y="2.0000" width="2.0979" height="2.2400"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="18.0490" y="2.0000" width="2.0979" height="2.2400"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="22.2448" y="2.0000" width="2.0979" height="2.2400"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="7.3811" y="7.6000" width="6.0462" height="4.8000" rx="0.6400" ry="0.6400"  fill="#FFFFFF" stroke="#000000" stroke-width="0.25" />
+  <line x1="8.3430" y1="10.5600" x2="12.4654" y2="10.5600"  fill="#000000" stroke="#000000" stroke-width="0.8" />
+  <line x1="8.3430" y1="9.4400" x2="12.4654" y2="9.4400"  fill="#000000" stroke="#000000" stroke-width="0.8" />
+  <rect x="20.5727" y="7.6000" width="6.0462" height="4.8000" rx="0.6400" ry="0.6400"  fill="#FFFFFF" stroke="#000000" stroke-width="0.25" />
+  <line x1="21.5346" y1="10.5600" x2="25.6570" y2="10.5600"  fill="#000000" stroke="#000000" stroke-width="0.8" />
+  <line x1="21.5346" y1="9.4400" x2="25.6570" y2="9.4400"  fill="#000000" stroke="#000000" stroke-width="0.8" />
+  <rect x="6.2818" y="12.8800" width="21.4364" height="3.2000" rx="0.9600" ry="0.9600"  fill="#FFFFFF" stroke="#000000" stroke-width="0.25" />
+  <rect x="8.4804" y="14.1200" width="17.0392" height="1.2000" rx="0.4000" ry="0.4000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.8" />
+  <circle cx="7.6559" cy="5.2000" r="0.5600"  fill="#FFFFFF" stroke="#000000" stroke-width="0.55" />
+</svg>

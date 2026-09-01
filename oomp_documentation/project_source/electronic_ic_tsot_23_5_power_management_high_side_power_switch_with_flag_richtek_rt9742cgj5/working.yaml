@@ -1,0 +1,1568 @@
+bip_39_2_word_array:
+- chef
+- vanish
+bip_39_2_word_no_space: chefvanish
+bip_39_2_word_space: chef vanish
+bip_39_2_word_underscore: chef_vanish
+bip_39_3_word_array:
+- chef
+- vanish
+- pupil
+bip_39_3_word_no_space: chefvanishpupil
+bip_39_3_word_space: chef vanish pupil
+bip_39_3_word_underscore: chef_vanish_pupil
+bip_39_full_array:
+- chef
+- vanish
+- pupil
+- face
+- rebel
+- plug
+- panda
+- stick
+- purity
+- elder
+- menu
+- airport
+bip_39_full_no_space: chefvanishpupilfacerebelplugpandastickpurityeldermenuairport
+bip_39_full_space: chef vanish pupil face rebel plug panda stick purity elder menu
+    airport
+bip_39_full_underscore: chef_vanish_pupil_face_rebel_plug_panda_stick_purity_elder_menu_airport
+dimensions_mm:
+    length: 2.9
+    width: 1.6
+directory: parts/electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+file_copy:
+-   file_destination: datasheet.pdf
+    file_source: parts_source/electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5/datasheet.pdf
+ic_dimensions_mm:
+    body_length: 2.8955
+    body_length_max: 3.099
+    body_length_min: 2.692
+    body_width: 1.6
+    body_width_max: 1.803
+    body_width_min: 1.397
+    overall_width: 2.7955
+    overall_width_max: 3.0
+    overall_width_min: 2.591
+    pin_length: 0.455
+    pin_pitch: 0.9395
+    pin_width: 0.4295
+id: electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+id_no_class: electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+id_no_size: electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+id_no_type: electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+md5: 275e2ab7a8cb334da7deadae48ea2c82
+md5_10: 275e2ab7a8
+md5_10_upper: 275E2AB7A8
+md5_5: 275e2
+md5_5_upper: 275E2
+md5_6: 275e2a
+md5_6_alpha: 1jaqy
+md5_6_alpha_upper: 1JAQY
+md5_6_upper: 275E2A
+name: Electronic Ic Tsot 23 5 Power Management High Side Power Switch With Flag Richtek
+    Rt9742Cgj5
+name_no_class: Electronic Ic Tsot 23 5 Power Management High Side Power Switch With
+    Flag Richtek Rt9742Cgj5
+name_no_size: Electronic Ic Tsot 23 5 Power Management High Side Power Switch With
+    Flag Richtek Rt9742Cgj5
+name_no_type: Electronic Ic Tsot 23 5 Power Management High Side Power Switch With
+    Flag Richtek Rt9742Cgj5
+name_proper: Electronic Ic Tsot 23 5 Power Management High Side Power Switch With
+    Flag Richtek Rt9742Cgj5
+name_short: IC Tsot 23 5 Power Management High Side Power Switch With Flag RT9742CGJ5
+name_space: electronic ic tsot 23 5 power management high side power switch with flag
+    richtek rt9742cgj5
+name_upper: ELECTRONIC IC TSOT 23 5 POWER MANAGEMENT HIGH SIDE POWER SWITCH WITH FLAG
+    RICHTEK RT9742CGJ5
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: file_copy
+        delete_before_copy: true
+        exit_on_missing: true
+        file_destination: datasheet.pdf
+        file_source: parts_source/electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5/datasheet.pdf
+    -   command: run_python
+        description: Generate this component's standard SVG and PNG diagrams with
+            working_svg.py.
+        file_output: working_svg_assembly.svg
+        file_python: kicad_agents/component_svg_action.py
+        part_id: electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+        regenerate_pngs: false
+        timeout: '600'
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_square_pins_300.png
+        file_source: working_svg_square_pins.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_outline_300.png
+        file_source: working_svg_outline.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_part_id_300.png
+        file_source: working_svg_part_id.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_md5_6_alpha_300.png
+        file_source: working_svg_md5_6_alpha.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_bip_39_3_word_300.png
+        file_source: working_svg_bip_39_3_word.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_square_300.png
+        file_source: working_svg_square.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_dimensioned_300.png
+        file_source: working_svg_dimensioned.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_dimensioned_titles_300.png
+        file_source: working_svg_dimensioned_titles.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    description: Build component diagrams and proportional 300-pixel README previews
+        with deterministic Python actions.
+    file_test: ''
+    retries_until_complete: 0
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            dimensions_mm:
+                length: 2.9
+                width: 1.6
+            directory: parts\electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+            file_copy:
+            -   file_destination: datasheet.pdf
+                file_source: parts_source/electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5/datasheet.pdf
+            ic_dimensions_mm:
+                body_length: 2.8955
+                body_length_max: 3.099
+                body_length_min: 2.692
+                body_width: 1.6
+                body_width_max: 1.803
+                body_width_min: 1.397
+                overall_width: 2.7955
+                overall_width_max: 3.0
+                overall_width_min: 2.591
+                pin_length: 0.455
+                pin_pitch: 0.9395
+                pin_width: 0.4295
+            name: electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+            name_proper: Electronic Ic Tsot 23 5 Power Management High Side Power
+                Switch With Flag Richtek Rt9742Cgj5
+            name_short: IC Tsot 23 5 Power Management High Side Power Switch With
+                Flag RT9742CGJ5
+            name_space: electronic ic tsot 23 5 power management high side power switch
+                with flag richtek rt9742cgj5
+            name_upper: ELECTRONIC IC TSOT 23 5 POWER MANAGEMENT HIGH SIDE POWER SWITCH
+                WITH FLAG RICHTEK RT9742CGJ5
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: file_copy
+                    delete_before_copy: true
+                    exit_on_missing: true
+                    file_destination: datasheet.pdf
+                    file_source: parts_source/electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5/datasheet.pdf
+                -   command: run_python
+                    description: Generate this component's standard SVG and PNG diagrams
+                        with working_svg.py.
+                    file_output: working_svg_assembly.svg
+                    file_python: kicad_agents/component_svg_action.py
+                    part_id: electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+                    regenerate_pngs: false
+                    timeout: '600'
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_square_pins_300.png
+                    file_source: working_svg_square_pins.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_outline_300.png
+                    file_source: working_svg_outline.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_part_id_300.png
+                    file_source: working_svg_part_id.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_md5_6_alpha_300.png
+                    file_source: working_svg_md5_6_alpha.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_bip_39_3_word_300.png
+                    file_source: working_svg_bip_39_3_word.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_square_300.png
+                    file_source: working_svg_square.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_dimensioned_300.png
+                    file_source: working_svg_dimensioned.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_dimensioned_titles_300.png
+                    file_source: working_svg_dimensioned_titles.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                description: Build component diagrams and proportional 300-pixel README
+                    previews with deterministic Python actions.
+                file_test: ''
+                retries_until_complete: 0
+            part_id: U1
+            part_number_lcsc: C250546
+            part_number_manufacturer: RT9742CGJ5
+            part_page:
+                diagrams:
+                -   png: ''
+                    preview: working_svg_assembly.svg
+                    svg: working_svg_assembly.svg
+                    title: Assembly
+                -   png: working_svg_outline.png
+                    preview: working_svg_outline_300.png
+                    svg: working_svg_outline.svg
+                    title: Outline
+                -   png: working_svg_part_id.png
+                    preview: working_svg_part_id_300.png
+                    svg: working_svg_part_id.svg
+                    title: Part ID
+                -   png: working_svg_md5_6_alpha.png
+                    preview: working_svg_md5_6_alpha_300.png
+                    svg: working_svg_md5_6_alpha.svg
+                    title: MD5 alpha
+                -   png: working_svg_bip_39_3_word.png
+                    preview: working_svg_bip_39_3_word_300.png
+                    svg: working_svg_bip_39_3_word.svg
+                    title: BIP 39 words
+                -   png: working_svg_square.png
+                    preview: working_svg_square_300.png
+                    svg: working_svg_square.svg
+                    title: Square summary
+                -   png: working_svg_dimensioned.png
+                    preview: working_svg_dimensioned_300.png
+                    svg: working_svg_dimensioned.svg
+                    title: Dimensions
+                -   png: working_svg_dimensioned_titles.png
+                    preview: working_svg_dimensioned_titles_300.png
+                    svg: working_svg_dimensioned_titles.svg
+                    title: Dimensions with labels
+                file_previews:
+                -   preview: working_svg_square_pins_300.png
+                    title: Pinout drawing
+                -   preview: working_svg_outline_300.png
+                    title: Outline
+                -   preview: working_svg_part_id_300.png
+                    title: Part ID
+                -   preview: working_svg_md5_6_alpha_300.png
+                    title: MD5 alpha
+                -   preview: working_svg_bip_39_3_word_300.png
+                    title: BIP 39 words
+                -   preview: working_svg_square_300.png
+                    title: Square summary
+                -   preview: working_svg_dimensioned_300.png
+                    title: Dimensions
+                -   preview: working_svg_dimensioned_titles_300.png
+                    title: Dimensions with labels
+                has_datasheet: true
+                identifiers:
+                -   title: Manufacturer part number
+                    value: RT9742CGJ5
+                -   title: LCSC
+                    value: C250546
+                main_image:
+                    png: working_svg_square_pins.png
+                    preview: working_svg_square_pins_300.png
+                    svg: working_svg_square_pins.svg
+                    title: Pinout
+                oomp_id: electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+                pins:
+                -   name: vout
+                    number: '1'
+                    type: power
+                -   name: gnd
+                    number: '2'
+                    type: gnd
+                -   name: flg
+                    number: '3'
+                    type: signal
+                -   name: en
+                    number: '4'
+                    type: signal
+                -   name: vin
+                    number: '5'
+                    type: power
+                quick_facts:
+                -   title: OOMP ID
+                    value: electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+                -   title: Type
+                    value: Ic
+                -   title: Package / style
+                    value: tsot 23 5
+                -   title: Nominal size
+                    value: "2.9 \xD7 1.6 mm"
+                -   title: Documented pins
+                    value: 5
+                repository_url: https://github.com/oomlout/oomp_electronic_version_5/tree/main/parts/electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+                summary: "IC Tsot 23 5 Power Management High Side Power Switch With\
+                    \ Flag RT9742CGJ5 is an OOMP electronic ic definition. It uses\
+                    \ the tsot 23 5 package or form factor. Its nominal drawing size\
+                    \ is 2.9 \xD7 1.6 mm. The definition includes 5 documented pins."
+                taxonomy:
+                -   level: 1
+                    value: electronic
+                -   level: 2
+                    value: ic
+                -   level: 3
+                    value: tsot_23_5
+                -   level: 4
+                    value: power_management
+                -   level: 5
+                    value: high_side_power_switch_with_flag
+                -   level: 14
+                    value: richtek
+                -   level: 15
+                    value: rt9742cgj5
+            pins:
+                pin_1:
+                    name: vout
+                    number: '1'
+                    type: power
+                pin_2:
+                    name: gnd
+                    number: '2'
+                    type: gnd
+                pin_3:
+                    name: flg
+                    number: '3'
+                    type: signal
+                pin_4:
+                    name: en
+                    number: '4'
+                    type: signal
+                pin_5:
+                    name: vin
+                    number: '5'
+                    type: power
+            regenerate_pngs: false
+            svg_details:
+            -   filename_extra: assembly
+                make_a4: false
+                output_formats:
+                - svg
+                padding: 0
+                stylesheet: style_oomp_assembly
+                svg_name: oomp_component_assembly
+                write_yaml: false
+            -   filename_extra: assembly_pins
+                make_a4: false
+                output_formats:
+                - svg
+                padding: 0
+                stylesheet: style_oomp_assembly
+                svg_name: oomp_component_assembly_pins
+                write_yaml: false
+            -   filename_extra: outline
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_outline
+                write_yaml: false
+            -   filename_extra: part_id
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_part_id
+                write_yaml: false
+            -   filename_extra: md5_6_alpha
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_md5_6_alpha
+                write_yaml: false
+            -   filename_extra: bip_39_3_word
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_bip_39_3_word
+                write_yaml: false
+            -   filename_extra: square
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_square
+                write_yaml: false
+            -   filename_extra: square_pins
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_square_pins
+                write_yaml: false
+            -   filename_extra: dimensioned
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_dimensioned
+                write_yaml: false
+            -   filename_extra: dimensioned_titles
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_dimensioned_titles
+                write_yaml: false
+            taxonomy_1: electronic
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: richtek
+            taxonomy_15: rt9742cgj5
+            taxonomy_2: ic
+            taxonomy_3: tsot_23_5
+            taxonomy_4: power_management
+            taxonomy_5: high_side_power_switch_with_flag
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: source_file\template_jinja\oomp_category\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_3:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            dimensions_mm:
+                length: 2.9
+                width: 1.6
+            directory: parts\electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+            file_copy:
+            -   file_destination: datasheet.pdf
+                file_source: parts_source/electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5/datasheet.pdf
+            ic_dimensions_mm:
+                body_length: 2.8955
+                body_length_max: 3.099
+                body_length_min: 2.692
+                body_width: 1.6
+                body_width_max: 1.803
+                body_width_min: 1.397
+                overall_width: 2.7955
+                overall_width_max: 3.0
+                overall_width_min: 2.591
+                pin_length: 0.455
+                pin_pitch: 0.9395
+                pin_width: 0.4295
+            name: electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+            name_proper: Electronic Ic Tsot 23 5 Power Management High Side Power
+                Switch With Flag Richtek Rt9742Cgj5
+            name_short: IC Tsot 23 5 Power Management High Side Power Switch With
+                Flag RT9742CGJ5
+            name_space: electronic ic tsot 23 5 power management high side power switch
+                with flag richtek rt9742cgj5
+            name_upper: ELECTRONIC IC TSOT 23 5 POWER MANAGEMENT HIGH SIDE POWER SWITCH
+                WITH FLAG RICHTEK RT9742CGJ5
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: file_copy
+                    delete_before_copy: true
+                    exit_on_missing: true
+                    file_destination: datasheet.pdf
+                    file_source: parts_source/electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5/datasheet.pdf
+                -   command: run_python
+                    description: Generate this component's standard SVG and PNG diagrams
+                        with working_svg.py.
+                    file_output: working_svg_assembly.svg
+                    file_python: kicad_agents/component_svg_action.py
+                    part_id: electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+                    regenerate_pngs: false
+                    timeout: '600'
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_square_pins_300.png
+                    file_source: working_svg_square_pins.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_outline_300.png
+                    file_source: working_svg_outline.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_part_id_300.png
+                    file_source: working_svg_part_id.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_md5_6_alpha_300.png
+                    file_source: working_svg_md5_6_alpha.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_bip_39_3_word_300.png
+                    file_source: working_svg_bip_39_3_word.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_square_300.png
+                    file_source: working_svg_square.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_dimensioned_300.png
+                    file_source: working_svg_dimensioned.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_dimensioned_titles_300.png
+                    file_source: working_svg_dimensioned_titles.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                description: Build component diagrams and proportional 300-pixel README
+                    previews with deterministic Python actions.
+                file_test: ''
+                retries_until_complete: 0
+            oomlout_ai_roboclick_2:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        dimensions_mm:
+                            length: 2.9
+                            width: 1.6
+                        directory: parts\electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+                        file_copy:
+                        -   file_destination: datasheet.pdf
+                            file_source: parts_source/electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5/datasheet.pdf
+                        ic_dimensions_mm:
+                            body_length: 2.8955
+                            body_length_max: 3.099
+                            body_length_min: 2.692
+                            body_width: 1.6
+                            body_width_max: 1.803
+                            body_width_min: 1.397
+                            overall_width: 2.7955
+                            overall_width_max: 3.0
+                            overall_width_min: 2.591
+                            pin_length: 0.455
+                            pin_pitch: 0.9395
+                            pin_width: 0.4295
+                        name: electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+                        name_proper: Electronic Ic Tsot 23 5 Power Management High
+                            Side Power Switch With Flag Richtek Rt9742Cgj5
+                        name_short: IC Tsot 23 5 Power Management High Side Power
+                            Switch With Flag RT9742CGJ5
+                        name_space: electronic ic tsot 23 5 power management high
+                            side power switch with flag richtek rt9742cgj5
+                        name_upper: ELECTRONIC IC TSOT 23 5 POWER MANAGEMENT HIGH
+                            SIDE POWER SWITCH WITH FLAG RICHTEK RT9742CGJ5
+                        oomlout_ai_roboclick_1:
+                            actions:
+                            -   command: file_copy
+                                delete_before_copy: true
+                                exit_on_missing: true
+                                file_destination: datasheet.pdf
+                                file_source: parts_source/electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5/datasheet.pdf
+                            -   command: run_python
+                                description: Generate this component's standard SVG
+                                    and PNG diagrams with working_svg.py.
+                                file_output: working_svg_assembly.svg
+                                file_python: kicad_agents/component_svg_action.py
+                                part_id: electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+                                regenerate_pngs: false
+                                timeout: '600'
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_square_pins_300.png
+                                file_source: working_svg_square_pins.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_outline_300.png
+                                file_source: working_svg_outline.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_part_id_300.png
+                                file_source: working_svg_part_id.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_md5_6_alpha_300.png
+                                file_source: working_svg_md5_6_alpha.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_bip_39_3_word_300.png
+                                file_source: working_svg_bip_39_3_word.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_square_300.png
+                                file_source: working_svg_square.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_dimensioned_300.png
+                                file_source: working_svg_dimensioned.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_dimensioned_titles_300.png
+                                file_source: working_svg_dimensioned_titles.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            description: Build component diagrams and proportional
+                                300-pixel README previews with deterministic Python
+                                actions.
+                            file_test: ''
+                            retries_until_complete: 0
+                        part_id: U1
+                        part_number_lcsc: C250546
+                        part_number_manufacturer: RT9742CGJ5
+                        part_page:
+                            diagrams:
+                            -   png: ''
+                                preview: working_svg_assembly.svg
+                                svg: working_svg_assembly.svg
+                                title: Assembly
+                            -   png: working_svg_outline.png
+                                preview: working_svg_outline_300.png
+                                svg: working_svg_outline.svg
+                                title: Outline
+                            -   png: working_svg_part_id.png
+                                preview: working_svg_part_id_300.png
+                                svg: working_svg_part_id.svg
+                                title: Part ID
+                            -   png: working_svg_md5_6_alpha.png
+                                preview: working_svg_md5_6_alpha_300.png
+                                svg: working_svg_md5_6_alpha.svg
+                                title: MD5 alpha
+                            -   png: working_svg_bip_39_3_word.png
+                                preview: working_svg_bip_39_3_word_300.png
+                                svg: working_svg_bip_39_3_word.svg
+                                title: BIP 39 words
+                            -   png: working_svg_square.png
+                                preview: working_svg_square_300.png
+                                svg: working_svg_square.svg
+                                title: Square summary
+                            -   png: working_svg_dimensioned.png
+                                preview: working_svg_dimensioned_300.png
+                                svg: working_svg_dimensioned.svg
+                                title: Dimensions
+                            -   png: working_svg_dimensioned_titles.png
+                                preview: working_svg_dimensioned_titles_300.png
+                                svg: working_svg_dimensioned_titles.svg
+                                title: Dimensions with labels
+                            file_previews:
+                            -   preview: working_svg_square_pins_300.png
+                                title: Pinout drawing
+                            -   preview: working_svg_outline_300.png
+                                title: Outline
+                            -   preview: working_svg_part_id_300.png
+                                title: Part ID
+                            -   preview: working_svg_md5_6_alpha_300.png
+                                title: MD5 alpha
+                            -   preview: working_svg_bip_39_3_word_300.png
+                                title: BIP 39 words
+                            -   preview: working_svg_square_300.png
+                                title: Square summary
+                            -   preview: working_svg_dimensioned_300.png
+                                title: Dimensions
+                            -   preview: working_svg_dimensioned_titles_300.png
+                                title: Dimensions with labels
+                            has_datasheet: true
+                            identifiers:
+                            -   title: Manufacturer part number
+                                value: RT9742CGJ5
+                            -   title: LCSC
+                                value: C250546
+                            main_image:
+                                png: working_svg_square_pins.png
+                                preview: working_svg_square_pins_300.png
+                                svg: working_svg_square_pins.svg
+                                title: Pinout
+                            oomp_id: electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+                            pins:
+                            -   name: vout
+                                number: '1'
+                                type: power
+                            -   name: gnd
+                                number: '2'
+                                type: gnd
+                            -   name: flg
+                                number: '3'
+                                type: signal
+                            -   name: en
+                                number: '4'
+                                type: signal
+                            -   name: vin
+                                number: '5'
+                                type: power
+                            quick_facts:
+                            -   title: OOMP ID
+                                value: electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+                            -   title: Type
+                                value: Ic
+                            -   title: Package / style
+                                value: tsot 23 5
+                            -   title: Nominal size
+                                value: "2.9 \xD7 1.6 mm"
+                            -   title: Documented pins
+                                value: 5
+                            repository_url: https://github.com/oomlout/oomp_electronic_version_5/tree/main/parts/electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+                            summary: "IC Tsot 23 5 Power Management High Side Power\
+                                \ Switch With Flag RT9742CGJ5 is an OOMP electronic\
+                                \ ic definition. It uses the tsot 23 5 package or\
+                                \ form factor. Its nominal drawing size is 2.9 \xD7\
+                                \ 1.6 mm. The definition includes 5 documented pins."
+                            taxonomy:
+                            -   level: 1
+                                value: electronic
+                            -   level: 2
+                                value: ic
+                            -   level: 3
+                                value: tsot_23_5
+                            -   level: 4
+                                value: power_management
+                            -   level: 5
+                                value: high_side_power_switch_with_flag
+                            -   level: 14
+                                value: richtek
+                            -   level: 15
+                                value: rt9742cgj5
+                        pins:
+                            pin_1:
+                                name: vout
+                                number: '1'
+                                type: power
+                            pin_2:
+                                name: gnd
+                                number: '2'
+                                type: gnd
+                            pin_3:
+                                name: flg
+                                number: '3'
+                                type: signal
+                            pin_4:
+                                name: en
+                                number: '4'
+                                type: signal
+                            pin_5:
+                                name: vin
+                                number: '5'
+                                type: power
+                        regenerate_pngs: false
+                        svg_details:
+                        -   filename_extra: assembly
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            padding: 0
+                            stylesheet: style_oomp_assembly
+                            svg_name: oomp_component_assembly
+                            write_yaml: false
+                        -   filename_extra: assembly_pins
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            padding: 0
+                            stylesheet: style_oomp_assembly
+                            svg_name: oomp_component_assembly_pins
+                            write_yaml: false
+                        -   filename_extra: outline
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_outline
+                            write_yaml: false
+                        -   filename_extra: part_id
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_part_id
+                            write_yaml: false
+                        -   filename_extra: md5_6_alpha
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_md5_6_alpha
+                            write_yaml: false
+                        -   filename_extra: bip_39_3_word
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_bip_39_3_word
+                            write_yaml: false
+                        -   filename_extra: square
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_square
+                            write_yaml: false
+                        -   filename_extra: square_pins
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_square_pins
+                            write_yaml: false
+                        -   filename_extra: dimensioned
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_dimensioned
+                            write_yaml: false
+                        -   filename_extra: dimensioned_titles
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_dimensioned_titles
+                            write_yaml: false
+                        taxonomy_1: electronic
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: richtek
+                        taxonomy_15: rt9742cgj5
+                        taxonomy_2: ic
+                        taxonomy_3: tsot_23_5
+                        taxonomy_4: power_management
+                        taxonomy_5: high_side_power_switch_with_flag
+                        taxonomy_6: ''
+                        taxonomy_7: ''
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        url_chat: ''
+                    dict_data_files: {}
+                    dict_data_files_exists: {}
+                    file_output: label_oomp.svg
+                    file_template: source_file\template_jinja\oomp_category\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+                retries_until_complete: 0
+            part_id: U1
+            part_number_lcsc: C250546
+            part_number_manufacturer: RT9742CGJ5
+            part_page:
+                diagrams:
+                -   png: ''
+                    preview: working_svg_assembly.svg
+                    svg: working_svg_assembly.svg
+                    title: Assembly
+                -   png: working_svg_outline.png
+                    preview: working_svg_outline_300.png
+                    svg: working_svg_outline.svg
+                    title: Outline
+                -   png: working_svg_part_id.png
+                    preview: working_svg_part_id_300.png
+                    svg: working_svg_part_id.svg
+                    title: Part ID
+                -   png: working_svg_md5_6_alpha.png
+                    preview: working_svg_md5_6_alpha_300.png
+                    svg: working_svg_md5_6_alpha.svg
+                    title: MD5 alpha
+                -   png: working_svg_bip_39_3_word.png
+                    preview: working_svg_bip_39_3_word_300.png
+                    svg: working_svg_bip_39_3_word.svg
+                    title: BIP 39 words
+                -   png: working_svg_square.png
+                    preview: working_svg_square_300.png
+                    svg: working_svg_square.svg
+                    title: Square summary
+                -   png: working_svg_dimensioned.png
+                    preview: working_svg_dimensioned_300.png
+                    svg: working_svg_dimensioned.svg
+                    title: Dimensions
+                -   png: working_svg_dimensioned_titles.png
+                    preview: working_svg_dimensioned_titles_300.png
+                    svg: working_svg_dimensioned_titles.svg
+                    title: Dimensions with labels
+                file_previews:
+                -   preview: working_svg_square_pins_300.png
+                    title: Pinout drawing
+                -   preview: working_svg_outline_300.png
+                    title: Outline
+                -   preview: working_svg_part_id_300.png
+                    title: Part ID
+                -   preview: working_svg_md5_6_alpha_300.png
+                    title: MD5 alpha
+                -   preview: working_svg_bip_39_3_word_300.png
+                    title: BIP 39 words
+                -   preview: working_svg_square_300.png
+                    title: Square summary
+                -   preview: working_svg_dimensioned_300.png
+                    title: Dimensions
+                -   preview: working_svg_dimensioned_titles_300.png
+                    title: Dimensions with labels
+                has_datasheet: true
+                identifiers:
+                -   title: Manufacturer part number
+                    value: RT9742CGJ5
+                -   title: LCSC
+                    value: C250546
+                main_image:
+                    png: working_svg_square_pins.png
+                    preview: working_svg_square_pins_300.png
+                    svg: working_svg_square_pins.svg
+                    title: Pinout
+                oomp_id: electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+                pins:
+                -   name: vout
+                    number: '1'
+                    type: power
+                -   name: gnd
+                    number: '2'
+                    type: gnd
+                -   name: flg
+                    number: '3'
+                    type: signal
+                -   name: en
+                    number: '4'
+                    type: signal
+                -   name: vin
+                    number: '5'
+                    type: power
+                quick_facts:
+                -   title: OOMP ID
+                    value: electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+                -   title: Type
+                    value: Ic
+                -   title: Package / style
+                    value: tsot 23 5
+                -   title: Nominal size
+                    value: "2.9 \xD7 1.6 mm"
+                -   title: Documented pins
+                    value: 5
+                repository_url: https://github.com/oomlout/oomp_electronic_version_5/tree/main/parts/electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+                summary: "IC Tsot 23 5 Power Management High Side Power Switch With\
+                    \ Flag RT9742CGJ5 is an OOMP electronic ic definition. It uses\
+                    \ the tsot 23 5 package or form factor. Its nominal drawing size\
+                    \ is 2.9 \xD7 1.6 mm. The definition includes 5 documented pins."
+                taxonomy:
+                -   level: 1
+                    value: electronic
+                -   level: 2
+                    value: ic
+                -   level: 3
+                    value: tsot_23_5
+                -   level: 4
+                    value: power_management
+                -   level: 5
+                    value: high_side_power_switch_with_flag
+                -   level: 14
+                    value: richtek
+                -   level: 15
+                    value: rt9742cgj5
+            pins:
+                pin_1:
+                    name: vout
+                    number: '1'
+                    type: power
+                pin_2:
+                    name: gnd
+                    number: '2'
+                    type: gnd
+                pin_3:
+                    name: flg
+                    number: '3'
+                    type: signal
+                pin_4:
+                    name: en
+                    number: '4'
+                    type: signal
+                pin_5:
+                    name: vin
+                    number: '5'
+                    type: power
+            regenerate_pngs: false
+            svg_details:
+            -   filename_extra: assembly
+                make_a4: false
+                output_formats:
+                - svg
+                padding: 0
+                stylesheet: style_oomp_assembly
+                svg_name: oomp_component_assembly
+                write_yaml: false
+            -   filename_extra: assembly_pins
+                make_a4: false
+                output_formats:
+                - svg
+                padding: 0
+                stylesheet: style_oomp_assembly
+                svg_name: oomp_component_assembly_pins
+                write_yaml: false
+            -   filename_extra: outline
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_outline
+                write_yaml: false
+            -   filename_extra: part_id
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_part_id
+                write_yaml: false
+            -   filename_extra: md5_6_alpha
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_md5_6_alpha
+                write_yaml: false
+            -   filename_extra: bip_39_3_word
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_bip_39_3_word
+                write_yaml: false
+            -   filename_extra: square
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_square
+                write_yaml: false
+            -   filename_extra: square_pins
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_square_pins
+                write_yaml: false
+            -   filename_extra: dimensioned
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_dimensioned
+                write_yaml: false
+            -   filename_extra: dimensioned_titles
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_dimensioned_titles
+                write_yaml: false
+            taxonomy_1: electronic
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: richtek
+            taxonomy_15: rt9742cgj5
+            taxonomy_2: ic
+            taxonomy_3: tsot_23_5
+            taxonomy_4: power_management
+            taxonomy_5: high_side_power_switch_with_flag
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: README.md
+        file_template: C:\gh\oomp_electronic_version_5\source_file\template_jinja\oomp_category\template_jinja_markdown\working.md.j2
+        search_and_replace: []
+    file_test: ''
+    retries_until_complete: 0
+oomp_key: oomp_electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+part_id: U1
+part_number_lcsc: C250546
+part_number_manufacturer: RT9742CGJ5
+part_page:
+    diagrams:
+    -   png: ''
+        preview: working_svg_assembly.svg
+        svg: working_svg_assembly.svg
+        title: Assembly
+    -   png: working_svg_outline.png
+        preview: working_svg_outline_300.png
+        svg: working_svg_outline.svg
+        title: Outline
+    -   png: working_svg_part_id.png
+        preview: working_svg_part_id_300.png
+        svg: working_svg_part_id.svg
+        title: Part ID
+    -   png: working_svg_md5_6_alpha.png
+        preview: working_svg_md5_6_alpha_300.png
+        svg: working_svg_md5_6_alpha.svg
+        title: MD5 alpha
+    -   png: working_svg_bip_39_3_word.png
+        preview: working_svg_bip_39_3_word_300.png
+        svg: working_svg_bip_39_3_word.svg
+        title: BIP 39 words
+    -   png: working_svg_square.png
+        preview: working_svg_square_300.png
+        svg: working_svg_square.svg
+        title: Square summary
+    -   png: working_svg_dimensioned.png
+        preview: working_svg_dimensioned_300.png
+        svg: working_svg_dimensioned.svg
+        title: Dimensions
+    -   png: working_svg_dimensioned_titles.png
+        preview: working_svg_dimensioned_titles_300.png
+        svg: working_svg_dimensioned_titles.svg
+        title: Dimensions with labels
+    file_previews:
+    -   preview: working_svg_square_pins_300.png
+        title: Pinout drawing
+    -   preview: working_svg_outline_300.png
+        title: Outline
+    -   preview: working_svg_part_id_300.png
+        title: Part ID
+    -   preview: working_svg_md5_6_alpha_300.png
+        title: MD5 alpha
+    -   preview: working_svg_bip_39_3_word_300.png
+        title: BIP 39 words
+    -   preview: working_svg_square_300.png
+        title: Square summary
+    -   preview: working_svg_dimensioned_300.png
+        title: Dimensions
+    -   preview: working_svg_dimensioned_titles_300.png
+        title: Dimensions with labels
+    has_datasheet: true
+    identifiers:
+    -   title: Manufacturer part number
+        value: RT9742CGJ5
+    -   title: LCSC
+        value: C250546
+    main_image:
+        png: working_svg_square_pins.png
+        preview: working_svg_square_pins_300.png
+        svg: working_svg_square_pins.svg
+        title: Pinout
+    oomp_id: electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+    pins:
+    -   name: vout
+        number: '1'
+        type: power
+    -   name: gnd
+        number: '2'
+        type: gnd
+    -   name: flg
+        number: '3'
+        type: signal
+    -   name: en
+        number: '4'
+        type: signal
+    -   name: vin
+        number: '5'
+        type: power
+    quick_facts:
+    -   title: OOMP ID
+        value: electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+    -   title: Type
+        value: Ic
+    -   title: Package / style
+        value: tsot 23 5
+    -   title: Nominal size
+        value: "2.9 \xD7 1.6 mm"
+    -   title: Documented pins
+        value: 5
+    repository_url: https://github.com/oomlout/oomp_electronic_version_5/tree/main/parts/electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+    summary: "IC Tsot 23 5 Power Management High Side Power Switch With Flag RT9742CGJ5\
+        \ is an OOMP electronic ic definition. It uses the tsot 23 5 package or form\
+        \ factor. Its nominal drawing size is 2.9 \xD7 1.6 mm. The definition includes\
+        \ 5 documented pins."
+    taxonomy:
+    -   level: 1
+        value: electronic
+    -   level: 2
+        value: ic
+    -   level: 3
+        value: tsot_23_5
+    -   level: 4
+        value: power_management
+    -   level: 5
+        value: high_side_power_switch_with_flag
+    -   level: 14
+        value: richtek
+    -   level: 15
+        value: rt9742cgj5
+pins:
+    pin_1:
+        name: vout
+        number: '1'
+        type: power
+    pin_2:
+        name: gnd
+        number: '2'
+        type: gnd
+    pin_3:
+        name: flg
+        number: '3'
+        type: signal
+    pin_4:
+        name: en
+        number: '4'
+        type: signal
+    pin_5:
+        name: vin
+        number: '5'
+        type: power
+regenerate_pngs: false
+svg_details:
+-   filename_extra: assembly
+    make_a4: false
+    output_formats:
+    - svg
+    padding: 0
+    stylesheet: style_oomp_assembly
+    svg_name: oomp_component_assembly
+    write_yaml: false
+-   filename_extra: assembly_pins
+    make_a4: false
+    output_formats:
+    - svg
+    padding: 0
+    stylesheet: style_oomp_assembly
+    svg_name: oomp_component_assembly_pins
+    write_yaml: false
+-   filename_extra: outline
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_outline
+    write_yaml: false
+-   filename_extra: part_id
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_part_id
+    write_yaml: false
+-   filename_extra: md5_6_alpha
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_md5_6_alpha
+    write_yaml: false
+-   filename_extra: bip_39_3_word
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_bip_39_3_word
+    write_yaml: false
+-   filename_extra: square
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_square
+    write_yaml: false
+-   filename_extra: square_pins
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_square_pins
+    write_yaml: false
+-   filename_extra: dimensioned
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_dimensioned
+    write_yaml: false
+-   filename_extra: dimensioned_titles
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_dimensioned_titles
+    write_yaml: false
+taxonomy_1: electronic
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: richtek
+taxonomy_14_capital: Richtek
+taxonomy_14_first_letter: r
+taxonomy_14_first_letter_upper: R
+taxonomy_14_length_1: r
+taxonomy_14_length_2: ri
+taxonomy_14_length_3: ric
+taxonomy_14_length_4: rich
+taxonomy_14_length_5: richt
+taxonomy_14_upper: RICHTEK
+taxonomy_14_upper_length_1: R
+taxonomy_14_upper_length_2: RI
+taxonomy_14_upper_length_3: RIC
+taxonomy_14_upper_length_4: RICH
+taxonomy_14_upper_length_5: RICHT
+taxonomy_15: rt9742cgj5
+taxonomy_15_capital: Rt9742Cgj5
+taxonomy_15_first_letter: r
+taxonomy_15_first_letter_upper: R
+taxonomy_15_length_1: r
+taxonomy_15_length_2: rt
+taxonomy_15_length_3: rt9
+taxonomy_15_length_4: rt97
+taxonomy_15_length_5: rt974
+taxonomy_15_upper: RT9742CGJ5
+taxonomy_15_upper_length_1: R
+taxonomy_15_upper_length_2: RT
+taxonomy_15_upper_length_3: RT9
+taxonomy_15_upper_length_4: RT97
+taxonomy_15_upper_length_5: RT974
+taxonomy_1_capital: Electronic
+taxonomy_1_first_letter: e
+taxonomy_1_first_letter_upper: E
+taxonomy_1_length_1: e
+taxonomy_1_length_2: el
+taxonomy_1_length_3: ele
+taxonomy_1_length_4: elec
+taxonomy_1_length_5: elect
+taxonomy_1_upper: ELECTRONIC
+taxonomy_1_upper_length_1: E
+taxonomy_1_upper_length_2: EL
+taxonomy_1_upper_length_3: ELE
+taxonomy_1_upper_length_4: ELEC
+taxonomy_1_upper_length_5: ELECT
+taxonomy_2: ic
+taxonomy_2_capital: Ic
+taxonomy_2_first_letter: i
+taxonomy_2_first_letter_upper: I
+taxonomy_2_length_1: i
+taxonomy_2_length_2: ic
+taxonomy_2_length_3: ic
+taxonomy_2_length_4: ic
+taxonomy_2_length_5: ic
+taxonomy_2_upper: IC
+taxonomy_2_upper_length_1: I
+taxonomy_2_upper_length_2: IC
+taxonomy_2_upper_length_3: IC
+taxonomy_2_upper_length_4: IC
+taxonomy_2_upper_length_5: IC
+taxonomy_3: tsot_23_5
+taxonomy_3_capital: Tsot 23.5
+taxonomy_3_first_letter: t
+taxonomy_3_first_letter_upper: T
+taxonomy_3_length_1: t
+taxonomy_3_length_2: ts
+taxonomy_3_length_3: tso
+taxonomy_3_length_4: tsot
+taxonomy_3_length_5: tsot_
+taxonomy_3_upper: TSOT_23_5
+taxonomy_3_upper_length_1: T
+taxonomy_3_upper_length_2: TS
+taxonomy_3_upper_length_3: TSO
+taxonomy_3_upper_length_4: TSOT
+taxonomy_3_upper_length_5: TSOT_
+taxonomy_4: power_management
+taxonomy_4_capital: Power Management
+taxonomy_4_first_letter: p
+taxonomy_4_first_letter_upper: P
+taxonomy_4_length_1: p
+taxonomy_4_length_2: po
+taxonomy_4_length_3: pow
+taxonomy_4_length_4: powe
+taxonomy_4_length_5: power
+taxonomy_4_upper: POWER_MANAGEMENT
+taxonomy_4_upper_length_1: P
+taxonomy_4_upper_length_2: PO
+taxonomy_4_upper_length_3: POW
+taxonomy_4_upper_length_4: POWE
+taxonomy_4_upper_length_5: POWER
+taxonomy_5: high_side_power_switch_with_flag
+taxonomy_5_capital: High Side Power Switch With Flag
+taxonomy_5_first_letter: h
+taxonomy_5_first_letter_upper: H
+taxonomy_5_length_1: h
+taxonomy_5_length_2: hi
+taxonomy_5_length_3: hig
+taxonomy_5_length_4: high
+taxonomy_5_length_5: high_
+taxonomy_5_upper: HIGH_SIDE_POWER_SWITCH_WITH_FLAG
+taxonomy_5_upper_length_1: H
+taxonomy_5_upper_length_2: HI
+taxonomy_5_upper_length_3: HIG
+taxonomy_5_upper_length_4: HIGH
+taxonomy_5_upper_length_5: HIGH_
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+url_chat: ''

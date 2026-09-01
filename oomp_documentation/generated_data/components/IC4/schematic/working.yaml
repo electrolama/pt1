@@ -1,0 +1,196 @@
+available: true
+units:
+- reference: IC4
+  source_file: kicad_file.kicad_sch
+  uuid: 7cc9697e-9038-4bcb-8c53-980c27163424
+  library_id: project-tool-mini-RevA2-eagle-import:POWER-SWITCH-RT9742_EN-ACTIVE_HIGH
+  unit: 1
+  body_style: 1
+  position:
+    x: 213.36
+    y: 38.1
+    rotation: 0.0
+    mirror: null
+    units: mm
+  properties:
+    Reference: IC4
+    Value: RT9742CGJ5
+    Footprint: project-tool-mini-RevA2:_PKG_SOT23-5
+    Datasheet: ''
+    Description: ''
+    JLCASSY: C250546
+    MPN: RT9742CGJ5
+  in_bom: true
+  on_board: true
+  in_position_files: true
+  dnp: false
+  pins:
+  - number: '1'
+    name: VOUT
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 12.7
+      y: 5.08
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 226.06
+      y: 43.18
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '2'
+    name: GND
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: -12.7
+      y: -5.08
+      rotation: 0.0
+    length: 5.08
+    position:
+      x: 200.66
+      y: 33.02
+    net: VUSB
+    net_aliases:
+    - VUSB
+    net_scope: sheet
+    no_connect: false
+    connected_to:
+    - reference: C2
+      pin_number: '1'
+      pin_name: '1'
+    - reference: C3
+      pin_number: '2'
+      pin_name: '2'
+    - reference: C4
+      pin_number: '2'
+      pin_name: '2'
+    - reference: C6
+      pin_number: '1'
+      pin_name: '1'
+    - reference: L1
+      pin_number: '2'
+      pin_name: '2'
+    - reference: R3
+      pin_number: '1'
+      pin_name: '1'
+  - number: '3'
+    name: ~{FLG}
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 12.7
+      y: 0.0
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 226.06
+      y: 38.1
+    net: SER_RI
+    net_aliases:
+    - SER_RI
+    net_scope: sheet
+    no_connect: false
+    connected_to:
+    - reference: R6
+      pin_number: '2'
+      pin_name: '2'
+  - number: '4'
+    name: EN
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: -12.7
+      y: 0.0
+      rotation: 0.0
+    length: 5.08
+    position:
+      x: 200.66
+      y: 38.1
+    net: SW_EN
+    net_aliases:
+    - SW_EN
+    net_scope: sheet
+    no_connect: false
+    connected_to:
+    - reference: R5
+      pin_number: '1'
+      pin_name: '1'
+  - number: '5'
+    name: VIN
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: -12.7
+      y: 5.08
+      rotation: 0.0
+    length: 5.08
+    position:
+      x: 200.66
+      y: 43.18
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  size:
+    local_graphics:
+      measurement: symbol graphics only; excludes pins, properties, and text
+      units: mm
+      available: true
+      min:
+        x: -7.747
+        y: -7.747
+      max:
+        x: 7.747
+        y: 7.747
+      width: 15.494
+      height: 15.494
+      center:
+        x: 0.0
+        y: 0.0
+    placed_graphics:
+      measurement: axis-aligned bounds after schematic placement, rotation, and mirroring
+      units: mm
+      available: true
+      min:
+        x: 205.613
+        y: 30.353
+      max:
+        x: 221.107
+        y: 45.847
+      width: 15.494
+      height: 15.494
+      center:
+        x: 213.36
+        y: 38.1
+  warnings: []
+connected_components:
+- reference: C2
+  pin_number: '1'
+  pin_name: '1'
+- reference: C3
+  pin_number: '2'
+  pin_name: '2'
+- reference: C4
+  pin_number: '2'
+  pin_name: '2'
+- reference: C6
+  pin_number: '1'
+  pin_name: '1'
+- reference: L1
+  pin_number: '2'
+  pin_name: '2'
+- reference: R3
+  pin_number: '1'
+  pin_name: '1'
+- reference: R5
+  pin_number: '1'
+  pin_name: '1'
+- reference: R6
+  pin_number: '2'
+  pin_name: '2'

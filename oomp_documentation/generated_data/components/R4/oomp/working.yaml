@@ -1,0 +1,1219 @@
+bip_39_2_word_array:
+- guitar
+- brother
+bip_39_2_word_no_space: guitarbrother
+bip_39_2_word_space: guitar brother
+bip_39_2_word_underscore: guitar_brother
+bip_39_3_word_array:
+- guitar
+- brother
+- assume
+bip_39_3_word_no_space: guitarbrotherassume
+bip_39_3_word_space: guitar brother assume
+bip_39_3_word_underscore: guitar_brother_assume
+bip_39_full_array:
+- guitar
+- brother
+- assume
+- priority
+- torch
+- sense
+- wild
+- galaxy
+- act
+- dragon
+- kiss
+- lunch
+bip_39_full_no_space: guitarbrotherassumeprioritytorchsensewildgalaxyactdragonkisslunch
+bip_39_full_space: guitar brother assume priority torch sense wild galaxy act dragon
+    kiss lunch
+bip_39_full_underscore: guitar_brother_assume_priority_torch_sense_wild_galaxy_act_dragon_kiss_lunch
+dimensions_mm:
+    length: 1.0
+    width: 0.5
+directory: parts/electronic_resistor_0402_2200_ohm
+id: electronic_resistor_0402_2200_ohm
+id_no_class: electronic_resistor_0402_2200_ohm
+id_no_size: electronic_resistor_0402_2200_ohm
+id_no_type: electronic_resistor_0402_2200_ohm
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/electronic_resistor_0402_2200_ohm
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/electronic_resistor_0402_2200_ohm
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/electronic_resistor_0402_2200_ohm
+md5: 67c39c37d57e5587bec2f7026841eb42
+md5_10: 67c39c37d5
+md5_10_upper: 67C39C37D5
+md5_5: 67c39
+md5_5_upper: 67C39
+md5_6: 67c39c
+md5_6_alpha: 41r4s
+md5_6_alpha_upper: 41R4S
+md5_6_upper: 67C39C
+name: Electronic Resistor 0402 2200 Ohm
+name_no_class: Electronic Resistor 0402 2200 Ohm
+name_no_size: Electronic Resistor 0402 2200 Ohm
+name_no_type: Electronic Resistor 0402 2200 Ohm
+name_proper: Electronic Resistor 0402 2200 Ohm
+name_short: Resistor 0402 2200 Ohm
+name_space: electronic resistor 0402 2200 ohm
+name_upper: ELECTRONIC RESISTOR 0402 2200 OHM
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: run_python
+        description: Generate this component's standard SVG and PNG diagrams with
+            working_svg.py.
+        file_output: working_svg_assembly.svg
+        file_python: kicad_agents/component_svg_action.py
+        part_id: electronic_resistor_0402_2200_ohm
+        regenerate_pngs: false
+        timeout: '600'
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_square_pins_300.png
+        file_source: working_svg_square_pins.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_outline_300.png
+        file_source: working_svg_outline.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_part_id_300.png
+        file_source: working_svg_part_id.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_md5_6_alpha_300.png
+        file_source: working_svg_md5_6_alpha.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_bip_39_3_word_300.png
+        file_source: working_svg_bip_39_3_word.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_square_300.png
+        file_source: working_svg_square.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_dimensioned_300.png
+        file_source: working_svg_dimensioned.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_dimensioned_titles_300.png
+        file_source: working_svg_dimensioned_titles.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    description: Build component diagrams and proportional 300-pixel README previews
+        with deterministic Python actions.
+    file_test: ''
+    retries_until_complete: 0
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            dimensions_mm:
+                length: 1.0
+                width: 0.5
+            directory: parts\electronic_resistor_0402_2200_ohm
+            name: electronic_resistor_0402_2200_ohm
+            name_proper: Electronic Resistor 0402 2200 Ohm
+            name_short: Resistor 0402 2200 Ohm
+            name_space: electronic resistor 0402 2200 ohm
+            name_upper: ELECTRONIC RESISTOR 0402 2200 OHM
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: run_python
+                    description: Generate this component's standard SVG and PNG diagrams
+                        with working_svg.py.
+                    file_output: working_svg_assembly.svg
+                    file_python: kicad_agents/component_svg_action.py
+                    part_id: electronic_resistor_0402_2200_ohm
+                    regenerate_pngs: false
+                    timeout: '600'
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_square_pins_300.png
+                    file_source: working_svg_square_pins.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_outline_300.png
+                    file_source: working_svg_outline.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_part_id_300.png
+                    file_source: working_svg_part_id.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_md5_6_alpha_300.png
+                    file_source: working_svg_md5_6_alpha.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_bip_39_3_word_300.png
+                    file_source: working_svg_bip_39_3_word.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_square_300.png
+                    file_source: working_svg_square.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_dimensioned_300.png
+                    file_source: working_svg_dimensioned.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_dimensioned_titles_300.png
+                    file_source: working_svg_dimensioned_titles.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                description: Build component diagrams and proportional 300-pixel README
+                    previews with deterministic Python actions.
+                file_test: ''
+                retries_until_complete: 0
+            part_id: R1
+            part_page:
+                diagrams:
+                -   png: ''
+                    preview: working_svg_assembly.svg
+                    svg: working_svg_assembly.svg
+                    title: Assembly
+                -   png: working_svg_outline.png
+                    preview: working_svg_outline_300.png
+                    svg: working_svg_outline.svg
+                    title: Outline
+                -   png: working_svg_part_id.png
+                    preview: working_svg_part_id_300.png
+                    svg: working_svg_part_id.svg
+                    title: Part ID
+                -   png: working_svg_md5_6_alpha.png
+                    preview: working_svg_md5_6_alpha_300.png
+                    svg: working_svg_md5_6_alpha.svg
+                    title: MD5 alpha
+                -   png: working_svg_bip_39_3_word.png
+                    preview: working_svg_bip_39_3_word_300.png
+                    svg: working_svg_bip_39_3_word.svg
+                    title: BIP 39 words
+                -   png: working_svg_square.png
+                    preview: working_svg_square_300.png
+                    svg: working_svg_square.svg
+                    title: Square summary
+                -   png: working_svg_dimensioned.png
+                    preview: working_svg_dimensioned_300.png
+                    svg: working_svg_dimensioned.svg
+                    title: Dimensions
+                -   png: working_svg_dimensioned_titles.png
+                    preview: working_svg_dimensioned_titles_300.png
+                    svg: working_svg_dimensioned_titles.svg
+                    title: Dimensions with labels
+                file_previews:
+                -   preview: working_svg_square_pins_300.png
+                    title: Pinout drawing
+                -   preview: working_svg_outline_300.png
+                    title: Outline
+                -   preview: working_svg_part_id_300.png
+                    title: Part ID
+                -   preview: working_svg_md5_6_alpha_300.png
+                    title: MD5 alpha
+                -   preview: working_svg_bip_39_3_word_300.png
+                    title: BIP 39 words
+                -   preview: working_svg_square_300.png
+                    title: Square summary
+                -   preview: working_svg_dimensioned_300.png
+                    title: Dimensions
+                -   preview: working_svg_dimensioned_titles_300.png
+                    title: Dimensions with labels
+                has_datasheet: false
+                identifiers: []
+                main_image:
+                    png: working_svg_square_pins.png
+                    preview: working_svg_square_pins_300.png
+                    svg: working_svg_square_pins.svg
+                    title: Pinout
+                oomp_id: electronic_resistor_0402_2200_ohm
+                pins: []
+                quick_facts:
+                -   title: OOMP ID
+                    value: electronic_resistor_0402_2200_ohm
+                -   title: Type
+                    value: Resistor
+                -   title: Package / style
+                    value: '0402'
+                -   title: Nominal size
+                    value: "1.0 \xD7 0.5 mm"
+                repository_url: https://github.com/oomlout/oomp_electronic_version_5/tree/main/parts/electronic_resistor_0402_2200_ohm
+                summary: "Resistor 0402 2200 Ohm is an OOMP electronic resistor definition.\
+                    \ It uses the 0402 package or form factor. Its nominal drawing\
+                    \ size is 1.0 \xD7 0.5 mm."
+                taxonomy:
+                -   level: 1
+                    value: electronic
+                -   level: 2
+                    value: resistor
+                -   level: 3
+                    value: '0402'
+                -   level: 4
+                    value: 2200_ohm
+            regenerate_pngs: false
+            svg_details:
+            -   filename_extra: assembly
+                make_a4: false
+                output_formats:
+                - svg
+                padding: 0
+                stylesheet: style_oomp_assembly
+                svg_name: oomp_component_assembly
+                write_yaml: false
+            -   filename_extra: assembly_pins
+                make_a4: false
+                output_formats:
+                - svg
+                padding: 0
+                stylesheet: style_oomp_assembly
+                svg_name: oomp_component_assembly_pins
+                write_yaml: false
+            -   filename_extra: outline
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_outline
+                write_yaml: false
+            -   filename_extra: part_id
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_part_id
+                write_yaml: false
+            -   filename_extra: md5_6_alpha
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_md5_6_alpha
+                write_yaml: false
+            -   filename_extra: bip_39_3_word
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_bip_39_3_word
+                write_yaml: false
+            -   filename_extra: square
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_square
+                write_yaml: false
+            -   filename_extra: square_pins
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_square_pins
+                write_yaml: false
+            -   filename_extra: dimensioned
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_dimensioned
+                write_yaml: false
+            -   filename_extra: dimensioned_titles
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_dimensioned_titles
+                write_yaml: false
+            taxonomy_1: electronic
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: resistor
+            taxonomy_3: '0402'
+            taxonomy_4: 2200_ohm
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: source_file\template_jinja\oomp_category\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_3:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            dimensions_mm:
+                length: 1.0
+                width: 0.5
+            directory: parts\electronic_resistor_0402_2200_ohm
+            name: electronic_resistor_0402_2200_ohm
+            name_proper: Electronic Resistor 0402 2200 Ohm
+            name_short: Resistor 0402 2200 Ohm
+            name_space: electronic resistor 0402 2200 ohm
+            name_upper: ELECTRONIC RESISTOR 0402 2200 OHM
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: run_python
+                    description: Generate this component's standard SVG and PNG diagrams
+                        with working_svg.py.
+                    file_output: working_svg_assembly.svg
+                    file_python: kicad_agents/component_svg_action.py
+                    part_id: electronic_resistor_0402_2200_ohm
+                    regenerate_pngs: false
+                    timeout: '600'
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_square_pins_300.png
+                    file_source: working_svg_square_pins.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_outline_300.png
+                    file_source: working_svg_outline.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_part_id_300.png
+                    file_source: working_svg_part_id.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_md5_6_alpha_300.png
+                    file_source: working_svg_md5_6_alpha.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_bip_39_3_word_300.png
+                    file_source: working_svg_bip_39_3_word.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_square_300.png
+                    file_source: working_svg_square.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_dimensioned_300.png
+                    file_source: working_svg_dimensioned.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_dimensioned_titles_300.png
+                    file_source: working_svg_dimensioned_titles.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                description: Build component diagrams and proportional 300-pixel README
+                    previews with deterministic Python actions.
+                file_test: ''
+                retries_until_complete: 0
+            oomlout_ai_roboclick_2:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        dimensions_mm:
+                            length: 1.0
+                            width: 0.5
+                        directory: parts\electronic_resistor_0402_2200_ohm
+                        name: electronic_resistor_0402_2200_ohm
+                        name_proper: Electronic Resistor 0402 2200 Ohm
+                        name_short: Resistor 0402 2200 Ohm
+                        name_space: electronic resistor 0402 2200 ohm
+                        name_upper: ELECTRONIC RESISTOR 0402 2200 OHM
+                        oomlout_ai_roboclick_1:
+                            actions:
+                            -   command: run_python
+                                description: Generate this component's standard SVG
+                                    and PNG diagrams with working_svg.py.
+                                file_output: working_svg_assembly.svg
+                                file_python: kicad_agents/component_svg_action.py
+                                part_id: electronic_resistor_0402_2200_ohm
+                                regenerate_pngs: false
+                                timeout: '600'
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_square_pins_300.png
+                                file_source: working_svg_square_pins.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_outline_300.png
+                                file_source: working_svg_outline.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_part_id_300.png
+                                file_source: working_svg_part_id.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_md5_6_alpha_300.png
+                                file_source: working_svg_md5_6_alpha.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_bip_39_3_word_300.png
+                                file_source: working_svg_bip_39_3_word.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_square_300.png
+                                file_source: working_svg_square.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_dimensioned_300.png
+                                file_source: working_svg_dimensioned.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_dimensioned_titles_300.png
+                                file_source: working_svg_dimensioned_titles.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            description: Build component diagrams and proportional
+                                300-pixel README previews with deterministic Python
+                                actions.
+                            file_test: ''
+                            retries_until_complete: 0
+                        part_id: R1
+                        part_page:
+                            diagrams:
+                            -   png: ''
+                                preview: working_svg_assembly.svg
+                                svg: working_svg_assembly.svg
+                                title: Assembly
+                            -   png: working_svg_outline.png
+                                preview: working_svg_outline_300.png
+                                svg: working_svg_outline.svg
+                                title: Outline
+                            -   png: working_svg_part_id.png
+                                preview: working_svg_part_id_300.png
+                                svg: working_svg_part_id.svg
+                                title: Part ID
+                            -   png: working_svg_md5_6_alpha.png
+                                preview: working_svg_md5_6_alpha_300.png
+                                svg: working_svg_md5_6_alpha.svg
+                                title: MD5 alpha
+                            -   png: working_svg_bip_39_3_word.png
+                                preview: working_svg_bip_39_3_word_300.png
+                                svg: working_svg_bip_39_3_word.svg
+                                title: BIP 39 words
+                            -   png: working_svg_square.png
+                                preview: working_svg_square_300.png
+                                svg: working_svg_square.svg
+                                title: Square summary
+                            -   png: working_svg_dimensioned.png
+                                preview: working_svg_dimensioned_300.png
+                                svg: working_svg_dimensioned.svg
+                                title: Dimensions
+                            -   png: working_svg_dimensioned_titles.png
+                                preview: working_svg_dimensioned_titles_300.png
+                                svg: working_svg_dimensioned_titles.svg
+                                title: Dimensions with labels
+                            file_previews:
+                            -   preview: working_svg_square_pins_300.png
+                                title: Pinout drawing
+                            -   preview: working_svg_outline_300.png
+                                title: Outline
+                            -   preview: working_svg_part_id_300.png
+                                title: Part ID
+                            -   preview: working_svg_md5_6_alpha_300.png
+                                title: MD5 alpha
+                            -   preview: working_svg_bip_39_3_word_300.png
+                                title: BIP 39 words
+                            -   preview: working_svg_square_300.png
+                                title: Square summary
+                            -   preview: working_svg_dimensioned_300.png
+                                title: Dimensions
+                            -   preview: working_svg_dimensioned_titles_300.png
+                                title: Dimensions with labels
+                            has_datasheet: false
+                            identifiers: []
+                            main_image:
+                                png: working_svg_square_pins.png
+                                preview: working_svg_square_pins_300.png
+                                svg: working_svg_square_pins.svg
+                                title: Pinout
+                            oomp_id: electronic_resistor_0402_2200_ohm
+                            pins: []
+                            quick_facts:
+                            -   title: OOMP ID
+                                value: electronic_resistor_0402_2200_ohm
+                            -   title: Type
+                                value: Resistor
+                            -   title: Package / style
+                                value: '0402'
+                            -   title: Nominal size
+                                value: "1.0 \xD7 0.5 mm"
+                            repository_url: https://github.com/oomlout/oomp_electronic_version_5/tree/main/parts/electronic_resistor_0402_2200_ohm
+                            summary: "Resistor 0402 2200 Ohm is an OOMP electronic\
+                                \ resistor definition. It uses the 0402 package or\
+                                \ form factor. Its nominal drawing size is 1.0 \xD7\
+                                \ 0.5 mm."
+                            taxonomy:
+                            -   level: 1
+                                value: electronic
+                            -   level: 2
+                                value: resistor
+                            -   level: 3
+                                value: '0402'
+                            -   level: 4
+                                value: 2200_ohm
+                        regenerate_pngs: false
+                        svg_details:
+                        -   filename_extra: assembly
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            padding: 0
+                            stylesheet: style_oomp_assembly
+                            svg_name: oomp_component_assembly
+                            write_yaml: false
+                        -   filename_extra: assembly_pins
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            padding: 0
+                            stylesheet: style_oomp_assembly
+                            svg_name: oomp_component_assembly_pins
+                            write_yaml: false
+                        -   filename_extra: outline
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_outline
+                            write_yaml: false
+                        -   filename_extra: part_id
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_part_id
+                            write_yaml: false
+                        -   filename_extra: md5_6_alpha
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_md5_6_alpha
+                            write_yaml: false
+                        -   filename_extra: bip_39_3_word
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_bip_39_3_word
+                            write_yaml: false
+                        -   filename_extra: square
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_square
+                            write_yaml: false
+                        -   filename_extra: square_pins
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_square_pins
+                            write_yaml: false
+                        -   filename_extra: dimensioned
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_dimensioned
+                            write_yaml: false
+                        -   filename_extra: dimensioned_titles
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_dimensioned_titles
+                            write_yaml: false
+                        taxonomy_1: electronic
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: ''
+                        taxonomy_15: ''
+                        taxonomy_2: resistor
+                        taxonomy_3: '0402'
+                        taxonomy_4: 2200_ohm
+                        taxonomy_5: ''
+                        taxonomy_6: ''
+                        taxonomy_7: ''
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        url_chat: ''
+                    dict_data_files: {}
+                    dict_data_files_exists: {}
+                    file_output: label_oomp.svg
+                    file_template: source_file\template_jinja\oomp_category\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+                retries_until_complete: 0
+            part_id: R1
+            part_page:
+                diagrams:
+                -   png: ''
+                    preview: working_svg_assembly.svg
+                    svg: working_svg_assembly.svg
+                    title: Assembly
+                -   png: working_svg_outline.png
+                    preview: working_svg_outline_300.png
+                    svg: working_svg_outline.svg
+                    title: Outline
+                -   png: working_svg_part_id.png
+                    preview: working_svg_part_id_300.png
+                    svg: working_svg_part_id.svg
+                    title: Part ID
+                -   png: working_svg_md5_6_alpha.png
+                    preview: working_svg_md5_6_alpha_300.png
+                    svg: working_svg_md5_6_alpha.svg
+                    title: MD5 alpha
+                -   png: working_svg_bip_39_3_word.png
+                    preview: working_svg_bip_39_3_word_300.png
+                    svg: working_svg_bip_39_3_word.svg
+                    title: BIP 39 words
+                -   png: working_svg_square.png
+                    preview: working_svg_square_300.png
+                    svg: working_svg_square.svg
+                    title: Square summary
+                -   png: working_svg_dimensioned.png
+                    preview: working_svg_dimensioned_300.png
+                    svg: working_svg_dimensioned.svg
+                    title: Dimensions
+                -   png: working_svg_dimensioned_titles.png
+                    preview: working_svg_dimensioned_titles_300.png
+                    svg: working_svg_dimensioned_titles.svg
+                    title: Dimensions with labels
+                file_previews:
+                -   preview: working_svg_square_pins_300.png
+                    title: Pinout drawing
+                -   preview: working_svg_outline_300.png
+                    title: Outline
+                -   preview: working_svg_part_id_300.png
+                    title: Part ID
+                -   preview: working_svg_md5_6_alpha_300.png
+                    title: MD5 alpha
+                -   preview: working_svg_bip_39_3_word_300.png
+                    title: BIP 39 words
+                -   preview: working_svg_square_300.png
+                    title: Square summary
+                -   preview: working_svg_dimensioned_300.png
+                    title: Dimensions
+                -   preview: working_svg_dimensioned_titles_300.png
+                    title: Dimensions with labels
+                has_datasheet: false
+                identifiers: []
+                main_image:
+                    png: working_svg_square_pins.png
+                    preview: working_svg_square_pins_300.png
+                    svg: working_svg_square_pins.svg
+                    title: Pinout
+                oomp_id: electronic_resistor_0402_2200_ohm
+                pins: []
+                quick_facts:
+                -   title: OOMP ID
+                    value: electronic_resistor_0402_2200_ohm
+                -   title: Type
+                    value: Resistor
+                -   title: Package / style
+                    value: '0402'
+                -   title: Nominal size
+                    value: "1.0 \xD7 0.5 mm"
+                repository_url: https://github.com/oomlout/oomp_electronic_version_5/tree/main/parts/electronic_resistor_0402_2200_ohm
+                summary: "Resistor 0402 2200 Ohm is an OOMP electronic resistor definition.\
+                    \ It uses the 0402 package or form factor. Its nominal drawing\
+                    \ size is 1.0 \xD7 0.5 mm."
+                taxonomy:
+                -   level: 1
+                    value: electronic
+                -   level: 2
+                    value: resistor
+                -   level: 3
+                    value: '0402'
+                -   level: 4
+                    value: 2200_ohm
+            regenerate_pngs: false
+            svg_details:
+            -   filename_extra: assembly
+                make_a4: false
+                output_formats:
+                - svg
+                padding: 0
+                stylesheet: style_oomp_assembly
+                svg_name: oomp_component_assembly
+                write_yaml: false
+            -   filename_extra: assembly_pins
+                make_a4: false
+                output_formats:
+                - svg
+                padding: 0
+                stylesheet: style_oomp_assembly
+                svg_name: oomp_component_assembly_pins
+                write_yaml: false
+            -   filename_extra: outline
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_outline
+                write_yaml: false
+            -   filename_extra: part_id
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_part_id
+                write_yaml: false
+            -   filename_extra: md5_6_alpha
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_md5_6_alpha
+                write_yaml: false
+            -   filename_extra: bip_39_3_word
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_bip_39_3_word
+                write_yaml: false
+            -   filename_extra: square
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_square
+                write_yaml: false
+            -   filename_extra: square_pins
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_square_pins
+                write_yaml: false
+            -   filename_extra: dimensioned
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_dimensioned
+                write_yaml: false
+            -   filename_extra: dimensioned_titles
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_dimensioned_titles
+                write_yaml: false
+            taxonomy_1: electronic
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: resistor
+            taxonomy_3: '0402'
+            taxonomy_4: 2200_ohm
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: README.md
+        file_template: C:\gh\oomp_electronic_version_5\source_file\template_jinja\oomp_category\template_jinja_markdown\working.md.j2
+        search_and_replace: []
+    file_test: ''
+    retries_until_complete: 0
+oomp_key: oomp_electronic_resistor_0402_2200_ohm
+part_id: R1
+part_page:
+    diagrams:
+    -   png: ''
+        preview: working_svg_assembly.svg
+        svg: working_svg_assembly.svg
+        title: Assembly
+    -   png: working_svg_outline.png
+        preview: working_svg_outline_300.png
+        svg: working_svg_outline.svg
+        title: Outline
+    -   png: working_svg_part_id.png
+        preview: working_svg_part_id_300.png
+        svg: working_svg_part_id.svg
+        title: Part ID
+    -   png: working_svg_md5_6_alpha.png
+        preview: working_svg_md5_6_alpha_300.png
+        svg: working_svg_md5_6_alpha.svg
+        title: MD5 alpha
+    -   png: working_svg_bip_39_3_word.png
+        preview: working_svg_bip_39_3_word_300.png
+        svg: working_svg_bip_39_3_word.svg
+        title: BIP 39 words
+    -   png: working_svg_square.png
+        preview: working_svg_square_300.png
+        svg: working_svg_square.svg
+        title: Square summary
+    -   png: working_svg_dimensioned.png
+        preview: working_svg_dimensioned_300.png
+        svg: working_svg_dimensioned.svg
+        title: Dimensions
+    -   png: working_svg_dimensioned_titles.png
+        preview: working_svg_dimensioned_titles_300.png
+        svg: working_svg_dimensioned_titles.svg
+        title: Dimensions with labels
+    file_previews:
+    -   preview: working_svg_square_pins_300.png
+        title: Pinout drawing
+    -   preview: working_svg_outline_300.png
+        title: Outline
+    -   preview: working_svg_part_id_300.png
+        title: Part ID
+    -   preview: working_svg_md5_6_alpha_300.png
+        title: MD5 alpha
+    -   preview: working_svg_bip_39_3_word_300.png
+        title: BIP 39 words
+    -   preview: working_svg_square_300.png
+        title: Square summary
+    -   preview: working_svg_dimensioned_300.png
+        title: Dimensions
+    -   preview: working_svg_dimensioned_titles_300.png
+        title: Dimensions with labels
+    has_datasheet: false
+    identifiers: []
+    main_image:
+        png: working_svg_square_pins.png
+        preview: working_svg_square_pins_300.png
+        svg: working_svg_square_pins.svg
+        title: Pinout
+    oomp_id: electronic_resistor_0402_2200_ohm
+    pins: []
+    quick_facts:
+    -   title: OOMP ID
+        value: electronic_resistor_0402_2200_ohm
+    -   title: Type
+        value: Resistor
+    -   title: Package / style
+        value: '0402'
+    -   title: Nominal size
+        value: "1.0 \xD7 0.5 mm"
+    repository_url: https://github.com/oomlout/oomp_electronic_version_5/tree/main/parts/electronic_resistor_0402_2200_ohm
+    summary: "Resistor 0402 2200 Ohm is an OOMP electronic resistor definition. It\
+        \ uses the 0402 package or form factor. Its nominal drawing size is 1.0 \xD7\
+        \ 0.5 mm."
+    taxonomy:
+    -   level: 1
+        value: electronic
+    -   level: 2
+        value: resistor
+    -   level: 3
+        value: '0402'
+    -   level: 4
+        value: 2200_ohm
+regenerate_pngs: false
+svg_details:
+-   filename_extra: assembly
+    make_a4: false
+    output_formats:
+    - svg
+    padding: 0
+    stylesheet: style_oomp_assembly
+    svg_name: oomp_component_assembly
+    write_yaml: false
+-   filename_extra: assembly_pins
+    make_a4: false
+    output_formats:
+    - svg
+    padding: 0
+    stylesheet: style_oomp_assembly
+    svg_name: oomp_component_assembly_pins
+    write_yaml: false
+-   filename_extra: outline
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_outline
+    write_yaml: false
+-   filename_extra: part_id
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_part_id
+    write_yaml: false
+-   filename_extra: md5_6_alpha
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_md5_6_alpha
+    write_yaml: false
+-   filename_extra: bip_39_3_word
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_bip_39_3_word
+    write_yaml: false
+-   filename_extra: square
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_square
+    write_yaml: false
+-   filename_extra: square_pins
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_square_pins
+    write_yaml: false
+-   filename_extra: dimensioned
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_dimensioned
+    write_yaml: false
+-   filename_extra: dimensioned_titles
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_dimensioned_titles
+    write_yaml: false
+taxonomy_1: electronic
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Electronic
+taxonomy_1_first_letter: e
+taxonomy_1_first_letter_upper: E
+taxonomy_1_length_1: e
+taxonomy_1_length_2: el
+taxonomy_1_length_3: ele
+taxonomy_1_length_4: elec
+taxonomy_1_length_5: elect
+taxonomy_1_upper: ELECTRONIC
+taxonomy_1_upper_length_1: E
+taxonomy_1_upper_length_2: EL
+taxonomy_1_upper_length_3: ELE
+taxonomy_1_upper_length_4: ELEC
+taxonomy_1_upper_length_5: ELECT
+taxonomy_2: resistor
+taxonomy_2_capital: Resistor
+taxonomy_2_first_letter: r
+taxonomy_2_first_letter_upper: R
+taxonomy_2_length_1: r
+taxonomy_2_length_2: re
+taxonomy_2_length_3: res
+taxonomy_2_length_4: resi
+taxonomy_2_length_5: resis
+taxonomy_2_upper: RESISTOR
+taxonomy_2_upper_length_1: R
+taxonomy_2_upper_length_2: RE
+taxonomy_2_upper_length_3: RES
+taxonomy_2_upper_length_4: RESI
+taxonomy_2_upper_length_5: RESIS
+taxonomy_3: '0402'
+taxonomy_3_capital: '0402'
+taxonomy_3_first_letter: '0'
+taxonomy_3_first_letter_upper: '0'
+taxonomy_3_length_1: '0'
+taxonomy_3_length_2: '04'
+taxonomy_3_length_3: '040'
+taxonomy_3_length_4: '0402'
+taxonomy_3_length_5: '0402'
+taxonomy_3_upper: '0402'
+taxonomy_3_upper_length_1: '0'
+taxonomy_3_upper_length_2: '04'
+taxonomy_3_upper_length_3: '040'
+taxonomy_3_upper_length_4: '0402'
+taxonomy_3_upper_length_5: '0402'
+taxonomy_4: 2200_ohm
+taxonomy_4_capital: 2200 Ohm
+taxonomy_4_first_letter: '2'
+taxonomy_4_first_letter_upper: '2'
+taxonomy_4_length_1: '2'
+taxonomy_4_length_2: '22'
+taxonomy_4_length_3: '220'
+taxonomy_4_length_4: '2200'
+taxonomy_4_length_5: '2200_'
+taxonomy_4_upper: 2200_OHM
+taxonomy_4_upper_length_1: '2'
+taxonomy_4_upper_length_2: '22'
+taxonomy_4_upper_length_3: '220'
+taxonomy_4_upper_length_4: '2200'
+taxonomy_4_upper_length_5: '2200_'
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+url_chat: ''

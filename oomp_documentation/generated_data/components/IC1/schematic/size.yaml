@@ -1,0 +1,36 @@
+reference: IC1
+measurement_policy: Only embedded symbol graphics are measured; pins, properties, and text are excluded.
+units:
+- unit: 1
+  body_style: 1
+  source_file: kicad_file.kicad_sch
+  local_graphics:
+    measurement: symbol graphics only; excludes pins, properties, and text
+    units: mm
+    available: true
+    min:
+      x: -10.2362
+      y: -20.3962
+    max:
+      x: 10.2362
+      y: 17.8562
+    width: 20.4724
+    height: 38.2524
+    center:
+      x: 0.0
+      y: -1.27
+  placed_graphics:
+    measurement: axis-aligned bounds after schematic placement, rotation, and mirroring
+    units: mm
+    available: true
+    min:
+      x: 74.8538
+      y: 143.4338
+    max:
+      x: 95.3262
+      y: 181.6862
+    width: 20.4724
+    height: 38.2524
+    center:
+      x: 85.09
+      y: 162.56

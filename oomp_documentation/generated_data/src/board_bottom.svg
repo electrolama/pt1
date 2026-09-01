@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="133.5011 76.0036 30.0000 58.0000">
+<defs>
+<style>
+.page { fill: #FFFFFF; }
+.board { fill: #FFFFFF; stroke: #000000; stroke-width: 0.35; }
+.edge-cut { fill: none; stroke: #000000; stroke-width: 0.25; }
+.component { fill: #FFFFFF; stroke: #000000; stroke-width: 0.18; }
+.mechanical-pad { fill: #FFFFFF; stroke: #000000; stroke-width: 0.18; }
+.mounting-hole { fill: #FFFFFF; stroke: #000000; stroke-width: 0.22; }
+.reference { fill: #000000; font-family: Arial, sans-serif; font-size: 0.72px; text-anchor: middle; paint-order: stroke; stroke: #FFFFFF; stroke-width: 0.35px; }
+</style>
+</defs>
+<rect class="page" x="133.5011" y="76.0036" width="30.0000" height="58.0000" />
+<rect class="board" x="139.5011" y="82.0036" width="18.0000" height="46.0000" rx="1.0" />
+<polyline class="edge-cut" points="157.5011,127.0036 157.5011,83.0036" />
+<polyline class="edge-cut" points="156.5011,82.0036 140.5011,82.0036" />
+<polyline class="edge-cut" points="140.5011,128.0036 156.5011,128.0036" />
+<polyline class="edge-cut" points="139.5011,83.0036 139.5011,127.0036" />
+<polyline class="edge-cut" points="157.5011,83.0036 157.4925,82.8731 157.4670,82.7448 157.4250,82.6209 157.3671,82.5036 157.2945,82.3948 157.2082,82.2965 157.1099,82.2102 157.0011,82.1376 156.8838,82.0797 156.7599,82.0377 156.6316,82.0122 156.5011,82.0036" />
+<polyline class="edge-cut" points="156.5011,128.0036 156.6316,127.9950 156.7599,127.9695 156.8838,127.9275 157.0011,127.8696 157.1099,127.7970 157.2082,127.7107 157.2945,127.6124 157.3671,127.5036 157.4250,127.3863 157.4670,127.2624 157.4925,127.1341 157.5011,127.0036" />
+<polyline class="edge-cut" points="140.5011,82.0036 140.3706,82.0122 140.2423,82.0377 140.1184,82.0797 140.0011,82.1376 139.8923,82.2102 139.7940,82.2965 139.7077,82.3948 139.6351,82.5036 139.5772,82.6209 139.5352,82.7448 139.5097,82.8731 139.5011,83.0036" />
+<polyline class="edge-cut" points="139.5011,127.0036 139.5097,127.1341 139.5352,127.2624 139.5772,127.3863 139.6351,127.5036 139.7077,127.6124 139.7940,127.7107 139.8923,127.7970 140.0011,127.8696 140.1184,127.9275 140.2423,127.9695 140.3706,127.9950 140.5011,128.0036" />
+<circle class="mounting-hole" cx="151.3911" cy="123.1936" r="0.3250" />
+<circle class="mounting-hole" cx="145.6111" cy="123.1936" r="0.3250" />
+<circle class="mounting-hole" cx="152.6911" cy="97.1136" r="0.3250" />
+<circle class="mounting-hole" cx="152.6911" cy="102.8936" r="0.3250" />
+<ellipse class="mechanical-pad" cx="154.9011" cy="83.6386" rx="1.3080" ry="0.6540" transform="rotate(-90.0000 154.9011 83.6386)" />
+<circle class="mounting-hole" cx="154.9011" cy="83.6386" r="0.4000" />
+<ellipse class="mechanical-pad" cx="142.1011" cy="83.6386" rx="1.3080" ry="0.6540" transform="rotate(-90.0000 142.1011 83.6386)" />
+<circle class="mounting-hole" cx="142.1011" cy="83.6386" r="0.4000" />
+<circle class="mounting-hole" cx="155.2511" cy="93.3786" r="1.0000" />
+<circle class="mounting-hole" cx="141.7511" cy="124.5036" r="1.0000" />
+<circle class="mounting-hole" cx="155.2511" cy="124.5036" r="1.0000" />
+</svg>

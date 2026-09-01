@@ -1,0 +1,36 @@
+reference: LED1
+measurement_policy: Only embedded symbol graphics are measured; pins, properties, and text are excluded.
+units:
+- unit: 1
+  body_style: 1
+  source_file: kicad_file.kicad_sch
+  local_graphics:
+    measurement: symbol graphics only; excludes pins, properties, and text
+    units: mm
+    available: true
+    min:
+      x: -1.397
+      y: -1.524
+    max:
+      x: 1.9812
+      y: 3.302
+    width: 3.3782
+    height: 4.826
+    center:
+      x: 0.2921
+      y: 0.889
+  placed_graphics:
+    measurement: axis-aligned bounds after schematic placement, rotation, and mirroring
+    units: mm
+    available: true
+    min:
+      x: 234.823
+      y: 64.516
+    max:
+      x: 238.2012
+      y: 69.342
+    width: 3.3782
+    height: 4.826
+    center:
+      x: 236.5121
+      y: 66.929

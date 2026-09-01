@@ -1,0 +1,221 @@
+{
+  "reference": "MH9",
+  "name": "Mounting Hole 2 mm Round Unplated",
+  "item_type": "mounting_hole",
+  "source": {
+    "reference": "UNK_HOLE_2",
+    "hole_id": "UNK_HOLE_2_hole_1",
+    "footprint": "dummyfp2",
+    "dedicated_footprint": true
+  },
+  "classification": {
+    "name": "Mounting Hole 2 mm Round Unplated",
+    "class": "mechanical",
+    "type": "mounting_hole",
+    "taxonomy": [
+      {
+        "level": 1,
+        "key": "taxonomy_1",
+        "value": "mechanical"
+      },
+      {
+        "level": 2,
+        "key": "taxonomy_2",
+        "value": "mounting_hole"
+      },
+      {
+        "level": 3,
+        "key": "taxonomy_3",
+        "value": "2_mm"
+      },
+      {
+        "level": 4,
+        "key": "taxonomy_4",
+        "value": "round"
+      },
+      {
+        "level": 5,
+        "key": "taxonomy_5",
+        "value": "unplated"
+      }
+    ],
+    "taxonomy_path": [
+      "mechanical",
+      "mounting_hole",
+      "2_mm",
+      "round",
+      "unplated"
+    ]
+  },
+  "schematic": {
+    "available": false,
+    "units": [],
+    "connected_components": []
+  },
+  "pcb": {
+    "available": true,
+    "reference": "MH9",
+    "value": "Mounting Hole 2 mm Round Unplated",
+    "library_id": "dummyfp2",
+    "side": "mechanical",
+    "position": {
+      "x": 141.7511,
+      "y": 124.5036,
+      "rotation": 0.0,
+      "units": "mm"
+    },
+    "pads": [],
+    "mounting_holes": [
+      {
+        "id": "UNK_HOLE_2_hole_1",
+        "reference": "UNK_HOLE_2",
+        "pad_number": "",
+        "role": "mounting",
+        "plating": "unplated",
+        "style": "round",
+        "drill_size": {
+          "x": 2.0,
+          "y": 2.0,
+          "diameter": 2.0,
+          "units": "mm"
+        },
+        "pad_size": {
+          "x": 2.0,
+          "y": 2.0,
+          "units": "mm"
+        },
+        "pad_shape": "circle",
+        "local_position": {
+          "x": 0.0,
+          "y": 0.0,
+          "rotation": 0.0
+        },
+        "position": {
+          "x": 141.7511,
+          "y": 124.5036
+        },
+        "rotation": 0.0,
+        "layers": [
+          "*.Cu",
+          "*.Mask"
+        ],
+        "net": null,
+        "classification_reason": "KiCad non-plated through-hole pad",
+        "oomp_id": "mechanical_mounting_hole_2_mm_round_unplated",
+        "component_reference": "UNK_HOLE_2",
+        "component_oomp_id": "mechanical_mounting_hole_2_mm_round_unplated",
+        "component_footprint": "dummyfp2",
+        "component_side": "front",
+        "dedicated_footprint": true,
+        "oomp_reference": "MH9",
+        "classification": {
+          "name": "Mounting Hole 2 mm Round Unplated",
+          "class": "mechanical",
+          "type": "mounting_hole",
+          "taxonomy": [
+            {
+              "level": 1,
+              "key": "taxonomy_1",
+              "value": "mechanical"
+            },
+            {
+              "level": 2,
+              "key": "taxonomy_2",
+              "value": "mounting_hole"
+            },
+            {
+              "level": 3,
+              "key": "taxonomy_3",
+              "value": "2_mm"
+            },
+            {
+              "level": 4,
+              "key": "taxonomy_4",
+              "value": "round"
+            },
+            {
+              "level": 5,
+              "key": "taxonomy_5",
+              "value": "unplated"
+            }
+          ],
+          "taxonomy_path": [
+            "mechanical",
+            "mounting_hole",
+            "2_mm",
+            "round",
+            "unplated"
+          ]
+        },
+        "name": "Mounting Hole 2 mm Round Unplated",
+        "oomp": {
+          "status": "matched",
+          "accepted": true,
+          "oomp_id": "mechanical_mounting_hole_2_mm_round_unplated",
+          "confidence": 1.0,
+          "proposed_oomp_id": "mechanical_mounting_hole_2_mm_round_unplated",
+          "inferred": {
+            "kind": "mounting_hole",
+            "style": "round",
+            "plating": "unplated",
+            "drill_size": {
+              "x": 2.0,
+              "y": 2.0,
+              "diameter": 2.0,
+              "units": "mm"
+            }
+          },
+          "reasons": [
+            "Exact mechanical mounting-hole OOMP ID constructed from drill size, style, and plating."
+          ],
+          "candidates": []
+        }
+      }
+    ],
+    "is_mounting_hole": true,
+    "size": {
+      "drill": {
+        "measurement": "mounting-hole drill dimensions",
+        "units": "mm",
+        "available": true,
+        "width": 2.0,
+        "height": 2.0,
+        "center": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      }
+    },
+    "connected_components": []
+  },
+  "oomp": {
+    "status": "matched",
+    "accepted": true,
+    "oomp_id": "mechanical_mounting_hole_2_mm_round_unplated",
+    "confidence": 1.0,
+    "proposed_oomp_id": "mechanical_mounting_hole_2_mm_round_unplated",
+    "inferred": {
+      "kind": "mounting_hole",
+      "style": "round",
+      "plating": "unplated",
+      "drill_size": {
+        "x": 2.0,
+        "y": 2.0,
+        "diameter": 2.0,
+        "units": "mm"
+      }
+    },
+    "reasons": [
+      "Exact mechanical mounting-hole OOMP ID constructed from drill size, style, and plating."
+    ],
+    "candidates": []
+  },
+  "connectivity_cross_check": {
+    "available": false,
+    "comparisons": [],
+    "agree_count": 0,
+    "disagree_count": 0,
+    "incomplete_count": 0
+  },
+  "generated_directory": "components/MH9"
+}

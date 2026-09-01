@@ -1,0 +1,366 @@
+available: true
+units:
+- reference: IC2
+  source_file: kicad_file.kicad_sch
+  uuid: ce17475d-5359-4acd-881d-8fde324e19c9
+  library_id: project-tool-mini-RevA2-eagle-import:USB-HUB-SL2.1A
+  unit: 1
+  body_style: 1
+  position:
+    x: 71.12
+    y: 86.36
+    rotation: 0.0
+    mirror: null
+    units: mm
+  properties:
+    Reference: IC2
+    Value: SL2.1A
+    Footprint: project-tool-mini-RevA2:SOIC127P604X185-16N
+    Datasheet: ''
+    Description: ''
+    HEIGHT: 1.85mm
+    MANUFACTURER_NAME: CoreChips ShenZhen CO.,Ltd
+    MANUFACTURER_PART_NUMBER: SL2.1A
+    JLCASSY: C192893
+    MPN: C192893
+  in_bom: true
+  on_board: true
+  in_position_files: true
+  dnp: false
+  pins:
+  - number: '1'
+    name: DM4
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 27.94
+      y: -25.4
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 99.06
+      y: 60.96
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '2'
+    name: DP4
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 27.94
+      y: -27.94
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 99.06
+      y: 58.42
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '3'
+    name: DM3
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 27.94
+      y: -17.78
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 99.06
+      y: 68.58
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '4'
+    name: DP3
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 27.94
+      y: -20.32
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 99.06
+      y: 66.04
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '5'
+    name: DM2
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 27.94
+      y: -10.16
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 99.06
+      y: 76.2
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '6'
+    name: DP2
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 27.94
+      y: -12.7
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 99.06
+      y: 73.66
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '7'
+    name: DM1
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 27.94
+      y: -2.54
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 99.06
+      y: 83.82
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '8'
+    name: DP1
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 27.94
+      y: -5.08
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 99.06
+      y: 81.28
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '9'
+    name: DM
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 0.0
+      y: -2.54
+      rotation: 0.0
+    length: 5.08
+    position:
+      x: 71.12
+      y: 83.82
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '10'
+    name: DP
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 0.0
+      y: -5.08
+      rotation: 0.0
+    length: 5.08
+    position:
+      x: 71.12
+      y: 81.28
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '11'
+    name: VDD5
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 0.0
+      y: 0.0
+      rotation: 0.0
+    length: 5.08
+    position:
+      x: 71.12
+      y: 86.36
+    net: VUSB
+    net_aliases:
+    - VUSB
+    net_scope: global
+    no_connect: false
+    connected_to:
+    - reference: C10
+      pin_number: '1'
+      pin_name: '1'
+    - reference: C13
+      pin_number: '2'
+      pin_name: '2'
+    - reference: CON1
+      pin_number: DN1
+      pin_name: DN1
+    - reference: IC1
+      pin_number: '2'
+      pin_name: GND
+    - reference: SJ1
+      pin_number: '1'
+      pin_name: '1'
+  - number: '12'
+    name: GND
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 0.0
+      y: -30.48
+      rotation: 0.0
+    length: 5.08
+    position:
+      x: 71.12
+      y: 55.88
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '13'
+    name: VDD33
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 0.0
+      y: -10.16
+      rotation: 0.0
+    length: 5.08
+    position:
+      x: 71.12
+      y: 76.2
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '14'
+    name: VDD18
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 0.0
+      y: -12.7
+      rotation: 0.0
+    length: 5.08
+    position:
+      x: 71.12
+      y: 73.66
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '15'
+    name: XOUT
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 0.0
+      y: -25.4
+      rotation: 0.0
+    length: 5.08
+    position:
+      x: 71.12
+      y: 60.96
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '16'
+    name: XIN
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 0.0
+      y: -20.32
+      rotation: 0.0
+    length: 5.08
+    position:
+      x: 71.12
+      y: 66.04
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  size:
+    local_graphics:
+      measurement: symbol graphics only; excludes pins, properties, and text
+      units: mm
+      available: true
+      min:
+        x: 4.953
+        y: -33.147
+      max:
+        x: 22.987
+        y: 2.667
+      width: 18.034
+      height: 35.814
+      center:
+        x: 13.97
+        y: -15.24
+    placed_graphics:
+      measurement: axis-aligned bounds after schematic placement, rotation, and mirroring
+      units: mm
+      available: true
+      min:
+        x: 76.073
+        y: 53.213
+      max:
+        x: 94.107
+        y: 89.027
+      width: 18.034
+      height: 35.814
+      center:
+        x: 85.09
+        y: 71.12
+  warnings: []
+connected_components:
+- reference: C10
+  pin_number: '1'
+  pin_name: '1'
+- reference: C13
+  pin_number: '2'
+  pin_name: '2'
+- reference: CON1
+  pin_number: DN1
+  pin_name: DN1
+- reference: IC1
+  pin_number: '2'
+  pin_name: GND
+- reference: SJ1
+  pin_number: '1'
+  pin_name: '1'

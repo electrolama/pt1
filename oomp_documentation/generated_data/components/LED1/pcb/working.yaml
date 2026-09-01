@@ -1,0 +1,435 @@
+reference: LED1
+value: Green
+source_file: kicad_file.kicad_pcb
+uuid: b8a032af-7273-414e-acee-4eafb271f0b6
+library_id: _PKG_LED_0603
+layer: F.Cu
+side: front
+position:
+  x: 148.5011
+  y: 98.0036
+  rotation: -90.0
+  rotation_kicad: 90.0
+  units: mm
+properties:
+  Reference: LED1
+  Value: Green
+  Datasheet: ''
+  Description: ''
+attributes: []
+exclude_from_bom: false
+exclude_from_position_files: false
+pads:
+- number: A
+  type: smd
+  shape: roundrect
+  local_position:
+    x: 0.82
+    y: 0.0
+    rotation: 90.0
+  position:
+    x: 148.5011
+    y: 97.1836
+  placed_rotation: 0.0
+  size:
+    x: 0.79
+    y: 0.93
+    units: mm
+  drill:
+    available: false
+    shape: null
+    x: null
+    y: null
+    diameter: null
+    units: mm
+  layers:
+  - F.Cu
+  - F.Mask
+  - F.Paste
+  net: N$4
+  net_number: null
+  pin_function: null
+  pin_type: null
+  bounds:
+    local:
+      measurement: pad bounds in footprint-local coordinates
+      units: mm
+      available: true
+      min:
+        x: 0.355
+        y: -0.395
+      max:
+        x: 1.285
+        y: 0.395
+      width: 0.93
+      height: 0.79
+      center:
+        x: 0.82
+        y: 0.0
+    placed:
+      measurement: pad bounds after footprint placement and rotation
+      units: mm
+      available: true
+      min:
+        x: 148.1061
+        y: 96.7186
+      max:
+        x: 148.8961
+        y: 97.6486
+      width: 0.79
+      height: 0.93
+      center:
+        x: 148.5011
+        y: 97.1836
+  plating: null
+  is_mounting_hole: false
+  connected_to:
+  - reference: R4
+    pad_number: '1'
+- number: C
+  type: smd
+  shape: roundrect
+  local_position:
+    x: -0.82
+    y: 0.0
+    rotation: 270.0
+  position:
+    x: 148.5011
+    y: 98.8236
+  placed_rotation: 180.0
+  size:
+    x: 0.79
+    y: 0.93
+    units: mm
+  drill:
+    available: false
+    shape: null
+    x: null
+    y: null
+    diameter: null
+    units: mm
+  layers:
+  - F.Cu
+  - F.Mask
+  - F.Paste
+  net: GND
+  net_number: null
+  pin_function: null
+  pin_type: null
+  bounds:
+    local:
+      measurement: pad bounds in footprint-local coordinates
+      units: mm
+      available: true
+      min:
+        x: -1.285
+        y: -0.395
+      max:
+        x: -0.355
+        y: 0.395
+      width: 0.93
+      height: 0.79
+      center:
+        x: -0.82
+        y: 0.0
+    placed:
+      measurement: pad bounds after footprint placement and rotation
+      units: mm
+      available: true
+      min:
+        x: 148.1061
+        y: 98.3586
+      max:
+        x: 148.8961
+        y: 99.2886
+      width: 0.79
+      height: 0.93
+      center:
+        x: 148.5011
+        y: 98.8236
+  plating: null
+  is_mounting_hole: false
+  connected_to:
+  - reference: C1
+    pad_number: '1'
+  - reference: C2
+    pad_number: '1'
+  - reference: C3
+    pad_number: '2'
+  - reference: C4
+    pad_number: '2'
+  - reference: C5
+    pad_number: '1'
+  - reference: C6
+    pad_number: '1'
+  - reference: C7
+    pad_number: '1'
+  - reference: C8
+    pad_number: '1'
+  - reference: C9
+    pad_number: '1'
+  - reference: C10
+    pad_number: '1'
+  - reference: C11
+    pad_number: '1'
+  - reference: C12
+    pad_number: '1'
+  - reference: C13
+    pad_number: '1'
+  - reference: C14
+    pad_number: '1'
+  - reference: CON1
+    pad_number: GND@1
+  - reference: CON1
+    pad_number: GND@2
+  - reference: CON1
+    pad_number: P$1
+  - reference: CON1
+    pad_number: P$2
+  - reference: CON1
+    pad_number: P$3
+  - reference: CON1
+    pad_number: P$4
+  - reference: CON1
+    pad_number: P$5
+  - reference: CON1
+    pad_number: P$6
+  - reference: CON1
+    pad_number: P$7
+  - reference: CON1
+    pad_number: P$8
+  - reference: CON2
+    pad_number: GND@1
+  - reference: CON2
+    pad_number: GND@2
+  - reference: CON2
+    pad_number: P$1
+  - reference: CON2
+    pad_number: P$2
+  - reference: CON2
+    pad_number: P$3
+  - reference: CON2
+    pad_number: P$4
+  - reference: CON2
+    pad_number: P$5
+  - reference: CON2
+    pad_number: P$6
+  - reference: CON2
+    pad_number: P$7
+  - reference: CON2
+    pad_number: P$8
+  - reference: CON3
+    pad_number: GND
+  - reference: CON3
+    pad_number: P$5
+  - reference: CON3
+    pad_number: P$6
+  - reference: D1
+    pad_number: '2'
+  - reference: D2
+    pad_number: '2'
+  - reference: IC1
+    pad_number: '0'
+  - reference: IC1
+    pad_number: '2'
+  - reference: IC2
+    pad_number: '12'
+  - reference: IC3
+    pad_number: '2'
+  - reference: IC4
+    pad_number: '2'
+  - reference: J1
+    pad_number: '6'
+  - reference: R1
+    pad_number: '1'
+  - reference: R2
+    pad_number: '1'
+  - reference: R5
+    pad_number: '2'
+  - reference: XT1
+    pad_number: '2'
+  - reference: XT1
+    pad_number: '4'
+mounting_holes: []
+is_mounting_hole: false
+size:
+  pads_local:
+    measurement: all footprint pads in footprint-local coordinates
+    units: mm
+    available: true
+    min:
+      x: -1.285
+      y: -0.395
+    max:
+      x: 1.285
+      y: 0.395
+    width: 2.57
+    height: 0.79
+    center:
+      x: -0.0
+      y: 0.0
+  pads_placed:
+    measurement: all pads after PCB placement and rotation
+    units: mm
+    available: true
+    min:
+      x: 148.1061
+      y: 96.7186
+    max:
+      x: 148.8961
+      y: 99.2886
+    width: 0.79
+    height: 2.57
+    center:
+      x: 148.5011
+      y: 98.0036
+  courtyard_local:
+    measurement: F.CrtYd and B.CrtYd graphics; text excluded
+    units: mm
+    available: true
+    min:
+      x: -1.495
+      y: -0.745
+    max:
+      x: 1.495
+      y: 0.745
+    width: 2.99
+    height: 1.49
+    center:
+      x: 0.0
+      y: 0.0
+  courtyard_placed:
+    measurement: courtyard after PCB placement and rotation
+    units: mm
+    available: true
+    min:
+      x: 147.7561
+      y: 96.5086
+    max:
+      x: 149.2461
+      y: 99.4986
+    width: 1.49
+    height: 2.99
+    center:
+      x: 148.5011
+      y: 98.0036
+  fabrication_local:
+    measurement: F.Fab and B.Fab graphics; text excluded
+    units: mm
+    available: true
+    min:
+      x: -0.91
+      y: -0.51
+    max:
+      x: 0.91
+      y: 0.51
+    width: 1.82
+    height: 1.02
+    center:
+      x: 0.0
+      y: 0.0
+  fabrication_placed:
+    measurement: fabrication graphics after placement
+    units: mm
+    available: true
+    min:
+      x: 147.9911
+      y: 97.0936
+    max:
+      x: 149.0111
+      y: 98.9136
+    width: 1.02
+    height: 1.82
+    center:
+      x: 148.5011
+      y: 98.0036
+  silkscreen_local:
+    measurement: F.SilkS and B.SilkS graphics; text excluded
+    units: mm
+    available: true
+    min:
+      x: -0.3937
+      y: -0.51
+    max:
+      x: 0.3051
+      y: 0.51
+    width: 0.6988
+    height: 1.02
+    center:
+      x: -0.0443
+      y: 0.0
+  silkscreen_placed:
+    measurement: silkscreen graphics after placement
+    units: mm
+    available: true
+    min:
+      x: 147.9911
+      y: 97.6985
+    max:
+      x: 149.0111
+      y: 98.3973
+    width: 1.02
+    height: 0.6988
+    center:
+      x: 148.5011
+      y: 98.0479
+  overall_local:
+    measurement: all non-text footprint graphics and pads
+    units: mm
+    available: true
+    min:
+      x: -1.495
+      y: -0.745
+    max:
+      x: 1.495
+      y: 0.745
+    width: 2.99
+    height: 1.49
+    center:
+      x: 0.0
+      y: 0.0
+  overall_placed:
+    measurement: all non-text footprint graphics and pads after placement
+    units: mm
+    available: true
+    min:
+      x: 147.7561
+      y: 96.5086
+    max:
+      x: 149.2461
+      y: 99.4986
+    width: 1.49
+    height: 2.99
+    center:
+      x: 148.5011
+      y: 98.0036
+connected_components:
+- C1
+- C2
+- C3
+- C4
+- C5
+- C6
+- C7
+- C8
+- C9
+- C10
+- C11
+- C12
+- C13
+- C14
+- CON1
+- CON2
+- CON3
+- D1
+- D2
+- IC1
+- IC2
+- IC3
+- IC4
+- J1
+- R1
+- R2
+- R4
+- R5
+- XT1

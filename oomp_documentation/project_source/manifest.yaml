@@ -1,0 +1,232 @@
+format_version: 1
+source_filenames:
+- working.yaml
+- working_svg_assembly.svg
+- working_svg_assembly_pins.svg
+- working_svg_square_pins.svg
+- working_svg_outline.svg
+image_filenames:
+- working_svg_assembly.svg
+- working_svg_assembly_pins.svg
+- working_svg_square_pins.svg
+parts:
+- oomp_id: electronic_capacitor_0402_100_nano_farad
+  project_source_files:
+  - working.yaml
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+  - working_svg_outline.svg
+  generated_image_files:
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+- oomp_id: electronic_capacitor_0402_10_micro_farad
+  project_source_files:
+  - working.yaml
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+  - working_svg_outline.svg
+  generated_image_files:
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+- oomp_id: electronic_capacitor_0402_10_nano_farad
+  project_source_files:
+  - working.yaml
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+  - working_svg_outline.svg
+  generated_image_files:
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+- oomp_id: electronic_capacitor_1206_47_micro_farad
+  project_source_files:
+  - working.yaml
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+  - working_svg_outline.svg
+  generated_image_files:
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+- oomp_id: electronic_connector_header_2_54_mm_pitch_through_hole_6_pin
+  project_source_files:
+  - working.yaml
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+  - working_svg_outline.svg
+  generated_image_files:
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+- oomp_id: electronic_connector_usb_a_surface_mount_4_pin_shenzhen_jing_tuo_jin_electronics_912121a2023s10100
+  project_source_files:
+  - working.yaml
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+  - working_svg_outline.svg
+  generated_image_files:
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+- oomp_id: electronic_connector_usb_c_surface_mount_16_pin_korean_hroparts_elec_typec31m12
+  project_source_files:
+  - working.yaml
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+  - working_svg_outline.svg
+  generated_image_files:
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+- oomp_id: electronic_crystal_3225_surface_mount_4_pin_12_mhz_20_pf
+  project_source_files:
+  - working.yaml
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+  - working_svg_outline.svg
+  generated_image_files:
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+- oomp_id: electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+  project_source_files:
+  - working.yaml
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+  - working_svg_outline.svg
+  generated_image_files:
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+- oomp_id: electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+  project_source_files:
+  - working.yaml
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+  - working_svg_outline.svg
+  generated_image_files:
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+- oomp_id: electronic_ic_qfn_16_3_mm_x_3_mm_converter_usb_to_serial_converter_wch_ch343p
+  project_source_files:
+  - working.yaml
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+  - working_svg_outline.svg
+  generated_image_files:
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+- oomp_id: electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+  project_source_files:
+  - working.yaml
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+  - working_svg_outline.svg
+  generated_image_files:
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+- oomp_id: electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+  project_source_files:
+  - working.yaml
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+  - working_svg_outline.svg
+  generated_image_files:
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+- oomp_id: electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+  project_source_files:
+  - working.yaml
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+  - working_svg_outline.svg
+  generated_image_files:
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+- oomp_id: electronic_led_0603_green
+  project_source_files:
+  - working.yaml
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+  - working_svg_outline.svg
+  generated_image_files:
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+- oomp_id: electronic_resistor_0402_100000_ohm
+  project_source_files:
+  - working.yaml
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+  - working_svg_outline.svg
+  generated_image_files:
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+- oomp_id: electronic_resistor_0402_2200_ohm
+  project_source_files:
+  - working.yaml
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+  - working_svg_outline.svg
+  generated_image_files:
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+- oomp_id: electronic_resistor_0402_510000_ohm
+  project_source_files:
+  - working.yaml
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+  - working_svg_outline.svg
+  generated_image_files:
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+- oomp_id: electronic_resistor_0402_5100_ohm
+  project_source_files:
+  - working.yaml
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+  - working_svg_outline.svg
+  generated_image_files:
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+- oomp_id: mechanical_mounting_hole_2_mm_round_unplated
+  project_source_files:
+  - working.yaml
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg
+  - working_svg_outline.svg
+  generated_image_files:
+  - working_svg_assembly.svg
+  - working_svg_assembly_pins.svg
+  - working_svg_square_pins.svg

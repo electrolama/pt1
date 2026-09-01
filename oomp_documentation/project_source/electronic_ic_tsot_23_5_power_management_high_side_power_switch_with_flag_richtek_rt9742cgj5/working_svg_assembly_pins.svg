@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg data-pin-one-x="0.5673" data-pin-one-y="2.4180" data-pin-one-identifiers="1" xmlns="http://www.w3.org/2000/svg"
+     width="2.8955mm" height="2.7955mm"
+     viewBox="0 0 2.8955 2.7955">
+  <rect x="0.0000" y="0.0000" width="2.8955" height="2.7955"  fill="none" stroke="none" />
+  <rect x="0.3679" y="2.1155" width="0.3988" height="0.6050"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="1.2484" y="2.1155" width="0.3988" height="0.6050"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.1288" y="2.1155" width="0.3988" height="0.6050"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.3679" y="0.0750" width="0.3988" height="0.6050"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.1288" y="0.0750" width="0.3988" height="0.6050"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.1036" y="0.6550" width="2.6883" height="1.4855" rx="0.0800" ry="0.0800"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <line x1="0.1136" y1="2.1305" x2="0.1136" y2="1.9705"  fill="#000000" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <line x1="0.1136" y1="1.9705" x2="0.2736" y2="2.1305"  fill="#000000" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <line x1="0.2736" y1="2.1305" x2="0.1136" y2="2.1305"  fill="#000000" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.5673" y="2.4180" font-family="Arial, sans-serif" font-size="0.2377" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.5673,2.4180)">vout</text>
+  <text x="1.4478" y="2.4180" font-family="Arial, sans-serif" font-size="0.2791" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,1.4478,2.4180)">gnd</text>
+  <text x="2.3282" y="2.4180" font-family="Arial, sans-serif" font-size="0.2791" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,2.3282,2.4180)">flg</text>
+  <text x="0.5673" y="0.3775" font-family="Arial, sans-serif" font-size="0.2791" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.5673,0.3775)">vin</text>
+  <text x="2.3282" y="0.3775" font-family="Arial, sans-serif" font-size="0.2791" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,2.3282,0.3775)">en</text>
+</svg>

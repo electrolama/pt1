@@ -1,0 +1,13 @@
+status: matched
+accepted: true
+oomp_id: electronic_ic_qfn_16_3_mm_x_3_mm_converter_usb_to_serial_converter_wch_ch343p
+confidence: 1.0
+proposed_oomp_id: null
+inferred:
+  kind: null
+  package_size: null
+  value: CH343P
+  mpn: CH343P
+reasons:
+- Accepted from the AI/human match override file.
+candidates: []

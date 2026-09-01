@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="133.5011 76.0036 30.0000 58.0000">
+<defs>
+<style>
+.page { fill: #FFFFFF; }
+.board { fill: #FFFFFF; stroke: #000000; stroke-width: 0.35; }
+.edge-cut { fill: none; stroke: #000000; stroke-width: 0.25; }
+.component { fill: #FFFFFF; stroke: #000000; stroke-width: 0.18; }
+.mechanical-pad { fill: #FFFFFF; stroke: #000000; stroke-width: 0.18; }
+.mounting-hole { fill: #FFFFFF; stroke: #000000; stroke-width: 0.22; }
+.reference { fill: #000000; font-family: Arial, sans-serif; font-size: 0.72px; text-anchor: middle; paint-order: stroke; stroke: #FFFFFF; stroke-width: 0.35px; }
+</style>
+</defs>
+<rect class="page" x="133.5011" y="76.0036" width="30.0000" height="58.0000" />
+<rect class="board" x="139.5011" y="82.0036" width="18.0000" height="46.0000" rx="1.0" />
+<polyline class="edge-cut" points="139.5011,127.0036 139.5011,83.0036" />
+<polyline class="edge-cut" points="140.5011,82.0036 156.5011,82.0036" />
+<polyline class="edge-cut" points="156.5011,128.0036 140.5011,128.0036" />
+<polyline class="edge-cut" points="157.5011,83.0036 157.5011,127.0036" />
+<polyline class="edge-cut" points="139.5011,83.0036 139.5097,82.8731 139.5352,82.7448 139.5772,82.6209 139.6351,82.5036 139.7077,82.3948 139.7940,82.2965 139.8923,82.2102 140.0011,82.1376 140.1184,82.0797 140.2423,82.0377 140.3706,82.0122 140.5011,82.0036" />
+<polyline class="edge-cut" points="140.5011,128.0036 140.3706,127.9950 140.2423,127.9695 140.1184,127.9275 140.0011,127.8696 139.8923,127.7970 139.7940,127.7107 139.7077,127.6124 139.6351,127.5036 139.5772,127.3863 139.5352,127.2624 139.5097,127.1341 139.5011,127.0036" />
+<polyline class="edge-cut" points="156.5011,82.0036 156.6316,82.0122 156.7599,82.0377 156.8838,82.0797 157.0011,82.1376 157.1099,82.2102 157.2082,82.2965 157.2945,82.3948 157.3671,82.5036 157.4250,82.6209 157.4670,82.7448 157.4925,82.8731 157.5011,83.0036" />
+<polyline class="edge-cut" points="157.5011,127.0036 157.4925,127.1341 157.4670,127.2624 157.4250,127.3863 157.3671,127.5036 157.2945,127.6124 157.2082,127.7107 157.1099,127.7970 157.0011,127.8696 156.8838,127.9275 156.7599,127.9695 156.6316,127.9950 156.5011,128.0036" />
+<g class="board-component" data-reference="CON3" data-oomp-id="electronic_connector_usb_a_surface_mount_4_pin_shenzhen_jing_tuo_jin_electronics_912121a2023s10100" tabindex="0" transform="translate(148.5011 85.8786) rotate(0.0000)">
+<g transform="translate(0.0000 0.7250) rotate(180)"><svg x="-7.1500" y="-5.3000" width="14.3000" height="10.6000" viewBox="0 0 14.3000 10.6000" preserveAspectRatio="xMidYMid meet"><rect x="0.0000" y="0.0000" width="14.3000" height="10.6000"  fill="none" stroke="none" />
+  <rect x="0.6000" y="0.0000" width="13.1000" height="10.6000" rx="0.4585" ry="0.4585"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0000" y="3.4980" width="1.2000" height="3.6040"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="13.1000" y="3.4980" width="1.2000" height="3.6040"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="3.6500" y="0.0000" width="1.0000" height="1.4840"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="5.6500" y="0.0000" width="1.0000" height="1.4840"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="7.6500" y="0.0000" width="1.0000" height="1.4840"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="9.6500" y="0.0000" width="1.0000" height="1.4840"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.5650" y="3.7100" width="2.8820" height="3.1800" rx="0.4240" ry="0.4240"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <line x1="3.0235" y1="5.6710" x2="4.9885" y2="5.6710"  fill="#000000" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <line x1="3.0235" y1="4.9290" x2="4.9885" y2="4.9290"  fill="#000000" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="8.8530" y="3.7100" width="2.8820" height="3.1800" rx="0.4240" ry="0.4240"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <line x1="9.3115" y1="5.6710" x2="11.2765" y2="5.6710"  fill="#000000" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <line x1="9.3115" y1="4.9290" x2="11.2765" y2="4.9290"  fill="#000000" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.0410" y="7.2080" width="10.2180" height="2.1200" rx="0.6360" ry="0.6360"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="3.0890" y="8.0295" width="8.1220" height="0.7950" rx="0.2650" ry="0.2650"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <circle cx="2.6960" cy="2.1200" r="0.3710"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.6000" y="5.3000" font-family="Arial, sans-serif" font-size="0.8400" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.6000,5.3000)">shield</text>
+  <text x="13.7000" y="5.3000" font-family="Arial, sans-serif" font-size="0.8400" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,13.7000,5.3000)">shield</text>
+  <text x="4.1500" y="0.7420" font-family="Arial, sans-serif" font-size="0.5830" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,4.1500,0.7420)">vbus</text>
+  <text x="6.1500" y="0.7420" font-family="Arial, sans-serif" font-size="0.7000" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,6.1500,0.7420)">D-</text>
+  <text x="8.1500" y="0.7420" font-family="Arial, sans-serif" font-size="0.7000" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,8.1500,0.7420)">D+</text>
+  <text x="10.1500" y="0.7420" font-family="Arial, sans-serif" font-size="0.7000" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,10.1500,0.7420)">gnd</text></svg></g>
+</g>
+<g class="board-component" data-reference="CON2" data-oomp-id="electronic_connector_usb_c_surface_mount_16_pin_korean_hroparts_elec_typec31m12" tabindex="0" transform="translate(142.7511 100.0036) rotate(90.0000)">
+<g transform="translate(0.0000 0.7242) rotate(0)"><svg x="-4.4700" y="-3.8295" width="8.9400" height="7.6590" viewBox="0 0 8.9400 7.6590" preserveAspectRatio="xMidYMid meet"><rect x="0.0000" y="0.3090" width="8.9400" height="7.3500"  fill="none" stroke="none" />
+  <rect x="0.0000" y="0.3090" width="8.9400" height="7.3500" rx="0.6258" ry="0.6258"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.9200" y="0.0000" width="0.6000" height="1.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="1.7200" y="0.0000" width="0.6000" height="1.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.5700" y="0.0000" width="0.3000" height="1.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="3.0700" y="0.0000" width="0.3000" height="1.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="3.5700" y="0.0000" width="0.3000" height="1.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="4.0700" y="0.0000" width="0.3000" height="1.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="4.5700" y="0.0000" width="0.3000" height="1.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="5.0700" y="0.0000" width="0.3000" height="1.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="5.5700" y="0.0000" width="0.3000" height="1.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="6.0700" y="0.0000" width="0.3000" height="1.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="6.6200" y="0.0000" width="0.6000" height="1.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="7.4200" y="0.0000" width="0.6000" height="1.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.2235" y="1.2645" width="0.8046" height="1.3230" rx="0.1838" ry="0.1838"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.2235" y="5.3805" width="0.8046" height="1.3230" rx="0.1838" ry="0.1838"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="7.9119" y="1.2645" width="0.8046" height="1.3230" rx="0.1838" ry="0.1838"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="7.9119" y="5.3805" width="0.8046" height="1.3230" rx="0.1838" ry="0.1838"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="1.4751" y="2.5875" width="1.5198" height="0.8820" rx="0.1838" ry="0.1838"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="5.9451" y="2.5875" width="1.5198" height="0.8820" rx="0.1838" ry="0.1838"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <line x1="4.4700" y1="4.5720" x2="4.4700" y2="1.7790"  fill="#000000" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.8940" y="5.1600" width="7.1520" height="1.6170" rx="0.6615" ry="0.6615"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.0115" y="5.7296" width="4.9170" height="0.4778" rx="0.1470" ry="0.1470"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <circle cx="1.2200" cy="0.7500" r="0.2573"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="1.2200" y="0.7500" font-family="Arial, sans-serif" font-size="0.4200" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,1.2200,0.7500)">gnd</text>
+  <text x="2.0200" y="0.7500" font-family="Arial, sans-serif" font-size="0.4200" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,2.0200,0.7500)">vbus</text>
+  <text x="2.7200" y="0.7500" font-family="Arial, sans-serif" font-size="0.2100" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,2.7200,0.7500)">sbu2</text>
+  <text x="3.2200" y="0.7500" font-family="Arial, sans-serif" font-size="0.2100" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,3.2200,0.7500)">cc1</text>
+  <text x="3.7200" y="0.7500" font-family="Arial, sans-serif" font-size="0.2100" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,3.7200,0.7500)">dn2</text>
+  <text x="4.2200" y="0.7500" font-family="Arial, sans-serif" font-size="0.2100" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,4.2200,0.7500)">dp1</text>
+  <text x="4.7200" y="0.7500" font-family="Arial, sans-serif" font-size="0.2100" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,4.7200,0.7500)">dn1</text>
+  <text x="5.2200" y="0.7500" font-family="Arial, sans-serif" font-size="0.2100" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,5.2200,0.7500)">dp2</text>
+  <text x="5.7200" y="0.7500" font-family="Arial, sans-serif" font-size="0.2100" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,5.7200,0.7500)">sbu1</text>
+  <text x="6.2200" y="0.7500" font-family="Arial, sans-serif" font-size="0.2100" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,6.2200,0.7500)">cc2</text>
+  <text x="6.9200" y="0.7500" font-family="Arial, sans-serif" font-size="0.4200" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,6.9200,0.7500)">vbus</text>
+  <text x="7.7200" y="0.7500" font-family="Arial, sans-serif" font-size="0.4200" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,7.7200,0.7500)">gnd</text></svg></g>
+</g>
+<g class="board-component" data-reference="CON1" data-oomp-id="electronic_connector_usb_c_surface_mount_16_pin_korean_hroparts_elec_typec31m12" tabindex="0" transform="translate(148.5011 124.7536) rotate(0.0000)">
+<g transform="translate(0.0000 0.5117) rotate(0)"><svg x="-4.4700" y="-3.8295" width="8.9400" height="7.6590" viewBox="0 0 8.9400 7.6590" preserveAspectRatio="xMidYMid meet"><rect x="0.0000" y="0.3090" width="8.9400" height="7.3500"  fill="none" stroke="none" />
+  <rect x="0.0000" y="0.3090" width="8.9400" height="7.3500" rx="0.6258" ry="0.6258"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.9200" y="0.0000" width="0.6000" height="1.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="1.7200" y="0.0000" width="0.6000" height="1.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.5700" y="0.0000" width="0.3000" height="1.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="3.0700" y="0.0000" width="0.3000" height="1.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="3.5700" y="0.0000" width="0.3000" height="1.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="4.0700" y="0.0000" width="0.3000" height="1.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="4.5700" y="0.0000" width="0.3000" height="1.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="5.0700" y="0.0000" width="0.3000" height="1.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="5.5700" y="0.0000" width="0.3000" height="1.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="6.0700" y="0.0000" width="0.3000" height="1.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="6.6200" y="0.0000" width="0.6000" height="1.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="7.4200" y="0.0000" width="0.6000" height="1.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.2235" y="1.2645" width="0.8046" height="1.3230" rx="0.1838" ry="0.1838"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.2235" y="5.3805" width="0.8046" height="1.3230" rx="0.1838" ry="0.1838"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="7.9119" y="1.2645" width="0.8046" height="1.3230" rx="0.1838" ry="0.1838"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="7.9119" y="5.3805" width="0.8046" height="1.3230" rx="0.1838" ry="0.1838"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="1.4751" y="2.5875" width="1.5198" height="0.8820" rx="0.1838" ry="0.1838"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="5.9451" y="2.5875" width="1.5198" height="0.8820" rx="0.1838" ry="0.1838"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <line x1="4.4700" y1="4.5720" x2="4.4700" y2="1.7790"  fill="#000000" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.8940" y="5.1600" width="7.1520" height="1.6170" rx="0.6615" ry="0.6615"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.0115" y="5.7296" width="4.9170" height="0.4778" rx="0.1470" ry="0.1470"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <circle cx="1.2200" cy="0.7500" r="0.2573"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="1.2200" y="0.7500" font-family="Arial, sans-serif" font-size="0.4200" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,1.2200,0.7500)">gnd</text>
+  <text x="2.0200" y="0.7500" font-family="Arial, sans-serif" font-size="0.4200" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,2.0200,0.7500)">vbus</text>
+  <text x="2.7200" y="0.7500" font-family="Arial, sans-serif" font-size="0.2100" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,2.7200,0.7500)">sbu2</text>
+  <text x="3.2200" y="0.7500" font-family="Arial, sans-serif" font-size="0.2100" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,3.2200,0.7500)">cc1</text>
+  <text x="3.7200" y="0.7500" font-family="Arial, sans-serif" font-size="0.2100" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,3.7200,0.7500)">dn2</text>
+  <text x="4.2200" y="0.7500" font-family="Arial, sans-serif" font-size="0.2100" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,4.2200,0.7500)">dp1</text>
+  <text x="4.7200" y="0.7500" font-family="Arial, sans-serif" font-size="0.2100" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,4.7200,0.7500)">dn1</text>
+  <text x="5.2200" y="0.7500" font-family="Arial, sans-serif" font-size="0.2100" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,5.2200,0.7500)">dp2</text>
+  <text x="5.7200" y="0.7500" font-family="Arial, sans-serif" font-size="0.2100" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,5.7200,0.7500)">sbu1</text>
+  <text x="6.2200" y="0.7500" font-family="Arial, sans-serif" font-size="0.2100" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,6.2200,0.7500)">cc2</text>
+  <text x="6.9200" y="0.7500" font-family="Arial, sans-serif" font-size="0.4200" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,6.9200,0.7500)">vbus</text>
+  <text x="7.7200" y="0.7500" font-family="Arial, sans-serif" font-size="0.4200" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,7.7200,0.7500)">gnd</text></svg></g>
+</g>
+<g class="board-component" data-reference="IC2" data-oomp-id="electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a" tabindex="0" transform="translate(148.7511 112.6286) rotate(90.0000)">
+<g transform="translate(0.0000 0.0000) rotate(0)"><svg x="-3.0200" y="-4.9500" width="6.0400" height="9.9000" viewBox="0 0 6.0400 9.9000" preserveAspectRatio="xMidYMid meet"><rect x="0.0000" y="0.0000" width="6.0400" height="9.9000"  fill="none" stroke="none" />
+  <rect x="0.0360" y="0.5074" width="1.0984" height="0.3978"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0360" y="1.7199" width="1.0984" height="0.3978"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0360" y="2.9324" width="1.0984" height="0.3978"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0360" y="4.1449" width="1.0984" height="0.3978"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0360" y="5.3574" width="1.0984" height="0.3978"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0360" y="6.5699" width="1.0984" height="0.3978"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0360" y="7.7824" width="1.0984" height="0.3978"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0360" y="8.9949" width="1.0984" height="0.3978"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="4.9056" y="0.5074" width="1.0984" height="0.3978"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="4.9056" y="1.7199" width="1.0984" height="0.3978"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="4.9056" y="2.9324" width="1.0984" height="0.3978"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="4.9056" y="4.1449" width="1.0984" height="0.3978"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="4.9056" y="5.3574" width="1.0984" height="0.3978"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="4.9056" y="6.5699" width="1.0984" height="0.3978"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="4.9056" y="7.7824" width="1.0984" height="0.3978"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="4.9056" y="8.9949" width="1.0984" height="0.3978"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="1.1094" y="0.1000" width="3.8212" height="9.7000" rx="0.0800" ry="0.0800"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <circle cx="1.2194" cy="0.2100" r="0.0650"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.5852" y="0.7063" font-family="Arial, sans-serif" font-size="0.2785" text-anchor="middle" dominant-baseline="middle" fill="#000000">dm4</text>
+  <text x="0.5852" y="1.9188" font-family="Arial, sans-serif" font-size="0.2785" text-anchor="middle" dominant-baseline="middle" fill="#000000">dp4</text>
+  <text x="0.5852" y="3.1313" font-family="Arial, sans-serif" font-size="0.2785" text-anchor="middle" dominant-baseline="middle" fill="#000000">dm3</text>
+  <text x="0.5852" y="4.3438" font-family="Arial, sans-serif" font-size="0.2785" text-anchor="middle" dominant-baseline="middle" fill="#000000">dp3</text>
+  <text x="0.5852" y="5.5563" font-family="Arial, sans-serif" font-size="0.2785" text-anchor="middle" dominant-baseline="middle" fill="#000000">dm2</text>
+  <text x="0.5852" y="6.7688" font-family="Arial, sans-serif" font-size="0.2785" text-anchor="middle" dominant-baseline="middle" fill="#000000">dp2</text>
+  <text x="0.5852" y="7.9813" font-family="Arial, sans-serif" font-size="0.2785" text-anchor="middle" dominant-baseline="middle" fill="#000000">dm1</text>
+  <text x="0.5852" y="9.1937" font-family="Arial, sans-serif" font-size="0.2785" text-anchor="middle" dominant-baseline="middle" fill="#000000">dp1</text>
+  <text x="5.4548" y="0.7063" font-family="Arial, sans-serif" font-size="0.2785" text-anchor="middle" dominant-baseline="middle" fill="#000000">xin</text>
+  <text x="5.4548" y="1.9188" font-family="Arial, sans-serif" font-size="0.2785" text-anchor="middle" dominant-baseline="middle" fill="#000000">xout</text>
+  <text x="5.4548" y="3.1313" font-family="Arial, sans-serif" font-size="0.2785" text-anchor="middle" dominant-baseline="middle" fill="#000000">vdd18</text>
+  <text x="5.4548" y="4.3438" font-family="Arial, sans-serif" font-size="0.2785" text-anchor="middle" dominant-baseline="middle" fill="#000000">vdd33</text>
+  <text x="5.4548" y="5.5563" font-family="Arial, sans-serif" font-size="0.2785" text-anchor="middle" dominant-baseline="middle" fill="#000000">vss</text>
+  <text x="5.4548" y="6.7688" font-family="Arial, sans-serif" font-size="0.2785" text-anchor="middle" dominant-baseline="middle" fill="#000000">vcc5</text>
+  <text x="5.4548" y="7.9813" font-family="Arial, sans-serif" font-size="0.2785" text-anchor="middle" dominant-baseline="middle" fill="#000000">udp</text>
+  <text x="5.4548" y="9.1937" font-family="Arial, sans-serif" font-size="0.2785" text-anchor="middle" dominant-baseline="middle" fill="#000000">udm</text></svg></g>
+</g>
+<g class="board-component" data-reference="J1" data-oomp-id="electronic_connector_header_2_54_mm_pitch_through_hole_6_pin" tabindex="0" transform="translate(155.8761 106.1286) rotate(90.0000)">
+<g transform="translate(6.3500 0.1270) rotate(-90)"><svg x="-1.2400" y="-7.6200" width="2.4800" height="15.2400" viewBox="0 0 2.4800 15.2400" preserveAspectRatio="xMidYMid meet"><rect x="0.0000" y="0.0000" width="2.4800" height="15.2400"  fill="none" stroke="none" />
+  <rect x="0.0000" y="0.0000" width="2.4800" height="15.2400" rx="0.1000" ry="0.1000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.9200" y="0.9500" width="0.6400" height="0.6400"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.9200" y="3.4900" width="0.6400" height="0.6400"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.9200" y="6.0300" width="0.6400" height="0.6400"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.9200" y="8.5700" width="0.6400" height="0.6400"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.9200" y="11.1100" width="0.6400" height="0.6400"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.9200" y="13.6500" width="0.6400" height="0.6400"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <circle cx="0.4960" cy="1.2700" r="0.1488"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="1.2400" y="1.2700" font-family="Arial, sans-serif" font-size="0.2011" text-anchor="middle" dominant-baseline="middle" fill="#000000">pin 1</text>
+  <text x="1.2400" y="3.8100" font-family="Arial, sans-serif" font-size="0.2011" text-anchor="middle" dominant-baseline="middle" fill="#000000">pin 2</text>
+  <text x="1.2400" y="6.3500" font-family="Arial, sans-serif" font-size="0.2011" text-anchor="middle" dominant-baseline="middle" fill="#000000">pin 3</text>
+  <text x="1.2400" y="8.8900" font-family="Arial, sans-serif" font-size="0.2011" text-anchor="middle" dominant-baseline="middle" fill="#000000">pin 4</text>
+  <text x="1.2400" y="11.4300" font-family="Arial, sans-serif" font-size="0.2011" text-anchor="middle" dominant-baseline="middle" fill="#000000">pin 5</text>
+  <text x="1.2400" y="13.9700" font-family="Arial, sans-serif" font-size="0.2011" text-anchor="middle" dominant-baseline="middle" fill="#000000">pin 6</text></svg></g>
+</g>
+<g class="board-component" data-reference="IC1" data-oomp-id="electronic_ic_qfn_16_3_mm_x_3_mm_converter_usb_to_serial_converter_wch_ch343p" tabindex="0" transform="translate(150.2511 103.8786) rotate(90.0000)">
+<g transform="translate(0.0000 0.0000) rotate(0)"><svg x="-1.6520" y="-1.6520" width="3.3040" height="3.3040" viewBox="0 0 3.3040 3.3040" preserveAspectRatio="xMidYMid meet"><rect x="0.1520" y="0.1520" width="3.0000" height="3.0000"  fill="none" stroke="none" />
+  <rect x="-0.0000" y="0.6860" width="0.5040" height="0.2520"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="-0.0000" y="1.2460" width="0.5040" height="0.2520"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="-0.0000" y="1.8060" width="0.5040" height="0.2520"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="-0.0000" y="2.3660" width="0.5040" height="0.2520"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.6860" y="-0.0000" width="0.2520" height="0.5040"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="1.2460" y="-0.0000" width="0.2520" height="0.5040"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="1.8060" y="-0.0000" width="0.2520" height="0.5040"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.3660" y="-0.0000" width="0.2520" height="0.5040"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.8000" y="0.6860" width="0.5040" height="0.2520"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.8000" y="1.2460" width="0.5040" height="0.2520"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.8000" y="1.8060" width="0.5040" height="0.2520"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.8000" y="2.3660" width="0.5040" height="0.2520"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.6860" y="2.8000" width="0.2520" height="0.5040"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="1.2460" y="2.8000" width="0.2520" height="0.5040"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="1.8060" y="2.8000" width="0.2520" height="0.5040"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.3660" y="2.8000" width="0.2520" height="0.5040"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.2520" y="0.2520" width="2.8000" height="2.8000" rx="0.0700" ry="0.0700"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="1.0360" y="1.0360" width="1.2320" height="1.2320"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <circle cx="0.3620" cy="2.9420" r="0.0650"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.2520" y="0.8120" font-family="Arial, sans-serif" font-size="0.1764" text-anchor="middle" dominant-baseline="middle" fill="#000000">rts</text>
+  <text x="0.2520" y="1.3720" font-family="Arial, sans-serif" font-size="0.1764" text-anchor="middle" dominant-baseline="middle" fill="#000000">dsr</text>
+  <text x="0.2520" y="1.9320" font-family="Arial, sans-serif" font-size="0.1764" text-anchor="middle" dominant-baseline="middle" fill="#000000">cts</text>
+  <text x="0.2520" y="2.4920" font-family="Arial, sans-serif" font-size="0.1764" text-anchor="middle" dominant-baseline="middle" fill="#000000">ri</text>
+  <text x="0.8120" y="0.2520" font-family="Arial, sans-serif" font-size="0.0990" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.8120,0.2520)">dtr_tnow</text>
+  <text x="1.3720" y="0.2520" font-family="Arial, sans-serif" font-size="0.1764" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,1.3720,0.2520)">dcd</text>
+  <text x="1.9320" y="0.2520" font-family="Arial, sans-serif" font-size="0.1764" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,1.9320,0.2520)">act</text>
+  <text x="2.4920" y="0.2520" font-family="Arial, sans-serif" font-size="0.1764" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,2.4920,0.2520)">vbus</text>
+  <text x="3.0520" y="0.8120" font-family="Arial, sans-serif" font-size="0.0720" text-anchor="middle" dominant-baseline="middle" fill="#000000">ud_negative</text>
+  <text x="3.0520" y="1.3720" font-family="Arial, sans-serif" font-size="0.0720" text-anchor="middle" dominant-baseline="middle" fill="#000000">ud_positive</text>
+  <text x="3.0520" y="1.9320" font-family="Arial, sans-serif" font-size="0.1764" text-anchor="middle" dominant-baseline="middle" fill="#000000">v3</text>
+  <text x="3.0520" y="2.4920" font-family="Arial, sans-serif" font-size="0.1764" text-anchor="middle" dominant-baseline="middle" fill="#000000">rxd</text>
+  <text x="0.8120" y="3.0520" font-family="Arial, sans-serif" font-size="0.1764" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.8120,3.0520)">vio</text>
+  <text x="1.3720" y="3.0520" font-family="Arial, sans-serif" font-size="0.1764" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,1.3720,3.0520)">gnd</text>
+  <text x="1.9320" y="3.0520" font-family="Arial, sans-serif" font-size="0.1764" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,1.9320,3.0520)">vdd5</text>
+  <text x="2.4920" y="3.0520" font-family="Arial, sans-serif" font-size="0.1764" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,2.4920,3.0520)">txd</text>
+  <text x="1.6520" y="1.6520" font-family="Arial, sans-serif" font-size="0.6453" text-anchor="middle" dominant-baseline="middle" fill="#000000">gnd</text></svg></g>
+</g>
+<g class="board-component" data-reference="D1" data-oomp-id="electronic_diode_tvs_array_sot_23_6_protek_srv054pt7" tabindex="0" transform="translate(145.3761 106.8786) rotate(-180.0000)">
+<g transform="translate(0.0000 0.0000) rotate(0)"><svg x="-1.3284" y="-1.4500" width="2.6569" height="2.9000" viewBox="0 0 2.6569 2.9000" preserveAspectRatio="xMidYMid meet"><rect x="0.5284" y="0.0000" width="1.6000" height="2.9000"  fill="none" stroke="none" />
+  <rect x="0.0000" y="0.3912" width="0.6086" height="0.3491"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0000" y="1.2754" width="0.6086" height="0.3491"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0000" y="2.1597" width="0.6086" height="0.3491"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.0483" y="0.3912" width="0.6086" height="0.3491"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.0483" y="1.2754" width="0.6086" height="0.3491"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.0483" y="2.1597" width="0.6086" height="0.3491"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.5836" y="0.1000" width="1.4897" height="2.7000" rx="0.0800" ry="0.0800"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <circle cx="0.6936" cy="0.2100" r="0.0650"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.3043" y="0.5657" font-family="Arial, sans-serif" font-size="0.1913" text-anchor="middle" dominant-baseline="middle" fill="#000000">pin 1</text>
+  <text x="0.3043" y="1.4500" font-family="Arial, sans-serif" font-size="0.1913" text-anchor="middle" dominant-baseline="middle" fill="#000000">pin 2</text>
+  <text x="0.3043" y="2.3343" font-family="Arial, sans-serif" font-size="0.1913" text-anchor="middle" dominant-baseline="middle" fill="#000000">pin 3</text>
+  <text x="2.3526" y="0.5657" font-family="Arial, sans-serif" font-size="0.1913" text-anchor="middle" dominant-baseline="middle" fill="#000000">pin 6</text>
+  <text x="2.3526" y="1.4500" font-family="Arial, sans-serif" font-size="0.1913" text-anchor="middle" dominant-baseline="middle" fill="#000000">pin 5</text>
+  <text x="2.3526" y="2.3343" font-family="Arial, sans-serif" font-size="0.1913" text-anchor="middle" dominant-baseline="middle" fill="#000000">pin 4</text></svg></g>
+</g>
+<g class="board-component" data-reference="D2" data-oomp-id="electronic_diode_tvs_array_sot_23_6_protek_srv054pt7" tabindex="0" transform="translate(141.6261 112.6286) rotate(90.0000)">
+<g transform="translate(0.0000 0.0000) rotate(0)"><svg x="-1.3284" y="-1.4500" width="2.6569" height="2.9000" viewBox="0 0 2.6569 2.9000" preserveAspectRatio="xMidYMid meet"><rect x="0.5284" y="0.0000" width="1.6000" height="2.9000"  fill="none" stroke="none" />
+  <rect x="0.0000" y="0.3912" width="0.6086" height="0.3491"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0000" y="1.2754" width="0.6086" height="0.3491"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0000" y="2.1597" width="0.6086" height="0.3491"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.0483" y="0.3912" width="0.6086" height="0.3491"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.0483" y="1.2754" width="0.6086" height="0.3491"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.0483" y="2.1597" width="0.6086" height="0.3491"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.5836" y="0.1000" width="1.4897" height="2.7000" rx="0.0800" ry="0.0800"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <circle cx="0.6936" cy="0.2100" r="0.0650"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.3043" y="0.5657" font-family="Arial, sans-serif" font-size="0.1913" text-anchor="middle" dominant-baseline="middle" fill="#000000">pin 1</text>
+  <text x="0.3043" y="1.4500" font-family="Arial, sans-serif" font-size="0.1913" text-anchor="middle" dominant-baseline="middle" fill="#000000">pin 2</text>
+  <text x="0.3043" y="2.3343" font-family="Arial, sans-serif" font-size="0.1913" text-anchor="middle" dominant-baseline="middle" fill="#000000">pin 3</text>
+  <text x="2.3526" y="0.5657" font-family="Arial, sans-serif" font-size="0.1913" text-anchor="middle" dominant-baseline="middle" fill="#000000">pin 6</text>
+  <text x="2.3526" y="1.4500" font-family="Arial, sans-serif" font-size="0.1913" text-anchor="middle" dominant-baseline="middle" fill="#000000">pin 5</text>
+  <text x="2.3526" y="2.3343" font-family="Arial, sans-serif" font-size="0.1913" text-anchor="middle" dominant-baseline="middle" fill="#000000">pin 4</text></svg></g>
+</g>
+<g class="board-component" data-reference="IC3" data-oomp-id="electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr" tabindex="0" transform="translate(155.4386 102.2536) rotate(-90.0000)">
+<g transform="translate(0.0000 0.0000) rotate(0)"><svg x="-1.4000" y="-1.4500" width="2.8000" height="2.9000" viewBox="0 0 2.8000 2.9000" preserveAspectRatio="xMidYMid meet"><rect x="0.0000" y="0.0000" width="2.8000" height="2.9000"  fill="none" stroke="none" />
+  <rect x="0.0716" y="0.3912" width="0.6086" height="0.3491"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0716" y="1.2754" width="0.6086" height="0.3491"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0716" y="2.1597" width="0.6086" height="0.3491"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.1198" y="0.3912" width="0.6086" height="0.3491"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.1198" y="1.2754" width="0.6086" height="0.3491"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.1198" y="2.1597" width="0.6086" height="0.3491"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.6552" y="0.1000" width="1.4897" height="2.7000" rx="0.0800" ry="0.0800"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <circle cx="0.7652" cy="0.2100" r="0.0650"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.3759" y="0.5657" font-family="Arial, sans-serif" font-size="0.2444" text-anchor="middle" dominant-baseline="middle" fill="#000000">in1</text>
+  <text x="0.3759" y="1.4500" font-family="Arial, sans-serif" font-size="0.2444" text-anchor="middle" dominant-baseline="middle" fill="#000000">gnd</text>
+  <text x="0.3759" y="2.3343" font-family="Arial, sans-serif" font-size="0.2444" text-anchor="middle" dominant-baseline="middle" fill="#000000">in0</text>
+  <text x="2.4241" y="0.5657" font-family="Arial, sans-serif" font-size="0.2444" text-anchor="middle" dominant-baseline="middle" fill="#000000">in2</text>
+  <text x="2.4241" y="1.4500" font-family="Arial, sans-serif" font-size="0.2444" text-anchor="middle" dominant-baseline="middle" fill="#000000">vcc</text>
+  <text x="2.4241" y="2.3343" font-family="Arial, sans-serif" font-size="0.2444" text-anchor="middle" dominant-baseline="middle" fill="#000000">y</text></svg></g>
+</g>
+<g class="board-component" data-reference="XT1" data-oomp-id="electronic_crystal_3225_surface_mount_4_pin_12_mhz_20_pf" tabindex="0" transform="translate(152.3811 118.5036) rotate(-90.0000)">
+<g transform="translate(-0.3500 0.0000) rotate(0)"><svg x="-1.6000" y="-1.2500" width="3.2000" height="2.5000" viewBox="0 0 3.2000 2.5000" preserveAspectRatio="xMidYMid meet"><rect x="0.0000" y="0.0000" width="3.2000" height="2.5000"  fill="none" stroke="none" />
+  <rect x="0.2000" y="0.2000" width="2.8000" height="2.1000" rx="0.1500" ry="0.1500"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0000" y="2.1500" width="0.4000" height="0.3000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0000" y="0.0500" width="0.4000" height="0.3000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.8000" y="2.1500" width="0.4000" height="0.3000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.8000" y="0.0500" width="0.4000" height="0.3000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.2000" y="2.3000" font-family="Arial, sans-serif" font-size="0.1257" text-anchor="middle" dominant-baseline="middle" fill="#000000">pin 1</text>
+  <text x="0.2000" y="0.2000" font-family="Arial, sans-serif" font-size="0.1257" text-anchor="middle" dominant-baseline="middle" fill="#000000">pin 4</text>
+  <text x="3.0000" y="2.3000" font-family="Arial, sans-serif" font-size="0.1257" text-anchor="middle" dominant-baseline="middle" fill="#000000">pin 2</text>
+  <text x="3.0000" y="0.2000" font-family="Arial, sans-serif" font-size="0.1257" text-anchor="middle" dominant-baseline="middle" fill="#000000">pin 3</text></svg></g>
+</g>
+<g class="board-component" data-reference="IC4" data-oomp-id="electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5" tabindex="0" transform="translate(155.6261 96.3786) rotate(-180.0000)">
+<g transform="translate(0.0000 0.0000) rotate(0)"><svg x="-1.4478" y="-1.3978" width="2.8955" height="2.7955" viewBox="0 0 2.8955 2.7955" preserveAspectRatio="xMidYMid meet"><rect x="0.0000" y="0.0000" width="2.8955" height="2.7955"  fill="none" stroke="none" />
+  <rect x="0.3679" y="2.1155" width="0.3988" height="0.6050"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="1.2484" y="2.1155" width="0.3988" height="0.6050"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.1288" y="2.1155" width="0.3988" height="0.6050"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.3679" y="0.0750" width="0.3988" height="0.6050"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.1288" y="0.0750" width="0.3988" height="0.6050"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.1036" y="0.6550" width="2.6883" height="1.4855" rx="0.0800" ry="0.0800"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <line x1="0.1136" y1="2.1305" x2="0.1136" y2="1.9705"  fill="#000000" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <line x1="0.1136" y1="1.9705" x2="0.2736" y2="2.1305"  fill="#000000" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <line x1="0.2736" y1="2.1305" x2="0.1136" y2="2.1305"  fill="#000000" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.5673" y="2.4180" font-family="Arial, sans-serif" font-size="0.2377" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.5673,2.4180)">vout</text>
+  <text x="1.4478" y="2.4180" font-family="Arial, sans-serif" font-size="0.2791" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,1.4478,2.4180)">gnd</text>
+  <text x="2.3282" y="2.4180" font-family="Arial, sans-serif" font-size="0.2791" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,2.3282,2.4180)">flg</text>
+  <text x="0.5673" y="0.3775" font-family="Arial, sans-serif" font-size="0.2791" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.5673,0.3775)">vin</text>
+  <text x="2.3282" y="0.3775" font-family="Arial, sans-serif" font-size="0.2791" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,2.3282,0.3775)">en</text></svg></g>
+</g>
+<g class="board-component" data-reference="C3" data-oomp-id="electronic_capacitor_1206_47_micro_farad" tabindex="0" transform="translate(142.7511 118.6286) rotate(90.0000)">
+<g transform="translate(0.0000 0.0000) rotate(0)"><svg x="-1.6000" y="-0.8000" width="3.2000" height="1.6000" viewBox="0 0 3.2000 1.6000" preserveAspectRatio="xMidYMid meet"><rect x="0.0000" y="0.0000" width="3.2000" height="1.6000"  fill="none" stroke="none" />
+  <rect x="0.0000" y="0.0000" width="3.2000" height="1.6000" rx="0.1200" ry="0.1200"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="-0.0000" y="0.0000" width="0.5760" height="1.6000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.6240" y="0.0000" width="0.5760" height="1.6000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.2880" y="0.8000" font-family="Arial, sans-serif" font-size="0.4032" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.2880,0.8000)">pin 1</text>
+  <text x="2.9120" y="0.8000" font-family="Arial, sans-serif" font-size="0.4032" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,2.9120,0.8000)">pin 2</text></svg></g>
+</g>
+<g class="board-component" data-reference="C4" data-oomp-id="electronic_capacitor_1206_47_micro_farad" tabindex="0" transform="translate(141.2511 107.6286) rotate(90.0000)">
+<g transform="translate(0.0000 0.0000) rotate(0)"><svg x="-1.6000" y="-0.8000" width="3.2000" height="1.6000" viewBox="0 0 3.2000 1.6000" preserveAspectRatio="xMidYMid meet"><rect x="0.0000" y="0.0000" width="3.2000" height="1.6000"  fill="none" stroke="none" />
+  <rect x="0.0000" y="0.0000" width="3.2000" height="1.6000" rx="0.1200" ry="0.1200"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="-0.0000" y="0.0000" width="0.5760" height="1.6000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.6240" y="0.0000" width="0.5760" height="1.6000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.2880" y="0.8000" font-family="Arial, sans-serif" font-size="0.4032" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.2880,0.8000)">pin 1</text>
+  <text x="2.9120" y="0.8000" font-family="Arial, sans-serif" font-size="0.4032" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,2.9120,0.8000)">pin 2</text></svg></g>
+</g>
+<g class="board-component" data-reference="C7" data-oomp-id="electronic_capacitor_1206_47_micro_farad" tabindex="0" transform="translate(152.6886 95.2536) rotate(-90.0000)">
+<g transform="translate(0.0000 0.0000) rotate(0)"><svg x="-1.6000" y="-0.8000" width="3.2000" height="1.6000" viewBox="0 0 3.2000 1.6000" preserveAspectRatio="xMidYMid meet"><rect x="0.0000" y="0.0000" width="3.2000" height="1.6000"  fill="none" stroke="none" />
+  <rect x="0.0000" y="0.0000" width="3.2000" height="1.6000" rx="0.1200" ry="0.1200"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="-0.0000" y="0.0000" width="0.5760" height="1.6000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.6240" y="0.0000" width="0.5760" height="1.6000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.2880" y="0.8000" font-family="Arial, sans-serif" font-size="0.4032" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.2880,0.8000)">pin 1</text>
+  <text x="2.9120" y="0.8000" font-family="Arial, sans-serif" font-size="0.4032" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,2.9120,0.8000)">pin 2</text></svg></g>
+</g>
+<g class="board-component" data-reference="C8" data-oomp-id="electronic_capacitor_1206_47_micro_farad" tabindex="0" transform="translate(151.7511 99.6286) rotate(-90.0000)">
+<g transform="translate(0.0000 0.0000) rotate(0)"><svg x="-1.6000" y="-0.8000" width="3.2000" height="1.6000" viewBox="0 0 3.2000 1.6000" preserveAspectRatio="xMidYMid meet"><rect x="0.0000" y="0.0000" width="3.2000" height="1.6000"  fill="none" stroke="none" />
+  <rect x="0.0000" y="0.0000" width="3.2000" height="1.6000" rx="0.1200" ry="0.1200"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="-0.0000" y="0.0000" width="0.5760" height="1.6000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.6240" y="0.0000" width="0.5760" height="1.6000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.2880" y="0.8000" font-family="Arial, sans-serif" font-size="0.4032" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.2880,0.8000)">pin 1</text>
+  <text x="2.9120" y="0.8000" font-family="Arial, sans-serif" font-size="0.4032" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,2.9120,0.8000)">pin 2</text></svg></g>
+</g>
+<g class="board-component" data-reference="L1" data-oomp-id="electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d" tabindex="0" transform="translate(146.8761 119.0036) rotate(-180.0000)">
+<g transform="translate(0.0000 0.0000) rotate(0)"><svg x="-1.0000" y="-0.6250" width="2.0000" height="1.2500" viewBox="0 0 2.0000 1.2500" preserveAspectRatio="xMidYMid meet"><rect x="0.0000" y="0.0000" width="2.0000" height="1.2500"  fill="none" stroke="none" />
+  <rect x="0.0000" y="0.0000" width="2.0000" height="1.2500" rx="0.1200" ry="0.1200"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0000" y="0.0000" width="0.3600" height="1.2500"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="1.6400" y="0.0000" width="0.3600" height="1.2500"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.1800" y="0.6250" font-family="Arial, sans-serif" font-size="0.2520" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.1800,0.6250)">pin 1</text>
+  <text x="1.8200" y="0.6250" font-family="Arial, sans-serif" font-size="0.2520" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,1.8200,0.6250)">pin 2</text></svg></g>
+</g>
+<g class="board-component" data-reference="LED1" data-oomp-id="electronic_led_0603_green" tabindex="0" transform="translate(148.5011 98.0036) rotate(-90.0000)">
+<g transform="translate(0.0000 0.0000) rotate(0)"><svg x="-0.8000" y="-0.4000" width="1.6000" height="0.8000" viewBox="0 0 1.6000 0.8000" preserveAspectRatio="xMidYMid meet"><rect x="0.0000" y="0.0000" width="1.6000" height="0.8000"  fill="none" stroke="none" />
+  <rect x="0.0000" y="0.0000" width="1.6000" height="0.8000" rx="0.1200" ry="0.1200"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="-0.0000" y="0.0000" width="0.2880" height="0.8000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="1.3120" y="0.0000" width="0.2880" height="0.8000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <circle cx="0.8000" cy="0.4000" r="0.2667"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <line x1="0.4320" y1="0.6400" x2="0.4320" y2="0.1600"  fill="#000000" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.1440" y="0.4000" font-family="Arial, sans-serif" font-size="0.2016" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.1440,0.4000)">pin 1</text>
+  <text x="1.4560" y="0.4000" font-family="Arial, sans-serif" font-size="0.2016" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,1.4560,0.4000)">pin 2</text></svg></g>
+</g>
+<g class="board-component" data-reference="R6" data-oomp-id="electronic_resistor_0402_100000_ohm" tabindex="0" transform="translate(148.8636 101.1411) rotate(-90.0000)">
+<g transform="translate(0.0000 0.0000) rotate(0)"><svg x="-0.5000" y="-0.2500" width="1.0000" height="0.5000" viewBox="0 0 1.0000 0.5000" preserveAspectRatio="xMidYMid meet"><rect x="0.0000" y="0.0000" width="1.0000" height="0.5000"  fill="none" stroke="none" />
+  <rect x="0.0000" y="0.0000" width="1.0000" height="0.5000" rx="0.1200" ry="0.1200"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0000" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.8200" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.0900" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.0900,0.2500)">pin 1</text>
+  <text x="0.9100" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.9100,0.2500)">pin 2</text></svg></g>
+</g>
+<g class="board-component" data-reference="C1" data-oomp-id="electronic_capacitor_0402_10_nano_farad" tabindex="0" transform="translate(149.7511 119.1286) rotate(-180.0000)">
+<g transform="translate(0.0000 0.0000) rotate(0)"><svg x="-0.5000" y="-0.2500" width="1.0000" height="0.5000" viewBox="0 0 1.0000 0.5000" preserveAspectRatio="xMidYMid meet"><rect x="0.0000" y="0.0000" width="1.0000" height="0.5000"  fill="none" stroke="none" />
+  <rect x="0.0000" y="0.0000" width="1.0000" height="0.5000" rx="0.1200" ry="0.1200"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0000" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.8200" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.0900" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.0900,0.2500)">pin 1</text>
+  <text x="0.9100" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.9100,0.2500)">pin 2</text></svg></g>
+</g>
+<g class="board-component" data-reference="C6" data-oomp-id="electronic_capacitor_0402_100_nano_farad" tabindex="0" transform="translate(156.2511 99.2536) rotate(-180.0000)">
+<g transform="translate(0.0000 0.0000) rotate(0)"><svg x="-0.5000" y="-0.2500" width="1.0000" height="0.5000" viewBox="0 0 1.0000 0.5000" preserveAspectRatio="xMidYMid meet"><rect x="0.0000" y="0.0000" width="1.0000" height="0.5000"  fill="none" stroke="none" />
+  <rect x="0.0000" y="0.0000" width="1.0000" height="0.5000" rx="0.1200" ry="0.1200"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0000" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.8200" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.0900" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.0900,0.2500)">pin 1</text>
+  <text x="0.9100" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.9100,0.2500)">pin 2</text></svg></g>
+</g>
+<g class="board-component" data-reference="C9" data-oomp-id="electronic_capacitor_0402_100_nano_farad" tabindex="0" transform="translate(156.1011 93.5661) rotate(0.0000)">
+<g transform="translate(0.0000 0.0000) rotate(0)"><svg x="-0.5000" y="-0.2500" width="1.0000" height="0.5000" viewBox="0 0 1.0000 0.5000" preserveAspectRatio="xMidYMid meet"><rect x="0.0000" y="0.0000" width="1.0000" height="0.5000"  fill="none" stroke="none" />
+  <rect x="0.0000" y="0.0000" width="1.0000" height="0.5000" rx="0.1200" ry="0.1200"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0000" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.8200" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.0900" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.0900,0.2500)">pin 1</text>
+  <text x="0.9100" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.9100,0.2500)">pin 2</text></svg></g>
+</g>
+<g class="board-component" data-reference="C10" data-oomp-id="electronic_capacitor_0402_100_nano_farad" tabindex="0" transform="translate(147.1261 117.2536) rotate(-180.0000)">
+<g transform="translate(0.0000 0.0000) rotate(0)"><svg x="-0.5000" y="-0.2500" width="1.0000" height="0.5000" viewBox="0 0 1.0000 0.5000" preserveAspectRatio="xMidYMid meet"><rect x="0.0000" y="0.0000" width="1.0000" height="0.5000"  fill="none" stroke="none" />
+  <rect x="0.0000" y="0.0000" width="1.0000" height="0.5000" rx="0.1200" ry="0.1200"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0000" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.8200" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.0900" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.0900,0.2500)">pin 1</text>
+  <text x="0.9100" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.9100,0.2500)">pin 2</text></svg></g>
+</g>
+<g class="board-component" data-reference="R1" data-oomp-id="electronic_resistor_0402_5100_ohm" tabindex="0" transform="translate(154.5011 121.2536) rotate(0.0000)">
+<g transform="translate(0.0000 0.0000) rotate(0)"><svg x="-0.5000" y="-0.2500" width="1.0000" height="0.5000" viewBox="0 0 1.0000 0.5000" preserveAspectRatio="xMidYMid meet"><rect x="0.0000" y="0.0000" width="1.0000" height="0.5000"  fill="none" stroke="none" />
+  <rect x="0.0000" y="0.0000" width="1.0000" height="0.5000" rx="0.1200" ry="0.1200"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0000" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.8200" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.0900" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.0900,0.2500)">pin 1</text>
+  <text x="0.9100" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.9100,0.2500)">pin 2</text></svg></g>
+</g>
+<g class="board-component" data-reference="R4" data-oomp-id="electronic_resistor_0402_2200_ohm" tabindex="0" transform="translate(150.1761 94.5536) rotate(0.0000)">
+<g transform="translate(0.0000 0.0000) rotate(0)"><svg x="-0.5000" y="-0.2500" width="1.0000" height="0.5000" viewBox="0 0 1.0000 0.5000" preserveAspectRatio="xMidYMid meet"><rect x="0.0000" y="0.0000" width="1.0000" height="0.5000"  fill="none" stroke="none" />
+  <rect x="0.0000" y="0.0000" width="1.0000" height="0.5000" rx="0.1200" ry="0.1200"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0000" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.8200" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.0900" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.0900,0.2500)">pin 1</text>
+  <text x="0.9100" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.9100,0.2500)">pin 2</text></svg></g>
+</g>
+<g class="board-component" data-reference="R5" data-oomp-id="electronic_resistor_0402_100000_ohm" tabindex="0" transform="translate(154.1886 99.2536) rotate(-180.0000)">
+<g transform="translate(0.0000 0.0000) rotate(0)"><svg x="-0.5000" y="-0.2500" width="1.0000" height="0.5000" viewBox="0 0 1.0000 0.5000" preserveAspectRatio="xMidYMid meet"><rect x="0.0000" y="0.0000" width="1.0000" height="0.5000"  fill="none" stroke="none" />
+  <rect x="0.0000" y="0.0000" width="1.0000" height="0.5000" rx="0.1200" ry="0.1200"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0000" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.8200" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.0900" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.0900,0.2500)">pin 1</text>
+  <text x="0.9100" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.9100,0.2500)">pin 2</text></svg></g>
+</g>
+<g class="board-component" data-reference="C2" data-oomp-id="electronic_capacitor_0402_100_nano_farad" tabindex="0" transform="translate(144.5011 119.0036) rotate(-90.0000)">
+<g transform="translate(0.0000 0.0000) rotate(0)"><svg x="-0.5000" y="-0.2500" width="1.0000" height="0.5000" viewBox="0 0 1.0000 0.5000" preserveAspectRatio="xMidYMid meet"><rect x="0.0000" y="0.0000" width="1.0000" height="0.5000"  fill="none" stroke="none" />
+  <rect x="0.0000" y="0.0000" width="1.0000" height="0.5000" rx="0.1200" ry="0.1200"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0000" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.8200" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.0900" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.0900,0.2500)">pin 1</text>
+  <text x="0.9100" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.9100,0.2500)">pin 2</text></svg></g>
+</g>
+<g class="board-component" data-reference="C5" data-oomp-id="electronic_capacitor_0402_10_micro_farad" tabindex="0" transform="translate(153.0011 103.3786) rotate(90.0000)">
+<g transform="translate(0.0000 0.0000) rotate(0)"><svg x="-0.5000" y="-0.2500" width="1.0000" height="0.5000" viewBox="0 0 1.0000 0.5000" preserveAspectRatio="xMidYMid meet"><rect x="0.0000" y="0.0000" width="1.0000" height="0.5000"  fill="none" stroke="none" />
+  <rect x="0.0000" y="0.0000" width="1.0000" height="0.5000" rx="0.1200" ry="0.1200"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0000" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.8200" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.0900" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.0900,0.2500)">pin 1</text>
+  <text x="0.9100" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.9100,0.2500)">pin 2</text></svg></g>
+</g>
+<g class="board-component" data-reference="C11" data-oomp-id="electronic_capacitor_0402_10_micro_farad" tabindex="0" transform="translate(149.1261 117.6286) rotate(-90.0000)">
+<g transform="translate(0.0000 0.0000) rotate(0)"><svg x="-0.5000" y="-0.2500" width="1.0000" height="0.5000" viewBox="0 0 1.0000 0.5000" preserveAspectRatio="xMidYMid meet"><rect x="0.0000" y="0.0000" width="1.0000" height="0.5000"  fill="none" stroke="none" />
+  <rect x="0.0000" y="0.0000" width="1.0000" height="0.5000" rx="0.1200" ry="0.1200"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0000" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.8200" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.0900" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.0900,0.2500)">pin 1</text>
+  <text x="0.9100" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.9100,0.2500)">pin 2</text></svg></g>
+</g>
+<g class="board-component" data-reference="C12" data-oomp-id="electronic_capacitor_0402_10_micro_farad" tabindex="0" transform="translate(150.2511 117.6286) rotate(-90.0000)">
+<g transform="translate(0.0000 0.0000) rotate(0)"><svg x="-0.5000" y="-0.2500" width="1.0000" height="0.5000" viewBox="0 0 1.0000 0.5000" preserveAspectRatio="xMidYMid meet"><rect x="0.0000" y="0.0000" width="1.0000" height="0.5000"  fill="none" stroke="none" />
+  <rect x="0.0000" y="0.0000" width="1.0000" height="0.5000" rx="0.1200" ry="0.1200"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0000" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.8200" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.0900" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.0900,0.2500)">pin 1</text>
+  <text x="0.9100" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.9100,0.2500)">pin 2</text></svg></g>
+</g>
+<g class="board-component" data-reference="C13" data-oomp-id="electronic_capacitor_0402_10_micro_farad" tabindex="0" transform="translate(151.8136 107.0036) rotate(-90.0000)">
+<g transform="translate(0.0000 0.0000) rotate(0)"><svg x="-0.5000" y="-0.2500" width="1.0000" height="0.5000" viewBox="0 0 1.0000 0.5000" preserveAspectRatio="xMidYMid meet"><rect x="0.0000" y="0.0000" width="1.0000" height="0.5000"  fill="none" stroke="none" />
+  <rect x="0.0000" y="0.0000" width="1.0000" height="0.5000" rx="0.1200" ry="0.1200"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0000" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.8200" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.0900" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.0900,0.2500)">pin 1</text>
+  <text x="0.9100" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.9100,0.2500)">pin 2</text></svg></g>
+</g>
+<g class="board-component" data-reference="C14" data-oomp-id="electronic_capacitor_0402_100_nano_farad" tabindex="0" transform="translate(149.8761 107.0036) rotate(-90.0000)">
+<g transform="translate(0.0000 0.0000) rotate(0)"><svg x="-0.5000" y="-0.2500" width="1.0000" height="0.5000" viewBox="0 0 1.0000 0.5000" preserveAspectRatio="xMidYMid meet"><rect x="0.0000" y="0.0000" width="1.0000" height="0.5000"  fill="none" stroke="none" />
+  <rect x="0.0000" y="0.0000" width="1.0000" height="0.5000" rx="0.1200" ry="0.1200"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0000" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.8200" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.0900" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.0900,0.2500)">pin 1</text>
+  <text x="0.9100" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.9100,0.2500)">pin 2</text></svg></g>
+</g>
+<g class="board-component" data-reference="R2" data-oomp-id="electronic_resistor_0402_5100_ohm" tabindex="0" transform="translate(156.1886 121.2536) rotate(90.0000)">
+<g transform="translate(0.0000 0.0000) rotate(0)"><svg x="-0.5000" y="-0.2500" width="1.0000" height="0.5000" viewBox="0 0 1.0000 0.5000" preserveAspectRatio="xMidYMid meet"><rect x="0.0000" y="0.0000" width="1.0000" height="0.5000"  fill="none" stroke="none" />
+  <rect x="0.0000" y="0.0000" width="1.0000" height="0.5000" rx="0.1200" ry="0.1200"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0000" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.8200" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.0900" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.0900,0.2500)">pin 1</text>
+  <text x="0.9100" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.9100,0.2500)">pin 2</text></svg></g>
+</g>
+<g class="board-component" data-reference="R3" data-oomp-id="electronic_resistor_0402_510000_ohm" tabindex="0" transform="translate(153.0011 105.3786) rotate(-90.0000)">
+<g transform="translate(0.0000 0.0000) rotate(0)"><svg x="-0.5000" y="-0.2500" width="1.0000" height="0.5000" viewBox="0 0 1.0000 0.5000" preserveAspectRatio="xMidYMid meet"><rect x="0.0000" y="0.0000" width="1.0000" height="0.5000"  fill="none" stroke="none" />
+  <rect x="0.0000" y="0.0000" width="1.0000" height="0.5000" rx="0.1200" ry="0.1200"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0000" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.8200" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.0900" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.0900,0.2500)">pin 1</text>
+  <text x="0.9100" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.9100,0.2500)">pin 2</text></svg></g>
+</g>
+<circle class="mounting-hole" cx="145.6111" cy="123.1936" r="0.3250" />
+<circle class="mounting-hole" cx="151.3911" cy="123.1936" r="0.3250" />
+<circle class="mounting-hole" cx="144.3111" cy="97.1136" r="0.3250" />
+<circle class="mounting-hole" cx="144.3111" cy="102.8936" r="0.3250" />
+<ellipse class="mechanical-pad" cx="142.1011" cy="83.6386" rx="1.3080" ry="0.6540" transform="rotate(90.0000 142.1011 83.6386)" />
+<circle class="mounting-hole" cx="142.1011" cy="83.6386" r="0.4000" />
+<ellipse class="mechanical-pad" cx="154.9011" cy="83.6386" rx="1.3080" ry="0.6540" transform="rotate(90.0000 154.9011 83.6386)" />
+<circle class="mounting-hole" cx="154.9011" cy="83.6386" r="0.4000" />
+<circle class="mounting-hole" cx="141.7511" cy="93.3786" r="1.0000" />
+<circle class="mounting-hole" cx="155.2511" cy="124.5036" r="1.0000" />
+<circle class="mounting-hole" cx="141.7511" cy="124.5036" r="1.0000" />
+<g class="indicator" transform="translate(148.5011 86.6036)"><rect x="-1.1592" y="-0.4860" width="2.3184" height="0.9720" rx="0.0864" fill="#FFFFFF" stroke="none" /><text x="0" y="0.2448" fill="#000000" font-family="Arial, sans-serif" font-size="0.7200" font-weight="bold" text-anchor="middle">CON3</text></g>
+<g class="indicator" transform="translate(142.0268 100.0036)"><rect x="-1.1592" y="-0.4860" width="2.3184" height="0.9720" rx="0.0864" fill="#FFFFFF" stroke="none" /><text x="0" y="0.2448" fill="#000000" font-family="Arial, sans-serif" font-size="0.7200" font-weight="bold" text-anchor="middle">CON2</text></g>
+<g class="indicator" transform="translate(148.5011 125.2654)"><rect x="-1.1592" y="-0.4860" width="2.3184" height="0.9720" rx="0.0864" fill="#FFFFFF" stroke="none" /><text x="0" y="0.2448" fill="#000000" font-family="Arial, sans-serif" font-size="0.7200" font-weight="bold" text-anchor="middle">CON1</text></g>
+<g class="indicator" transform="translate(148.7511 112.6286)"><rect x="-0.9144" y="-0.4860" width="1.8288" height="0.9720" rx="0.0864" fill="#FFFFFF" stroke="none" /><text x="0" y="0.2448" fill="#000000" font-family="Arial, sans-serif" font-size="0.7200" font-weight="bold" text-anchor="middle">IC2</text></g>
+<g class="indicator" transform="translate(155.7491 112.4786)"><rect x="-0.6696" y="-0.4860" width="1.3392" height="0.9720" rx="0.0864" fill="#FFFFFF" stroke="none" /><text x="0" y="0.2448" fill="#000000" font-family="Arial, sans-serif" font-size="0.7200" font-weight="bold" text-anchor="middle">J1</text></g>
+<g class="indicator" transform="translate(150.2511 103.8786)"><rect x="-0.9144" y="-0.4860" width="1.8288" height="0.9720" rx="0.0864" fill="#FFFFFF" stroke="none" /><text x="0" y="0.2448" fill="#000000" font-family="Arial, sans-serif" font-size="0.7200" font-weight="bold" text-anchor="middle">IC1</text></g>
+<g class="indicator" transform="translate(145.3761 106.8786)"><rect x="-0.6696" y="-0.4860" width="1.3392" height="0.9720" rx="0.0864" fill="#FFFFFF" stroke="none" /><text x="0" y="0.2448" fill="#000000" font-family="Arial, sans-serif" font-size="0.7200" font-weight="bold" text-anchor="middle">D1</text></g>
+<g class="indicator" transform="translate(141.6261 112.6286)"><rect x="-0.6696" y="-0.4860" width="1.3392" height="0.9720" rx="0.0864" fill="#FFFFFF" stroke="none" /><text x="0" y="0.2448" fill="#000000" font-family="Arial, sans-serif" font-size="0.7200" font-weight="bold" text-anchor="middle">D2</text></g>
+<g class="indicator" transform="translate(155.4386 102.2536)"><rect x="-0.9144" y="-0.4860" width="1.8288" height="0.9720" rx="0.0864" fill="#FFFFFF" stroke="none" /><text x="0" y="0.2448" fill="#000000" font-family="Arial, sans-serif" font-size="0.7200" font-weight="bold" text-anchor="middle">IC3</text></g>
+<g class="indicator" transform="translate(152.3811 118.8536)"><rect x="-0.9144" y="-0.4860" width="1.8288" height="0.9720" rx="0.0864" fill="#FFFFFF" stroke="none" /><text x="0" y="0.2448" fill="#000000" font-family="Arial, sans-serif" font-size="0.7200" font-weight="bold" text-anchor="middle">XT1</text></g>
+<g class="indicator" transform="translate(155.6261 96.3786)"><rect x="-0.9144" y="-0.4860" width="1.8288" height="0.9720" rx="0.0864" fill="#FFFFFF" stroke="none" /><text x="0" y="0.2448" fill="#000000" font-family="Arial, sans-serif" font-size="0.7200" font-weight="bold" text-anchor="middle">IC4</text></g>
+<g class="indicator" transform="translate(142.7511 118.6286)"><rect x="-0.6560" y="-0.4860" width="1.3120" height="0.9720" rx="0.0864" fill="#FFFFFF" stroke="none" /><text x="0" y="0.2448" fill="#000000" font-family="Arial, sans-serif" font-size="0.7200" font-weight="bold" text-anchor="middle">C3</text></g>
+<g class="indicator" transform="translate(141.2511 107.6286)"><rect x="-0.6560" y="-0.4860" width="1.3120" height="0.9720" rx="0.0864" fill="#FFFFFF" stroke="none" /><text x="0" y="0.2448" fill="#000000" font-family="Arial, sans-serif" font-size="0.7200" font-weight="bold" text-anchor="middle">C4</text></g>
+<g class="indicator" transform="translate(152.6886 95.2536)"><rect x="-0.6560" y="-0.4860" width="1.3120" height="0.9720" rx="0.0864" fill="#FFFFFF" stroke="none" /><text x="0" y="0.2448" fill="#000000" font-family="Arial, sans-serif" font-size="0.7200" font-weight="bold" text-anchor="middle">C7</text></g>
+<g class="indicator" transform="translate(151.7511 99.6286)"><rect x="-0.6560" y="-0.4860" width="1.3120" height="0.9720" rx="0.0864" fill="#FFFFFF" stroke="none" /><text x="0" y="0.2448" fill="#000000" font-family="Arial, sans-serif" font-size="0.7200" font-weight="bold" text-anchor="middle">C8</text></g>
+<g class="indicator" transform="translate(146.8761 119.0036)"><rect x="-0.4883" y="-0.3544" width="0.9765" height="0.7088" rx="0.0630" fill="#FFFFFF" stroke="none" /><text x="0" y="0.1785" fill="#000000" font-family="Arial, sans-serif" font-size="0.5250" font-weight="bold" text-anchor="middle">L1</text></g>
+<g class="indicator" transform="translate(148.5011 98.0036)"><rect x="-0.3280" y="-0.1429" width="0.6560" height="0.2859" rx="0.0254" fill="#FFFFFF" stroke="none" /><text x="0" y="0.0720" fill="#000000" font-family="Arial, sans-serif" font-size="0.2118" font-weight="bold" text-anchor="middle">LED1</text></g>
+<g class="indicator" transform="translate(148.8636 101.1411)"><rect x="-0.2050" y="-0.1787" width="0.4100" height="0.3574" rx="0.0318" fill="#FFFFFF" stroke="none" /><text x="0" y="0.0900" fill="#000000" font-family="Arial, sans-serif" font-size="0.2647" font-weight="bold" text-anchor="middle">R6</text></g>
+<g class="indicator" transform="translate(149.7511 119.1286)"><rect x="-0.1953" y="-0.1418" width="0.3906" height="0.2835" rx="0.0252" fill="#FFFFFF" stroke="none" /><text x="0" y="0.0714" fill="#000000" font-family="Arial, sans-serif" font-size="0.2100" font-weight="bold" text-anchor="middle">C1</text></g>
+<g class="indicator" transform="translate(156.2511 99.2536)"><rect x="-0.1953" y="-0.1418" width="0.3906" height="0.2835" rx="0.0252" fill="#FFFFFF" stroke="none" /><text x="0" y="0.0714" fill="#000000" font-family="Arial, sans-serif" font-size="0.2100" font-weight="bold" text-anchor="middle">C6</text></g>
+<g class="indicator" transform="translate(156.1011 93.5661)"><rect x="-0.1953" y="-0.1418" width="0.3906" height="0.2835" rx="0.0252" fill="#FFFFFF" stroke="none" /><text x="0" y="0.0714" fill="#000000" font-family="Arial, sans-serif" font-size="0.2100" font-weight="bold" text-anchor="middle">C9</text></g>
+<g class="indicator" transform="translate(147.1261 117.2536)"><rect x="-0.2667" y="-0.1418" width="0.5334" height="0.2835" rx="0.0252" fill="#FFFFFF" stroke="none" /><text x="0" y="0.0714" fill="#000000" font-family="Arial, sans-serif" font-size="0.2100" font-weight="bold" text-anchor="middle">C10</text></g>
+<g class="indicator" transform="translate(154.5011 121.2536)"><rect x="-0.1953" y="-0.1418" width="0.3906" height="0.2835" rx="0.0252" fill="#FFFFFF" stroke="none" /><text x="0" y="0.0714" fill="#000000" font-family="Arial, sans-serif" font-size="0.2100" font-weight="bold" text-anchor="middle">R1</text></g>
+<g class="indicator" transform="translate(150.1761 94.5536)"><rect x="-0.1953" y="-0.1418" width="0.3906" height="0.2835" rx="0.0252" fill="#FFFFFF" stroke="none" /><text x="0" y="0.0714" fill="#000000" font-family="Arial, sans-serif" font-size="0.2100" font-weight="bold" text-anchor="middle">R4</text></g>
+<g class="indicator" transform="translate(154.1886 99.2536)"><rect x="-0.1953" y="-0.1418" width="0.3906" height="0.2835" rx="0.0252" fill="#FFFFFF" stroke="none" /><text x="0" y="0.0714" fill="#000000" font-family="Arial, sans-serif" font-size="0.2100" font-weight="bold" text-anchor="middle">R5</text></g>
+<g class="indicator" transform="translate(144.5011 119.0036)"><rect x="-0.2050" y="-0.1787" width="0.4100" height="0.3574" rx="0.0318" fill="#FFFFFF" stroke="none" /><text x="0" y="0.0900" fill="#000000" font-family="Arial, sans-serif" font-size="0.2647" font-weight="bold" text-anchor="middle">C2</text></g>
+<g class="indicator" transform="translate(153.0011 103.3786)"><rect x="-0.2050" y="-0.1787" width="0.4100" height="0.3574" rx="0.0318" fill="#FFFFFF" stroke="none" /><text x="0" y="0.0900" fill="#000000" font-family="Arial, sans-serif" font-size="0.2647" font-weight="bold" text-anchor="middle">C5</text></g>
+<g class="indicator" transform="translate(149.1261 117.6286)"><rect x="-0.2050" y="-0.1191" width="0.4100" height="0.2382" rx="0.0212" fill="#FFFFFF" stroke="none" /><text x="0" y="0.0600" fill="#000000" font-family="Arial, sans-serif" font-size="0.1765" font-weight="bold" text-anchor="middle">C11</text></g>
+<g class="indicator" transform="translate(150.2511 117.6286)"><rect x="-0.2050" y="-0.1191" width="0.4100" height="0.2382" rx="0.0212" fill="#FFFFFF" stroke="none" /><text x="0" y="0.0600" fill="#000000" font-family="Arial, sans-serif" font-size="0.1765" font-weight="bold" text-anchor="middle">C12</text></g>
+<g class="indicator" transform="translate(151.8136 107.0036)"><rect x="-0.2050" y="-0.1191" width="0.4100" height="0.2382" rx="0.0212" fill="#FFFFFF" stroke="none" /><text x="0" y="0.0600" fill="#000000" font-family="Arial, sans-serif" font-size="0.1765" font-weight="bold" text-anchor="middle">C13</text></g>
+<g class="indicator" transform="translate(149.8761 107.0036)"><rect x="-0.2050" y="-0.1191" width="0.4100" height="0.2382" rx="0.0212" fill="#FFFFFF" stroke="none" /><text x="0" y="0.0600" fill="#000000" font-family="Arial, sans-serif" font-size="0.1765" font-weight="bold" text-anchor="middle">C14</text></g>
+<g class="indicator" transform="translate(156.1886 121.2536)"><rect x="-0.2050" y="-0.1787" width="0.4100" height="0.3574" rx="0.0318" fill="#FFFFFF" stroke="none" /><text x="0" y="0.0900" fill="#000000" font-family="Arial, sans-serif" font-size="0.2647" font-weight="bold" text-anchor="middle">R2</text></g>
+<g class="indicator" transform="translate(153.0011 105.3786)"><rect x="-0.2050" y="-0.1787" width="0.4100" height="0.3574" rx="0.0318" fill="#FFFFFF" stroke="none" /><text x="0" y="0.0900" fill="#000000" font-family="Arial, sans-serif" font-size="0.2647" font-weight="bold" text-anchor="middle">R3</text></g>
+</svg>

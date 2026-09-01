@@ -1,0 +1,107 @@
+available: true
+units:
+- reference: C14
+  source_file: kicad_file.kicad_sch
+  uuid: b201601a-9daf-42bd-8fb7-01fa6ede7857
+  library_id: project-tool-mini-RevA2-eagle-import:CAP-0402
+  unit: 1
+  body_style: 1
+  position:
+    x: 49.53
+    y: 161.29
+    rotation: 270.0
+    mirror: x
+    units: mm
+  properties:
+    Reference: C14
+    Value: 100n
+    Footprint: project-tool-mini-RevA2:_PKG_C_0402
+    Datasheet: ''
+    Description: ''
+    JLCASSY: C1525
+    MPN: CL05B104KO5NNNC
+  in_bom: true
+  on_board: true
+  in_position_files: true
+  dnp: false
+  pins:
+  - number: '1'
+    name: '1'
+    electrical_type: passive
+    graphic_style: line
+    local_position:
+      x: -2.54
+      y: 0.0
+      rotation: 0.0
+    length: 0.0
+    position:
+      x: 49.53
+      y: 163.83
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '2'
+    name: '2'
+    electrical_type: passive
+    graphic_style: line
+    local_position:
+      x: 2.54
+      y: 0.0
+      rotation: 180.0
+    length: 0.0
+    position:
+      x: 49.53
+      y: 158.75
+    net: SER_3V3
+    net_aliases:
+    - SER_3V3
+    net_scope: global
+    no_connect: false
+    connected_to:
+    - reference: IC1
+      pin_number: '7'
+      pin_name: UD+
+    - reference: R6
+      pin_number: '1'
+      pin_name: '1'
+  size:
+    local_graphics:
+      measurement: symbol graphics only; excludes pins, properties, and text
+      units: mm
+      available: true
+      min:
+        x: -2.6162
+        y: -1.2668
+      max:
+        x: 2.6162
+        y: 1.2668
+      width: 5.2324
+      height: 2.5336
+      center:
+        x: 0.0
+        y: 0.0
+    placed_graphics:
+      measurement: axis-aligned bounds after schematic placement, rotation, and mirroring
+      units: mm
+      available: true
+      min:
+        x: 48.2632
+        y: 158.6738
+      max:
+        x: 50.7968
+        y: 163.9062
+      width: 2.5336
+      height: 5.2324
+      center:
+        x: 49.53
+        y: 161.29
+  warnings: []
+connected_components:
+- reference: IC1
+  pin_number: '7'
+  pin_name: UD+
+- reference: R6
+  pin_number: '1'
+  pin_name: '1'

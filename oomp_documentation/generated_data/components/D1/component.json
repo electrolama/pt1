@@ -1,0 +1,1330 @@
+{
+  "reference": "D1",
+  "schematic": {
+    "available": true,
+    "units": [
+      {
+        "reference": "D1",
+        "source_file": "kicad_file.kicad_sch",
+        "uuid": "a9dac754-f38a-4567-8915-404998280927",
+        "library_id": "project-tool-mini-RevA2-eagle-import:DIODE-TVS-SRV05-4",
+        "unit": 1,
+        "body_style": 1,
+        "position": {
+          "x": 229.87,
+          "y": 91.44,
+          "rotation": 0.0,
+          "mirror": null,
+          "units": "mm"
+        },
+        "properties": {
+          "Reference": "D1",
+          "Value": "SRV05-4-P-T7",
+          "Footprint": "project-tool-mini-RevA2:SOT95P280X145-6N",
+          "Datasheet": "",
+          "Description": "",
+          "HEIGHT": "1.45mm",
+          "MANUFACTURER_NAME": "ProTek Devices",
+          "MANUFACTURER_PART_NUMBER": "SRV05-4-P-T7",
+          "JLCASSY": "C85364",
+          "MPN": "SRV05-4-P-T7"
+        },
+        "in_bom": true,
+        "on_board": true,
+        "in_position_files": true,
+        "dnp": false,
+        "pins": [
+          {
+            "number": "1",
+            "name": "I/O_1",
+            "electrical_type": "bidirectional",
+            "graphic_style": "line",
+            "local_position": {
+              "x": 0.0,
+              "y": 0.0,
+              "rotation": 0.0
+            },
+            "length": 5.08,
+            "position": {
+              "x": 229.87,
+              "y": 91.44
+            },
+            "net": "USB2_N",
+            "net_aliases": [
+              "USB2_N"
+            ],
+            "net_scope": "global",
+            "no_connect": false,
+            "connected_to": [
+              {
+                "reference": "CON3",
+                "pin_number": "GND",
+                "pin_name": "G"
+              }
+            ]
+          },
+          {
+            "number": "2",
+            "name": "GND",
+            "electrical_type": "bidirectional",
+            "graphic_style": "line",
+            "local_position": {
+              "x": 0.0,
+              "y": -2.54,
+              "rotation": 0.0
+            },
+            "length": 5.08,
+            "position": {
+              "x": 229.87,
+              "y": 88.9
+            },
+            "net": null,
+            "net_aliases": [],
+            "net_scope": "sheet",
+            "no_connect": false,
+            "connected_to": []
+          },
+          {
+            "number": "3",
+            "name": "I/O_2",
+            "electrical_type": "bidirectional",
+            "graphic_style": "line",
+            "local_position": {
+              "x": 0.0,
+              "y": -5.08,
+              "rotation": 0.0
+            },
+            "length": 5.08,
+            "position": {
+              "x": 229.87,
+              "y": 86.36
+            },
+            "net": null,
+            "net_aliases": [],
+            "net_scope": "sheet",
+            "no_connect": false,
+            "connected_to": []
+          },
+          {
+            "number": "4",
+            "name": "I/O_3",
+            "electrical_type": "bidirectional",
+            "graphic_style": "line",
+            "local_position": {
+              "x": 30.48,
+              "y": -5.08,
+              "rotation": 180.0
+            },
+            "length": 5.08,
+            "position": {
+              "x": 260.35,
+              "y": 86.36
+            },
+            "net": null,
+            "net_aliases": [],
+            "net_scope": "sheet",
+            "no_connect": false,
+            "connected_to": []
+          },
+          {
+            "number": "5",
+            "name": "REF",
+            "electrical_type": "bidirectional",
+            "graphic_style": "line",
+            "local_position": {
+              "x": 30.48,
+              "y": -2.54,
+              "rotation": 180.0
+            },
+            "length": 5.08,
+            "position": {
+              "x": 260.35,
+              "y": 88.9
+            },
+            "net": null,
+            "net_aliases": [],
+            "net_scope": "sheet",
+            "no_connect": false,
+            "connected_to": []
+          },
+          {
+            "number": "6",
+            "name": "I/O_4",
+            "electrical_type": "bidirectional",
+            "graphic_style": "line",
+            "local_position": {
+              "x": 30.48,
+              "y": 0.0,
+              "rotation": 180.0
+            },
+            "length": 5.08,
+            "position": {
+              "x": 260.35,
+              "y": 91.44
+            },
+            "net": "USB1_P",
+            "net_aliases": [
+              "USB1_P"
+            ],
+            "net_scope": "global",
+            "no_connect": false,
+            "connected_to": []
+          }
+        ],
+        "size": {
+          "local_graphics": {
+            "measurement": "symbol graphics only; excludes pins, properties, and text",
+            "units": "mm",
+            "available": true,
+            "min": {
+              "x": 4.953,
+              "y": -7.747
+            },
+            "max": {
+              "x": 25.527,
+              "y": 2.667
+            },
+            "width": 20.574,
+            "height": 10.414,
+            "center": {
+              "x": 15.24,
+              "y": -2.54
+            }
+          },
+          "placed_graphics": {
+            "measurement": "axis-aligned bounds after schematic placement, rotation, and mirroring",
+            "units": "mm",
+            "available": true,
+            "min": {
+              "x": 234.823,
+              "y": 83.693
+            },
+            "max": {
+              "x": 255.397,
+              "y": 94.107
+            },
+            "width": 20.574,
+            "height": 10.414,
+            "center": {
+              "x": 245.11,
+              "y": 88.9
+            }
+          }
+        },
+        "warnings": []
+      }
+    ],
+    "connected_components": [
+      {
+        "reference": "CON3",
+        "pin_number": "GND",
+        "pin_name": "G"
+      }
+    ]
+  },
+  "pcb": {
+    "reference": "D1",
+    "value": "SRV05-4-P-T7",
+    "source_file": "kicad_file.kicad_pcb",
+    "uuid": "ec6f799c-ac6e-41e3-83e2-11ca8d9d88d8",
+    "library_id": "SOT95P280X145-6N",
+    "layer": "F.Cu",
+    "side": "front",
+    "position": {
+      "x": 145.3761,
+      "y": 106.8786,
+      "rotation": -180.0,
+      "rotation_kicad": 180.0,
+      "units": "mm"
+    },
+    "properties": {
+      "Reference": "D1",
+      "Value": "SRV05-4-P-T7",
+      "Datasheet": "",
+      "Description": ""
+    },
+    "attributes": [],
+    "exclude_from_bom": false,
+    "exclude_from_position_files": false,
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "roundrect",
+        "local_position": {
+          "x": -1.25,
+          "y": -0.95,
+          "rotation": 180.0
+        },
+        "position": {
+          "x": 146.6261,
+          "y": 107.8286
+        },
+        "placed_rotation": 0.0,
+        "size": {
+          "x": 1.2,
+          "y": 0.6,
+          "units": "mm"
+        },
+        "drill": {
+          "available": false,
+          "shape": null,
+          "x": null,
+          "y": null,
+          "diameter": null,
+          "units": "mm"
+        },
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "USB2_N",
+        "net_number": null,
+        "pin_function": null,
+        "pin_type": null,
+        "bounds": {
+          "local": {
+            "measurement": "pad bounds in footprint-local coordinates",
+            "units": "mm",
+            "available": true,
+            "min": {
+              "x": -1.85,
+              "y": -1.25
+            },
+            "max": {
+              "x": -0.65,
+              "y": -0.65
+            },
+            "width": 1.2,
+            "height": 0.6,
+            "center": {
+              "x": -1.25,
+              "y": -0.95
+            }
+          },
+          "placed": {
+            "measurement": "pad bounds after footprint placement and rotation",
+            "units": "mm",
+            "available": true,
+            "min": {
+              "x": 146.0261,
+              "y": 107.5286
+            },
+            "max": {
+              "x": 147.2261,
+              "y": 108.1286
+            },
+            "width": 1.2,
+            "height": 0.6,
+            "center": {
+              "x": 146.6261,
+              "y": 107.8286
+            }
+          }
+        },
+        "plating": null,
+        "is_mounting_hole": false,
+        "connected_to": [
+          {
+            "reference": "CON3",
+            "pad_number": "DM"
+          },
+          {
+            "reference": "IC2",
+            "pad_number": "5"
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "roundrect",
+        "local_position": {
+          "x": -1.25,
+          "y": 0.0,
+          "rotation": 180.0
+        },
+        "position": {
+          "x": 146.6261,
+          "y": 106.8786
+        },
+        "placed_rotation": 0.0,
+        "size": {
+          "x": 1.2,
+          "y": 0.6,
+          "units": "mm"
+        },
+        "drill": {
+          "available": false,
+          "shape": null,
+          "x": null,
+          "y": null,
+          "diameter": null,
+          "units": "mm"
+        },
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "GND",
+        "net_number": null,
+        "pin_function": null,
+        "pin_type": null,
+        "bounds": {
+          "local": {
+            "measurement": "pad bounds in footprint-local coordinates",
+            "units": "mm",
+            "available": true,
+            "min": {
+              "x": -1.85,
+              "y": -0.3
+            },
+            "max": {
+              "x": -0.65,
+              "y": 0.3
+            },
+            "width": 1.2,
+            "height": 0.6,
+            "center": {
+              "x": -1.25,
+              "y": 0.0
+            }
+          },
+          "placed": {
+            "measurement": "pad bounds after footprint placement and rotation",
+            "units": "mm",
+            "available": true,
+            "min": {
+              "x": 146.0261,
+              "y": 106.5786
+            },
+            "max": {
+              "x": 147.2261,
+              "y": 107.1786
+            },
+            "width": 1.2,
+            "height": 0.6,
+            "center": {
+              "x": 146.6261,
+              "y": 106.8786
+            }
+          }
+        },
+        "plating": null,
+        "is_mounting_hole": false,
+        "connected_to": [
+          {
+            "reference": "C1",
+            "pad_number": "1"
+          },
+          {
+            "reference": "C2",
+            "pad_number": "1"
+          },
+          {
+            "reference": "C3",
+            "pad_number": "2"
+          },
+          {
+            "reference": "C4",
+            "pad_number": "2"
+          },
+          {
+            "reference": "C5",
+            "pad_number": "1"
+          },
+          {
+            "reference": "C6",
+            "pad_number": "1"
+          },
+          {
+            "reference": "C7",
+            "pad_number": "1"
+          },
+          {
+            "reference": "C8",
+            "pad_number": "1"
+          },
+          {
+            "reference": "C9",
+            "pad_number": "1"
+          },
+          {
+            "reference": "C10",
+            "pad_number": "1"
+          },
+          {
+            "reference": "C11",
+            "pad_number": "1"
+          },
+          {
+            "reference": "C12",
+            "pad_number": "1"
+          },
+          {
+            "reference": "C13",
+            "pad_number": "1"
+          },
+          {
+            "reference": "C14",
+            "pad_number": "1"
+          },
+          {
+            "reference": "CON1",
+            "pad_number": "GND@1"
+          },
+          {
+            "reference": "CON1",
+            "pad_number": "GND@2"
+          },
+          {
+            "reference": "CON1",
+            "pad_number": "P$1"
+          },
+          {
+            "reference": "CON1",
+            "pad_number": "P$2"
+          },
+          {
+            "reference": "CON1",
+            "pad_number": "P$3"
+          },
+          {
+            "reference": "CON1",
+            "pad_number": "P$4"
+          },
+          {
+            "reference": "CON1",
+            "pad_number": "P$5"
+          },
+          {
+            "reference": "CON1",
+            "pad_number": "P$6"
+          },
+          {
+            "reference": "CON1",
+            "pad_number": "P$7"
+          },
+          {
+            "reference": "CON1",
+            "pad_number": "P$8"
+          },
+          {
+            "reference": "CON2",
+            "pad_number": "GND@1"
+          },
+          {
+            "reference": "CON2",
+            "pad_number": "GND@2"
+          },
+          {
+            "reference": "CON2",
+            "pad_number": "P$1"
+          },
+          {
+            "reference": "CON2",
+            "pad_number": "P$2"
+          },
+          {
+            "reference": "CON2",
+            "pad_number": "P$3"
+          },
+          {
+            "reference": "CON2",
+            "pad_number": "P$4"
+          },
+          {
+            "reference": "CON2",
+            "pad_number": "P$5"
+          },
+          {
+            "reference": "CON2",
+            "pad_number": "P$6"
+          },
+          {
+            "reference": "CON2",
+            "pad_number": "P$7"
+          },
+          {
+            "reference": "CON2",
+            "pad_number": "P$8"
+          },
+          {
+            "reference": "CON3",
+            "pad_number": "GND"
+          },
+          {
+            "reference": "CON3",
+            "pad_number": "P$5"
+          },
+          {
+            "reference": "CON3",
+            "pad_number": "P$6"
+          },
+          {
+            "reference": "D2",
+            "pad_number": "2"
+          },
+          {
+            "reference": "IC1",
+            "pad_number": "0"
+          },
+          {
+            "reference": "IC1",
+            "pad_number": "2"
+          },
+          {
+            "reference": "IC2",
+            "pad_number": "12"
+          },
+          {
+            "reference": "IC3",
+            "pad_number": "2"
+          },
+          {
+            "reference": "IC4",
+            "pad_number": "2"
+          },
+          {
+            "reference": "J1",
+            "pad_number": "6"
+          },
+          {
+            "reference": "LED1",
+            "pad_number": "C"
+          },
+          {
+            "reference": "R1",
+            "pad_number": "1"
+          },
+          {
+            "reference": "R2",
+            "pad_number": "1"
+          },
+          {
+            "reference": "R5",
+            "pad_number": "2"
+          },
+          {
+            "reference": "XT1",
+            "pad_number": "2"
+          },
+          {
+            "reference": "XT1",
+            "pad_number": "4"
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "type": "smd",
+        "shape": "roundrect",
+        "local_position": {
+          "x": -1.25,
+          "y": 0.95,
+          "rotation": 180.0
+        },
+        "position": {
+          "x": 146.6261,
+          "y": 105.9286
+        },
+        "placed_rotation": 0.0,
+        "size": {
+          "x": 1.2,
+          "y": 0.6,
+          "units": "mm"
+        },
+        "drill": {
+          "available": false,
+          "shape": null,
+          "x": null,
+          "y": null,
+          "diameter": null,
+          "units": "mm"
+        },
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "USB2_P",
+        "net_number": null,
+        "pin_function": null,
+        "pin_type": null,
+        "bounds": {
+          "local": {
+            "measurement": "pad bounds in footprint-local coordinates",
+            "units": "mm",
+            "available": true,
+            "min": {
+              "x": -1.85,
+              "y": 0.65
+            },
+            "max": {
+              "x": -0.65,
+              "y": 1.25
+            },
+            "width": 1.2,
+            "height": 0.6,
+            "center": {
+              "x": -1.25,
+              "y": 0.95
+            }
+          },
+          "placed": {
+            "measurement": "pad bounds after footprint placement and rotation",
+            "units": "mm",
+            "available": true,
+            "min": {
+              "x": 146.0261,
+              "y": 105.6286
+            },
+            "max": {
+              "x": 147.2261,
+              "y": 106.2286
+            },
+            "width": 1.2,
+            "height": 0.6,
+            "center": {
+              "x": 146.6261,
+              "y": 105.9286
+            }
+          }
+        },
+        "plating": null,
+        "is_mounting_hole": false,
+        "connected_to": [
+          {
+            "reference": "CON3",
+            "pad_number": "DP"
+          },
+          {
+            "reference": "IC2",
+            "pad_number": "6"
+          }
+        ]
+      },
+      {
+        "number": "4",
+        "type": "smd",
+        "shape": "roundrect",
+        "local_position": {
+          "x": 1.25,
+          "y": 0.95,
+          "rotation": 180.0
+        },
+        "position": {
+          "x": 144.1261,
+          "y": 105.9286
+        },
+        "placed_rotation": 0.0,
+        "size": {
+          "x": 1.2,
+          "y": 0.6,
+          "units": "mm"
+        },
+        "drill": {
+          "available": false,
+          "shape": null,
+          "x": null,
+          "y": null,
+          "diameter": null,
+          "units": "mm"
+        },
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "USB1_N",
+        "net_number": null,
+        "pin_function": null,
+        "pin_type": null,
+        "bounds": {
+          "local": {
+            "measurement": "pad bounds in footprint-local coordinates",
+            "units": "mm",
+            "available": true,
+            "min": {
+              "x": 0.65,
+              "y": 0.65
+            },
+            "max": {
+              "x": 1.85,
+              "y": 1.25
+            },
+            "width": 1.2,
+            "height": 0.6,
+            "center": {
+              "x": 1.25,
+              "y": 0.95
+            }
+          },
+          "placed": {
+            "measurement": "pad bounds after footprint placement and rotation",
+            "units": "mm",
+            "available": true,
+            "min": {
+              "x": 143.5261,
+              "y": 105.6286
+            },
+            "max": {
+              "x": 144.7261,
+              "y": 106.2286
+            },
+            "width": 1.2,
+            "height": 0.6,
+            "center": {
+              "x": 144.1261,
+              "y": 105.9286
+            }
+          }
+        },
+        "plating": null,
+        "is_mounting_hole": false,
+        "connected_to": [
+          {
+            "reference": "CON2",
+            "pad_number": "DN1"
+          },
+          {
+            "reference": "CON2",
+            "pad_number": "DN2"
+          },
+          {
+            "reference": "IC2",
+            "pad_number": "7"
+          }
+        ]
+      },
+      {
+        "number": "5",
+        "type": "smd",
+        "shape": "roundrect",
+        "local_position": {
+          "x": 1.25,
+          "y": 0.0,
+          "rotation": 180.0
+        },
+        "position": {
+          "x": 144.1261,
+          "y": 106.8786
+        },
+        "placed_rotation": 0.0,
+        "size": {
+          "x": 1.2,
+          "y": 0.6,
+          "units": "mm"
+        },
+        "drill": {
+          "available": false,
+          "shape": null,
+          "x": null,
+          "y": null,
+          "diameter": null,
+          "units": "mm"
+        },
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "VUSB",
+        "net_number": null,
+        "pin_function": null,
+        "pin_type": null,
+        "bounds": {
+          "local": {
+            "measurement": "pad bounds in footprint-local coordinates",
+            "units": "mm",
+            "available": true,
+            "min": {
+              "x": 0.65,
+              "y": -0.3
+            },
+            "max": {
+              "x": 1.85,
+              "y": 0.3
+            },
+            "width": 1.2,
+            "height": 0.6,
+            "center": {
+              "x": 1.25,
+              "y": 0.0
+            }
+          },
+          "placed": {
+            "measurement": "pad bounds after footprint placement and rotation",
+            "units": "mm",
+            "available": true,
+            "min": {
+              "x": 143.5261,
+              "y": 106.5786
+            },
+            "max": {
+              "x": 144.7261,
+              "y": 107.1786
+            },
+            "width": 1.2,
+            "height": 0.6,
+            "center": {
+              "x": 144.1261,
+              "y": 106.8786
+            }
+          }
+        },
+        "plating": null,
+        "is_mounting_hole": false,
+        "connected_to": [
+          {
+            "reference": "C2",
+            "pad_number": "2"
+          },
+          {
+            "reference": "C3",
+            "pad_number": "1"
+          },
+          {
+            "reference": "C4",
+            "pad_number": "1"
+          },
+          {
+            "reference": "C6",
+            "pad_number": "2"
+          },
+          {
+            "reference": "C10",
+            "pad_number": "2"
+          },
+          {
+            "reference": "C13",
+            "pad_number": "2"
+          },
+          {
+            "reference": "D2",
+            "pad_number": "5"
+          },
+          {
+            "reference": "IC1",
+            "pad_number": "3"
+          },
+          {
+            "reference": "IC1",
+            "pad_number": "9"
+          },
+          {
+            "reference": "IC2",
+            "pad_number": "11"
+          },
+          {
+            "reference": "IC3",
+            "pad_number": "3"
+          },
+          {
+            "reference": "IC3",
+            "pad_number": "5"
+          },
+          {
+            "reference": "IC4",
+            "pad_number": "5"
+          },
+          {
+            "reference": "L1",
+            "pad_number": "2"
+          },
+          {
+            "reference": "R3",
+            "pad_number": "1"
+          },
+          {
+            "reference": "SJ1",
+            "pad_number": "3"
+          }
+        ]
+      },
+      {
+        "number": "6",
+        "type": "smd",
+        "shape": "roundrect",
+        "local_position": {
+          "x": 1.25,
+          "y": -0.95,
+          "rotation": 180.0
+        },
+        "position": {
+          "x": 144.1261,
+          "y": 107.8286
+        },
+        "placed_rotation": 0.0,
+        "size": {
+          "x": 1.2,
+          "y": 0.6,
+          "units": "mm"
+        },
+        "drill": {
+          "available": false,
+          "shape": null,
+          "x": null,
+          "y": null,
+          "diameter": null,
+          "units": "mm"
+        },
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "USB1_P",
+        "net_number": null,
+        "pin_function": null,
+        "pin_type": null,
+        "bounds": {
+          "local": {
+            "measurement": "pad bounds in footprint-local coordinates",
+            "units": "mm",
+            "available": true,
+            "min": {
+              "x": 0.65,
+              "y": -1.25
+            },
+            "max": {
+              "x": 1.85,
+              "y": -0.65
+            },
+            "width": 1.2,
+            "height": 0.6,
+            "center": {
+              "x": 1.25,
+              "y": -0.95
+            }
+          },
+          "placed": {
+            "measurement": "pad bounds after footprint placement and rotation",
+            "units": "mm",
+            "available": true,
+            "min": {
+              "x": 143.5261,
+              "y": 107.5286
+            },
+            "max": {
+              "x": 144.7261,
+              "y": 108.1286
+            },
+            "width": 1.2,
+            "height": 0.6,
+            "center": {
+              "x": 144.1261,
+              "y": 107.8286
+            }
+          }
+        },
+        "plating": null,
+        "is_mounting_hole": false,
+        "connected_to": [
+          {
+            "reference": "CON2",
+            "pad_number": "DP1"
+          },
+          {
+            "reference": "CON2",
+            "pad_number": "DP2"
+          },
+          {
+            "reference": "IC2",
+            "pad_number": "8"
+          }
+        ]
+      }
+    ],
+    "mounting_holes": [],
+    "is_mounting_hole": false,
+    "size": {
+      "pads_local": {
+        "measurement": "all footprint pads in footprint-local coordinates",
+        "units": "mm",
+        "available": true,
+        "min": {
+          "x": -1.85,
+          "y": -1.25
+        },
+        "max": {
+          "x": 1.85,
+          "y": 1.25
+        },
+        "width": 3.7,
+        "height": 2.5,
+        "center": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
+      "pads_placed": {
+        "measurement": "all pads after PCB placement and rotation",
+        "units": "mm",
+        "available": true,
+        "min": {
+          "x": 143.5261,
+          "y": 105.6286
+        },
+        "max": {
+          "x": 147.2261,
+          "y": 108.1286
+        },
+        "width": 3.7,
+        "height": 2.5,
+        "center": {
+          "x": 145.3761,
+          "y": 106.8786
+        }
+      },
+      "courtyard_local": {
+        "measurement": "F.CrtYd and B.CrtYd graphics; text excluded",
+        "units": "mm",
+        "available": false,
+        "min": null,
+        "max": null,
+        "width": null,
+        "height": null,
+        "center": null
+      },
+      "courtyard_placed": {
+        "measurement": "courtyard after PCB placement and rotation",
+        "units": "mm",
+        "available": false,
+        "min": null,
+        "max": null,
+        "width": null,
+        "height": null,
+        "center": null
+      },
+      "fabrication_local": {
+        "measurement": "F.Fab and B.Fab graphics; text excluded",
+        "units": "mm",
+        "available": true,
+        "min": {
+          "x": -2.125,
+          "y": -1.8
+        },
+        "max": {
+          "x": 2.125,
+          "y": 1.8
+        },
+        "width": 4.25,
+        "height": 3.6,
+        "center": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
+      "fabrication_placed": {
+        "measurement": "fabrication graphics after placement",
+        "units": "mm",
+        "available": true,
+        "min": {
+          "x": 143.2511,
+          "y": 105.0786
+        },
+        "max": {
+          "x": 147.5011,
+          "y": 108.6786
+        },
+        "width": 4.25,
+        "height": 3.6,
+        "center": {
+          "x": 145.3761,
+          "y": 106.8786
+        }
+      },
+      "silkscreen_local": {
+        "measurement": "F.SilkS and B.SilkS graphics; text excluded",
+        "units": "mm",
+        "available": true,
+        "min": {
+          "x": -1.85,
+          "y": -1.7
+        },
+        "max": {
+          "x": 0.4,
+          "y": 1.562
+        },
+        "width": 2.25,
+        "height": 3.262,
+        "center": {
+          "x": -0.725,
+          "y": -0.069
+        }
+      },
+      "silkscreen_placed": {
+        "measurement": "silkscreen graphics after placement",
+        "units": "mm",
+        "available": true,
+        "min": {
+          "x": 144.9761,
+          "y": 105.3166
+        },
+        "max": {
+          "x": 147.2261,
+          "y": 108.5786
+        },
+        "width": 2.25,
+        "height": 3.262,
+        "center": {
+          "x": 146.1011,
+          "y": 106.9476
+        }
+      },
+      "overall_local": {
+        "measurement": "all non-text footprint graphics and pads",
+        "units": "mm",
+        "available": true,
+        "min": {
+          "x": -2.125,
+          "y": -1.8
+        },
+        "max": {
+          "x": 2.125,
+          "y": 1.8
+        },
+        "width": 4.25,
+        "height": 3.6,
+        "center": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
+      "overall_placed": {
+        "measurement": "all non-text footprint graphics and pads after placement",
+        "units": "mm",
+        "available": true,
+        "min": {
+          "x": 143.2511,
+          "y": 105.0786
+        },
+        "max": {
+          "x": 147.5011,
+          "y": 108.6786
+        },
+        "width": 4.25,
+        "height": 3.6,
+        "center": {
+          "x": 145.3761,
+          "y": 106.8786
+        }
+      }
+    },
+    "connected_components": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "CON1",
+      "CON2",
+      "CON3",
+      "D2",
+      "IC1",
+      "IC2",
+      "IC3",
+      "IC4",
+      "J1",
+      "L1",
+      "LED1",
+      "R1",
+      "R2",
+      "R3",
+      "R5",
+      "SJ1",
+      "XT1"
+    ]
+  },
+  "connectivity_cross_check": {
+    "available": true,
+    "policy": "Named schematic nets are compared with PCB pad nets using matching pin/pad numbers.",
+    "comparisons": [
+      {
+        "pin_or_pad_number": "1",
+        "schematic_nets": [
+          "USB2_N"
+        ],
+        "pcb_nets": [
+          "USB2_N"
+        ],
+        "status": "agree"
+      },
+      {
+        "pin_or_pad_number": "2",
+        "schematic_nets": [],
+        "pcb_nets": [
+          "GND"
+        ],
+        "status": "incomplete"
+      },
+      {
+        "pin_or_pad_number": "3",
+        "schematic_nets": [],
+        "pcb_nets": [
+          "USB2_P"
+        ],
+        "status": "incomplete"
+      },
+      {
+        "pin_or_pad_number": "4",
+        "schematic_nets": [],
+        "pcb_nets": [
+          "USB1_N"
+        ],
+        "status": "incomplete"
+      },
+      {
+        "pin_or_pad_number": "5",
+        "schematic_nets": [],
+        "pcb_nets": [
+          "VUSB"
+        ],
+        "status": "incomplete"
+      },
+      {
+        "pin_or_pad_number": "6",
+        "schematic_nets": [
+          "USB1_P"
+        ],
+        "pcb_nets": [
+          "USB1_P"
+        ],
+        "status": "agree"
+      }
+    ],
+    "agree_count": 2,
+    "disagree_count": 0,
+    "incomplete_count": 4
+  },
+  "oomp": {
+    "status": "matched",
+    "accepted": true,
+    "oomp_id": "electronic_diode_tvs_array_sot_23_6_protek_srv054pt7",
+    "confidence": 1.0,
+    "proposed_oomp_id": null,
+    "inferred": {
+      "kind": null,
+      "package_size": null,
+      "value": "SRV05-4-P-T7",
+      "mpn": "SRV05-4-P-T7"
+    },
+    "reasons": [
+      "Accepted from the AI/human match override file."
+    ],
+    "candidates": []
+  },
+  "generated_directory": "components/D1"
+}

@@ -1,0 +1,1869 @@
+bip_39_2_word_array:
+- kit
+- smart
+bip_39_2_word_no_space: kitsmart
+bip_39_2_word_space: kit smart
+bip_39_2_word_underscore: kit_smart
+bip_39_3_word_array:
+- kit
+- smart
+- stomach
+bip_39_3_word_no_space: kitsmartstomach
+bip_39_3_word_space: kit smart stomach
+bip_39_3_word_underscore: kit_smart_stomach
+bip_39_full_array:
+- kit
+- smart
+- stomach
+- diet
+- donate
+- finger
+- doctor
+- vital
+- elbow
+- tiger
+- short
+- inside
+bip_39_full_no_space: kitsmartstomachdietdonatefingerdoctorvitalelbowtigershortinside
+bip_39_full_space: kit smart stomach diet donate finger doctor vital elbow tiger short
+    inside
+bip_39_full_underscore: kit_smart_stomach_diet_donate_finger_doctor_vital_elbow_tiger_short_inside
+dimensions_mm:
+    length: 10.0
+    width: 3.9
+directory: parts/electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+file_copy:
+-   file_destination: datasheet.pdf
+    file_source: parts_source/electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a/datasheet.pdf
+ic_dimensions_mm:
+    body_length: 9.9
+    body_length_max: 10.0
+    body_length_min: 9.8
+    body_width: 3.9
+    body_width_max: 3.95
+    body_width_min: 3.85
+    overall_width: 6.04
+    overall_width_max: 6.24
+    overall_width_min: 5.84
+    pin_length: 1.07
+    pin_pitch: 1.27
+    pin_width: 0.406
+id: electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+id_no_class: electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+id_no_size: electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+id_no_type: electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+md5: 7af993589ed410add017a8473c3f1b3a
+md5_10: 7af993589e
+md5_10_upper: 7AF993589E
+md5_5: 7af99
+md5_5_upper: 7AF99
+md5_6: 7af993
+md5_6_alpha: 4sqkz
+md5_6_alpha_upper: 4SQKZ
+md5_6_upper: 7AF993
+name: Electronic Ic Sop 16 Controller Usb Hub Controller 4 Port Corechips Sl21A
+name_no_class: Electronic Ic Sop 16 Controller Usb Hub Controller 4 Port Corechips
+    Sl21A
+name_no_size: Electronic Ic Sop 16 Controller Usb Hub Controller 4 Port Corechips
+    Sl21A
+name_no_type: Electronic Ic Sop 16 Controller Usb Hub Controller 4 Port Corechips
+    Sl21A
+name_proper: Electronic Ic Sop 16 Controller Usb Hub Controller 4 Port Corechips Sl21A
+name_short: IC Sop 16 Controller USB Hub Controller 4 Port SL21A
+name_space: electronic ic sop 16 controller usb hub controller 4 port corechips sl21a
+name_upper: ELECTRONIC IC SOP 16 CONTROLLER USB HUB CONTROLLER 4 PORT CORECHIPS SL21A
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: file_copy
+        delete_before_copy: true
+        exit_on_missing: true
+        file_destination: datasheet.pdf
+        file_source: parts_source/electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a/datasheet.pdf
+    -   command: run_python
+        description: Generate this component's standard SVG and PNG diagrams with
+            working_svg.py.
+        file_output: working_svg_assembly.svg
+        file_python: kicad_agents/component_svg_action.py
+        part_id: electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+        regenerate_pngs: false
+        timeout: '600'
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_square_pins_300.png
+        file_source: working_svg_square_pins.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_outline_300.png
+        file_source: working_svg_outline.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_part_id_300.png
+        file_source: working_svg_part_id.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_md5_6_alpha_300.png
+        file_source: working_svg_md5_6_alpha.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_bip_39_3_word_300.png
+        file_source: working_svg_bip_39_3_word.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_square_300.png
+        file_source: working_svg_square.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_dimensioned_300.png
+        file_source: working_svg_dimensioned.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_dimensioned_titles_300.png
+        file_source: working_svg_dimensioned_titles.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    description: Build component diagrams and proportional 300-pixel README previews
+        with deterministic Python actions.
+    file_test: ''
+    retries_until_complete: 0
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            dimensions_mm:
+                length: 10.0
+                width: 3.9
+            directory: parts\electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+            file_copy:
+            -   file_destination: datasheet.pdf
+                file_source: parts_source/electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a/datasheet.pdf
+            ic_dimensions_mm:
+                body_length: 9.9
+                body_length_max: 10.0
+                body_length_min: 9.8
+                body_width: 3.9
+                body_width_max: 3.95
+                body_width_min: 3.85
+                overall_width: 6.04
+                overall_width_max: 6.24
+                overall_width_min: 5.84
+                pin_length: 1.07
+                pin_pitch: 1.27
+                pin_width: 0.406
+            name: electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+            name_proper: Electronic Ic Sop 16 Controller Usb Hub Controller 4 Port
+                Corechips Sl21A
+            name_short: IC Sop 16 Controller USB Hub Controller 4 Port SL21A
+            name_space: electronic ic sop 16 controller usb hub controller 4 port
+                corechips sl21a
+            name_upper: ELECTRONIC IC SOP 16 CONTROLLER USB HUB CONTROLLER 4 PORT
+                CORECHIPS SL21A
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: file_copy
+                    delete_before_copy: true
+                    exit_on_missing: true
+                    file_destination: datasheet.pdf
+                    file_source: parts_source/electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a/datasheet.pdf
+                -   command: run_python
+                    description: Generate this component's standard SVG and PNG diagrams
+                        with working_svg.py.
+                    file_output: working_svg_assembly.svg
+                    file_python: kicad_agents/component_svg_action.py
+                    part_id: electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+                    regenerate_pngs: false
+                    timeout: '600'
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_square_pins_300.png
+                    file_source: working_svg_square_pins.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_outline_300.png
+                    file_source: working_svg_outline.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_part_id_300.png
+                    file_source: working_svg_part_id.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_md5_6_alpha_300.png
+                    file_source: working_svg_md5_6_alpha.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_bip_39_3_word_300.png
+                    file_source: working_svg_bip_39_3_word.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_square_300.png
+                    file_source: working_svg_square.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_dimensioned_300.png
+                    file_source: working_svg_dimensioned.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_dimensioned_titles_300.png
+                    file_source: working_svg_dimensioned_titles.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                description: Build component diagrams and proportional 300-pixel README
+                    previews with deterministic Python actions.
+                file_test: ''
+                retries_until_complete: 0
+            part_id: U1
+            part_number_lcsc: C192893
+            part_number_manufacturer: SL2.1A
+            part_page:
+                diagrams:
+                -   png: ''
+                    preview: working_svg_assembly.svg
+                    svg: working_svg_assembly.svg
+                    title: Assembly
+                -   png: working_svg_outline.png
+                    preview: working_svg_outline_300.png
+                    svg: working_svg_outline.svg
+                    title: Outline
+                -   png: working_svg_part_id.png
+                    preview: working_svg_part_id_300.png
+                    svg: working_svg_part_id.svg
+                    title: Part ID
+                -   png: working_svg_md5_6_alpha.png
+                    preview: working_svg_md5_6_alpha_300.png
+                    svg: working_svg_md5_6_alpha.svg
+                    title: MD5 alpha
+                -   png: working_svg_bip_39_3_word.png
+                    preview: working_svg_bip_39_3_word_300.png
+                    svg: working_svg_bip_39_3_word.svg
+                    title: BIP 39 words
+                -   png: working_svg_square.png
+                    preview: working_svg_square_300.png
+                    svg: working_svg_square.svg
+                    title: Square summary
+                -   png: working_svg_dimensioned.png
+                    preview: working_svg_dimensioned_300.png
+                    svg: working_svg_dimensioned.svg
+                    title: Dimensions
+                -   png: working_svg_dimensioned_titles.png
+                    preview: working_svg_dimensioned_titles_300.png
+                    svg: working_svg_dimensioned_titles.svg
+                    title: Dimensions with labels
+                file_previews:
+                -   preview: working_svg_square_pins_300.png
+                    title: Pinout drawing
+                -   preview: working_svg_outline_300.png
+                    title: Outline
+                -   preview: working_svg_part_id_300.png
+                    title: Part ID
+                -   preview: working_svg_md5_6_alpha_300.png
+                    title: MD5 alpha
+                -   preview: working_svg_bip_39_3_word_300.png
+                    title: BIP 39 words
+                -   preview: working_svg_square_300.png
+                    title: Square summary
+                -   preview: working_svg_dimensioned_300.png
+                    title: Dimensions
+                -   preview: working_svg_dimensioned_titles_300.png
+                    title: Dimensions with labels
+                has_datasheet: true
+                identifiers:
+                -   title: Manufacturer part number
+                    value: SL2.1A
+                -   title: LCSC
+                    value: C192893
+                main_image:
+                    png: working_svg_square_pins.png
+                    preview: working_svg_square_pins_300.png
+                    svg: working_svg_square_pins.svg
+                    title: Pinout
+                oomp_id: electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+                pins:
+                -   name: dm4
+                    number: '1'
+                    type: signal
+                -   name: dp4
+                    number: '2'
+                    type: signal
+                -   name: dm3
+                    number: '3'
+                    type: signal
+                -   name: dp3
+                    number: '4'
+                    type: signal
+                -   name: dm2
+                    number: '5'
+                    type: signal
+                -   name: dp2
+                    number: '6'
+                    type: signal
+                -   name: dm1
+                    number: '7'
+                    type: signal
+                -   name: dp1
+                    number: '8'
+                    type: signal
+                -   name: udm
+                    number: '9'
+                    type: signal
+                -   name: udp
+                    number: '10'
+                    type: signal
+                -   name: vcc5
+                    number: '11'
+                    type: power
+                -   name: vss
+                    number: '12'
+                    type: gnd
+                -   name: vdd33
+                    number: '13'
+                    type: power
+                -   name: vdd18
+                    number: '14'
+                    type: power
+                -   name: xout
+                    number: '15'
+                    type: signal
+                -   name: xin
+                    number: '16'
+                    type: signal
+                quick_facts:
+                -   title: OOMP ID
+                    value: electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+                -   title: Type
+                    value: Ic
+                -   title: Package / style
+                    value: sop 16
+                -   title: Nominal size
+                    value: "10.0 \xD7 3.9 mm"
+                -   title: Documented pins
+                    value: 16
+                repository_url: https://github.com/oomlout/oomp_electronic_version_5/tree/main/parts/electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+                summary: "IC Sop 16 Controller USB Hub Controller 4 Port SL21A is\
+                    \ an OOMP electronic ic definition. It uses the sop 16 package\
+                    \ or form factor. Its nominal drawing size is 10.0 \xD7 3.9 mm.\
+                    \ The definition includes 16 documented pins."
+                taxonomy:
+                -   level: 1
+                    value: electronic
+                -   level: 2
+                    value: ic
+                -   level: 3
+                    value: sop_16
+                -   level: 4
+                    value: controller
+                -   level: 5
+                    value: usb_hub_controller_4_port
+                -   level: 14
+                    value: corechips
+                -   level: 15
+                    value: sl21a
+            pins:
+                pin_1:
+                    name: dm4
+                    number: '1'
+                    type: signal
+                pin_10:
+                    name: udp
+                    number: '10'
+                    type: signal
+                pin_11:
+                    name: vcc5
+                    number: '11'
+                    type: power
+                pin_12:
+                    name: vss
+                    number: '12'
+                    type: gnd
+                pin_13:
+                    name: vdd33
+                    number: '13'
+                    type: power
+                pin_14:
+                    name: vdd18
+                    number: '14'
+                    type: power
+                pin_15:
+                    name: xout
+                    number: '15'
+                    type: signal
+                pin_16:
+                    name: xin
+                    number: '16'
+                    type: signal
+                pin_2:
+                    name: dp4
+                    number: '2'
+                    type: signal
+                pin_3:
+                    name: dm3
+                    number: '3'
+                    type: signal
+                pin_4:
+                    name: dp3
+                    number: '4'
+                    type: signal
+                pin_5:
+                    name: dm2
+                    number: '5'
+                    type: signal
+                pin_6:
+                    name: dp2
+                    number: '6'
+                    type: signal
+                pin_7:
+                    name: dm1
+                    number: '7'
+                    type: signal
+                pin_8:
+                    name: dp1
+                    number: '8'
+                    type: signal
+                pin_9:
+                    name: udm
+                    number: '9'
+                    type: signal
+            regenerate_pngs: false
+            svg_details:
+            -   filename_extra: assembly
+                make_a4: false
+                output_formats:
+                - svg
+                padding: 0
+                stylesheet: style_oomp_assembly
+                svg_name: oomp_component_assembly
+                write_yaml: false
+            -   filename_extra: assembly_pins
+                make_a4: false
+                output_formats:
+                - svg
+                padding: 0
+                stylesheet: style_oomp_assembly
+                svg_name: oomp_component_assembly_pins
+                write_yaml: false
+            -   filename_extra: outline
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_outline
+                write_yaml: false
+            -   filename_extra: part_id
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_part_id
+                write_yaml: false
+            -   filename_extra: md5_6_alpha
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_md5_6_alpha
+                write_yaml: false
+            -   filename_extra: bip_39_3_word
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_bip_39_3_word
+                write_yaml: false
+            -   filename_extra: square
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_square
+                write_yaml: false
+            -   filename_extra: square_pins
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_square_pins
+                write_yaml: false
+            -   filename_extra: dimensioned
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_dimensioned
+                write_yaml: false
+            -   filename_extra: dimensioned_titles
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_dimensioned_titles
+                write_yaml: false
+            taxonomy_1: electronic
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: corechips
+            taxonomy_15: sl21a
+            taxonomy_2: ic
+            taxonomy_3: sop_16
+            taxonomy_4: controller
+            taxonomy_5: usb_hub_controller_4_port
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: source_file\template_jinja\oomp_category\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_3:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            dimensions_mm:
+                length: 10.0
+                width: 3.9
+            directory: parts\electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+            file_copy:
+            -   file_destination: datasheet.pdf
+                file_source: parts_source/electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a/datasheet.pdf
+            ic_dimensions_mm:
+                body_length: 9.9
+                body_length_max: 10.0
+                body_length_min: 9.8
+                body_width: 3.9
+                body_width_max: 3.95
+                body_width_min: 3.85
+                overall_width: 6.04
+                overall_width_max: 6.24
+                overall_width_min: 5.84
+                pin_length: 1.07
+                pin_pitch: 1.27
+                pin_width: 0.406
+            name: electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+            name_proper: Electronic Ic Sop 16 Controller Usb Hub Controller 4 Port
+                Corechips Sl21A
+            name_short: IC Sop 16 Controller USB Hub Controller 4 Port SL21A
+            name_space: electronic ic sop 16 controller usb hub controller 4 port
+                corechips sl21a
+            name_upper: ELECTRONIC IC SOP 16 CONTROLLER USB HUB CONTROLLER 4 PORT
+                CORECHIPS SL21A
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: file_copy
+                    delete_before_copy: true
+                    exit_on_missing: true
+                    file_destination: datasheet.pdf
+                    file_source: parts_source/electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a/datasheet.pdf
+                -   command: run_python
+                    description: Generate this component's standard SVG and PNG diagrams
+                        with working_svg.py.
+                    file_output: working_svg_assembly.svg
+                    file_python: kicad_agents/component_svg_action.py
+                    part_id: electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+                    regenerate_pngs: false
+                    timeout: '600'
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_square_pins_300.png
+                    file_source: working_svg_square_pins.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_outline_300.png
+                    file_source: working_svg_outline.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_part_id_300.png
+                    file_source: working_svg_part_id.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_md5_6_alpha_300.png
+                    file_source: working_svg_md5_6_alpha.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_bip_39_3_word_300.png
+                    file_source: working_svg_bip_39_3_word.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_square_300.png
+                    file_source: working_svg_square.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_dimensioned_300.png
+                    file_source: working_svg_dimensioned.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_dimensioned_titles_300.png
+                    file_source: working_svg_dimensioned_titles.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                description: Build component diagrams and proportional 300-pixel README
+                    previews with deterministic Python actions.
+                file_test: ''
+                retries_until_complete: 0
+            oomlout_ai_roboclick_2:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        dimensions_mm:
+                            length: 10.0
+                            width: 3.9
+                        directory: parts\electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+                        file_copy:
+                        -   file_destination: datasheet.pdf
+                            file_source: parts_source/electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a/datasheet.pdf
+                        ic_dimensions_mm:
+                            body_length: 9.9
+                            body_length_max: 10.0
+                            body_length_min: 9.8
+                            body_width: 3.9
+                            body_width_max: 3.95
+                            body_width_min: 3.85
+                            overall_width: 6.04
+                            overall_width_max: 6.24
+                            overall_width_min: 5.84
+                            pin_length: 1.07
+                            pin_pitch: 1.27
+                            pin_width: 0.406
+                        name: electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+                        name_proper: Electronic Ic Sop 16 Controller Usb Hub Controller
+                            4 Port Corechips Sl21A
+                        name_short: IC Sop 16 Controller USB Hub Controller 4 Port
+                            SL21A
+                        name_space: electronic ic sop 16 controller usb hub controller
+                            4 port corechips sl21a
+                        name_upper: ELECTRONIC IC SOP 16 CONTROLLER USB HUB CONTROLLER
+                            4 PORT CORECHIPS SL21A
+                        oomlout_ai_roboclick_1:
+                            actions:
+                            -   command: file_copy
+                                delete_before_copy: true
+                                exit_on_missing: true
+                                file_destination: datasheet.pdf
+                                file_source: parts_source/electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a/datasheet.pdf
+                            -   command: run_python
+                                description: Generate this component's standard SVG
+                                    and PNG diagrams with working_svg.py.
+                                file_output: working_svg_assembly.svg
+                                file_python: kicad_agents/component_svg_action.py
+                                part_id: electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+                                regenerate_pngs: false
+                                timeout: '600'
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_square_pins_300.png
+                                file_source: working_svg_square_pins.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_outline_300.png
+                                file_source: working_svg_outline.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_part_id_300.png
+                                file_source: working_svg_part_id.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_md5_6_alpha_300.png
+                                file_source: working_svg_md5_6_alpha.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_bip_39_3_word_300.png
+                                file_source: working_svg_bip_39_3_word.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_square_300.png
+                                file_source: working_svg_square.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_dimensioned_300.png
+                                file_source: working_svg_dimensioned.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_dimensioned_titles_300.png
+                                file_source: working_svg_dimensioned_titles.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            description: Build component diagrams and proportional
+                                300-pixel README previews with deterministic Python
+                                actions.
+                            file_test: ''
+                            retries_until_complete: 0
+                        part_id: U1
+                        part_number_lcsc: C192893
+                        part_number_manufacturer: SL2.1A
+                        part_page:
+                            diagrams:
+                            -   png: ''
+                                preview: working_svg_assembly.svg
+                                svg: working_svg_assembly.svg
+                                title: Assembly
+                            -   png: working_svg_outline.png
+                                preview: working_svg_outline_300.png
+                                svg: working_svg_outline.svg
+                                title: Outline
+                            -   png: working_svg_part_id.png
+                                preview: working_svg_part_id_300.png
+                                svg: working_svg_part_id.svg
+                                title: Part ID
+                            -   png: working_svg_md5_6_alpha.png
+                                preview: working_svg_md5_6_alpha_300.png
+                                svg: working_svg_md5_6_alpha.svg
+                                title: MD5 alpha
+                            -   png: working_svg_bip_39_3_word.png
+                                preview: working_svg_bip_39_3_word_300.png
+                                svg: working_svg_bip_39_3_word.svg
+                                title: BIP 39 words
+                            -   png: working_svg_square.png
+                                preview: working_svg_square_300.png
+                                svg: working_svg_square.svg
+                                title: Square summary
+                            -   png: working_svg_dimensioned.png
+                                preview: working_svg_dimensioned_300.png
+                                svg: working_svg_dimensioned.svg
+                                title: Dimensions
+                            -   png: working_svg_dimensioned_titles.png
+                                preview: working_svg_dimensioned_titles_300.png
+                                svg: working_svg_dimensioned_titles.svg
+                                title: Dimensions with labels
+                            file_previews:
+                            -   preview: working_svg_square_pins_300.png
+                                title: Pinout drawing
+                            -   preview: working_svg_outline_300.png
+                                title: Outline
+                            -   preview: working_svg_part_id_300.png
+                                title: Part ID
+                            -   preview: working_svg_md5_6_alpha_300.png
+                                title: MD5 alpha
+                            -   preview: working_svg_bip_39_3_word_300.png
+                                title: BIP 39 words
+                            -   preview: working_svg_square_300.png
+                                title: Square summary
+                            -   preview: working_svg_dimensioned_300.png
+                                title: Dimensions
+                            -   preview: working_svg_dimensioned_titles_300.png
+                                title: Dimensions with labels
+                            has_datasheet: true
+                            identifiers:
+                            -   title: Manufacturer part number
+                                value: SL2.1A
+                            -   title: LCSC
+                                value: C192893
+                            main_image:
+                                png: working_svg_square_pins.png
+                                preview: working_svg_square_pins_300.png
+                                svg: working_svg_square_pins.svg
+                                title: Pinout
+                            oomp_id: electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+                            pins:
+                            -   name: dm4
+                                number: '1'
+                                type: signal
+                            -   name: dp4
+                                number: '2'
+                                type: signal
+                            -   name: dm3
+                                number: '3'
+                                type: signal
+                            -   name: dp3
+                                number: '4'
+                                type: signal
+                            -   name: dm2
+                                number: '5'
+                                type: signal
+                            -   name: dp2
+                                number: '6'
+                                type: signal
+                            -   name: dm1
+                                number: '7'
+                                type: signal
+                            -   name: dp1
+                                number: '8'
+                                type: signal
+                            -   name: udm
+                                number: '9'
+                                type: signal
+                            -   name: udp
+                                number: '10'
+                                type: signal
+                            -   name: vcc5
+                                number: '11'
+                                type: power
+                            -   name: vss
+                                number: '12'
+                                type: gnd
+                            -   name: vdd33
+                                number: '13'
+                                type: power
+                            -   name: vdd18
+                                number: '14'
+                                type: power
+                            -   name: xout
+                                number: '15'
+                                type: signal
+                            -   name: xin
+                                number: '16'
+                                type: signal
+                            quick_facts:
+                            -   title: OOMP ID
+                                value: electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+                            -   title: Type
+                                value: Ic
+                            -   title: Package / style
+                                value: sop 16
+                            -   title: Nominal size
+                                value: "10.0 \xD7 3.9 mm"
+                            -   title: Documented pins
+                                value: 16
+                            repository_url: https://github.com/oomlout/oomp_electronic_version_5/tree/main/parts/electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+                            summary: "IC Sop 16 Controller USB Hub Controller 4 Port\
+                                \ SL21A is an OOMP electronic ic definition. It uses\
+                                \ the sop 16 package or form factor. Its nominal drawing\
+                                \ size is 10.0 \xD7 3.9 mm. The definition includes\
+                                \ 16 documented pins."
+                            taxonomy:
+                            -   level: 1
+                                value: electronic
+                            -   level: 2
+                                value: ic
+                            -   level: 3
+                                value: sop_16
+                            -   level: 4
+                                value: controller
+                            -   level: 5
+                                value: usb_hub_controller_4_port
+                            -   level: 14
+                                value: corechips
+                            -   level: 15
+                                value: sl21a
+                        pins:
+                            pin_1:
+                                name: dm4
+                                number: '1'
+                                type: signal
+                            pin_10:
+                                name: udp
+                                number: '10'
+                                type: signal
+                            pin_11:
+                                name: vcc5
+                                number: '11'
+                                type: power
+                            pin_12:
+                                name: vss
+                                number: '12'
+                                type: gnd
+                            pin_13:
+                                name: vdd33
+                                number: '13'
+                                type: power
+                            pin_14:
+                                name: vdd18
+                                number: '14'
+                                type: power
+                            pin_15:
+                                name: xout
+                                number: '15'
+                                type: signal
+                            pin_16:
+                                name: xin
+                                number: '16'
+                                type: signal
+                            pin_2:
+                                name: dp4
+                                number: '2'
+                                type: signal
+                            pin_3:
+                                name: dm3
+                                number: '3'
+                                type: signal
+                            pin_4:
+                                name: dp3
+                                number: '4'
+                                type: signal
+                            pin_5:
+                                name: dm2
+                                number: '5'
+                                type: signal
+                            pin_6:
+                                name: dp2
+                                number: '6'
+                                type: signal
+                            pin_7:
+                                name: dm1
+                                number: '7'
+                                type: signal
+                            pin_8:
+                                name: dp1
+                                number: '8'
+                                type: signal
+                            pin_9:
+                                name: udm
+                                number: '9'
+                                type: signal
+                        regenerate_pngs: false
+                        svg_details:
+                        -   filename_extra: assembly
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            padding: 0
+                            stylesheet: style_oomp_assembly
+                            svg_name: oomp_component_assembly
+                            write_yaml: false
+                        -   filename_extra: assembly_pins
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            padding: 0
+                            stylesheet: style_oomp_assembly
+                            svg_name: oomp_component_assembly_pins
+                            write_yaml: false
+                        -   filename_extra: outline
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_outline
+                            write_yaml: false
+                        -   filename_extra: part_id
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_part_id
+                            write_yaml: false
+                        -   filename_extra: md5_6_alpha
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_md5_6_alpha
+                            write_yaml: false
+                        -   filename_extra: bip_39_3_word
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_bip_39_3_word
+                            write_yaml: false
+                        -   filename_extra: square
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_square
+                            write_yaml: false
+                        -   filename_extra: square_pins
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_square_pins
+                            write_yaml: false
+                        -   filename_extra: dimensioned
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_dimensioned
+                            write_yaml: false
+                        -   filename_extra: dimensioned_titles
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_dimensioned_titles
+                            write_yaml: false
+                        taxonomy_1: electronic
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: corechips
+                        taxonomy_15: sl21a
+                        taxonomy_2: ic
+                        taxonomy_3: sop_16
+                        taxonomy_4: controller
+                        taxonomy_5: usb_hub_controller_4_port
+                        taxonomy_6: ''
+                        taxonomy_7: ''
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        url_chat: ''
+                    dict_data_files: {}
+                    dict_data_files_exists: {}
+                    file_output: label_oomp.svg
+                    file_template: source_file\template_jinja\oomp_category\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+                retries_until_complete: 0
+            part_id: U1
+            part_number_lcsc: C192893
+            part_number_manufacturer: SL2.1A
+            part_page:
+                diagrams:
+                -   png: ''
+                    preview: working_svg_assembly.svg
+                    svg: working_svg_assembly.svg
+                    title: Assembly
+                -   png: working_svg_outline.png
+                    preview: working_svg_outline_300.png
+                    svg: working_svg_outline.svg
+                    title: Outline
+                -   png: working_svg_part_id.png
+                    preview: working_svg_part_id_300.png
+                    svg: working_svg_part_id.svg
+                    title: Part ID
+                -   png: working_svg_md5_6_alpha.png
+                    preview: working_svg_md5_6_alpha_300.png
+                    svg: working_svg_md5_6_alpha.svg
+                    title: MD5 alpha
+                -   png: working_svg_bip_39_3_word.png
+                    preview: working_svg_bip_39_3_word_300.png
+                    svg: working_svg_bip_39_3_word.svg
+                    title: BIP 39 words
+                -   png: working_svg_square.png
+                    preview: working_svg_square_300.png
+                    svg: working_svg_square.svg
+                    title: Square summary
+                -   png: working_svg_dimensioned.png
+                    preview: working_svg_dimensioned_300.png
+                    svg: working_svg_dimensioned.svg
+                    title: Dimensions
+                -   png: working_svg_dimensioned_titles.png
+                    preview: working_svg_dimensioned_titles_300.png
+                    svg: working_svg_dimensioned_titles.svg
+                    title: Dimensions with labels
+                file_previews:
+                -   preview: working_svg_square_pins_300.png
+                    title: Pinout drawing
+                -   preview: working_svg_outline_300.png
+                    title: Outline
+                -   preview: working_svg_part_id_300.png
+                    title: Part ID
+                -   preview: working_svg_md5_6_alpha_300.png
+                    title: MD5 alpha
+                -   preview: working_svg_bip_39_3_word_300.png
+                    title: BIP 39 words
+                -   preview: working_svg_square_300.png
+                    title: Square summary
+                -   preview: working_svg_dimensioned_300.png
+                    title: Dimensions
+                -   preview: working_svg_dimensioned_titles_300.png
+                    title: Dimensions with labels
+                has_datasheet: true
+                identifiers:
+                -   title: Manufacturer part number
+                    value: SL2.1A
+                -   title: LCSC
+                    value: C192893
+                main_image:
+                    png: working_svg_square_pins.png
+                    preview: working_svg_square_pins_300.png
+                    svg: working_svg_square_pins.svg
+                    title: Pinout
+                oomp_id: electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+                pins:
+                -   name: dm4
+                    number: '1'
+                    type: signal
+                -   name: dp4
+                    number: '2'
+                    type: signal
+                -   name: dm3
+                    number: '3'
+                    type: signal
+                -   name: dp3
+                    number: '4'
+                    type: signal
+                -   name: dm2
+                    number: '5'
+                    type: signal
+                -   name: dp2
+                    number: '6'
+                    type: signal
+                -   name: dm1
+                    number: '7'
+                    type: signal
+                -   name: dp1
+                    number: '8'
+                    type: signal
+                -   name: udm
+                    number: '9'
+                    type: signal
+                -   name: udp
+                    number: '10'
+                    type: signal
+                -   name: vcc5
+                    number: '11'
+                    type: power
+                -   name: vss
+                    number: '12'
+                    type: gnd
+                -   name: vdd33
+                    number: '13'
+                    type: power
+                -   name: vdd18
+                    number: '14'
+                    type: power
+                -   name: xout
+                    number: '15'
+                    type: signal
+                -   name: xin
+                    number: '16'
+                    type: signal
+                quick_facts:
+                -   title: OOMP ID
+                    value: electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+                -   title: Type
+                    value: Ic
+                -   title: Package / style
+                    value: sop 16
+                -   title: Nominal size
+                    value: "10.0 \xD7 3.9 mm"
+                -   title: Documented pins
+                    value: 16
+                repository_url: https://github.com/oomlout/oomp_electronic_version_5/tree/main/parts/electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+                summary: "IC Sop 16 Controller USB Hub Controller 4 Port SL21A is\
+                    \ an OOMP electronic ic definition. It uses the sop 16 package\
+                    \ or form factor. Its nominal drawing size is 10.0 \xD7 3.9 mm.\
+                    \ The definition includes 16 documented pins."
+                taxonomy:
+                -   level: 1
+                    value: electronic
+                -   level: 2
+                    value: ic
+                -   level: 3
+                    value: sop_16
+                -   level: 4
+                    value: controller
+                -   level: 5
+                    value: usb_hub_controller_4_port
+                -   level: 14
+                    value: corechips
+                -   level: 15
+                    value: sl21a
+            pins:
+                pin_1:
+                    name: dm4
+                    number: '1'
+                    type: signal
+                pin_10:
+                    name: udp
+                    number: '10'
+                    type: signal
+                pin_11:
+                    name: vcc5
+                    number: '11'
+                    type: power
+                pin_12:
+                    name: vss
+                    number: '12'
+                    type: gnd
+                pin_13:
+                    name: vdd33
+                    number: '13'
+                    type: power
+                pin_14:
+                    name: vdd18
+                    number: '14'
+                    type: power
+                pin_15:
+                    name: xout
+                    number: '15'
+                    type: signal
+                pin_16:
+                    name: xin
+                    number: '16'
+                    type: signal
+                pin_2:
+                    name: dp4
+                    number: '2'
+                    type: signal
+                pin_3:
+                    name: dm3
+                    number: '3'
+                    type: signal
+                pin_4:
+                    name: dp3
+                    number: '4'
+                    type: signal
+                pin_5:
+                    name: dm2
+                    number: '5'
+                    type: signal
+                pin_6:
+                    name: dp2
+                    number: '6'
+                    type: signal
+                pin_7:
+                    name: dm1
+                    number: '7'
+                    type: signal
+                pin_8:
+                    name: dp1
+                    number: '8'
+                    type: signal
+                pin_9:
+                    name: udm
+                    number: '9'
+                    type: signal
+            regenerate_pngs: false
+            svg_details:
+            -   filename_extra: assembly
+                make_a4: false
+                output_formats:
+                - svg
+                padding: 0
+                stylesheet: style_oomp_assembly
+                svg_name: oomp_component_assembly
+                write_yaml: false
+            -   filename_extra: assembly_pins
+                make_a4: false
+                output_formats:
+                - svg
+                padding: 0
+                stylesheet: style_oomp_assembly
+                svg_name: oomp_component_assembly_pins
+                write_yaml: false
+            -   filename_extra: outline
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_outline
+                write_yaml: false
+            -   filename_extra: part_id
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_part_id
+                write_yaml: false
+            -   filename_extra: md5_6_alpha
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_md5_6_alpha
+                write_yaml: false
+            -   filename_extra: bip_39_3_word
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_bip_39_3_word
+                write_yaml: false
+            -   filename_extra: square
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_square
+                write_yaml: false
+            -   filename_extra: square_pins
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_square_pins
+                write_yaml: false
+            -   filename_extra: dimensioned
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_dimensioned
+                write_yaml: false
+            -   filename_extra: dimensioned_titles
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_dimensioned_titles
+                write_yaml: false
+            taxonomy_1: electronic
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: corechips
+            taxonomy_15: sl21a
+            taxonomy_2: ic
+            taxonomy_3: sop_16
+            taxonomy_4: controller
+            taxonomy_5: usb_hub_controller_4_port
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: README.md
+        file_template: C:\gh\oomp_electronic_version_5\source_file\template_jinja\oomp_category\template_jinja_markdown\working.md.j2
+        search_and_replace: []
+    file_test: ''
+    retries_until_complete: 0
+oomp_key: oomp_electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+part_id: U1
+part_number_lcsc: C192893
+part_number_manufacturer: SL2.1A
+part_page:
+    diagrams:
+    -   png: ''
+        preview: working_svg_assembly.svg
+        svg: working_svg_assembly.svg
+        title: Assembly
+    -   png: working_svg_outline.png
+        preview: working_svg_outline_300.png
+        svg: working_svg_outline.svg
+        title: Outline
+    -   png: working_svg_part_id.png
+        preview: working_svg_part_id_300.png
+        svg: working_svg_part_id.svg
+        title: Part ID
+    -   png: working_svg_md5_6_alpha.png
+        preview: working_svg_md5_6_alpha_300.png
+        svg: working_svg_md5_6_alpha.svg
+        title: MD5 alpha
+    -   png: working_svg_bip_39_3_word.png
+        preview: working_svg_bip_39_3_word_300.png
+        svg: working_svg_bip_39_3_word.svg
+        title: BIP 39 words
+    -   png: working_svg_square.png
+        preview: working_svg_square_300.png
+        svg: working_svg_square.svg
+        title: Square summary
+    -   png: working_svg_dimensioned.png
+        preview: working_svg_dimensioned_300.png
+        svg: working_svg_dimensioned.svg
+        title: Dimensions
+    -   png: working_svg_dimensioned_titles.png
+        preview: working_svg_dimensioned_titles_300.png
+        svg: working_svg_dimensioned_titles.svg
+        title: Dimensions with labels
+    file_previews:
+    -   preview: working_svg_square_pins_300.png
+        title: Pinout drawing
+    -   preview: working_svg_outline_300.png
+        title: Outline
+    -   preview: working_svg_part_id_300.png
+        title: Part ID
+    -   preview: working_svg_md5_6_alpha_300.png
+        title: MD5 alpha
+    -   preview: working_svg_bip_39_3_word_300.png
+        title: BIP 39 words
+    -   preview: working_svg_square_300.png
+        title: Square summary
+    -   preview: working_svg_dimensioned_300.png
+        title: Dimensions
+    -   preview: working_svg_dimensioned_titles_300.png
+        title: Dimensions with labels
+    has_datasheet: true
+    identifiers:
+    -   title: Manufacturer part number
+        value: SL2.1A
+    -   title: LCSC
+        value: C192893
+    main_image:
+        png: working_svg_square_pins.png
+        preview: working_svg_square_pins_300.png
+        svg: working_svg_square_pins.svg
+        title: Pinout
+    oomp_id: electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+    pins:
+    -   name: dm4
+        number: '1'
+        type: signal
+    -   name: dp4
+        number: '2'
+        type: signal
+    -   name: dm3
+        number: '3'
+        type: signal
+    -   name: dp3
+        number: '4'
+        type: signal
+    -   name: dm2
+        number: '5'
+        type: signal
+    -   name: dp2
+        number: '6'
+        type: signal
+    -   name: dm1
+        number: '7'
+        type: signal
+    -   name: dp1
+        number: '8'
+        type: signal
+    -   name: udm
+        number: '9'
+        type: signal
+    -   name: udp
+        number: '10'
+        type: signal
+    -   name: vcc5
+        number: '11'
+        type: power
+    -   name: vss
+        number: '12'
+        type: gnd
+    -   name: vdd33
+        number: '13'
+        type: power
+    -   name: vdd18
+        number: '14'
+        type: power
+    -   name: xout
+        number: '15'
+        type: signal
+    -   name: xin
+        number: '16'
+        type: signal
+    quick_facts:
+    -   title: OOMP ID
+        value: electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+    -   title: Type
+        value: Ic
+    -   title: Package / style
+        value: sop 16
+    -   title: Nominal size
+        value: "10.0 \xD7 3.9 mm"
+    -   title: Documented pins
+        value: 16
+    repository_url: https://github.com/oomlout/oomp_electronic_version_5/tree/main/parts/electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+    summary: "IC Sop 16 Controller USB Hub Controller 4 Port SL21A is an OOMP electronic\
+        \ ic definition. It uses the sop 16 package or form factor. Its nominal drawing\
+        \ size is 10.0 \xD7 3.9 mm. The definition includes 16 documented pins."
+    taxonomy:
+    -   level: 1
+        value: electronic
+    -   level: 2
+        value: ic
+    -   level: 3
+        value: sop_16
+    -   level: 4
+        value: controller
+    -   level: 5
+        value: usb_hub_controller_4_port
+    -   level: 14
+        value: corechips
+    -   level: 15
+        value: sl21a
+pins:
+    pin_1:
+        name: dm4
+        number: '1'
+        type: signal
+    pin_10:
+        name: udp
+        number: '10'
+        type: signal
+    pin_11:
+        name: vcc5
+        number: '11'
+        type: power
+    pin_12:
+        name: vss
+        number: '12'
+        type: gnd
+    pin_13:
+        name: vdd33
+        number: '13'
+        type: power
+    pin_14:
+        name: vdd18
+        number: '14'
+        type: power
+    pin_15:
+        name: xout
+        number: '15'
+        type: signal
+    pin_16:
+        name: xin
+        number: '16'
+        type: signal
+    pin_2:
+        name: dp4
+        number: '2'
+        type: signal
+    pin_3:
+        name: dm3
+        number: '3'
+        type: signal
+    pin_4:
+        name: dp3
+        number: '4'
+        type: signal
+    pin_5:
+        name: dm2
+        number: '5'
+        type: signal
+    pin_6:
+        name: dp2
+        number: '6'
+        type: signal
+    pin_7:
+        name: dm1
+        number: '7'
+        type: signal
+    pin_8:
+        name: dp1
+        number: '8'
+        type: signal
+    pin_9:
+        name: udm
+        number: '9'
+        type: signal
+regenerate_pngs: false
+svg_details:
+-   filename_extra: assembly
+    make_a4: false
+    output_formats:
+    - svg
+    padding: 0
+    stylesheet: style_oomp_assembly
+    svg_name: oomp_component_assembly
+    write_yaml: false
+-   filename_extra: assembly_pins
+    make_a4: false
+    output_formats:
+    - svg
+    padding: 0
+    stylesheet: style_oomp_assembly
+    svg_name: oomp_component_assembly_pins
+    write_yaml: false
+-   filename_extra: outline
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_outline
+    write_yaml: false
+-   filename_extra: part_id
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_part_id
+    write_yaml: false
+-   filename_extra: md5_6_alpha
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_md5_6_alpha
+    write_yaml: false
+-   filename_extra: bip_39_3_word
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_bip_39_3_word
+    write_yaml: false
+-   filename_extra: square
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_square
+    write_yaml: false
+-   filename_extra: square_pins
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_square_pins
+    write_yaml: false
+-   filename_extra: dimensioned
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_dimensioned
+    write_yaml: false
+-   filename_extra: dimensioned_titles
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_dimensioned_titles
+    write_yaml: false
+taxonomy_1: electronic
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: corechips
+taxonomy_14_capital: Corechips
+taxonomy_14_first_letter: c
+taxonomy_14_first_letter_upper: C
+taxonomy_14_length_1: c
+taxonomy_14_length_2: co
+taxonomy_14_length_3: cor
+taxonomy_14_length_4: core
+taxonomy_14_length_5: corec
+taxonomy_14_upper: CORECHIPS
+taxonomy_14_upper_length_1: C
+taxonomy_14_upper_length_2: CO
+taxonomy_14_upper_length_3: COR
+taxonomy_14_upper_length_4: CORE
+taxonomy_14_upper_length_5: COREC
+taxonomy_15: sl21a
+taxonomy_15_capital: Sl21A
+taxonomy_15_first_letter: s
+taxonomy_15_first_letter_upper: S
+taxonomy_15_length_1: s
+taxonomy_15_length_2: sl
+taxonomy_15_length_3: sl2
+taxonomy_15_length_4: sl21
+taxonomy_15_length_5: sl21a
+taxonomy_15_upper: SL21A
+taxonomy_15_upper_length_1: S
+taxonomy_15_upper_length_2: SL
+taxonomy_15_upper_length_3: SL2
+taxonomy_15_upper_length_4: SL21
+taxonomy_15_upper_length_5: SL21A
+taxonomy_1_capital: Electronic
+taxonomy_1_first_letter: e
+taxonomy_1_first_letter_upper: E
+taxonomy_1_length_1: e
+taxonomy_1_length_2: el
+taxonomy_1_length_3: ele
+taxonomy_1_length_4: elec
+taxonomy_1_length_5: elect
+taxonomy_1_upper: ELECTRONIC
+taxonomy_1_upper_length_1: E
+taxonomy_1_upper_length_2: EL
+taxonomy_1_upper_length_3: ELE
+taxonomy_1_upper_length_4: ELEC
+taxonomy_1_upper_length_5: ELECT
+taxonomy_2: ic
+taxonomy_2_capital: Ic
+taxonomy_2_first_letter: i
+taxonomy_2_first_letter_upper: I
+taxonomy_2_length_1: i
+taxonomy_2_length_2: ic
+taxonomy_2_length_3: ic
+taxonomy_2_length_4: ic
+taxonomy_2_length_5: ic
+taxonomy_2_upper: IC
+taxonomy_2_upper_length_1: I
+taxonomy_2_upper_length_2: IC
+taxonomy_2_upper_length_3: IC
+taxonomy_2_upper_length_4: IC
+taxonomy_2_upper_length_5: IC
+taxonomy_3: sop_16
+taxonomy_3_capital: Sop 16
+taxonomy_3_first_letter: s
+taxonomy_3_first_letter_upper: S
+taxonomy_3_length_1: s
+taxonomy_3_length_2: so
+taxonomy_3_length_3: sop
+taxonomy_3_length_4: sop_
+taxonomy_3_length_5: sop_1
+taxonomy_3_upper: SOP_16
+taxonomy_3_upper_length_1: S
+taxonomy_3_upper_length_2: SO
+taxonomy_3_upper_length_3: SOP
+taxonomy_3_upper_length_4: SOP_
+taxonomy_3_upper_length_5: SOP_1
+taxonomy_4: controller
+taxonomy_4_capital: Controller
+taxonomy_4_first_letter: c
+taxonomy_4_first_letter_upper: C
+taxonomy_4_length_1: c
+taxonomy_4_length_2: co
+taxonomy_4_length_3: con
+taxonomy_4_length_4: cont
+taxonomy_4_length_5: contr
+taxonomy_4_upper: CONTROLLER
+taxonomy_4_upper_length_1: C
+taxonomy_4_upper_length_2: CO
+taxonomy_4_upper_length_3: CON
+taxonomy_4_upper_length_4: CONT
+taxonomy_4_upper_length_5: CONTR
+taxonomy_5: usb_hub_controller_4_port
+taxonomy_5_capital: Usb Hub Controller 4 Port
+taxonomy_5_first_letter: u
+taxonomy_5_first_letter_upper: U
+taxonomy_5_length_1: u
+taxonomy_5_length_2: us
+taxonomy_5_length_3: usb
+taxonomy_5_length_4: usb_
+taxonomy_5_length_5: usb_h
+taxonomy_5_upper: USB_HUB_CONTROLLER_4_PORT
+taxonomy_5_upper_length_1: U
+taxonomy_5_upper_length_2: US
+taxonomy_5_upper_length_3: USB
+taxonomy_5_upper_length_4: USB_
+taxonomy_5_upper_length_5: USB_H
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+url_chat: ''

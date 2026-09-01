@@ -1,0 +1,130 @@
+reference: CON3
+available: true
+measurement_policy: Footprint text is excluded. Separate pad, courtyard, fabrication, silkscreen, and overall bounds are retained.
+measurements:
+  pads_local:
+    measurement: all footprint pads in footprint-local coordinates
+    units: mm
+    available: true
+    min:
+      x: -7.054
+      y: -3.548
+    max:
+      x: 7.054
+      y: 6.8
+    width: 14.108
+    height: 10.348
+    center:
+      x: 0.0
+      y: 1.626
+  pads_placed:
+    measurement: all pads after PCB placement and rotation
+    units: mm
+    available: true
+    min:
+      x: 141.4471
+      y: 82.3306
+    max:
+      x: 155.5551
+      y: 92.6786
+    width: 14.108
+    height: 10.348
+    center:
+      x: 148.5011
+      y: 87.5046
+  courtyard_local:
+    measurement: F.CrtYd and B.CrtYd graphics; text excluded
+    units: mm
+    available: false
+    min: null
+    max: null
+    width: null
+    height: null
+    center: null
+  courtyard_placed:
+    measurement: courtyard after PCB placement and rotation
+    units: mm
+    available: false
+    min: null
+    max: null
+    width: null
+    height: null
+    center: null
+  fabrication_local:
+    measurement: F.Fab and B.Fab graphics; text excluded
+    units: mm
+    available: false
+    min: null
+    max: null
+    width: null
+    height: null
+    center: null
+  fabrication_placed:
+    measurement: fabrication graphics after placement
+    units: mm
+    available: false
+    min: null
+    max: null
+    width: null
+    height: null
+    center: null
+  silkscreen_local:
+    measurement: F.SilkS and B.SilkS graphics; text excluded
+    units: mm
+    available: true
+    min:
+      x: -7.25
+      y: -5.35
+    max:
+      x: 7.25
+      y: 5.35
+    width: 14.5
+    height: 10.7
+    center:
+      x: 0.0
+      y: 0.0
+  silkscreen_placed:
+    measurement: silkscreen graphics after placement
+    units: mm
+    available: true
+    min:
+      x: 141.2511
+      y: 80.5286
+    max:
+      x: 155.7511
+      y: 91.2286
+    width: 14.5
+    height: 10.7
+    center:
+      x: 148.5011
+      y: 85.8786
+  overall_local:
+    measurement: all non-text footprint graphics and pads
+    units: mm
+    available: true
+    min:
+      x: -7.25
+      y: -5.35
+    max:
+      x: 7.25
+      y: 6.8
+    width: 14.5
+    height: 12.15
+    center:
+      x: 0.0
+      y: 0.725
+  overall_placed:
+    measurement: all non-text footprint graphics and pads after placement
+    units: mm
+    available: true
+    min:
+      x: 141.2511
+      y: 80.5286
+    max:
+      x: 155.7511
+      y: 92.6786
+    width: 14.5
+    height: 12.15
+    center:
+      x: 148.5011
+      y: 86.6036

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64.0000mm" height="64.0000mm"
+     viewBox="0 0 64.0000 64.0000">
+  <text x="32.0000" y="5.0000" font-family="Arial, sans-serif" font-size="3.6000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#000000">Connector USB C</text>
+  <text x="32.0000" y="9.0000" font-family="Arial, sans-serif" font-size="3.6000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#000000">Surface Mount 16 Pin</text>
+  <rect x="21.0000" y="22.5000" width="22.0000" height="13.0000" rx="1.3000" ry="1.3000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.8" />
+  <rect x="23.2640" y="21.9535" width="1.4765" height="2.6531"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="25.2327" y="21.9535" width="1.4765" height="2.6531"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="27.3244" y="21.9535" width="0.7383" height="2.6531"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="28.5548" y="21.9535" width="0.7383" height="2.6531"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="29.7852" y="21.9535" width="0.7383" height="2.6531"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="31.0157" y="21.9535" width="0.7383" height="2.6531"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="32.2461" y="21.9535" width="0.7383" height="2.6531"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="33.4765" y="21.9535" width="0.7383" height="2.6531"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="34.7069" y="21.9535" width="0.7383" height="2.6531"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="35.9374" y="21.9535" width="0.7383" height="2.6531"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="37.2908" y="21.9535" width="1.4765" height="2.6531"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="39.2595" y="21.9535" width="1.4765" height="2.6531"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="21.5500" y="24.1900" width="1.9800" height="2.3400" rx="0.3250" ry="0.3250"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="21.5500" y="31.4700" width="1.9800" height="2.3400" rx="0.3250" ry="0.3250"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="40.4700" y="24.1900" width="1.9800" height="2.3400" rx="0.3250" ry="0.3250"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="40.4700" y="31.4700" width="1.9800" height="2.3400" rx="0.3250" ry="0.3250"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="24.6300" y="26.5300" width="3.7400" height="1.5600" rx="0.3250" ry="0.3250"  fill="#FFFFFF" stroke="#000000" stroke-width="0.25" />
+  <rect x="35.6300" y="26.5300" width="3.7400" height="1.5600" rx="0.3250" ry="0.3250"  fill="#FFFFFF" stroke="#000000" stroke-width="0.25" />
+  <line x1="32.0000" y1="30.0400" x2="32.0000" y2="25.1000"  fill="#000000" stroke="#000000" stroke-width="0.8" />
+  <rect x="23.2000" y="31.0800" width="17.6000" height="2.8600" rx="1.1700" ry="1.1700"  fill="#FFFFFF" stroke="#000000" stroke-width="0.25" />
+  <rect x="25.9500" y="32.0875" width="12.1000" height="0.8450" rx="0.2600" ry="0.2600"  fill="#FFFFFF" stroke="#000000" stroke-width="0.8" />
+  <circle cx="24.0022" cy="23.2800" r="0.4550"  fill="#FFFFFF" stroke="#000000" stroke-width="0.55" />
+  <text x="19.0000" y="20.0000" font-family="Arial, sans-serif" font-size="2.8000" text-anchor="end" dominant-baseline="middle" fill="#000000">A1 gnd</text>
+  <text x="19.0000" y="22.5714" font-family="Arial, sans-serif" font-size="2.8000" text-anchor="end" dominant-baseline="middle" fill="#000000">B12 gnd</text>
+  <text x="19.0000" y="25.1429" font-family="Arial, sans-serif" font-size="2.8000" text-anchor="end" dominant-baseline="middle" fill="#000000">A4 vbus</text>
+  <text x="19.0000" y="27.7143" font-family="Arial, sans-serif" font-size="2.8000" text-anchor="end" dominant-baseline="middle" fill="#000000">B9 vbus</text>
+  <text x="19.0000" y="30.2857" font-family="Arial, sans-serif" font-size="2.8000" text-anchor="end" dominant-baseline="middle" fill="#000000">A5 cc1</text>
+  <text x="19.0000" y="32.8571" font-family="Arial, sans-serif" font-size="2.8000" text-anchor="end" dominant-baseline="middle" fill="#000000">B8 sbu2</text>
+  <text x="19.0000" y="35.4286" font-family="Arial, sans-serif" font-size="2.8000" text-anchor="end" dominant-baseline="middle" fill="#000000">A6 dp1</text>
+  <text x="19.0000" y="38.0000" font-family="Arial, sans-serif" font-size="2.8000" text-anchor="end" dominant-baseline="middle" fill="#000000">B7 dn2</text>
+  <text x="45.0000" y="20.0000" font-family="Arial, sans-serif" font-size="2.8000" text-anchor="start" dominant-baseline="middle" fill="#000000">A7 dn1</text>
+  <text x="45.0000" y="22.5714" font-family="Arial, sans-serif" font-size="2.8000" text-anchor="start" dominant-baseline="middle" fill="#000000">B6 dp2</text>
+  <text x="45.0000" y="25.1429" font-family="Arial, sans-serif" font-size="2.8000" text-anchor="start" dominant-baseline="middle" fill="#000000">A8 sbu1</text>
+  <text x="45.0000" y="27.7143" font-family="Arial, sans-serif" font-size="2.8000" text-anchor="start" dominant-baseline="middle" fill="#000000">B5 cc2</text>
+  <text x="45.0000" y="30.2857" font-family="Arial, sans-serif" font-size="2.8000" text-anchor="start" dominant-baseline="middle" fill="#000000">A9 vbus</text>
+  <text x="45.0000" y="32.8571" font-family="Arial, sans-serif" font-size="2.8000" text-anchor="start" dominant-baseline="middle" fill="#000000">B4 vbus</text>
+  <text x="45.0000" y="35.4286" font-family="Arial, sans-serif" font-size="2.8000" text-anchor="start" dominant-baseline="middle" fill="#000000">A12 gnd</text>
+  <text x="45.0000" y="38.0000" font-family="Arial, sans-serif" font-size="2.8000" text-anchor="start" dominant-baseline="middle" fill="#000000">B1 gnd</text>
+  <text x="32.0000" y="46.0000" font-family="Consolas, monospace" font-size="3.6000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#000000">1P1AF</text>
+  <text x="32.0000" y="53.0000" font-family="Consolas, monospace" font-size="2.8000" text-anchor="middle" dominant-baseline="middle" fill="#000000">clock owner wash</text>
+</svg>
