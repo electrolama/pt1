@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-8.0000 -8.0000 34.0000 62.0000">
+<defs>
+<style>
+.page { fill: #FFFFFF; }
+.board { fill: #FFFFFF; stroke: #000000; stroke-width: 0.35; }
+.edge-cut { fill: none; stroke: #000000; stroke-width: 0.25; }
+.mechanical-pad { fill: #FFFFFF; stroke: #000000; stroke-width: 0.18; }
+.mounting-hole { fill: #FFFFFF; stroke: #000000; stroke-width: 0.22; }
+.origin { fill: none; stroke: #000000; stroke-width: 0.18; }
+.leader { fill: none; stroke: #000000; stroke-width: 0.12; }
+.mechanical-text { fill: #000000; font-family: Arial, sans-serif; font-size: 0.62px; }
+</style>
+</defs>
+<rect class="page" x="-8.0000" y="-8.0000" width="34.0000" height="62.0000" />
+<rect class="board" x="0" y="0" width="18.0000" height="46.0000" rx="1.0" />
+<polyline class="edge-cut" points="0.0000,45.0000 0.0000,1.0000" />
+<polyline class="edge-cut" points="1.0000,0.0000 17.0000,0.0000" />
+<polyline class="edge-cut" points="17.0000,46.0000 1.0000,46.0000" />
+<polyline class="edge-cut" points="18.0000,1.0000 18.0000,45.0000" />
+<polyline class="edge-cut" points="0.0000,1.0000 0.0086,0.8695 0.0341,0.7412 0.0761,0.6173 0.1340,0.5000 0.2066,0.3912 0.2929,0.2929 0.3912,0.2066 0.5000,0.1340 0.6173,0.0761 0.7412,0.0341 0.8695,0.0086 1.0000,0.0000" />
+<polyline class="edge-cut" points="1.0000,46.0000 0.8695,45.9914 0.7412,45.9659 0.6173,45.9239 0.5000,45.8660 0.3912,45.7934 0.2929,45.7071 0.2066,45.6088 0.1340,45.5000 0.0761,45.3827 0.0341,45.2588 0.0086,45.1305 0.0000,45.0000" />
+<polyline class="edge-cut" points="17.0000,0.0000 17.1305,0.0086 17.2588,0.0341 17.3827,0.0761 17.5000,0.1340 17.6088,0.2066 17.7071,0.2929 17.7934,0.3912 17.8660,0.5000 17.9239,0.6173 17.9659,0.7412 17.9914,0.8695 18.0000,1.0000" />
+<polyline class="edge-cut" points="18.0000,45.0000 17.9914,45.1305 17.9659,45.2588 17.9239,45.3827 17.8660,45.5000 17.7934,45.6088 17.7071,45.7071 17.6088,45.7934 17.5000,45.8660 17.3827,45.9239 17.2588,45.9659 17.1305,45.9914 17.0000,46.0000" />
+<line class="origin" x1="-1.2000" y1="0" x2="5.0000" y2="0" />
+<line class="origin" x1="0" y1="-1.2000" x2="0" y2="5.0000" />
+<circle class="origin" cx="0" cy="0" r="0.55" />
+<text class="mechanical-text" x="0.8" y="-0.8">0,0</text>
+<text class="mechanical-text" x="5.4000" y="-0.55">+X</text>
+<text class="mechanical-text" x="0.4" y="5.8000">+Y</text>
+<circle class="mounting-hole" cx="6.1100" cy="41.1900" r="0.3250" />
+<line class="leader" x1="6.1100" y1="41.1900" x2="-1.0000" y2="41.0000" />
+<text class="mechanical-text" x="-1.0000" y="41.0000" text-anchor="end"><tspan x="-1.0000" dy="0">MH1 CON1</tspan><tspan x="-1.0000" dy="0.85">x 6.110 y 41.190</tspan><tspan x="-1.0000" dy="0.85">dia 0.65 mm NPTH</tspan></text>
+<circle class="mounting-hole" cx="11.8900" cy="41.1900" r="0.3250" />
+<line class="leader" x1="11.8900" y1="41.1900" x2="19.0000" y2="41.0000" />
+<text class="mechanical-text" x="19.0000" y="41.0000" text-anchor="start"><tspan x="19.0000" dy="0">MH2 CON1</tspan><tspan x="19.0000" dy="0.85">x 11.890 y 41.190</tspan><tspan x="19.0000" dy="0.85">dia 0.65 mm NPTH</tspan></text>
+<circle class="mounting-hole" cx="4.8100" cy="15.1100" r="0.3250" />
+<line class="leader" x1="4.8100" y1="15.1100" x2="-1.0000" y2="14.9200" />
+<text class="mechanical-text" x="-1.0000" y="14.9200" text-anchor="end"><tspan x="-1.0000" dy="0">MH3 CON2</tspan><tspan x="-1.0000" dy="0.85">x 4.810 y 15.110</tspan><tspan x="-1.0000" dy="0.85">dia 0.65 mm NPTH</tspan></text>
+<circle class="mounting-hole" cx="4.8100" cy="20.8900" r="0.3250" />
+<line class="leader" x1="4.8100" y1="20.8900" x2="-1.0000" y2="20.7000" />
+<text class="mechanical-text" x="-1.0000" y="20.7000" text-anchor="end"><tspan x="-1.0000" dy="0">MH4 CON2</tspan><tspan x="-1.0000" dy="0.85">x 4.810 y 20.890</tspan><tspan x="-1.0000" dy="0.85">dia 0.65 mm NPTH</tspan></text>
+<ellipse class="mechanical-pad" cx="2.6000" cy="1.6350" rx="1.3080" ry="0.6540" transform="rotate(90.0000 2.6000 1.6350)" />
+<circle class="mounting-hole" cx="2.6000" cy="1.6350" r="0.4000" />
+<line class="leader" x1="2.6000" y1="1.6350" x2="-1.0000" y2="1.4450" />
+<text class="mechanical-text" x="-1.0000" y="1.4450" text-anchor="end"><tspan x="-1.0000" dy="0">MH5 CON3</tspan><tspan x="-1.0000" dy="0.85">x 2.600 y 1.635</tspan><tspan x="-1.0000" dy="0.85">dia 0.8 mm PTH</tspan></text>
+<ellipse class="mechanical-pad" cx="15.4000" cy="1.6350" rx="1.3080" ry="0.6540" transform="rotate(90.0000 15.4000 1.6350)" />
+<circle class="mounting-hole" cx="15.4000" cy="1.6350" r="0.4000" />
+<line class="leader" x1="15.4000" y1="1.6350" x2="19.0000" y2="1.4450" />
+<text class="mechanical-text" x="19.0000" y="1.4450" text-anchor="start"><tspan x="19.0000" dy="0">MH6 CON3</tspan><tspan x="19.0000" dy="0.85">x 15.400 y 1.635</tspan><tspan x="19.0000" dy="0.85">dia 0.8 mm PTH</tspan></text>
+<circle class="mounting-hole" cx="2.2500" cy="11.3750" r="1.0000" />
+<line class="leader" x1="2.2500" y1="11.3750" x2="-1.0000" y2="11.1850" />
+<text class="mechanical-text" x="-1.0000" y="11.1850" text-anchor="end"><tspan x="-1.0000" dy="0">MH7 UNK_HOLE_0</tspan><tspan x="-1.0000" dy="0.85">x 2.250 y 11.375</tspan><tspan x="-1.0000" dy="0.85">dia 2 mm NPTH</tspan></text>
+<circle class="mounting-hole" cx="15.7500" cy="42.5000" r="1.0000" />
+<line class="leader" x1="15.7500" y1="42.5000" x2="19.0000" y2="44.0000" />
+<text class="mechanical-text" x="19.0000" y="44.0000" text-anchor="start"><tspan x="19.0000" dy="0">MH8 UNK_HOLE_1</tspan><tspan x="19.0000" dy="0.85">x 15.750 y 42.500</tspan><tspan x="19.0000" dy="0.85">dia 2 mm NPTH</tspan></text>
+<circle class="mounting-hole" cx="2.2500" cy="42.5000" r="1.0000" />
+<line class="leader" x1="2.2500" y1="42.5000" x2="-1.0000" y2="44.0000" />
+<text class="mechanical-text" x="-1.0000" y="44.0000" text-anchor="end"><tspan x="-1.0000" dy="0">MH9 UNK_HOLE_2</tspan><tspan x="-1.0000" dy="0.85">x 2.250 y 42.500</tspan><tspan x="-1.0000" dy="0.85">dia 2 mm NPTH</tspan></text>
+</svg>

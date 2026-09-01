@@ -1,0 +1,1272 @@
+reference: CON3
+schematic:
+  available: true
+  units:
+  - reference: CON3
+    source_file: kicad_file.kicad_sch
+    uuid: fb178100-5099-4f16-81aa-6f3c22f7a7e6
+    library_id: project-tool-mini-RevA2-eagle-import:USB-A-FEMALE-JING-912-121A2023S10100
+    unit: 1
+    body_style: 1
+    position:
+      x: 262.89
+      y: 143.51
+      rotation: 0.0
+      mirror: y
+      units: mm
+    properties:
+      Reference: CON3
+      Value: USB-A Female
+      Footprint: project-tool-mini-RevA2:JING_912-121A2023S10100
+      Datasheet: ''
+      Description: ''
+      JLCASSY: C42428
+      MPN: 912-121A2023S10100
+    in_bom: true
+    on_board: true
+    in_position_files: true
+    dnp: false
+    pins:
+    - number: DM
+      name: D-
+      electrical_type: bidirectional
+      graphic_style: line
+      local_position:
+        x: 10.16
+        y: 2.54
+        rotation: 180.0
+      length: 5.08
+      position:
+        x: 252.73
+        y: 146.05
+      net: null
+      net_aliases: []
+      net_scope: sheet
+      no_connect: false
+      connected_to: []
+    - number: DP
+      name: D+
+      electrical_type: bidirectional
+      graphic_style: line
+      local_position:
+        x: 10.16
+        y: 0.0
+        rotation: 180.0
+      length: 5.08
+      position:
+        x: 252.73
+        y: 143.51
+      net: USB2_P
+      net_aliases:
+      - USB2_P
+      net_scope: global
+      no_connect: false
+      connected_to: []
+    - number: GND
+      name: G
+      electrical_type: bidirectional
+      graphic_style: line
+      local_position:
+        x: 10.16
+        y: -2.54
+        rotation: 180.0
+      length: 5.08
+      position:
+        x: 252.73
+        y: 140.97
+      net: USB2_N
+      net_aliases:
+      - USB2_N
+      net_scope: global
+      no_connect: false
+      connected_to:
+      - reference: D1
+        pin_number: '1'
+        pin_name: I/O_1
+    - number: P$5
+      name: SHIELD1
+      electrical_type: bidirectional
+      graphic_style: line
+      local_position:
+        x: 0.0
+        y: -7.62
+        rotation: 90.0
+      length: 2.54
+      position:
+        x: 262.89
+        y: 135.89
+      net: null
+      net_aliases: []
+      net_scope: sheet
+      no_connect: false
+      connected_to: []
+    - number: P$6
+      name: SHIELD2
+      electrical_type: bidirectional
+      graphic_style: line
+      local_position:
+        x: 2.54
+        y: -7.62
+        rotation: 90.0
+      length: 2.54
+      position:
+        x: 260.35
+        y: 135.89
+      net: null
+      net_aliases: []
+      net_scope: sheet
+      no_connect: false
+      connected_to: []
+    - number: VBUS
+      name: V
+      electrical_type: bidirectional
+      graphic_style: line
+      local_position:
+        x: 10.16
+        y: 5.08
+        rotation: 180.0
+      length: 5.08
+      position:
+        x: 252.73
+        y: 148.59
+      net: null
+      net_aliases: []
+      net_scope: sheet
+      no_connect: false
+      connected_to: []
+    size:
+      local_graphics:
+        measurement: symbol graphics only; excludes pins, properties, and text
+        units: mm
+        available: true
+        min:
+          x: -6.5532
+          y: -5.2832
+        max:
+          x: 5.2832
+          y: 7.8232
+        width: 11.8364
+        height: 13.1064
+        center:
+          x: -0.635
+          y: 1.27
+      placed_graphics:
+        measurement: axis-aligned bounds after schematic placement, rotation, and mirroring
+        units: mm
+        available: true
+        min:
+          x: 257.6068
+          y: 138.2268
+        max:
+          x: 269.4432
+          y: 151.3332
+        width: 11.8364
+        height: 13.1064
+        center:
+          x: 263.525
+          y: 144.78
+    warnings: []
+  connected_components:
+  - reference: D1
+    pin_number: '1'
+    pin_name: I/O_1
+pcb:
+  reference: CON3
+  value: USB-A Female
+  source_file: kicad_file.kicad_pcb
+  uuid: 4c45a667-79d4-4ae1-a3ee-2c98b9f455f8
+  library_id: JING_912-121A2023S10100
+  layer: F.Cu
+  side: front
+  position:
+    x: 148.5011
+    y: 85.8786
+    rotation: 0.0
+    rotation_kicad: 0.0
+    units: mm
+  properties:
+    Reference: CON3
+    Value: USB-A Female
+    Datasheet: ''
+    Description: ''
+  attributes: []
+  exclude_from_bom: false
+  exclude_from_position_files: false
+  pads:
+  - number: DM
+    type: smd
+    shape: rect
+    local_position:
+      x: 1.0
+      y: 5.3
+      rotation: 90.0
+    position:
+      x: 149.5011
+      y: 91.1786
+    placed_rotation: 90.0
+    size:
+      x: 3.0
+      y: 1.3
+      units: mm
+    drill:
+      available: false
+      shape: null
+      x: null
+      y: null
+      diameter: null
+      units: mm
+    layers:
+    - F.Cu
+    - F.Mask
+    - F.Paste
+    net: USB2_N
+    net_number: null
+    pin_function: null
+    pin_type: null
+    bounds:
+      local:
+        measurement: pad bounds in footprint-local coordinates
+        units: mm
+        available: true
+        min:
+          x: 0.35
+          y: 3.8
+        max:
+          x: 1.65
+          y: 6.8
+        width: 1.3
+        height: 3.0
+        center:
+          x: 1.0
+          y: 5.3
+      placed:
+        measurement: pad bounds after footprint placement and rotation
+        units: mm
+        available: true
+        min:
+          x: 148.8511
+          y: 89.6786
+        max:
+          x: 150.1511
+          y: 92.6786
+        width: 1.3
+        height: 3.0
+        center:
+          x: 149.5011
+          y: 91.1786
+    plating: null
+    is_mounting_hole: false
+    connected_to:
+    - reference: D1
+      pad_number: '1'
+    - reference: IC2
+      pad_number: '5'
+  - number: DP
+    type: smd
+    shape: rect
+    local_position:
+      x: -1.0
+      y: 5.3
+      rotation: 90.0
+    position:
+      x: 147.5011
+      y: 91.1786
+    placed_rotation: 90.0
+    size:
+      x: 3.0
+      y: 1.3
+      units: mm
+    drill:
+      available: false
+      shape: null
+      x: null
+      y: null
+      diameter: null
+      units: mm
+    layers:
+    - F.Cu
+    - F.Mask
+    - F.Paste
+    net: USB2_P
+    net_number: null
+    pin_function: null
+    pin_type: null
+    bounds:
+      local:
+        measurement: pad bounds in footprint-local coordinates
+        units: mm
+        available: true
+        min:
+          x: -1.65
+          y: 3.8
+        max:
+          x: -0.35
+          y: 6.8
+        width: 1.3
+        height: 3.0
+        center:
+          x: -1.0
+          y: 5.3
+      placed:
+        measurement: pad bounds after footprint placement and rotation
+        units: mm
+        available: true
+        min:
+          x: 146.8511
+          y: 89.6786
+        max:
+          x: 148.1511
+          y: 92.6786
+        width: 1.3
+        height: 3.0
+        center:
+          x: 147.5011
+          y: 91.1786
+    plating: null
+    is_mounting_hole: false
+    connected_to:
+    - reference: D1
+      pad_number: '3'
+    - reference: IC2
+      pad_number: '6'
+  - number: GND
+    type: smd
+    shape: rect
+    local_position:
+      x: -3.5
+      y: 5.3
+      rotation: 90.0
+    position:
+      x: 145.0011
+      y: 91.1786
+    placed_rotation: 90.0
+    size:
+      x: 3.0
+      y: 1.3
+      units: mm
+    drill:
+      available: false
+      shape: null
+      x: null
+      y: null
+      diameter: null
+      units: mm
+    layers:
+    - F.Cu
+    - F.Mask
+    - F.Paste
+    net: GND
+    net_number: null
+    pin_function: null
+    pin_type: null
+    bounds:
+      local:
+        measurement: pad bounds in footprint-local coordinates
+        units: mm
+        available: true
+        min:
+          x: -4.15
+          y: 3.8
+        max:
+          x: -2.85
+          y: 6.8
+        width: 1.3
+        height: 3.0
+        center:
+          x: -3.5
+          y: 5.3
+      placed:
+        measurement: pad bounds after footprint placement and rotation
+        units: mm
+        available: true
+        min:
+          x: 144.3511
+          y: 89.6786
+        max:
+          x: 145.6511
+          y: 92.6786
+        width: 1.3
+        height: 3.0
+        center:
+          x: 145.0011
+          y: 91.1786
+    plating: null
+    is_mounting_hole: false
+    connected_to:
+    - reference: C1
+      pad_number: '1'
+    - reference: C2
+      pad_number: '1'
+    - reference: C3
+      pad_number: '2'
+    - reference: C4
+      pad_number: '2'
+    - reference: C5
+      pad_number: '1'
+    - reference: C6
+      pad_number: '1'
+    - reference: C7
+      pad_number: '1'
+    - reference: C8
+      pad_number: '1'
+    - reference: C9
+      pad_number: '1'
+    - reference: C10
+      pad_number: '1'
+    - reference: C11
+      pad_number: '1'
+    - reference: C12
+      pad_number: '1'
+    - reference: C13
+      pad_number: '1'
+    - reference: C14
+      pad_number: '1'
+    - reference: CON1
+      pad_number: GND@1
+    - reference: CON1
+      pad_number: GND@2
+    - reference: CON1
+      pad_number: P$1
+    - reference: CON1
+      pad_number: P$2
+    - reference: CON1
+      pad_number: P$3
+    - reference: CON1
+      pad_number: P$4
+    - reference: CON1
+      pad_number: P$5
+    - reference: CON1
+      pad_number: P$6
+    - reference: CON1
+      pad_number: P$7
+    - reference: CON1
+      pad_number: P$8
+    - reference: CON2
+      pad_number: GND@1
+    - reference: CON2
+      pad_number: GND@2
+    - reference: CON2
+      pad_number: P$1
+    - reference: CON2
+      pad_number: P$2
+    - reference: CON2
+      pad_number: P$3
+    - reference: CON2
+      pad_number: P$4
+    - reference: CON2
+      pad_number: P$5
+    - reference: CON2
+      pad_number: P$6
+    - reference: CON2
+      pad_number: P$7
+    - reference: CON2
+      pad_number: P$8
+    - reference: CON3
+      pad_number: P$5
+    - reference: CON3
+      pad_number: P$6
+    - reference: D1
+      pad_number: '2'
+    - reference: D2
+      pad_number: '2'
+    - reference: IC1
+      pad_number: '0'
+    - reference: IC1
+      pad_number: '2'
+    - reference: IC2
+      pad_number: '12'
+    - reference: IC3
+      pad_number: '2'
+    - reference: IC4
+      pad_number: '2'
+    - reference: J1
+      pad_number: '6'
+    - reference: LED1
+      pad_number: C
+    - reference: R1
+      pad_number: '1'
+    - reference: R2
+      pad_number: '1'
+    - reference: R5
+      pad_number: '2'
+    - reference: XT1
+      pad_number: '2'
+    - reference: XT1
+      pad_number: '4'
+  - number: P$5
+    type: thru_hole
+    shape: oval
+    local_position:
+      x: -6.4
+      y: -2.24
+      rotation: 90.0
+    position:
+      x: 142.1011
+      y: 83.6386
+    placed_rotation: 90.0
+    size:
+      x: 2.616
+      y: 1.308
+      units: mm
+    drill:
+      available: true
+      shape: round
+      x: 0.8
+      y: 0.8
+      diameter: 0.8
+      offset:
+        x: 0.0
+        y: 0.0
+      units: mm
+    layers:
+    - '*.Cu'
+    - '*.Mask'
+    net: GND
+    net_number: null
+    pin_function: null
+    pin_type: null
+    bounds:
+      local:
+        measurement: pad bounds in footprint-local coordinates
+        units: mm
+        available: true
+        min:
+          x: -7.054
+          y: -3.548
+        max:
+          x: -5.746
+          y: -0.932
+        width: 1.308
+        height: 2.616
+        center:
+          x: -6.4
+          y: -2.24
+      placed:
+        measurement: pad bounds after footprint placement and rotation
+        units: mm
+        available: true
+        min:
+          x: 141.4471
+          y: 82.3306
+        max:
+          x: 142.7551
+          y: 84.9466
+        width: 1.308
+        height: 2.616
+        center:
+          x: 142.1011
+          y: 83.6386
+    plating: plated
+    is_mounting_hole: true
+    connected_to:
+    - reference: C1
+      pad_number: '1'
+    - reference: C2
+      pad_number: '1'
+    - reference: C3
+      pad_number: '2'
+    - reference: C4
+      pad_number: '2'
+    - reference: C5
+      pad_number: '1'
+    - reference: C6
+      pad_number: '1'
+    - reference: C7
+      pad_number: '1'
+    - reference: C8
+      pad_number: '1'
+    - reference: C9
+      pad_number: '1'
+    - reference: C10
+      pad_number: '1'
+    - reference: C11
+      pad_number: '1'
+    - reference: C12
+      pad_number: '1'
+    - reference: C13
+      pad_number: '1'
+    - reference: C14
+      pad_number: '1'
+    - reference: CON1
+      pad_number: GND@1
+    - reference: CON1
+      pad_number: GND@2
+    - reference: CON1
+      pad_number: P$1
+    - reference: CON1
+      pad_number: P$2
+    - reference: CON1
+      pad_number: P$3
+    - reference: CON1
+      pad_number: P$4
+    - reference: CON1
+      pad_number: P$5
+    - reference: CON1
+      pad_number: P$6
+    - reference: CON1
+      pad_number: P$7
+    - reference: CON1
+      pad_number: P$8
+    - reference: CON2
+      pad_number: GND@1
+    - reference: CON2
+      pad_number: GND@2
+    - reference: CON2
+      pad_number: P$1
+    - reference: CON2
+      pad_number: P$2
+    - reference: CON2
+      pad_number: P$3
+    - reference: CON2
+      pad_number: P$4
+    - reference: CON2
+      pad_number: P$5
+    - reference: CON2
+      pad_number: P$6
+    - reference: CON2
+      pad_number: P$7
+    - reference: CON2
+      pad_number: P$8
+    - reference: CON3
+      pad_number: GND
+    - reference: CON3
+      pad_number: P$6
+    - reference: D1
+      pad_number: '2'
+    - reference: D2
+      pad_number: '2'
+    - reference: IC1
+      pad_number: '0'
+    - reference: IC1
+      pad_number: '2'
+    - reference: IC2
+      pad_number: '12'
+    - reference: IC3
+      pad_number: '2'
+    - reference: IC4
+      pad_number: '2'
+    - reference: J1
+      pad_number: '6'
+    - reference: LED1
+      pad_number: C
+    - reference: R1
+      pad_number: '1'
+    - reference: R2
+      pad_number: '1'
+    - reference: R5
+      pad_number: '2'
+    - reference: XT1
+      pad_number: '2'
+    - reference: XT1
+      pad_number: '4'
+  - number: P$6
+    type: thru_hole
+    shape: oval
+    local_position:
+      x: 6.4
+      y: -2.24
+      rotation: 90.0
+    position:
+      x: 154.9011
+      y: 83.6386
+    placed_rotation: 90.0
+    size:
+      x: 2.616
+      y: 1.308
+      units: mm
+    drill:
+      available: true
+      shape: round
+      x: 0.8
+      y: 0.8
+      diameter: 0.8
+      offset:
+        x: 0.0
+        y: 0.0
+      units: mm
+    layers:
+    - '*.Cu'
+    - '*.Mask'
+    net: GND
+    net_number: null
+    pin_function: null
+    pin_type: null
+    bounds:
+      local:
+        measurement: pad bounds in footprint-local coordinates
+        units: mm
+        available: true
+        min:
+          x: 5.746
+          y: -3.548
+        max:
+          x: 7.054
+          y: -0.932
+        width: 1.308
+        height: 2.616
+        center:
+          x: 6.4
+          y: -2.24
+      placed:
+        measurement: pad bounds after footprint placement and rotation
+        units: mm
+        available: true
+        min:
+          x: 154.2471
+          y: 82.3306
+        max:
+          x: 155.5551
+          y: 84.9466
+        width: 1.308
+        height: 2.616
+        center:
+          x: 154.9011
+          y: 83.6386
+    plating: plated
+    is_mounting_hole: true
+    connected_to:
+    - reference: C1
+      pad_number: '1'
+    - reference: C2
+      pad_number: '1'
+    - reference: C3
+      pad_number: '2'
+    - reference: C4
+      pad_number: '2'
+    - reference: C5
+      pad_number: '1'
+    - reference: C6
+      pad_number: '1'
+    - reference: C7
+      pad_number: '1'
+    - reference: C8
+      pad_number: '1'
+    - reference: C9
+      pad_number: '1'
+    - reference: C10
+      pad_number: '1'
+    - reference: C11
+      pad_number: '1'
+    - reference: C12
+      pad_number: '1'
+    - reference: C13
+      pad_number: '1'
+    - reference: C14
+      pad_number: '1'
+    - reference: CON1
+      pad_number: GND@1
+    - reference: CON1
+      pad_number: GND@2
+    - reference: CON1
+      pad_number: P$1
+    - reference: CON1
+      pad_number: P$2
+    - reference: CON1
+      pad_number: P$3
+    - reference: CON1
+      pad_number: P$4
+    - reference: CON1
+      pad_number: P$5
+    - reference: CON1
+      pad_number: P$6
+    - reference: CON1
+      pad_number: P$7
+    - reference: CON1
+      pad_number: P$8
+    - reference: CON2
+      pad_number: GND@1
+    - reference: CON2
+      pad_number: GND@2
+    - reference: CON2
+      pad_number: P$1
+    - reference: CON2
+      pad_number: P$2
+    - reference: CON2
+      pad_number: P$3
+    - reference: CON2
+      pad_number: P$4
+    - reference: CON2
+      pad_number: P$5
+    - reference: CON2
+      pad_number: P$6
+    - reference: CON2
+      pad_number: P$7
+    - reference: CON2
+      pad_number: P$8
+    - reference: CON3
+      pad_number: GND
+    - reference: CON3
+      pad_number: P$5
+    - reference: D1
+      pad_number: '2'
+    - reference: D2
+      pad_number: '2'
+    - reference: IC1
+      pad_number: '0'
+    - reference: IC1
+      pad_number: '2'
+    - reference: IC2
+      pad_number: '12'
+    - reference: IC3
+      pad_number: '2'
+    - reference: IC4
+      pad_number: '2'
+    - reference: J1
+      pad_number: '6'
+    - reference: LED1
+      pad_number: C
+    - reference: R1
+      pad_number: '1'
+    - reference: R2
+      pad_number: '1'
+    - reference: R5
+      pad_number: '2'
+    - reference: XT1
+      pad_number: '2'
+    - reference: XT1
+      pad_number: '4'
+  - number: VBUS
+    type: smd
+    shape: rect
+    local_position:
+      x: 3.5
+      y: 5.3
+      rotation: 90.0
+    position:
+      x: 152.0011
+      y: 91.1786
+    placed_rotation: 90.0
+    size:
+      x: 3.0
+      y: 1.3
+      units: mm
+    drill:
+      available: false
+      shape: null
+      x: null
+      y: null
+      diameter: null
+      units: mm
+    layers:
+    - F.Cu
+    - F.Mask
+    - F.Paste
+    net: VUSB_SW_OUT
+    net_number: null
+    pin_function: null
+    pin_type: null
+    bounds:
+      local:
+        measurement: pad bounds in footprint-local coordinates
+        units: mm
+        available: true
+        min:
+          x: 2.85
+          y: 3.8
+        max:
+          x: 4.15
+          y: 6.8
+        width: 1.3
+        height: 3.0
+        center:
+          x: 3.5
+          y: 5.3
+      placed:
+        measurement: pad bounds after footprint placement and rotation
+        units: mm
+        available: true
+        min:
+          x: 151.3511
+          y: 89.6786
+        max:
+          x: 152.6511
+          y: 92.6786
+        width: 1.3
+        height: 3.0
+        center:
+          x: 152.0011
+          y: 91.1786
+    plating: null
+    is_mounting_hole: false
+    connected_to:
+    - reference: C7
+      pad_number: '2'
+    - reference: C8
+      pad_number: '2'
+    - reference: C9
+      pad_number: '2'
+    - reference: IC4
+      pad_number: '1'
+    - reference: J1
+      pad_number: '1'
+    - reference: R4
+      pad_number: '2'
+    - reference: SJ1
+      pad_number: '1'
+  mounting_holes:
+  - id: CON3_hole_1
+    reference: CON3
+    pad_number: P$5
+    role: shield_mount
+    plating: plated
+    style: round
+    drill_size:
+      x: 0.8
+      y: 0.8
+      diameter: 0.8
+      units: mm
+    pad_size:
+      x: 2.616
+      y: 1.308
+      units: mm
+    pad_shape: oval
+    local_position:
+      x: -6.4
+      y: -2.24
+      rotation: 90.0
+    position:
+      x: 142.1011
+      y: 83.6386
+    rotation: 90.0
+    layers:
+    - '*.Cu'
+    - '*.Mask'
+    net: GND
+    classification_reason: plated pad uses a mechanical mounting/shield identifier
+    oomp_id: mechanical_mounting_hole_0_8_mm_round_plated
+    oomp_reference: MH5
+    classification:
+      name: Mounting Hole 0.8 mm Round Plated
+      class: mechanical
+      type: mounting_hole
+      taxonomy:
+      - level: 1
+        key: taxonomy_1
+        value: mechanical
+      - level: 2
+        key: taxonomy_2
+        value: mounting_hole
+      - level: 3
+        key: taxonomy_3
+        value: 0_8_mm
+      - level: 4
+        key: taxonomy_4
+        value: round
+      - level: 5
+        key: taxonomy_5
+        value: plated
+      taxonomy_path:
+      - mechanical
+      - mounting_hole
+      - 0_8_mm
+      - round
+      - plated
+    name: Mounting Hole 0.8 mm Round Plated
+    oomp:
+      status: matched
+      accepted: true
+      oomp_id: mechanical_mounting_hole_0_8_mm_round_plated
+      confidence: 1.0
+      proposed_oomp_id: mechanical_mounting_hole_0_8_mm_round_plated
+      inferred:
+        kind: mounting_hole
+        style: round
+        plating: plated
+        drill_size:
+          x: 0.8
+          y: 0.8
+          diameter: 0.8
+          units: mm
+      reasons:
+      - Exact mechanical mounting-hole OOMP ID constructed from drill size, style, and plating.
+      candidates: []
+  - id: CON3_hole_2
+    reference: CON3
+    pad_number: P$6
+    role: shield_mount
+    plating: plated
+    style: round
+    drill_size:
+      x: 0.8
+      y: 0.8
+      diameter: 0.8
+      units: mm
+    pad_size:
+      x: 2.616
+      y: 1.308
+      units: mm
+    pad_shape: oval
+    local_position:
+      x: 6.4
+      y: -2.24
+      rotation: 90.0
+    position:
+      x: 154.9011
+      y: 83.6386
+    rotation: 90.0
+    layers:
+    - '*.Cu'
+    - '*.Mask'
+    net: GND
+    classification_reason: plated pad uses a mechanical mounting/shield identifier
+    oomp_id: mechanical_mounting_hole_0_8_mm_round_plated
+    oomp_reference: MH6
+    classification:
+      name: Mounting Hole 0.8 mm Round Plated
+      class: mechanical
+      type: mounting_hole
+      taxonomy:
+      - level: 1
+        key: taxonomy_1
+        value: mechanical
+      - level: 2
+        key: taxonomy_2
+        value: mounting_hole
+      - level: 3
+        key: taxonomy_3
+        value: 0_8_mm
+      - level: 4
+        key: taxonomy_4
+        value: round
+      - level: 5
+        key: taxonomy_5
+        value: plated
+      taxonomy_path:
+      - mechanical
+      - mounting_hole
+      - 0_8_mm
+      - round
+      - plated
+    name: Mounting Hole 0.8 mm Round Plated
+    oomp:
+      status: matched
+      accepted: true
+      oomp_id: mechanical_mounting_hole_0_8_mm_round_plated
+      confidence: 1.0
+      proposed_oomp_id: mechanical_mounting_hole_0_8_mm_round_plated
+      inferred:
+        kind: mounting_hole
+        style: round
+        plating: plated
+        drill_size:
+          x: 0.8
+          y: 0.8
+          diameter: 0.8
+          units: mm
+      reasons:
+      - Exact mechanical mounting-hole OOMP ID constructed from drill size, style, and plating.
+      candidates: []
+  is_mounting_hole: false
+  size:
+    pads_local:
+      measurement: all footprint pads in footprint-local coordinates
+      units: mm
+      available: true
+      min:
+        x: -7.054
+        y: -3.548
+      max:
+        x: 7.054
+        y: 6.8
+      width: 14.108
+      height: 10.348
+      center:
+        x: 0.0
+        y: 1.626
+    pads_placed:
+      measurement: all pads after PCB placement and rotation
+      units: mm
+      available: true
+      min:
+        x: 141.4471
+        y: 82.3306
+      max:
+        x: 155.5551
+        y: 92.6786
+      width: 14.108
+      height: 10.348
+      center:
+        x: 148.5011
+        y: 87.5046
+    courtyard_local:
+      measurement: F.CrtYd and B.CrtYd graphics; text excluded
+      units: mm
+      available: false
+      min: null
+      max: null
+      width: null
+      height: null
+      center: null
+    courtyard_placed:
+      measurement: courtyard after PCB placement and rotation
+      units: mm
+      available: false
+      min: null
+      max: null
+      width: null
+      height: null
+      center: null
+    fabrication_local:
+      measurement: F.Fab and B.Fab graphics; text excluded
+      units: mm
+      available: false
+      min: null
+      max: null
+      width: null
+      height: null
+      center: null
+    fabrication_placed:
+      measurement: fabrication graphics after placement
+      units: mm
+      available: false
+      min: null
+      max: null
+      width: null
+      height: null
+      center: null
+    silkscreen_local:
+      measurement: F.SilkS and B.SilkS graphics; text excluded
+      units: mm
+      available: true
+      min:
+        x: -7.25
+        y: -5.35
+      max:
+        x: 7.25
+        y: 5.35
+      width: 14.5
+      height: 10.7
+      center:
+        x: 0.0
+        y: 0.0
+    silkscreen_placed:
+      measurement: silkscreen graphics after placement
+      units: mm
+      available: true
+      min:
+        x: 141.2511
+        y: 80.5286
+      max:
+        x: 155.7511
+        y: 91.2286
+      width: 14.5
+      height: 10.7
+      center:
+        x: 148.5011
+        y: 85.8786
+    overall_local:
+      measurement: all non-text footprint graphics and pads
+      units: mm
+      available: true
+      min:
+        x: -7.25
+        y: -5.35
+      max:
+        x: 7.25
+        y: 6.8
+      width: 14.5
+      height: 12.15
+      center:
+        x: 0.0
+        y: 0.725
+    overall_placed:
+      measurement: all non-text footprint graphics and pads after placement
+      units: mm
+      available: true
+      min:
+        x: 141.2511
+        y: 80.5286
+      max:
+        x: 155.7511
+        y: 92.6786
+      width: 14.5
+      height: 12.15
+      center:
+        x: 148.5011
+        y: 86.6036
+  connected_components:
+  - C1
+  - C2
+  - C3
+  - C4
+  - C5
+  - C6
+  - C7
+  - C8
+  - C9
+  - C10
+  - C11
+  - C12
+  - C13
+  - C14
+  - CON1
+  - CON2
+  - CON3
+  - D1
+  - D2
+  - IC1
+  - IC2
+  - IC3
+  - IC4
+  - J1
+  - LED1
+  - R1
+  - R2
+  - R4
+  - R5
+  - SJ1
+  - XT1
+connectivity_cross_check:
+  available: true
+  policy: Named schematic nets are compared with PCB pad nets using matching pin/pad numbers.
+  comparisons:
+  - pin_or_pad_number: DM
+    schematic_nets: []
+    pcb_nets:
+    - USB2_N
+    status: incomplete
+  - pin_or_pad_number: DP
+    schematic_nets:
+    - USB2_P
+    pcb_nets:
+    - USB2_P
+    status: agree
+  - pin_or_pad_number: GND
+    schematic_nets:
+    - USB2_N
+    pcb_nets:
+    - GND
+    status: disagree
+  - pin_or_pad_number: P$5
+    schematic_nets: []
+    pcb_nets:
+    - GND
+    status: incomplete
+  - pin_or_pad_number: P$6
+    schematic_nets: []
+    pcb_nets:
+    - GND
+    status: incomplete
+  - pin_or_pad_number: VBUS
+    schematic_nets: []
+    pcb_nets:
+    - VUSB_SW_OUT
+    status: incomplete
+  agree_count: 1
+  disagree_count: 1
+  incomplete_count: 4
+oomp:
+  status: matched
+  accepted: true
+  oomp_id: electronic_connector_usb_a_surface_mount_4_pin_shenzhen_jing_tuo_jin_electronics_912121a2023s10100
+  confidence: 1.0
+  proposed_oomp_id: null
+  inferred:
+    kind: null
+    package_size: null
+    value: USB-A Female
+    mpn: 912-121A2023S10100
+  reasons:
+  - Accepted from the AI/human match override file.
+  candidates: []
+generated_directory: components/CON3

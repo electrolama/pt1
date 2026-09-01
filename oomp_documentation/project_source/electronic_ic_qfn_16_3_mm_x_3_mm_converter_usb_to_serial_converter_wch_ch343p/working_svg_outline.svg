@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="34.0000mm" height="20.0000mm"
+     viewBox="0 0 34.0000 20.0000">
+  <rect x="0.0000" y="0.0000" width="34.0000" height="20.0000"  fill="#FFFFFF" stroke="none" />
+  <rect x="8.7400" y="5.1700" width="2.5200" height="1.2600"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="8.7400" y="7.9700" width="2.5200" height="1.2600"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="8.7400" y="10.7700" width="2.5200" height="1.2600"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="8.7400" y="13.5700" width="2.5200" height="1.2600"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="12.1700" y="1.7400" width="1.2600" height="2.5200"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="14.9700" y="1.7400" width="1.2600" height="2.5200"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="17.7700" y="1.7400" width="1.2600" height="2.5200"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="20.5700" y="1.7400" width="1.2600" height="2.5200"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="22.7400" y="5.1700" width="2.5200" height="1.2600"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="22.7400" y="7.9700" width="2.5200" height="1.2600"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="22.7400" y="10.7700" width="2.5200" height="1.2600"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="22.7400" y="13.5700" width="2.5200" height="1.2600"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="12.1700" y="15.7400" width="1.2600" height="2.5200"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="14.9700" y="15.7400" width="1.2600" height="2.5200"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="17.7700" y="15.7400" width="1.2600" height="2.5200"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="20.5700" y="15.7400" width="1.2600" height="2.5200"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="10.0000" y="3.0000" width="14.0000" height="14.0000" rx="0.7000" ry="0.7000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.8" />
+  <rect x="13.9200" y="6.9200" width="6.1600" height="6.1600"  fill="#FFFFFF" stroke="#000000" stroke-width="0.55" />
+  <circle cx="11.1000" cy="15.9000" r="0.6500"  fill="#FFFFFF" stroke="#000000" stroke-width="0.55" />
+</svg>

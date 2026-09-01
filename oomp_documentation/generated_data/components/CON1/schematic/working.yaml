@@ -1,0 +1,647 @@
+available: true
+units:
+- reference: CON1
+  source_file: kicad_file.kicad_sch
+  uuid: 5bf718e3-95d0-4c6a-ae0e-880f8009958c
+  library_id: project-tool-mini-RevA2-eagle-import:USBC_USB-C-12
+  unit: 1
+  body_style: 1
+  position:
+    x: 38.1
+    y: 60.96
+    rotation: 0.0
+    mirror: y
+    units: mm
+  properties:
+    Reference: CON1
+    Value: USB-C
+    Footprint: project-tool-mini-RevA2:USBC_C-31-M-12
+    Datasheet: ''
+    Description: ''
+    JLCASSY: C165948
+    MPN: TYPE-C-31-M-12
+  in_bom: true
+  on_board: true
+  in_position_files: true
+  dnp: false
+  pins:
+  - number: CC1
+    name: CC1
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: -2.54
+      y: 12.7
+      rotation: 0.0
+    length: 2.54
+    position:
+      x: 40.64
+      y: 73.66
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: CC2
+    name: CC2
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: -2.54
+      y: 10.16
+      rotation: 0.0
+    length: 2.54
+    position:
+      x: 40.64
+      y: 71.12
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: DN1
+    name: DN1
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: -2.54
+      y: 25.4
+      rotation: 0.0
+    length: 2.54
+    position:
+      x: 40.64
+      y: 86.36
+    net: VUSB
+    net_aliases:
+    - VUSB
+    net_scope: global
+    no_connect: false
+    connected_to:
+    - reference: C10
+      pin_number: '1'
+      pin_name: '1'
+    - reference: C13
+      pin_number: '2'
+      pin_name: '2'
+    - reference: IC1
+      pin_number: '2'
+      pin_name: GND
+    - reference: IC2
+      pin_number: '11'
+      pin_name: VDD5
+    - reference: SJ1
+      pin_number: '1'
+      pin_name: '1'
+  - number: DN2
+    name: DN2
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: -2.54
+      y: 20.32
+      rotation: 0.0
+    length: 2.54
+    position:
+      x: 40.64
+      y: 81.28
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: DP1
+    name: DP1
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: -2.54
+      y: 27.94
+      rotation: 0.0
+    length: 2.54
+    position:
+      x: 40.64
+      y: 88.9
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: DP2
+    name: DP2
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: -2.54
+      y: 22.86
+      rotation: 0.0
+    length: 2.54
+    position:
+      x: 40.64
+      y: 83.82
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: GND@1
+    name: GND
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: -2.54
+      y: 5.08
+      rotation: 0.0
+    length: 2.54
+    position:
+      x: 40.64
+      y: 66.04
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to:
+    - reference: CON1
+      pin_number: GND@2
+      pin_name: GND
+  - number: GND@2
+    name: GND
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: -2.54
+      y: 5.08
+      rotation: 0.0
+    length: 2.54
+    position:
+      x: 40.64
+      y: 66.04
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to:
+    - reference: CON1
+      pin_number: GND@1
+      pin_name: GND
+  - number: P$1
+    name: CHASSIS
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: -2.54
+      y: 2.54
+      rotation: 0.0
+    length: 2.54
+    position:
+      x: 40.64
+      y: 63.5
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to:
+    - reference: CON1
+      pin_number: P$2
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$3
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$4
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$5
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$6
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$7
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$8
+      pin_name: CHASSIS
+  - number: P$2
+    name: CHASSIS
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: -2.54
+      y: 2.54
+      rotation: 0.0
+    length: 2.54
+    position:
+      x: 40.64
+      y: 63.5
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to:
+    - reference: CON1
+      pin_number: P$1
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$3
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$4
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$5
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$6
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$7
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$8
+      pin_name: CHASSIS
+  - number: P$3
+    name: CHASSIS
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: -2.54
+      y: 2.54
+      rotation: 0.0
+    length: 2.54
+    position:
+      x: 40.64
+      y: 63.5
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to:
+    - reference: CON1
+      pin_number: P$1
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$2
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$4
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$5
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$6
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$7
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$8
+      pin_name: CHASSIS
+  - number: P$4
+    name: CHASSIS
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: -2.54
+      y: 2.54
+      rotation: 0.0
+    length: 2.54
+    position:
+      x: 40.64
+      y: 63.5
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to:
+    - reference: CON1
+      pin_number: P$1
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$2
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$3
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$5
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$6
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$7
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$8
+      pin_name: CHASSIS
+  - number: P$5
+    name: CHASSIS
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: -2.54
+      y: 2.54
+      rotation: 0.0
+    length: 2.54
+    position:
+      x: 40.64
+      y: 63.5
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to:
+    - reference: CON1
+      pin_number: P$1
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$2
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$3
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$4
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$6
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$7
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$8
+      pin_name: CHASSIS
+  - number: P$6
+    name: CHASSIS
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: -2.54
+      y: 2.54
+      rotation: 0.0
+    length: 2.54
+    position:
+      x: 40.64
+      y: 63.5
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to:
+    - reference: CON1
+      pin_number: P$1
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$2
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$3
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$4
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$5
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$7
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$8
+      pin_name: CHASSIS
+  - number: P$7
+    name: CHASSIS
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: -2.54
+      y: 2.54
+      rotation: 0.0
+    length: 2.54
+    position:
+      x: 40.64
+      y: 63.5
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to:
+    - reference: CON1
+      pin_number: P$1
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$2
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$3
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$4
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$5
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$6
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$8
+      pin_name: CHASSIS
+  - number: P$8
+    name: CHASSIS
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: -2.54
+      y: 2.54
+      rotation: 0.0
+    length: 2.54
+    position:
+      x: 40.64
+      y: 63.5
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to:
+    - reference: CON1
+      pin_number: P$1
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$2
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$3
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$4
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$5
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$6
+      pin_name: CHASSIS
+    - reference: CON1
+      pin_number: P$7
+      pin_name: CHASSIS
+  - number: SBU1
+    name: SBU1
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: -2.54
+      y: 17.78
+      rotation: 0.0
+    length: 2.54
+    position:
+      x: 40.64
+      y: 78.74
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: SBU2
+    name: SBU2
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: -2.54
+      y: 15.24
+      rotation: 0.0
+    length: 2.54
+    position:
+      x: 40.64
+      y: 76.2
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: VBUS@1
+    name: VBUS
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: -2.54
+      y: 33.02
+      rotation: 0.0
+    length: 2.54
+    position:
+      x: 40.64
+      y: 93.98
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to:
+    - reference: CON1
+      pin_number: VBUS@2
+      pin_name: VBUS
+  - number: VBUS@2
+    name: VBUS
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: -2.54
+      y: 33.02
+      rotation: 0.0
+    length: 2.54
+    position:
+      x: 40.64
+      y: 93.98
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to:
+    - reference: CON1
+      pin_number: VBUS@1
+      pin_name: VBUS
+  size:
+    local_graphics:
+      measurement: symbol graphics only; excludes pins, properties, and text
+      units: mm
+      available: true
+      min:
+        x: -0.127
+        y: -0.127
+      max:
+        x: 15.367
+        y: 35.687
+      width: 15.494
+      height: 35.814
+      center:
+        x: 7.62
+        y: 17.78
+    placed_graphics:
+      measurement: axis-aligned bounds after schematic placement, rotation, and mirroring
+      units: mm
+      available: true
+      min:
+        x: 22.733
+        y: 60.833
+      max:
+        x: 38.227
+        y: 96.647
+      width: 15.494
+      height: 35.814
+      center:
+        x: 30.48
+        y: 78.74
+  warnings: []
+connected_components:
+- reference: C10
+  pin_number: '1'
+  pin_name: '1'
+- reference: C13
+  pin_number: '2'
+  pin_name: '2'
+- reference: CON1
+  pin_number: GND@1
+  pin_name: GND
+- reference: CON1
+  pin_number: GND@2
+  pin_name: GND
+- reference: CON1
+  pin_number: P$1
+  pin_name: CHASSIS
+- reference: CON1
+  pin_number: P$2
+  pin_name: CHASSIS
+- reference: CON1
+  pin_number: P$3
+  pin_name: CHASSIS
+- reference: CON1
+  pin_number: P$4
+  pin_name: CHASSIS
+- reference: CON1
+  pin_number: P$5
+  pin_name: CHASSIS
+- reference: CON1
+  pin_number: P$6
+  pin_name: CHASSIS
+- reference: CON1
+  pin_number: P$7
+  pin_name: CHASSIS
+- reference: CON1
+  pin_number: P$8
+  pin_name: CHASSIS
+- reference: CON1
+  pin_number: VBUS@1
+  pin_name: VBUS
+- reference: CON1
+  pin_number: VBUS@2
+  pin_name: VBUS
+- reference: IC1
+  pin_number: '2'
+  pin_name: GND
+- reference: IC2
+  pin_number: '11'
+  pin_name: VDD5
+- reference: SJ1
+  pin_number: '1'
+  pin_name: '1'

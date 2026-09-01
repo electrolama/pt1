@@ -1,0 +1,551 @@
+reference: C11
+schematic:
+  available: true
+  units:
+  - reference: C11
+    source_file: kicad_file.kicad_sch
+    uuid: b3755384-bbc0-45b2-8ca0-638da039ba3f
+    library_id: project-tool-mini-RevA2-eagle-import:CAP-0402
+    unit: 1
+    body_style: 1
+    position:
+      x: 50.8
+      y: 101.6
+      rotation: 270.0
+      mirror: x
+      units: mm
+    properties:
+      Reference: C11
+      Value: 10u
+      Footprint: project-tool-mini-RevA2:_PKG_C_0402
+      Datasheet: ''
+      Description: ''
+      JLCASSY: C15525
+      MPN: CL05A106MQ5NUNC
+    in_bom: true
+    on_board: true
+    in_position_files: true
+    dnp: false
+    pins:
+    - number: '1'
+      name: '1'
+      electrical_type: passive
+      graphic_style: line
+      local_position:
+        x: -2.54
+        y: 0.0
+        rotation: 0.0
+      length: 0.0
+      position:
+        x: 50.8
+        y: 104.14
+      net: null
+      net_aliases: []
+      net_scope: sheet
+      no_connect: false
+      connected_to: []
+    - number: '2'
+      name: '2'
+      electrical_type: passive
+      graphic_style: line
+      local_position:
+        x: 2.54
+        y: 0.0
+        rotation: 180.0
+      length: 0.0
+      position:
+        x: 50.8
+        y: 99.06
+      net: null
+      net_aliases: []
+      net_scope: sheet
+      no_connect: false
+      connected_to: []
+    size:
+      local_graphics:
+        measurement: symbol graphics only; excludes pins, properties, and text
+        units: mm
+        available: true
+        min:
+          x: -2.6162
+          y: -1.2668
+        max:
+          x: 2.6162
+          y: 1.2668
+        width: 5.2324
+        height: 2.5336
+        center:
+          x: 0.0
+          y: 0.0
+      placed_graphics:
+        measurement: axis-aligned bounds after schematic placement, rotation, and mirroring
+        units: mm
+        available: true
+        min:
+          x: 49.5332
+          y: 98.9838
+        max:
+          x: 52.0668
+          y: 104.2162
+        width: 2.5336
+        height: 5.2324
+        center:
+          x: 50.8
+          y: 101.6
+    warnings: []
+  connected_components: []
+pcb:
+  reference: C11
+  value: 10u
+  source_file: kicad_file.kicad_pcb
+  uuid: 61616681-d9e9-47e4-9dfb-324967d9bb2a
+  library_id: _PKG_C_0402
+  layer: F.Cu
+  side: front
+  position:
+    x: 149.1261
+    y: 117.6286
+    rotation: -90.0
+    rotation_kicad: 90.0
+    units: mm
+  properties:
+    Reference: C11
+    Value: 10u
+    Datasheet: ''
+    Description: ''
+  attributes: []
+  exclude_from_bom: false
+  exclude_from_position_files: false
+  pads:
+  - number: '1'
+    type: smd
+    shape: roundrect
+    local_position:
+      x: -0.43
+      y: 0.0
+      rotation: 270.0
+    position:
+      x: 149.1261
+      y: 118.0586
+    placed_rotation: 180.0
+    size:
+      x: 0.54
+      y: 0.6
+      units: mm
+    drill:
+      available: false
+      shape: null
+      x: null
+      y: null
+      diameter: null
+      units: mm
+    layers:
+    - F.Cu
+    - F.Mask
+    - F.Paste
+    net: GND
+    net_number: null
+    pin_function: null
+    pin_type: null
+    bounds:
+      local:
+        measurement: pad bounds in footprint-local coordinates
+        units: mm
+        available: true
+        min:
+          x: -0.73
+          y: -0.27
+        max:
+          x: -0.13
+          y: 0.27
+        width: 0.6
+        height: 0.54
+        center:
+          x: -0.43
+          y: 0.0
+      placed:
+        measurement: pad bounds after footprint placement and rotation
+        units: mm
+        available: true
+        min:
+          x: 148.8561
+          y: 117.7586
+        max:
+          x: 149.3961
+          y: 118.3586
+        width: 0.54
+        height: 0.6
+        center:
+          x: 149.1261
+          y: 118.0586
+    plating: null
+    is_mounting_hole: false
+    connected_to:
+    - reference: C1
+      pad_number: '1'
+    - reference: C2
+      pad_number: '1'
+    - reference: C3
+      pad_number: '2'
+    - reference: C4
+      pad_number: '2'
+    - reference: C5
+      pad_number: '1'
+    - reference: C6
+      pad_number: '1'
+    - reference: C7
+      pad_number: '1'
+    - reference: C8
+      pad_number: '1'
+    - reference: C9
+      pad_number: '1'
+    - reference: C10
+      pad_number: '1'
+    - reference: C12
+      pad_number: '1'
+    - reference: C13
+      pad_number: '1'
+    - reference: C14
+      pad_number: '1'
+    - reference: CON1
+      pad_number: GND@1
+    - reference: CON1
+      pad_number: GND@2
+    - reference: CON1
+      pad_number: P$1
+    - reference: CON1
+      pad_number: P$2
+    - reference: CON1
+      pad_number: P$3
+    - reference: CON1
+      pad_number: P$4
+    - reference: CON1
+      pad_number: P$5
+    - reference: CON1
+      pad_number: P$6
+    - reference: CON1
+      pad_number: P$7
+    - reference: CON1
+      pad_number: P$8
+    - reference: CON2
+      pad_number: GND@1
+    - reference: CON2
+      pad_number: GND@2
+    - reference: CON2
+      pad_number: P$1
+    - reference: CON2
+      pad_number: P$2
+    - reference: CON2
+      pad_number: P$3
+    - reference: CON2
+      pad_number: P$4
+    - reference: CON2
+      pad_number: P$5
+    - reference: CON2
+      pad_number: P$6
+    - reference: CON2
+      pad_number: P$7
+    - reference: CON2
+      pad_number: P$8
+    - reference: CON3
+      pad_number: GND
+    - reference: CON3
+      pad_number: P$5
+    - reference: CON3
+      pad_number: P$6
+    - reference: D1
+      pad_number: '2'
+    - reference: D2
+      pad_number: '2'
+    - reference: IC1
+      pad_number: '0'
+    - reference: IC1
+      pad_number: '2'
+    - reference: IC2
+      pad_number: '12'
+    - reference: IC3
+      pad_number: '2'
+    - reference: IC4
+      pad_number: '2'
+    - reference: J1
+      pad_number: '6'
+    - reference: LED1
+      pad_number: C
+    - reference: R1
+      pad_number: '1'
+    - reference: R2
+      pad_number: '1'
+    - reference: R5
+      pad_number: '2'
+    - reference: XT1
+      pad_number: '2'
+    - reference: XT1
+      pad_number: '4'
+  - number: '2'
+    type: smd
+    shape: roundrect
+    local_position:
+      x: 0.43
+      y: 0.0
+      rotation: 90.0
+    position:
+      x: 149.1261
+      y: 117.1986
+    placed_rotation: 0.0
+    size:
+      x: 0.54
+      y: 0.6
+      units: mm
+    drill:
+      available: false
+      shape: null
+      x: null
+      y: null
+      diameter: null
+      units: mm
+    layers:
+    - F.Cu
+    - F.Mask
+    - F.Paste
+    net: N$13
+    net_number: null
+    pin_function: null
+    pin_type: null
+    bounds:
+      local:
+        measurement: pad bounds in footprint-local coordinates
+        units: mm
+        available: true
+        min:
+          x: 0.13
+          y: -0.27
+        max:
+          x: 0.73
+          y: 0.27
+        width: 0.6
+        height: 0.54
+        center:
+          x: 0.43
+          y: 0.0
+      placed:
+        measurement: pad bounds after footprint placement and rotation
+        units: mm
+        available: true
+        min:
+          x: 148.8561
+          y: 116.8986
+        max:
+          x: 149.3961
+          y: 117.4986
+        width: 0.54
+        height: 0.6
+        center:
+          x: 149.1261
+          y: 117.1986
+    plating: null
+    is_mounting_hole: false
+    connected_to:
+    - reference: IC2
+      pad_number: '13'
+  mounting_holes: []
+  is_mounting_hole: false
+  size:
+    pads_local:
+      measurement: all footprint pads in footprint-local coordinates
+      units: mm
+      available: true
+      min:
+        x: -0.73
+        y: -0.27
+      max:
+        x: 0.73
+        y: 0.27
+      width: 1.46
+      height: 0.54
+      center:
+        x: 0.0
+        y: 0.0
+    pads_placed:
+      measurement: all pads after PCB placement and rotation
+      units: mm
+      available: true
+      min:
+        x: 148.8561
+        y: 116.8986
+      max:
+        x: 149.3961
+        y: 118.3586
+      width: 0.54
+      height: 1.46
+      center:
+        x: 149.1261
+        y: 117.6286
+    courtyard_local:
+      measurement: F.CrtYd and B.CrtYd graphics; text excluded
+      units: mm
+      available: true
+      min:
+        x: -0.875
+        y: -0.475
+      max:
+        x: 0.875
+        y: 0.475
+      width: 1.75
+      height: 0.95
+      center:
+        x: 0.0
+        y: 0.0
+    courtyard_placed:
+      measurement: courtyard after PCB placement and rotation
+      units: mm
+      available: true
+      min:
+        x: 148.6511
+        y: 116.7536
+      max:
+        x: 149.6011
+        y: 118.5036
+      width: 0.95
+      height: 1.75
+      center:
+        x: 149.1261
+        y: 117.6286
+    fabrication_local:
+      measurement: F.Fab and B.Fab graphics; text excluded
+      units: mm
+      available: true
+      min:
+        x: -0.59
+        y: -0.34
+      max:
+        x: 0.59
+        y: 0.34
+      width: 1.18
+      height: 0.68
+      center:
+        x: 0.0
+        y: 0.0
+    fabrication_placed:
+      measurement: fabrication graphics after placement
+      units: mm
+      available: true
+      min:
+        x: 148.7861
+        y: 117.0386
+      max:
+        x: 149.4661
+        y: 118.2186
+      width: 0.68
+      height: 1.18
+      center:
+        x: 149.1261
+        y: 117.6286
+    silkscreen_local:
+      measurement: F.SilkS and B.SilkS graphics; text excluded
+      units: mm
+      available: false
+      min: null
+      max: null
+      width: null
+      height: null
+      center: null
+    silkscreen_placed:
+      measurement: silkscreen graphics after placement
+      units: mm
+      available: false
+      min: null
+      max: null
+      width: null
+      height: null
+      center: null
+    overall_local:
+      measurement: all non-text footprint graphics and pads
+      units: mm
+      available: true
+      min:
+        x: -0.875
+        y: -0.475
+      max:
+        x: 0.875
+        y: 0.475
+      width: 1.75
+      height: 0.95
+      center:
+        x: 0.0
+        y: 0.0
+    overall_placed:
+      measurement: all non-text footprint graphics and pads after placement
+      units: mm
+      available: true
+      min:
+        x: 148.6511
+        y: 116.7536
+      max:
+        x: 149.6011
+        y: 118.5036
+      width: 0.95
+      height: 1.75
+      center:
+        x: 149.1261
+        y: 117.6286
+  connected_components:
+  - C1
+  - C2
+  - C3
+  - C4
+  - C5
+  - C6
+  - C7
+  - C8
+  - C9
+  - C10
+  - C12
+  - C13
+  - C14
+  - CON1
+  - CON2
+  - CON3
+  - D1
+  - D2
+  - IC1
+  - IC2
+  - IC3
+  - IC4
+  - J1
+  - LED1
+  - R1
+  - R2
+  - R5
+  - XT1
+connectivity_cross_check:
+  available: true
+  policy: Named schematic nets are compared with PCB pad nets using matching pin/pad numbers.
+  comparisons:
+  - pin_or_pad_number: '1'
+    schematic_nets: []
+    pcb_nets:
+    - GND
+    status: incomplete
+  - pin_or_pad_number: '2'
+    schematic_nets: []
+    pcb_nets:
+    - N$13
+    status: incomplete
+  agree_count: 0
+  disagree_count: 0
+  incomplete_count: 2
+oomp:
+  status: matched
+  accepted: true
+  oomp_id: electronic_capacitor_0402_10_micro_farad
+  confidence: 1.0
+  proposed_oomp_id: electronic_capacitor_0402_10_micro_farad
+  inferred:
+    kind: capacitor
+    package_size: '0402'
+    value: 10u
+    mpn: CL05A106MQ5NUNC
+  reasons:
+  - Exact OOMP ID constructed from component type, package size, and normalized value.
+  candidates: []
+generated_directory: components/C11

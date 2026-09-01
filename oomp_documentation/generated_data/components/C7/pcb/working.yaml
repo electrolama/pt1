@@ -1,0 +1,448 @@
+reference: C7
+value: 47u
+source_file: kicad_file.kicad_pcb
+uuid: 99415772-f111-4f3b-b2a3-7e7acb4d4ef1
+library_id: _PKG_C_1206
+layer: F.Cu
+side: front
+position:
+  x: 152.6886
+  y: 95.2536
+  rotation: -90.0
+  rotation_kicad: 90.0
+  units: mm
+properties:
+  Reference: C7
+  Value: 47u
+  Datasheet: ''
+  Description: ''
+attributes: []
+exclude_from_bom: false
+exclude_from_position_files: false
+pads:
+- number: '1'
+  type: smd
+  shape: roundrect
+  local_position:
+    x: -1.45
+    y: 0.0
+    rotation: 270.0
+  position:
+    x: 152.6886
+    y: 96.7036
+  placed_rotation: 180.0
+  size:
+    x: 0.9
+    y: 1.7
+    units: mm
+  drill:
+    available: false
+    shape: null
+    x: null
+    y: null
+    diameter: null
+    units: mm
+  layers:
+  - F.Cu
+  - F.Mask
+  - F.Paste
+  net: GND
+  net_number: null
+  pin_function: null
+  pin_type: null
+  bounds:
+    local:
+      measurement: pad bounds in footprint-local coordinates
+      units: mm
+      available: true
+      min:
+        x: -2.3
+        y: -0.45
+      max:
+        x: -0.6
+        y: 0.45
+      width: 1.7
+      height: 0.9
+      center:
+        x: -1.45
+        y: 0.0
+    placed:
+      measurement: pad bounds after footprint placement and rotation
+      units: mm
+      available: true
+      min:
+        x: 152.2386
+        y: 95.8536
+      max:
+        x: 153.1386
+        y: 97.5536
+      width: 0.9
+      height: 1.7
+      center:
+        x: 152.6886
+        y: 96.7036
+  plating: null
+  is_mounting_hole: false
+  connected_to:
+  - reference: C1
+    pad_number: '1'
+  - reference: C2
+    pad_number: '1'
+  - reference: C3
+    pad_number: '2'
+  - reference: C4
+    pad_number: '2'
+  - reference: C5
+    pad_number: '1'
+  - reference: C6
+    pad_number: '1'
+  - reference: C8
+    pad_number: '1'
+  - reference: C9
+    pad_number: '1'
+  - reference: C10
+    pad_number: '1'
+  - reference: C11
+    pad_number: '1'
+  - reference: C12
+    pad_number: '1'
+  - reference: C13
+    pad_number: '1'
+  - reference: C14
+    pad_number: '1'
+  - reference: CON1
+    pad_number: GND@1
+  - reference: CON1
+    pad_number: GND@2
+  - reference: CON1
+    pad_number: P$1
+  - reference: CON1
+    pad_number: P$2
+  - reference: CON1
+    pad_number: P$3
+  - reference: CON1
+    pad_number: P$4
+  - reference: CON1
+    pad_number: P$5
+  - reference: CON1
+    pad_number: P$6
+  - reference: CON1
+    pad_number: P$7
+  - reference: CON1
+    pad_number: P$8
+  - reference: CON2
+    pad_number: GND@1
+  - reference: CON2
+    pad_number: GND@2
+  - reference: CON2
+    pad_number: P$1
+  - reference: CON2
+    pad_number: P$2
+  - reference: CON2
+    pad_number: P$3
+  - reference: CON2
+    pad_number: P$4
+  - reference: CON2
+    pad_number: P$5
+  - reference: CON2
+    pad_number: P$6
+  - reference: CON2
+    pad_number: P$7
+  - reference: CON2
+    pad_number: P$8
+  - reference: CON3
+    pad_number: GND
+  - reference: CON3
+    pad_number: P$5
+  - reference: CON3
+    pad_number: P$6
+  - reference: D1
+    pad_number: '2'
+  - reference: D2
+    pad_number: '2'
+  - reference: IC1
+    pad_number: '0'
+  - reference: IC1
+    pad_number: '2'
+  - reference: IC2
+    pad_number: '12'
+  - reference: IC3
+    pad_number: '2'
+  - reference: IC4
+    pad_number: '2'
+  - reference: J1
+    pad_number: '6'
+  - reference: LED1
+    pad_number: C
+  - reference: R1
+    pad_number: '1'
+  - reference: R2
+    pad_number: '1'
+  - reference: R5
+    pad_number: '2'
+  - reference: XT1
+    pad_number: '2'
+  - reference: XT1
+    pad_number: '4'
+- number: '2'
+  type: smd
+  shape: roundrect
+  local_position:
+    x: 1.45
+    y: 0.0
+    rotation: 90.0
+  position:
+    x: 152.6886
+    y: 93.8036
+  placed_rotation: 0.0
+  size:
+    x: 0.9
+    y: 1.7
+    units: mm
+  drill:
+    available: false
+    shape: null
+    x: null
+    y: null
+    diameter: null
+    units: mm
+  layers:
+  - F.Cu
+  - F.Mask
+  - F.Paste
+  net: VUSB_SW_OUT
+  net_number: null
+  pin_function: null
+  pin_type: null
+  bounds:
+    local:
+      measurement: pad bounds in footprint-local coordinates
+      units: mm
+      available: true
+      min:
+        x: 0.6
+        y: -0.45
+      max:
+        x: 2.3
+        y: 0.45
+      width: 1.7
+      height: 0.9
+      center:
+        x: 1.45
+        y: 0.0
+    placed:
+      measurement: pad bounds after footprint placement and rotation
+      units: mm
+      available: true
+      min:
+        x: 152.2386
+        y: 92.9536
+      max:
+        x: 153.1386
+        y: 94.6536
+      width: 0.9
+      height: 1.7
+      center:
+        x: 152.6886
+        y: 93.8036
+  plating: null
+  is_mounting_hole: false
+  connected_to:
+  - reference: C8
+    pad_number: '2'
+  - reference: C9
+    pad_number: '2'
+  - reference: CON3
+    pad_number: VBUS
+  - reference: IC4
+    pad_number: '1'
+  - reference: J1
+    pad_number: '1'
+  - reference: R4
+    pad_number: '2'
+  - reference: SJ1
+    pad_number: '1'
+mounting_holes: []
+is_mounting_hole: false
+size:
+  pads_local:
+    measurement: all footprint pads in footprint-local coordinates
+    units: mm
+    available: true
+    min:
+      x: -2.3
+      y: -0.45
+    max:
+      x: 2.3
+      y: 0.45
+    width: 4.6
+    height: 0.9
+    center:
+      x: 0.0
+      y: 0.0
+  pads_placed:
+    measurement: all pads after PCB placement and rotation
+    units: mm
+    available: true
+    min:
+      x: 152.2386
+      y: 92.9536
+    max:
+      x: 153.1386
+      y: 97.5536
+    width: 0.9
+    height: 4.6
+    center:
+      x: 152.6886
+      y: 95.2536
+  courtyard_local:
+    measurement: F.CrtYd and B.CrtYd graphics; text excluded
+    units: mm
+    available: true
+    min:
+      x: -2.175
+      y: -1.155
+    max:
+      x: 2.175
+      y: 1.155
+    width: 4.35
+    height: 2.31
+    center:
+      x: 0.0
+      y: 0.0
+  courtyard_placed:
+    measurement: courtyard after PCB placement and rotation
+    units: mm
+    available: true
+    min:
+      x: 151.5336
+      y: 93.0786
+    max:
+      x: 153.8436
+      y: 97.4286
+    width: 2.31
+    height: 4.35
+    center:
+      x: 152.6886
+      y: 95.2536
+  fabrication_local:
+    measurement: F.Fab and B.Fab graphics; text excluded
+    units: mm
+    available: true
+    min:
+      x: -1.74
+      y: -0.94
+    max:
+      x: 1.74
+      y: 0.94
+    width: 3.48
+    height: 1.88
+    center:
+      x: 0.0
+      y: 0.0
+  fabrication_placed:
+    measurement: fabrication graphics after placement
+    units: mm
+    available: true
+    min:
+      x: 151.7486
+      y: 93.5136
+    max:
+      x: 153.6286
+      y: 96.9936
+    width: 1.88
+    height: 3.48
+    center:
+      x: 152.6886
+      y: 95.2536
+  silkscreen_local:
+    measurement: F.SilkS and B.SilkS graphics; text excluded
+    units: mm
+    available: true
+    min:
+      x: -0.88
+      y: -0.94
+    max:
+      x: 0.88
+      y: 0.94
+    width: 1.76
+    height: 1.88
+    center:
+      x: 0.0
+      y: 0.0
+  silkscreen_placed:
+    measurement: silkscreen graphics after placement
+    units: mm
+    available: true
+    min:
+      x: 151.7486
+      y: 94.3736
+    max:
+      x: 153.6286
+      y: 96.1336
+    width: 1.88
+    height: 1.76
+    center:
+      x: 152.6886
+      y: 95.2536
+  overall_local:
+    measurement: all non-text footprint graphics and pads
+    units: mm
+    available: true
+    min:
+      x: -2.3
+      y: -1.155
+    max:
+      x: 2.3
+      y: 1.155
+    width: 4.6
+    height: 2.31
+    center:
+      x: 0.0
+      y: 0.0
+  overall_placed:
+    measurement: all non-text footprint graphics and pads after placement
+    units: mm
+    available: true
+    min:
+      x: 151.5336
+      y: 92.9536
+    max:
+      x: 153.8436
+      y: 97.5536
+    width: 2.31
+    height: 4.6
+    center:
+      x: 152.6886
+      y: 95.2536
+connected_components:
+- C1
+- C2
+- C3
+- C4
+- C5
+- C6
+- C8
+- C9
+- C10
+- C11
+- C12
+- C13
+- C14
+- CON1
+- CON2
+- CON3
+- D1
+- D2
+- IC1
+- IC2
+- IC3
+- IC4
+- J1
+- LED1
+- R1
+- R2
+- R4
+- R5
+- SJ1
+- XT1

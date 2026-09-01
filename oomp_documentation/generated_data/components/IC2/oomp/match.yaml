@@ -1,0 +1,13 @@
+status: matched
+accepted: true
+oomp_id: electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+confidence: 1.0
+proposed_oomp_id: null
+inferred:
+  kind: null
+  package_size: null
+  value: SL2.1A
+  mpn: C192893
+reasons:
+- Accepted from the AI/human match override file.
+candidates: []

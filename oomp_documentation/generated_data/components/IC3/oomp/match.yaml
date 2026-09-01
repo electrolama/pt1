@@ -1,0 +1,13 @@
+status: matched
+accepted: true
+oomp_id: electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+confidence: 1.0
+proposed_oomp_id: null
+inferred:
+  kind: null
+  package_size: null
+  value: SN74LVC1G57DBV
+  mpn: SN74LVC1G57DBVR
+reasons:
+- Accepted from the AI/human match override file.
+candidates: []

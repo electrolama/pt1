@@ -1,0 +1,669 @@
+{
+  "format_version": 1,
+  "coordinate_system": {
+    "name": "board_edge_origin",
+    "description": "Board-relative coordinates use the minimum X/Y point of the KiCad Edge.Cuts bounds as 0,0.",
+    "units": "mm",
+    "x_direction": "right",
+    "y_direction": "down",
+    "origin_kicad_mm": {
+      "x": 139.5011,
+      "y": 82.0036
+    },
+    "origin_board_mm": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  "count": 9,
+  "holes": [
+    {
+      "id": "MH1",
+      "source_id": "CON1_hole_1",
+      "reference": "CON1",
+      "name": "Mounting Hole 0.65 mm Round Unplated",
+      "pad_number": "",
+      "role": "locating",
+      "plating": "unplated",
+      "style": "round",
+      "size_text": "diameter 0.65 mm",
+      "drill_size_mm": {
+        "x": 0.65,
+        "y": 0.65,
+        "diameter": 0.65
+      },
+      "pad_size_mm": {
+        "x": 0.65,
+        "y": 0.65
+      },
+      "pad_shape": "circle",
+      "rotation": 0.0,
+      "position_kicad_mm": {
+        "x": 145.6111,
+        "y": 123.1936
+      },
+      "position_board_mm": {
+        "x": 6.11,
+        "y": 41.19
+      },
+      "oomp_id": "mechanical_mounting_hole_0_65_mm_round_unplated",
+      "oomp_status": "matched",
+      "classification": {
+        "name": "Mounting Hole 0.65 mm Round Unplated",
+        "class": "mechanical",
+        "type": "mounting_hole",
+        "taxonomy": [
+          {
+            "level": 1,
+            "key": "taxonomy_1",
+            "value": "mechanical"
+          },
+          {
+            "level": 2,
+            "key": "taxonomy_2",
+            "value": "mounting_hole"
+          },
+          {
+            "level": 3,
+            "key": "taxonomy_3",
+            "value": "0_65_mm"
+          },
+          {
+            "level": 4,
+            "key": "taxonomy_4",
+            "value": "round"
+          },
+          {
+            "level": 5,
+            "key": "taxonomy_5",
+            "value": "unplated"
+          }
+        ],
+        "taxonomy_path": [
+          "mechanical",
+          "mounting_hole",
+          "0_65_mm",
+          "round",
+          "unplated"
+        ]
+      },
+      "dedicated_footprint": false
+    },
+    {
+      "id": "MH2",
+      "source_id": "CON1_hole_2",
+      "reference": "CON1",
+      "name": "Mounting Hole 0.65 mm Round Unplated",
+      "pad_number": "",
+      "role": "locating",
+      "plating": "unplated",
+      "style": "round",
+      "size_text": "diameter 0.65 mm",
+      "drill_size_mm": {
+        "x": 0.65,
+        "y": 0.65,
+        "diameter": 0.65
+      },
+      "pad_size_mm": {
+        "x": 0.65,
+        "y": 0.65
+      },
+      "pad_shape": "circle",
+      "rotation": 0.0,
+      "position_kicad_mm": {
+        "x": 151.3911,
+        "y": 123.1936
+      },
+      "position_board_mm": {
+        "x": 11.89,
+        "y": 41.19
+      },
+      "oomp_id": "mechanical_mounting_hole_0_65_mm_round_unplated",
+      "oomp_status": "matched",
+      "classification": {
+        "name": "Mounting Hole 0.65 mm Round Unplated",
+        "class": "mechanical",
+        "type": "mounting_hole",
+        "taxonomy": [
+          {
+            "level": 1,
+            "key": "taxonomy_1",
+            "value": "mechanical"
+          },
+          {
+            "level": 2,
+            "key": "taxonomy_2",
+            "value": "mounting_hole"
+          },
+          {
+            "level": 3,
+            "key": "taxonomy_3",
+            "value": "0_65_mm"
+          },
+          {
+            "level": 4,
+            "key": "taxonomy_4",
+            "value": "round"
+          },
+          {
+            "level": 5,
+            "key": "taxonomy_5",
+            "value": "unplated"
+          }
+        ],
+        "taxonomy_path": [
+          "mechanical",
+          "mounting_hole",
+          "0_65_mm",
+          "round",
+          "unplated"
+        ]
+      },
+      "dedicated_footprint": false
+    },
+    {
+      "id": "MH3",
+      "source_id": "CON2_hole_1",
+      "reference": "CON2",
+      "name": "Mounting Hole 0.65 mm Round Unplated",
+      "pad_number": "",
+      "role": "locating",
+      "plating": "unplated",
+      "style": "round",
+      "size_text": "diameter 0.65 mm",
+      "drill_size_mm": {
+        "x": 0.65,
+        "y": 0.65,
+        "diameter": 0.65
+      },
+      "pad_size_mm": {
+        "x": 0.65,
+        "y": 0.65
+      },
+      "pad_shape": "circle",
+      "rotation": 360.0,
+      "position_kicad_mm": {
+        "x": 144.3111,
+        "y": 97.1136
+      },
+      "position_board_mm": {
+        "x": 4.81,
+        "y": 15.11
+      },
+      "oomp_id": "mechanical_mounting_hole_0_65_mm_round_unplated",
+      "oomp_status": "matched",
+      "classification": {
+        "name": "Mounting Hole 0.65 mm Round Unplated",
+        "class": "mechanical",
+        "type": "mounting_hole",
+        "taxonomy": [
+          {
+            "level": 1,
+            "key": "taxonomy_1",
+            "value": "mechanical"
+          },
+          {
+            "level": 2,
+            "key": "taxonomy_2",
+            "value": "mounting_hole"
+          },
+          {
+            "level": 3,
+            "key": "taxonomy_3",
+            "value": "0_65_mm"
+          },
+          {
+            "level": 4,
+            "key": "taxonomy_4",
+            "value": "round"
+          },
+          {
+            "level": 5,
+            "key": "taxonomy_5",
+            "value": "unplated"
+          }
+        ],
+        "taxonomy_path": [
+          "mechanical",
+          "mounting_hole",
+          "0_65_mm",
+          "round",
+          "unplated"
+        ]
+      },
+      "dedicated_footprint": false
+    },
+    {
+      "id": "MH4",
+      "source_id": "CON2_hole_2",
+      "reference": "CON2",
+      "name": "Mounting Hole 0.65 mm Round Unplated",
+      "pad_number": "",
+      "role": "locating",
+      "plating": "unplated",
+      "style": "round",
+      "size_text": "diameter 0.65 mm",
+      "drill_size_mm": {
+        "x": 0.65,
+        "y": 0.65,
+        "diameter": 0.65
+      },
+      "pad_size_mm": {
+        "x": 0.65,
+        "y": 0.65
+      },
+      "pad_shape": "circle",
+      "rotation": 360.0,
+      "position_kicad_mm": {
+        "x": 144.3111,
+        "y": 102.8936
+      },
+      "position_board_mm": {
+        "x": 4.81,
+        "y": 20.89
+      },
+      "oomp_id": "mechanical_mounting_hole_0_65_mm_round_unplated",
+      "oomp_status": "matched",
+      "classification": {
+        "name": "Mounting Hole 0.65 mm Round Unplated",
+        "class": "mechanical",
+        "type": "mounting_hole",
+        "taxonomy": [
+          {
+            "level": 1,
+            "key": "taxonomy_1",
+            "value": "mechanical"
+          },
+          {
+            "level": 2,
+            "key": "taxonomy_2",
+            "value": "mounting_hole"
+          },
+          {
+            "level": 3,
+            "key": "taxonomy_3",
+            "value": "0_65_mm"
+          },
+          {
+            "level": 4,
+            "key": "taxonomy_4",
+            "value": "round"
+          },
+          {
+            "level": 5,
+            "key": "taxonomy_5",
+            "value": "unplated"
+          }
+        ],
+        "taxonomy_path": [
+          "mechanical",
+          "mounting_hole",
+          "0_65_mm",
+          "round",
+          "unplated"
+        ]
+      },
+      "dedicated_footprint": false
+    },
+    {
+      "id": "MH5",
+      "source_id": "CON3_hole_1",
+      "reference": "CON3",
+      "name": "Mounting Hole 0.8 mm Round Plated",
+      "pad_number": "P$5",
+      "role": "shield_mount",
+      "plating": "plated",
+      "style": "round",
+      "size_text": "diameter 0.8 mm",
+      "drill_size_mm": {
+        "x": 0.8,
+        "y": 0.8,
+        "diameter": 0.8
+      },
+      "pad_size_mm": {
+        "x": 2.616,
+        "y": 1.308
+      },
+      "pad_shape": "oval",
+      "rotation": 90.0,
+      "position_kicad_mm": {
+        "x": 142.1011,
+        "y": 83.6386
+      },
+      "position_board_mm": {
+        "x": 2.6,
+        "y": 1.635
+      },
+      "oomp_id": "mechanical_mounting_hole_0_8_mm_round_plated",
+      "oomp_status": "matched",
+      "classification": {
+        "name": "Mounting Hole 0.8 mm Round Plated",
+        "class": "mechanical",
+        "type": "mounting_hole",
+        "taxonomy": [
+          {
+            "level": 1,
+            "key": "taxonomy_1",
+            "value": "mechanical"
+          },
+          {
+            "level": 2,
+            "key": "taxonomy_2",
+            "value": "mounting_hole"
+          },
+          {
+            "level": 3,
+            "key": "taxonomy_3",
+            "value": "0_8_mm"
+          },
+          {
+            "level": 4,
+            "key": "taxonomy_4",
+            "value": "round"
+          },
+          {
+            "level": 5,
+            "key": "taxonomy_5",
+            "value": "plated"
+          }
+        ],
+        "taxonomy_path": [
+          "mechanical",
+          "mounting_hole",
+          "0_8_mm",
+          "round",
+          "plated"
+        ]
+      },
+      "dedicated_footprint": false
+    },
+    {
+      "id": "MH6",
+      "source_id": "CON3_hole_2",
+      "reference": "CON3",
+      "name": "Mounting Hole 0.8 mm Round Plated",
+      "pad_number": "P$6",
+      "role": "shield_mount",
+      "plating": "plated",
+      "style": "round",
+      "size_text": "diameter 0.8 mm",
+      "drill_size_mm": {
+        "x": 0.8,
+        "y": 0.8,
+        "diameter": 0.8
+      },
+      "pad_size_mm": {
+        "x": 2.616,
+        "y": 1.308
+      },
+      "pad_shape": "oval",
+      "rotation": 90.0,
+      "position_kicad_mm": {
+        "x": 154.9011,
+        "y": 83.6386
+      },
+      "position_board_mm": {
+        "x": 15.4,
+        "y": 1.635
+      },
+      "oomp_id": "mechanical_mounting_hole_0_8_mm_round_plated",
+      "oomp_status": "matched",
+      "classification": {
+        "name": "Mounting Hole 0.8 mm Round Plated",
+        "class": "mechanical",
+        "type": "mounting_hole",
+        "taxonomy": [
+          {
+            "level": 1,
+            "key": "taxonomy_1",
+            "value": "mechanical"
+          },
+          {
+            "level": 2,
+            "key": "taxonomy_2",
+            "value": "mounting_hole"
+          },
+          {
+            "level": 3,
+            "key": "taxonomy_3",
+            "value": "0_8_mm"
+          },
+          {
+            "level": 4,
+            "key": "taxonomy_4",
+            "value": "round"
+          },
+          {
+            "level": 5,
+            "key": "taxonomy_5",
+            "value": "plated"
+          }
+        ],
+        "taxonomy_path": [
+          "mechanical",
+          "mounting_hole",
+          "0_8_mm",
+          "round",
+          "plated"
+        ]
+      },
+      "dedicated_footprint": false
+    },
+    {
+      "id": "MH7",
+      "source_id": "UNK_HOLE_0_hole_1",
+      "reference": "UNK_HOLE_0",
+      "name": "Mounting Hole 2 mm Round Unplated",
+      "pad_number": "",
+      "role": "mounting",
+      "plating": "unplated",
+      "style": "round",
+      "size_text": "diameter 2 mm",
+      "drill_size_mm": {
+        "x": 2.0,
+        "y": 2.0,
+        "diameter": 2.0
+      },
+      "pad_size_mm": {
+        "x": 2.0,
+        "y": 2.0
+      },
+      "pad_shape": "circle",
+      "rotation": 0.0,
+      "position_kicad_mm": {
+        "x": 141.7511,
+        "y": 93.3786
+      },
+      "position_board_mm": {
+        "x": 2.25,
+        "y": 11.375
+      },
+      "oomp_id": "mechanical_mounting_hole_2_mm_round_unplated",
+      "oomp_status": "matched",
+      "classification": {
+        "name": "Mounting Hole 2 mm Round Unplated",
+        "class": "mechanical",
+        "type": "mounting_hole",
+        "taxonomy": [
+          {
+            "level": 1,
+            "key": "taxonomy_1",
+            "value": "mechanical"
+          },
+          {
+            "level": 2,
+            "key": "taxonomy_2",
+            "value": "mounting_hole"
+          },
+          {
+            "level": 3,
+            "key": "taxonomy_3",
+            "value": "2_mm"
+          },
+          {
+            "level": 4,
+            "key": "taxonomy_4",
+            "value": "round"
+          },
+          {
+            "level": 5,
+            "key": "taxonomy_5",
+            "value": "unplated"
+          }
+        ],
+        "taxonomy_path": [
+          "mechanical",
+          "mounting_hole",
+          "2_mm",
+          "round",
+          "unplated"
+        ]
+      },
+      "dedicated_footprint": true
+    },
+    {
+      "id": "MH8",
+      "source_id": "UNK_HOLE_1_hole_1",
+      "reference": "UNK_HOLE_1",
+      "name": "Mounting Hole 2 mm Round Unplated",
+      "pad_number": "",
+      "role": "mounting",
+      "plating": "unplated",
+      "style": "round",
+      "size_text": "diameter 2 mm",
+      "drill_size_mm": {
+        "x": 2.0,
+        "y": 2.0,
+        "diameter": 2.0
+      },
+      "pad_size_mm": {
+        "x": 2.0,
+        "y": 2.0
+      },
+      "pad_shape": "circle",
+      "rotation": 0.0,
+      "position_kicad_mm": {
+        "x": 155.2511,
+        "y": 124.5036
+      },
+      "position_board_mm": {
+        "x": 15.75,
+        "y": 42.5
+      },
+      "oomp_id": "mechanical_mounting_hole_2_mm_round_unplated",
+      "oomp_status": "matched",
+      "classification": {
+        "name": "Mounting Hole 2 mm Round Unplated",
+        "class": "mechanical",
+        "type": "mounting_hole",
+        "taxonomy": [
+          {
+            "level": 1,
+            "key": "taxonomy_1",
+            "value": "mechanical"
+          },
+          {
+            "level": 2,
+            "key": "taxonomy_2",
+            "value": "mounting_hole"
+          },
+          {
+            "level": 3,
+            "key": "taxonomy_3",
+            "value": "2_mm"
+          },
+          {
+            "level": 4,
+            "key": "taxonomy_4",
+            "value": "round"
+          },
+          {
+            "level": 5,
+            "key": "taxonomy_5",
+            "value": "unplated"
+          }
+        ],
+        "taxonomy_path": [
+          "mechanical",
+          "mounting_hole",
+          "2_mm",
+          "round",
+          "unplated"
+        ]
+      },
+      "dedicated_footprint": true
+    },
+    {
+      "id": "MH9",
+      "source_id": "UNK_HOLE_2_hole_1",
+      "reference": "UNK_HOLE_2",
+      "name": "Mounting Hole 2 mm Round Unplated",
+      "pad_number": "",
+      "role": "mounting",
+      "plating": "unplated",
+      "style": "round",
+      "size_text": "diameter 2 mm",
+      "drill_size_mm": {
+        "x": 2.0,
+        "y": 2.0,
+        "diameter": 2.0
+      },
+      "pad_size_mm": {
+        "x": 2.0,
+        "y": 2.0
+      },
+      "pad_shape": "circle",
+      "rotation": 0.0,
+      "position_kicad_mm": {
+        "x": 141.7511,
+        "y": 124.5036
+      },
+      "position_board_mm": {
+        "x": 2.25,
+        "y": 42.5
+      },
+      "oomp_id": "mechanical_mounting_hole_2_mm_round_unplated",
+      "oomp_status": "matched",
+      "classification": {
+        "name": "Mounting Hole 2 mm Round Unplated",
+        "class": "mechanical",
+        "type": "mounting_hole",
+        "taxonomy": [
+          {
+            "level": 1,
+            "key": "taxonomy_1",
+            "value": "mechanical"
+          },
+          {
+            "level": 2,
+            "key": "taxonomy_2",
+            "value": "mounting_hole"
+          },
+          {
+            "level": 3,
+            "key": "taxonomy_3",
+            "value": "2_mm"
+          },
+          {
+            "level": 4,
+            "key": "taxonomy_4",
+            "value": "round"
+          },
+          {
+            "level": 5,
+            "key": "taxonomy_5",
+            "value": "unplated"
+          }
+        ],
+        "taxonomy_path": [
+          "mechanical",
+          "mounting_hole",
+          "2_mm",
+          "round",
+          "unplated"
+        ]
+      },
+      "dedicated_footprint": true
+    }
+  ]
+}

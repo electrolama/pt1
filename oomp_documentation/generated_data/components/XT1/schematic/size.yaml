@@ -1,0 +1,36 @@
+reference: XT1
+measurement_policy: Only embedded symbol graphics are measured; pins, properties, and text are excluded.
+units:
+- unit: 1
+  body_style: 1
+  source_file: kicad_file.kicad_sch
+  local_graphics:
+    measurement: symbol graphics only; excludes pins, properties, and text
+    units: mm
+    available: true
+    min:
+      x: -2.667
+      y: -2.667
+    max:
+      x: 2.667
+      y: 2.032
+    width: 5.334
+    height: 4.699
+    center:
+      x: 0.0
+      y: -0.3175
+  placed_graphics:
+    measurement: axis-aligned bounds after schematic placement, rotation, and mirroring
+    units: mm
+    available: true
+    min:
+      x: 63.373
+      y: 106.553
+    max:
+      x: 68.072
+      y: 111.887
+    width: 4.699
+    height: 5.334
+    center:
+      x: 65.7225
+      y: 109.22

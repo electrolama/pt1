@@ -1,0 +1,296 @@
+bip_39_2_word_array:
+- width
+- muscle
+bip_39_2_word_no_space: widthmuscle
+bip_39_2_word_space: width muscle
+bip_39_2_word_underscore: width_muscle
+bip_39_3_word_array:
+- width
+- muscle
+- derive
+bip_39_3_word_no_space: widthmusclederive
+bip_39_3_word_space: width muscle derive
+bip_39_3_word_underscore: width_muscle_derive
+bip_39_full_array:
+- width
+- muscle
+- derive
+- enroll
+- feed
+- ability
+- inflict
+- sudden
+- edge
+- coast
+- twelve
+- story
+bip_39_full_no_space: widthmusclederiveenrollfeedabilityinflictsuddenedgecoasttwelvestory
+bip_39_full_space: width muscle derive enroll feed ability inflict sudden edge coast
+    twelve story
+bip_39_full_underscore: width_muscle_derive_enroll_feed_ability_inflict_sudden_edge_coast_twelve_story
+directory: parts/oomp_project_github_electrolama_pt1_current
+id: oomp_project_github_electrolama_pt1_current
+id_no_class: oomp_project_github_electrolama_pt1_current
+id_no_size: oomp_project_github_electrolama_pt1_current
+id_no_type: oomp_project_github_electrolama_pt1_current
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oomp_project_github_electrolama_pt1_current
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oomp_project_github_electrolama_pt1_current
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oomp_project_github_electrolama_pt1_current
+md5: fad230eda5954a005cdec446459bac6b
+md5_10: fad230eda5
+md5_10_upper: FAD230EDA5
+md5_5: fad23
+md5_5_upper: FAD23
+md5_6: fad230
+md5_6_alpha: 9sbhs
+md5_6_alpha_upper: 9SBHS
+md5_6_upper: FAD230
+name: Oomp Project Github Electrolama Pt1 Current
+name_no_class: Oomp Project Github Electrolama Pt1 Current
+name_no_size: Oomp Project Github Electrolama Pt1 Current
+name_no_type: Oomp Project Github Electrolama Pt1 Current
+name_proper: Oomp Project Github Electrolama Pt1 Current
+name_short: electrolama/pt1 current
+name_space: oomp project github electrolama pt1 current
+name_upper: OOMP PROJECT GITHUB ELECTROLAMA PT1 CURRENT
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: run_python
+        description: Clone or update the Git project and copy its selected KiCad files
+            into the project part.
+        file_python: kicad_agents/project_git_action.py
+        project_file_basename: pt1-RevA2
+        project_file_extensions:
+        - .kicad_pcb
+        - .kicad_sch
+        - .kicad_pro
+        project_file_folder: pcba/Rev A2
+        project_file_path: pcba/Rev A2/pt1-RevA2
+        project_git_ref: main
+        project_git_url: https://github.com/electrolama/pt1.git
+        project_github_repository: pt1
+        project_github_url: https://github.com/electrolama/pt1
+        project_github_user: electrolama
+        project_match_overrides:
+            CON1: electronic_connector_usb_c_surface_mount_16_pin_korean_hroparts_elec_typec31m12
+            CON2: electronic_connector_usb_c_surface_mount_16_pin_korean_hroparts_elec_typec31m12
+            CON3: electronic_connector_usb_a_surface_mount_4_pin_shenzhen_jing_tuo_jin_electronics_912121a2023s10100
+            D1: electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+            D2: electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+            IC1: electronic_ic_qfn_16_3_mm_x_3_mm_converter_usb_to_serial_converter_wch_ch343p
+            IC2: electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+            IC3: electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+            IC4: electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+            J1: electronic_connector_header_2_54_mm_pitch_through_hole_6_pin
+            L1: electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+            XT1: electronic_crystal_3225_surface_mount_4_pin_12_mhz_20_pf
+        project_sparse_checkout: false
+        project_version: current
+        timeout: '600'
+    file_test: ''
+    retries_until_complete: 0
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: run_python
+        description: Extract KiCad data and rebuild the project README, board SVGs,
+            pin-labelled PNG, and mechanical layer.
+        file_output: generated_data/src/board_pins.png
+        file_python: kicad_agents/project_readme_action.py
+        parts_directory: parts
+        project_file_basename: pt1-RevA2
+        project_file_extensions:
+        - .kicad_pcb
+        - .kicad_sch
+        - .kicad_pro
+        project_file_folder: pcba/Rev A2
+        project_file_path: pcba/Rev A2/pt1-RevA2
+        project_git_ref: main
+        project_git_url: https://github.com/electrolama/pt1.git
+        project_github_repository: pt1
+        project_github_url: https://github.com/electrolama/pt1
+        project_github_user: electrolama
+        project_match_overrides:
+            CON1: electronic_connector_usb_c_surface_mount_16_pin_korean_hroparts_elec_typec31m12
+            CON2: electronic_connector_usb_c_surface_mount_16_pin_korean_hroparts_elec_typec31m12
+            CON3: electronic_connector_usb_a_surface_mount_4_pin_shenzhen_jing_tuo_jin_electronics_912121a2023s10100
+            D1: electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+            D2: electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+            IC1: electronic_ic_qfn_16_3_mm_x_3_mm_converter_usb_to_serial_converter_wch_ch343p
+            IC2: electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+            IC3: electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+            IC4: electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+            J1: electronic_connector_header_2_54_mm_pitch_through_hole_6_pin
+            L1: electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+            XT1: electronic_crystal_3225_surface_mount_4_pin_12_mhz_20_pf
+        project_sparse_checkout: false
+        project_version: current
+        regenerate_pngs: false
+        timeout: '1200'
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: generated_data/src/board_300.png
+        file_source: generated_data/src/board.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: generated_data/src/board_pins_300.png
+        file_source: generated_data/src/board_pins.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: generated_data/src/board_bottom_300.png
+        file_source: generated_data/src/board_bottom.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: generated_data/src/board_pins_bottom_300.png
+        file_source: generated_data/src/board_pins_bottom.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: generated_data/src/board_mechanical_300.png
+        file_source: generated_data/src/board_mechanical.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    file_test: ''
+    retries_until_complete: 0
+oomp_key: oomp_oomp_project_github_electrolama_pt1_current
+project_file_basename: pt1-RevA2
+project_file_extensions:
+- .kicad_pcb
+- .kicad_sch
+- .kicad_pro
+project_file_folder: pcba/Rev A2
+project_file_path: pcba/Rev A2/pt1-RevA2
+project_file_path_original: C:\gh\oomp_electronic_version_5\project\electrolama\pt1\git\pt1\pcba\Rev
+    A2\pt1-RevA2
+project_git_ref: main
+project_git_url: https://github.com/electrolama/pt1.git
+project_github_repository: pt1
+project_github_url: https://github.com/electrolama/pt1
+project_github_user: electrolama
+project_match_overrides:
+    CON1: electronic_connector_usb_c_surface_mount_16_pin_korean_hroparts_elec_typec31m12
+    CON2: electronic_connector_usb_c_surface_mount_16_pin_korean_hroparts_elec_typec31m12
+    CON3: electronic_connector_usb_a_surface_mount_4_pin_shenzhen_jing_tuo_jin_electronics_912121a2023s10100
+    D1: electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+    D2: electronic_diode_tvs_array_sot_23_6_protek_srv054pt7
+    IC1: electronic_ic_qfn_16_3_mm_x_3_mm_converter_usb_to_serial_converter_wch_ch343p
+    IC2: electronic_ic_sop_16_controller_usb_hub_controller_4_port_corechips_sl21a
+    IC3: electronic_ic_sot_23_6_logic_configurable_multi_function_gate_texas_instruments_sn74lvc1g57dbvr
+    IC4: electronic_ic_tsot_23_5_power_management_high_side_power_switch_with_flag_richtek_rt9742cgj5
+    J1: electronic_connector_header_2_54_mm_pitch_through_hole_6_pin
+    L1: electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+    XT1: electronic_crystal_3225_surface_mount_4_pin_12_mhz_20_pf
+project_sparse_checkout: false
+project_version: current
+regenerate_pngs: false
+taxonomy_1: oomp
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Oomp
+taxonomy_1_first_letter: o
+taxonomy_1_first_letter_upper: O
+taxonomy_1_length_1: o
+taxonomy_1_length_2: oo
+taxonomy_1_length_3: oom
+taxonomy_1_length_4: oomp
+taxonomy_1_length_5: oomp
+taxonomy_1_upper: OOMP
+taxonomy_1_upper_length_1: O
+taxonomy_1_upper_length_2: OO
+taxonomy_1_upper_length_3: OOM
+taxonomy_1_upper_length_4: OOMP
+taxonomy_1_upper_length_5: OOMP
+taxonomy_2: project
+taxonomy_2_capital: Project
+taxonomy_2_first_letter: p
+taxonomy_2_first_letter_upper: P
+taxonomy_2_length_1: p
+taxonomy_2_length_2: pr
+taxonomy_2_length_3: pro
+taxonomy_2_length_4: proj
+taxonomy_2_length_5: proje
+taxonomy_2_upper: PROJECT
+taxonomy_2_upper_length_1: P
+taxonomy_2_upper_length_2: PR
+taxonomy_2_upper_length_3: PRO
+taxonomy_2_upper_length_4: PROJ
+taxonomy_2_upper_length_5: PROJE
+taxonomy_3: github
+taxonomy_3_capital: Github
+taxonomy_3_first_letter: g
+taxonomy_3_first_letter_upper: G
+taxonomy_3_length_1: g
+taxonomy_3_length_2: gi
+taxonomy_3_length_3: git
+taxonomy_3_length_4: gith
+taxonomy_3_length_5: githu
+taxonomy_3_upper: GITHUB
+taxonomy_3_upper_length_1: G
+taxonomy_3_upper_length_2: GI
+taxonomy_3_upper_length_3: GIT
+taxonomy_3_upper_length_4: GITH
+taxonomy_3_upper_length_5: GITHU
+taxonomy_4: electrolama
+taxonomy_4_capital: Electrolama
+taxonomy_4_first_letter: e
+taxonomy_4_first_letter_upper: E
+taxonomy_4_length_1: e
+taxonomy_4_length_2: el
+taxonomy_4_length_3: ele
+taxonomy_4_length_4: elec
+taxonomy_4_length_5: elect
+taxonomy_4_upper: ELECTROLAMA
+taxonomy_4_upper_length_1: E
+taxonomy_4_upper_length_2: EL
+taxonomy_4_upper_length_3: ELE
+taxonomy_4_upper_length_4: ELEC
+taxonomy_4_upper_length_5: ELECT
+taxonomy_5: pt1
+taxonomy_5_capital: Pt1
+taxonomy_5_first_letter: p
+taxonomy_5_first_letter_upper: P
+taxonomy_5_length_1: p
+taxonomy_5_length_2: pt
+taxonomy_5_length_3: pt1
+taxonomy_5_length_4: pt1
+taxonomy_5_length_5: pt1
+taxonomy_5_upper: PT1
+taxonomy_5_upper_length_1: P
+taxonomy_5_upper_length_2: PT
+taxonomy_5_upper_length_3: PT1
+taxonomy_5_upper_length_4: PT1
+taxonomy_5_upper_length_5: PT1
+taxonomy_6: current
+taxonomy_6_capital: Current
+taxonomy_6_first_letter: c
+taxonomy_6_first_letter_upper: C
+taxonomy_6_length_1: c
+taxonomy_6_length_2: cu
+taxonomy_6_length_3: cur
+taxonomy_6_length_4: curr
+taxonomy_6_length_5: curre
+taxonomy_6_upper: CURRENT
+taxonomy_6_upper_length_1: C
+taxonomy_6_upper_length_2: CU
+taxonomy_6_upper_length_3: CUR
+taxonomy_6_upper_length_4: CURR
+taxonomy_6_upper_length_5: CURRE
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+url_chat: ''

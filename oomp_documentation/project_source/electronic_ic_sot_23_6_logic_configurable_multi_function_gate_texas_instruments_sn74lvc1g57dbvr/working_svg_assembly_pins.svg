@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg data-pin-one-x="0.3759" data-pin-one-y="0.5657" data-pin-one-identifiers="1" xmlns="http://www.w3.org/2000/svg"
+     width="2.8000mm" height="2.9000mm"
+     viewBox="0 0 2.8000 2.9000">
+  <rect x="0.0000" y="0.0000" width="2.8000" height="2.9000"  fill="none" stroke="none" />
+  <rect x="0.0716" y="0.3912" width="0.6086" height="0.3491"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0716" y="1.2754" width="0.6086" height="0.3491"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0716" y="2.1597" width="0.6086" height="0.3491"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.1198" y="0.3912" width="0.6086" height="0.3491"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.1198" y="1.2754" width="0.6086" height="0.3491"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="2.1198" y="2.1597" width="0.6086" height="0.3491"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.6552" y="0.1000" width="1.4897" height="2.7000" rx="0.0800" ry="0.0800"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <circle cx="0.7652" cy="0.2100" r="0.0650"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.3759" y="0.5657" font-family="Arial, sans-serif" font-size="0.2444" text-anchor="middle" dominant-baseline="middle" fill="#000000">in1</text>
+  <text x="0.3759" y="1.4500" font-family="Arial, sans-serif" font-size="0.2444" text-anchor="middle" dominant-baseline="middle" fill="#000000">gnd</text>
+  <text x="0.3759" y="2.3343" font-family="Arial, sans-serif" font-size="0.2444" text-anchor="middle" dominant-baseline="middle" fill="#000000">in0</text>
+  <text x="2.4241" y="0.5657" font-family="Arial, sans-serif" font-size="0.2444" text-anchor="middle" dominant-baseline="middle" fill="#000000">in2</text>
+  <text x="2.4241" y="1.4500" font-family="Arial, sans-serif" font-size="0.2444" text-anchor="middle" dominant-baseline="middle" fill="#000000">vcc</text>
+  <text x="2.4241" y="2.3343" font-family="Arial, sans-serif" font-size="0.2444" text-anchor="middle" dominant-baseline="middle" fill="#000000">y</text>
+</svg>

@@ -1,0 +1,13 @@
+status: matched
+accepted: true
+oomp_id: electronic_capacitor_1206_47_micro_farad
+confidence: 1.0
+proposed_oomp_id: electronic_capacitor_1206_47_micro_farad
+inferred:
+  kind: capacitor
+  package_size: '1206'
+  value: 47u
+  mpn: CL31A476MPHNNNE
+reasons:
+- Exact OOMP ID constructed from component type, package size, and normalized value.
+candidates: []

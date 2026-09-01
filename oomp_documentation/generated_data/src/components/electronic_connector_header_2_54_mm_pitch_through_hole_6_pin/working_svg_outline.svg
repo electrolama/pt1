@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="34.0000mm" height="30.0000mm"
+     viewBox="0 0 34.0000 30.0000">
+  <rect x="14.2000" y="0.0000" width="5.6000" height="30.0000" rx="1.0000" ry="1.0000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.8" />
+  <rect x="16.1000" y="1.6000" width="1.8000" height="1.8000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.25" />
+  <rect x="16.1000" y="6.6000" width="1.8000" height="1.8000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.25" />
+  <rect x="16.1000" y="11.6000" width="1.8000" height="1.8000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.25" />
+  <rect x="16.1000" y="16.6000" width="1.8000" height="1.8000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.25" />
+  <rect x="16.1000" y="21.6000" width="1.8000" height="1.8000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.25" />
+  <rect x="16.1000" y="26.6000" width="1.8000" height="1.8000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.25" />
+</svg>

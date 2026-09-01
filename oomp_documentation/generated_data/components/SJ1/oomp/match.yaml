@@ -1,0 +1,13 @@
+status: not_applicable
+accepted: false
+oomp_id: null
+confidence: 0.0
+proposed_oomp_id: null
+inferred:
+  kind: null
+  package_size: null
+  value: SJ2W
+  mpn: null
+reasons:
+- PCB solder jumpers are board features, not purchased OOMP parts.
+candidates: []

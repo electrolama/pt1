@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="2.0000mm" height="1.2500mm"
+     viewBox="0 0 2.0000 1.2500">
+  <rect x="0.0000" y="0.0000" width="2.0000" height="1.2500"  fill="none" stroke="none" />
+  <rect x="0.0000" y="0.0000" width="2.0000" height="1.2500" rx="0.1200" ry="0.1200"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0000" y="0.0000" width="0.3600" height="1.2500"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="1.6400" y="0.0000" width="0.3600" height="1.2500"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+</svg>

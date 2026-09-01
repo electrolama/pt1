@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64.0000mm" height="64.0000mm"
+     viewBox="0 0 64.0000 64.0000">
+  <text x="32.0000" y="5.0000" font-family="Arial, sans-serif" font-size="3.6000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#000000">IC Qfn 16 3 mm X 3 mm</text>
+  <text x="32.0000" y="9.0000" font-family="Arial, sans-serif" font-size="3.6000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#000000">Converter USB To Serial</text>
+  <text x="32.0000" y="13.0000" font-family="Arial, sans-serif" font-size="3.6000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#000000">Converter CH343P</text>
+  <rect x="24.9200" y="24.8600" width="2.1600" height="1.0800"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="24.9200" y="27.2600" width="2.1600" height="1.0800"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="24.9200" y="29.6600" width="2.1600" height="1.0800"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="24.9200" y="32.0600" width="2.1600" height="1.0800"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="27.8600" y="21.9200" width="1.0800" height="2.1600"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="30.2600" y="21.9200" width="1.0800" height="2.1600"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="32.6600" y="21.9200" width="1.0800" height="2.1600"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="35.0600" y="21.9200" width="1.0800" height="2.1600"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="36.9200" y="24.8600" width="2.1600" height="1.0800"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="36.9200" y="27.2600" width="2.1600" height="1.0800"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="36.9200" y="29.6600" width="2.1600" height="1.0800"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="36.9200" y="32.0600" width="2.1600" height="1.0800"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="27.8600" y="33.9200" width="1.0800" height="2.1600"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="30.2600" y="33.9200" width="1.0800" height="2.1600"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="32.6600" y="33.9200" width="1.0800" height="2.1600"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="35.0600" y="33.9200" width="1.0800" height="2.1600"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="26.0000" y="23.0000" width="12.0000" height="12.0000" rx="0.7000" ry="0.7000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.8" />
+  <rect x="29.3600" y="26.3600" width="5.2800" height="5.2800"  fill="#FFFFFF" stroke="#000000" stroke-width="0.55" />
+  <circle cx="27.1000" cy="33.9000" r="0.6500"  fill="#FFFFFF" stroke="#000000" stroke-width="0.55" />
+  <text x="24.3200" y="25.4000" font-family="Arial, sans-serif" font-size="1.4500" text-anchor="end" dominant-baseline="middle" fill="#000000">rts</text>
+  <text x="24.3200" y="27.8000" font-family="Arial, sans-serif" font-size="1.4500" text-anchor="end" dominant-baseline="middle" fill="#000000">dsr</text>
+  <text x="24.3200" y="30.2000" font-family="Arial, sans-serif" font-size="1.4500" text-anchor="end" dominant-baseline="middle" fill="#000000">cts</text>
+  <text x="24.3200" y="32.6000" font-family="Arial, sans-serif" font-size="1.4500" text-anchor="end" dominant-baseline="middle" fill="#000000">ri</text>
+  <text x="28.4000" y="21.2200" font-family="Arial, sans-serif" font-size="1.4500" text-anchor="start" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,28.4000,21.2200)">dtr_tnow</text>
+  <text x="30.8000" y="21.2200" font-family="Arial, sans-serif" font-size="1.4500" text-anchor="start" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,30.8000,21.2200)">dcd</text>
+  <text x="33.2000" y="21.2200" font-family="Arial, sans-serif" font-size="1.4500" text-anchor="start" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,33.2000,21.2200)">act</text>
+  <text x="35.6000" y="21.2200" font-family="Arial, sans-serif" font-size="1.4500" text-anchor="start" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,35.6000,21.2200)">vbus</text>
+  <text x="39.6800" y="25.4000" font-family="Arial, sans-serif" font-size="1.4500" text-anchor="start" dominant-baseline="middle" fill="#000000">ud_negative</text>
+  <text x="39.6800" y="27.8000" font-family="Arial, sans-serif" font-size="1.4500" text-anchor="start" dominant-baseline="middle" fill="#000000">ud_positive</text>
+  <text x="39.6800" y="30.2000" font-family="Arial, sans-serif" font-size="1.4500" text-anchor="start" dominant-baseline="middle" fill="#000000">v3</text>
+  <text x="39.6800" y="32.6000" font-family="Arial, sans-serif" font-size="1.4500" text-anchor="start" dominant-baseline="middle" fill="#000000">rxd</text>
+  <text x="28.4000" y="36.7800" font-family="Arial, sans-serif" font-size="1.4500" text-anchor="end" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,28.4000,36.7800)">vio</text>
+  <text x="30.8000" y="36.7800" font-family="Arial, sans-serif" font-size="1.4500" text-anchor="end" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,30.8000,36.7800)">gnd</text>
+  <text x="33.2000" y="36.7800" font-family="Arial, sans-serif" font-size="1.4500" text-anchor="end" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,33.2000,36.7800)">vdd5</text>
+  <text x="35.6000" y="36.7800" font-family="Arial, sans-serif" font-size="1.4500" text-anchor="end" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,35.6000,36.7800)">txd</text>
+  <text x="32.0000" y="29.0000" font-family="Arial, sans-serif" font-size="1.4500" text-anchor="middle" dominant-baseline="middle" fill="#000000">gnd</text>
+  <text x="32.0000" y="46.0000" font-family="Consolas, monospace" font-size="3.6000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#000000">5LHMK</text>
+  <text x="32.0000" y="53.0000" font-family="Consolas, monospace" font-size="2.8000" text-anchor="middle" dominant-baseline="middle" fill="#000000">month message dinner</text>
+</svg>

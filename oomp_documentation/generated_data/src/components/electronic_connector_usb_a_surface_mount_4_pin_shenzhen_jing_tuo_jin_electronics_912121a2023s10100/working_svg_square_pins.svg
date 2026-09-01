@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64.0000mm" height="64.0000mm"
+     viewBox="0 0 64.0000 64.0000">
+  <text x="32.0000" y="5.0000" font-family="Arial, sans-serif" font-size="3.6000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#000000">Connector USB A</text>
+  <text x="32.0000" y="9.0000" font-family="Arial, sans-serif" font-size="3.6000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#000000">Surface Mount 4 Pin</text>
+  <rect x="21.9231" y="22.5000" width="20.1538" height="13.0000" rx="0.7054" ry="0.7054"  fill="#FFFFFF" stroke="#000000" stroke-width="0.8" />
+  <rect x="21.0000" y="26.7900" width="1.8462" height="4.4200"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="41.1538" y="26.7900" width="1.8462" height="4.4200"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="26.6154" y="22.5000" width="1.5385" height="1.8200"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="29.6923" y="22.5000" width="1.5385" height="1.8200"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="32.7692" y="22.5000" width="1.5385" height="1.8200"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="35.8462" y="22.5000" width="1.5385" height="1.8200"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="24.9462" y="27.0500" width="4.4338" height="3.9000" rx="0.5200" ry="0.5200"  fill="#FFFFFF" stroke="#000000" stroke-width="0.25" />
+  <line x1="25.6515" y1="29.4550" x2="28.6746" y2="29.4550"  fill="#000000" stroke="#000000" stroke-width="0.8" />
+  <line x1="25.6515" y1="28.5450" x2="28.6746" y2="28.5450"  fill="#000000" stroke="#000000" stroke-width="0.8" />
+  <rect x="34.6200" y="27.0500" width="4.4338" height="3.9000" rx="0.5200" ry="0.5200"  fill="#FFFFFF" stroke="#000000" stroke-width="0.25" />
+  <line x1="35.3254" y1="29.4550" x2="38.3485" y2="29.4550"  fill="#000000" stroke="#000000" stroke-width="0.8" />
+  <line x1="35.3254" y1="28.5450" x2="38.3485" y2="28.5450"  fill="#000000" stroke="#000000" stroke-width="0.8" />
+  <rect x="24.1400" y="31.3400" width="15.7200" height="2.6000" rx="0.7800" ry="0.7800"  fill="#FFFFFF" stroke="#000000" stroke-width="0.25" />
+  <rect x="25.7523" y="32.3475" width="12.4954" height="0.9750" rx="0.3250" ry="0.3250"  fill="#FFFFFF" stroke="#000000" stroke-width="0.8" />
+  <circle cx="25.1477" cy="25.1000" r="0.4550"  fill="#FFFFFF" stroke="#000000" stroke-width="0.55" />
+  <text x="19.0000" y="20.0000" font-family="Arial, sans-serif" font-size="2.8000" text-anchor="end" dominant-baseline="middle" fill="#000000">1 vbus</text>
+  <text x="19.0000" y="29.0000" font-family="Arial, sans-serif" font-size="2.8000" text-anchor="end" dominant-baseline="middle" fill="#000000">2 D-</text>
+  <text x="19.0000" y="38.0000" font-family="Arial, sans-serif" font-size="2.8000" text-anchor="end" dominant-baseline="middle" fill="#000000">3 D+</text>
+  <text x="45.0000" y="20.0000" font-family="Arial, sans-serif" font-size="2.8000" text-anchor="start" dominant-baseline="middle" fill="#000000">4 gnd</text>
+  <text x="45.0000" y="29.0000" font-family="Arial, sans-serif" font-size="2.8000" text-anchor="start" dominant-baseline="middle" fill="#000000">5 shield</text>
+  <text x="45.0000" y="38.0000" font-family="Arial, sans-serif" font-size="2.8000" text-anchor="start" dominant-baseline="middle" fill="#000000">6 shield</text>
+  <text x="32.0000" y="46.0000" font-family="Consolas, monospace" font-size="3.6000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#000000">4IGW</text>
+  <text x="32.0000" y="53.0000" font-family="Consolas, monospace" font-size="2.8000" text-anchor="middle" dominant-baseline="middle" fill="#000000">add reduce bridge</text>
+</svg>

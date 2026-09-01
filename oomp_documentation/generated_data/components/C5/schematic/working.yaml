@@ -1,0 +1,106 @@
+available: true
+units:
+- reference: C5
+  source_file: kicad_file.kicad_sch
+  uuid: d08e3b98-7ad2-48d8-850b-38e8d6327f40
+  library_id: project-tool-mini-RevA2-eagle-import:CAP-0402
+  unit: 1
+  body_style: 1
+  position:
+    x: 129.54
+    y: 50.8
+    rotation: 270.0
+    mirror: x
+    units: mm
+  properties:
+    Reference: C5
+    Value: 10u
+    Footprint: project-tool-mini-RevA2:_PKG_C_0402
+    Datasheet: ''
+    Description: ''
+    JLCASSY: C15525
+    MPN: CL05A106MQ5NUNC
+  in_bom: true
+  on_board: true
+  in_position_files: true
+  dnp: false
+  pins:
+  - number: '1'
+    name: '1'
+    electrical_type: passive
+    graphic_style: line
+    local_position:
+      x: -2.54
+      y: 0.0
+      rotation: 0.0
+    length: 0.0
+    position:
+      x: 129.54
+      y: 53.34
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '2'
+    name: '2'
+    electrical_type: passive
+    graphic_style: line
+    local_position:
+      x: 2.54
+      y: 0.0
+      rotation: 180.0
+    length: 0.0
+    position:
+      x: 129.54
+      y: 48.26
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to:
+    - reference: IC3
+      pin_number: '1'
+      pin_name: IN1
+    - reference: R3
+      pin_number: '2'
+      pin_name: '2'
+  size:
+    local_graphics:
+      measurement: symbol graphics only; excludes pins, properties, and text
+      units: mm
+      available: true
+      min:
+        x: -2.6162
+        y: -1.2668
+      max:
+        x: 2.6162
+        y: 1.2668
+      width: 5.2324
+      height: 2.5336
+      center:
+        x: 0.0
+        y: 0.0
+    placed_graphics:
+      measurement: axis-aligned bounds after schematic placement, rotation, and mirroring
+      units: mm
+      available: true
+      min:
+        x: 128.2732
+        y: 48.1838
+      max:
+        x: 130.8068
+        y: 53.4162
+      width: 2.5336
+      height: 5.2324
+      center:
+        x: 129.54
+        y: 50.8
+  warnings: []
+connected_components:
+- reference: IC3
+  pin_number: '1'
+  pin_name: IN1
+- reference: R3
+  pin_number: '2'
+  pin_name: '2'

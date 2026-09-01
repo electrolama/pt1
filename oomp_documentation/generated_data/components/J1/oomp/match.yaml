@@ -1,0 +1,13 @@
+status: matched
+accepted: true
+oomp_id: electronic_connector_header_2_54_mm_pitch_through_hole_6_pin
+confidence: 1.0
+proposed_oomp_id: null
+inferred:
+  kind: null
+  package_size: null
+  value: CONN_06LOCK
+  mpn: null
+reasons:
+- Accepted from the AI/human match override file.
+candidates: []

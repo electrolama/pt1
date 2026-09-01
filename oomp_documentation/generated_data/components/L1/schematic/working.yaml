@@ -1,0 +1,138 @@
+available: true
+units:
+- reference: L1
+  source_file: kicad_file.kicad_sch
+  uuid: 70279a87-c689-42dc-b7b8-1c088ba1b736
+  library_id: project-tool-mini-RevA2-eagle-import:INDUCTOR-0805
+  unit: 1
+  body_style: 1
+  position:
+    x: 78.74
+    y: 33.02
+    rotation: 0.0
+    mirror: null
+    units: mm
+  properties:
+    Reference: L1
+    Value: FB, 2A
+    Footprint: project-tool-mini-RevA2:_PKG_C_0805
+    Datasheet: ''
+    Description: ''
+    JLCASSY: C85840
+    MPN: BLM21PG221SN1D
+  in_bom: true
+  on_board: true
+  in_position_files: true
+  dnp: false
+  pins:
+  - number: '1'
+    name: '1'
+    electrical_type: passive
+    graphic_style: line
+    local_position:
+      x: -2.54
+      y: 0.0
+      rotation: 0.0
+    length: 0.0
+    position:
+      x: 76.2
+      y: 33.02
+    net: VUSB_IN
+    net_aliases:
+    - VUSB_IN
+    net_scope: sheet
+    no_connect: false
+    connected_to:
+    - reference: C1
+      pin_number: '1'
+      pin_name: '1'
+  - number: '2'
+    name: '2'
+    electrical_type: passive
+    graphic_style: line
+    local_position:
+      x: 2.54
+      y: 0.0
+      rotation: 180.0
+    length: 0.0
+    position:
+      x: 81.28
+      y: 33.02
+    net: VUSB
+    net_aliases:
+    - VUSB
+    net_scope: sheet
+    no_connect: false
+    connected_to:
+    - reference: C2
+      pin_number: '1'
+      pin_name: '1'
+    - reference: C3
+      pin_number: '2'
+      pin_name: '2'
+    - reference: C4
+      pin_number: '2'
+      pin_name: '2'
+    - reference: C6
+      pin_number: '1'
+      pin_name: '1'
+    - reference: IC4
+      pin_number: '2'
+      pin_name: GND
+    - reference: R3
+      pin_number: '1'
+      pin_name: '1'
+  size:
+    local_graphics:
+      measurement: symbol graphics only; excludes pins, properties, and text
+      units: mm
+      available: true
+      min:
+        x: -2.6162
+        y: -0.0762
+      max:
+        x: 2.6162
+        y: 0.7112
+      width: 5.2324
+      height: 0.7874
+      center:
+        x: 0.0
+        y: 0.3175
+    placed_graphics:
+      measurement: axis-aligned bounds after schematic placement, rotation, and mirroring
+      units: mm
+      available: true
+      min:
+        x: 76.1238
+        y: 32.9438
+      max:
+        x: 81.3562
+        y: 33.7312
+      width: 5.2324
+      height: 0.7874
+      center:
+        x: 78.74
+        y: 33.3375
+  warnings: []
+connected_components:
+- reference: C1
+  pin_number: '1'
+  pin_name: '1'
+- reference: C2
+  pin_number: '1'
+  pin_name: '1'
+- reference: C3
+  pin_number: '2'
+  pin_name: '2'
+- reference: C4
+  pin_number: '2'
+  pin_name: '2'
+- reference: C6
+  pin_number: '1'
+  pin_name: '1'
+- reference: IC4
+  pin_number: '2'
+  pin_name: GND
+- reference: R3
+  pin_number: '1'
+  pin_name: '1'

@@ -1,0 +1,101 @@
+available: true
+units:
+- reference: R5
+  source_file: kicad_file.kicad_sch
+  uuid: 10ee5870-f0fa-4870-85e6-03d60c9a9c0b
+  library_id: project-tool-mini-RevA2-eagle-import:RES-0402
+  unit: 1
+  body_style: 1
+  position:
+    x: 187.96
+    y: 43.18
+    rotation: 90.0
+    mirror: x
+    units: mm
+  properties:
+    Reference: R5
+    Value: 100k
+    Footprint: project-tool-mini-RevA2:_PKG_R_0402
+    Datasheet: ''
+    Description: ''
+    JLCASSY: C25741
+    MPN: 0402WGF1003TCE
+  in_bom: true
+  on_board: true
+  in_position_files: true
+  dnp: false
+  pins:
+  - number: '1'
+    name: '1'
+    electrical_type: passive
+    graphic_style: line
+    local_position:
+      x: -2.54
+      y: 0.0
+      rotation: 0.0
+    length: 0.0
+    position:
+      x: 187.96
+      y: 40.64
+    net: SW_EN
+    net_aliases:
+    - SW_EN
+    net_scope: sheet
+    no_connect: false
+    connected_to:
+    - reference: IC4
+      pin_number: '4'
+      pin_name: EN
+  - number: '2'
+    name: '2'
+    electrical_type: passive
+    graphic_style: line
+    local_position:
+      x: 2.54
+      y: 0.0
+      rotation: 180.0
+    length: 0.0
+    position:
+      x: 187.96
+      y: 45.72
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  size:
+    local_graphics:
+      measurement: symbol graphics only; excludes pins, properties, and text
+      units: mm
+      available: true
+      min:
+        x: -2.6162
+        y: -0.6477
+      max:
+        x: 2.6162
+        y: 0.6477
+      width: 5.2324
+      height: 1.2954
+      center:
+        x: 0.0
+        y: 0.0
+    placed_graphics:
+      measurement: axis-aligned bounds after schematic placement, rotation, and mirroring
+      units: mm
+      available: true
+      min:
+        x: 187.3123
+        y: 40.5638
+      max:
+        x: 188.6077
+        y: 45.7962
+      width: 1.2954
+      height: 5.2324
+      center:
+        x: 187.96
+        y: 43.18
+  warnings: []
+connected_components:
+- reference: IC4
+  pin_number: '4'
+  pin_name: EN

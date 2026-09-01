@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="34.0000mm" height="20.0000mm"
+     viewBox="0 0 34.0000 20.0000">
+  <rect x="0.0000" y="0.0000" width="34.0000" height="20.0000"  fill="#FFFFFF" stroke="none" />
+  <rect x="11.1755" y="13.7564" width="2.1510" height="3.4936"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="15.9245" y="13.7564" width="2.1510" height="3.4936"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="20.6735" y="13.7564" width="2.1510" height="3.4936"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="11.1755" y="2.7500" width="2.1510" height="3.4936"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="20.6735" y="2.7500" width="2.1510" height="3.4936"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="9.7496" y="5.9936" width="14.5008" height="8.0129" rx="0.8000" ry="0.8000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.8" />
+  <line x1="9.8496" y1="13.9064" x2="9.8496" y2="12.3064"  fill="#000000" stroke="#000000" stroke-width="0.35" />
+  <line x1="9.8496" y1="12.3064" x2="11.4496" y2="13.9064"  fill="#000000" stroke="#000000" stroke-width="0.35" />
+  <line x1="11.4496" y1="13.9064" x2="9.8496" y2="13.9064"  fill="#000000" stroke="#000000" stroke-width="0.35" />
+</svg>

@@ -1,0 +1,140 @@
+available: true
+units:
+- reference: XT1
+  source_file: kicad_file.kicad_sch
+  uuid: 605a0e7d-3e1f-4456-a10c-f13d77a5418c
+  library_id: project-tool-mini-RevA2-eagle-import:XTAL-4P-3225
+  unit: 1
+  body_style: 1
+  position:
+    x: 66.04
+    y: 109.22
+    rotation: 270.0
+    mirror: null
+    units: mm
+  properties:
+    Reference: XT1
+    Value: 12MHz
+    Footprint: project-tool-mini-RevA2:XTAL-4P-3225
+    Datasheet: ''
+    Description: ''
+    JLCASSY: C9002
+    MPN: X322512MSB4SI
+  in_bom: true
+  on_board: true
+  in_position_files: true
+  dnp: false
+  pins:
+  - number: '1'
+    name: '1'
+    electrical_type: passive
+    graphic_style: line
+    local_position:
+      x: -2.54
+      y: 0.0
+      rotation: 0.0
+    length: 0.0
+    position:
+      x: 66.04
+      y: 111.76
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '2'
+    name: '2'
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: -2.54
+      y: -2.54
+      rotation: 90.0
+    length: 0.0
+    position:
+      x: 63.5
+      y: 111.76
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to:
+    - reference: XT1
+      pin_number: '4'
+      pin_name: '4'
+  - number: '3'
+    name: '3'
+    electrical_type: passive
+    graphic_style: line
+    local_position:
+      x: 2.54
+      y: 0.0
+      rotation: 180.0
+    length: 0.0
+    position:
+      x: 66.04
+      y: 106.68
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '4'
+    name: '4'
+    electrical_type: bidirectional
+    graphic_style: line
+    local_position:
+      x: 2.54
+      y: -2.54
+      rotation: 90.0
+    length: 0.0
+    position:
+      x: 63.5
+      y: 106.68
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to:
+    - reference: XT1
+      pin_number: '2'
+      pin_name: '2'
+  size:
+    local_graphics:
+      measurement: symbol graphics only; excludes pins, properties, and text
+      units: mm
+      available: true
+      min:
+        x: -2.667
+        y: -2.667
+      max:
+        x: 2.667
+        y: 2.032
+      width: 5.334
+      height: 4.699
+      center:
+        x: 0.0
+        y: -0.3175
+    placed_graphics:
+      measurement: axis-aligned bounds after schematic placement, rotation, and mirroring
+      units: mm
+      available: true
+      min:
+        x: 63.373
+        y: 106.553
+      max:
+        x: 68.072
+        y: 111.887
+      width: 4.699
+      height: 5.334
+      center:
+        x: 65.7225
+        y: 109.22
+  warnings: []
+connected_components:
+- reference: XT1
+  pin_number: '2'
+  pin_name: '2'
+- reference: XT1
+  pin_number: '4'
+  pin_name: '4'

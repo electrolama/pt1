@@ -1,0 +1,3 @@
+reference: MH8
+measurement_policy: Only embedded symbol graphics are measured; pins, properties, and text are excluded.
+units: []

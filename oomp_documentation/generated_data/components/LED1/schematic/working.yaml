@@ -1,0 +1,100 @@
+available: true
+units:
+- reference: LED1
+  source_file: kicad_file.kicad_sch
+  uuid: bb527665-43d3-4a47-9019-c63a7f583129
+  library_id: project-tool-mini-RevA2-eagle-import:LED-0603
+  unit: 1
+  body_style: 1
+  position:
+    x: 236.22
+    y: 66.04
+    rotation: 0.0
+    mirror: null
+    units: mm
+  properties:
+    Reference: LED1
+    Value: Green
+    Footprint: project-tool-mini-RevA2:_PKG_LED_0603
+    Datasheet: ''
+    Description: ''
+    JLCASSY: C72043
+    MPN: 19-217/GHC-YR1S2/3T
+  in_bom: true
+  on_board: true
+  in_position_files: true
+  dnp: false
+  pins:
+  - number: A
+    name: A
+    electrical_type: passive
+    graphic_style: line
+    local_position:
+      x: -2.54
+      y: 0.0
+      rotation: 0.0
+    length: 2.54
+    position:
+      x: 233.68
+      y: 66.04
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to:
+    - reference: R4
+      pin_number: '1'
+      pin_name: '1'
+  - number: C
+    name: C
+    electrical_type: passive
+    graphic_style: line
+    local_position:
+      x: 2.54
+      y: 0.0
+      rotation: 180.0
+    length: 2.54
+    position:
+      x: 238.76
+      y: 66.04
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  size:
+    local_graphics:
+      measurement: symbol graphics only; excludes pins, properties, and text
+      units: mm
+      available: true
+      min:
+        x: -1.397
+        y: -1.524
+      max:
+        x: 1.9812
+        y: 3.302
+      width: 3.3782
+      height: 4.826
+      center:
+        x: 0.2921
+        y: 0.889
+    placed_graphics:
+      measurement: axis-aligned bounds after schematic placement, rotation, and mirroring
+      units: mm
+      available: true
+      min:
+        x: 234.823
+        y: 64.516
+      max:
+        x: 238.2012
+        y: 69.342
+      width: 3.3782
+      height: 4.826
+      center:
+        x: 236.5121
+        y: 66.929
+  warnings: []
+connected_components:
+- reference: R4
+  pin_number: '1'
+  pin_name: '1'

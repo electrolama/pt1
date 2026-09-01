@@ -1,0 +1,6 @@
+{
+  "format_version": 1,
+  "help": "Fill resolution after checking the fitted BOM or purchase records, then move confirmed mappings into working_oomp_populate_project.py and the appropriate populate-extra file.",
+  "item_count": 0,
+  "items": []
+}

@@ -1,0 +1,94 @@
+available: true
+units:
+- reference: R2
+  source_file: kicad_file.kicad_sch
+  uuid: 19c1c47c-fda8-4818-82ad-e458848a69c9
+  library_id: project-tool-mini-RevA2-eagle-import:RES-0402
+  unit: 1
+  body_style: 1
+  position:
+    x: 63.5
+    y: 58.42
+    rotation: 270.0
+    mirror: x
+    units: mm
+  properties:
+    Reference: R2
+    Value: 5k1
+    Footprint: project-tool-mini-RevA2:_PKG_R_0402
+    Datasheet: ''
+    Description: ''
+    JLCASSY: C144745
+    MPN: AC0402FR-075K1L
+  in_bom: true
+  on_board: true
+  in_position_files: true
+  dnp: false
+  pins:
+  - number: '1'
+    name: '1'
+    electrical_type: passive
+    graphic_style: line
+    local_position:
+      x: -2.54
+      y: 0.0
+      rotation: 0.0
+    length: 0.0
+    position:
+      x: 63.5
+      y: 60.96
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  - number: '2'
+    name: '2'
+    electrical_type: passive
+    graphic_style: line
+    local_position:
+      x: 2.54
+      y: 0.0
+      rotation: 180.0
+    length: 0.0
+    position:
+      x: 63.5
+      y: 55.88
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  size:
+    local_graphics:
+      measurement: symbol graphics only; excludes pins, properties, and text
+      units: mm
+      available: true
+      min:
+        x: -2.6162
+        y: -0.6477
+      max:
+        x: 2.6162
+        y: 0.6477
+      width: 5.2324
+      height: 1.2954
+      center:
+        x: 0.0
+        y: 0.0
+    placed_graphics:
+      measurement: axis-aligned bounds after schematic placement, rotation, and mirroring
+      units: mm
+      available: true
+      min:
+        x: 62.8523
+        y: 55.8038
+      max:
+        x: 64.1477
+        y: 61.0362
+      width: 1.2954
+      height: 5.2324
+      center:
+        x: 63.5
+        y: 58.42
+  warnings: []
+connected_components: []

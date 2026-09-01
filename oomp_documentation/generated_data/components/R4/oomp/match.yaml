@@ -1,0 +1,13 @@
+status: matched
+accepted: true
+oomp_id: electronic_resistor_0402_2200_ohm
+confidence: 1.0
+proposed_oomp_id: electronic_resistor_0402_2200_ohm
+inferred:
+  kind: resistor
+  package_size: '0402'
+  value: 2k2
+  mpn: 0402WGF2201TCE
+reasons:
+- Exact OOMP ID constructed from component type, package size, and normalized value.
+candidates: []

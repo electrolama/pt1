@@ -1,0 +1,13 @@
+status: matched
+accepted: true
+oomp_id: electronic_capacitor_0402_10_micro_farad
+confidence: 1.0
+proposed_oomp_id: electronic_capacitor_0402_10_micro_farad
+inferred:
+  kind: capacitor
+  package_size: '0402'
+  value: 10u
+  mpn: CL05A106MQ5NUNC
+reasons:
+- Exact OOMP ID constructed from component type, package size, and normalized value.
+candidates: []

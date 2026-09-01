@@ -1,0 +1,36 @@
+reference: CON1
+measurement_policy: Only embedded symbol graphics are measured; pins, properties, and text are excluded.
+units:
+- unit: 1
+  body_style: 1
+  source_file: kicad_file.kicad_sch
+  local_graphics:
+    measurement: symbol graphics only; excludes pins, properties, and text
+    units: mm
+    available: true
+    min:
+      x: -0.127
+      y: -0.127
+    max:
+      x: 15.367
+      y: 35.687
+    width: 15.494
+    height: 35.814
+    center:
+      x: 7.62
+      y: 17.78
+  placed_graphics:
+    measurement: axis-aligned bounds after schematic placement, rotation, and mirroring
+    units: mm
+    available: true
+    min:
+      x: 22.733
+      y: 60.833
+    max:
+      x: 38.227
+      y: 96.647
+    width: 15.494
+    height: 35.814
+    center:
+      x: 30.48
+      y: 78.74

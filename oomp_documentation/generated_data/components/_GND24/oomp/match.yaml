@@ -1,0 +1,13 @@
+status: not_applicable
+accepted: false
+oomp_id: null
+confidence: 0.0
+proposed_oomp_id: null
+inferred:
+  kind: null
+  package_size: null
+  value: GND
+  mpn: null
+reasons:
+- The symbol has no physical PCB/OOMP part requirement.
+candidates: []

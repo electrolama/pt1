@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg data-pin-one-x="0.0900" data-pin-one-y="0.2500" data-pin-one-identifiers="1" xmlns="http://www.w3.org/2000/svg"
+     width="1.0000mm" height="0.5000mm"
+     viewBox="0 0 1.0000 0.5000">
+  <rect x="0.0000" y="0.0000" width="1.0000" height="0.5000"  fill="none" stroke="none" />
+  <rect x="0.0000" y="0.0000" width="1.0000" height="0.5000" rx="0.1200" ry="0.1200"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.0000" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <rect x="0.8200" y="0.0000" width="0.1800" height="0.5000"  fill="#FFFFFF" stroke="#000000" vector-effect="non-scaling-stroke" stroke-width="0.22" />
+  <text x="0.0900" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.0900,0.2500)">pin 1</text>
+  <text x="0.9100" y="0.2500" font-family="Arial, sans-serif" font-size="0.1260" text-anchor="middle" dominant-baseline="middle" fill="#000000" transform="rotate(-90.000,0.9100,0.2500)">pin 2</text>
+</svg>

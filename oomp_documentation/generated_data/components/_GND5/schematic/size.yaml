@@ -1,0 +1,36 @@
+reference: '#GND5'
+measurement_policy: Only embedded symbol graphics are measured; pins, properties, and text are excluded.
+units:
+- unit: 1
+  body_style: 1
+  source_file: kicad_file.kicad_sch
+  local_graphics:
+    measurement: symbol graphics only; excludes pins, properties, and text
+    units: mm
+    available: true
+    min:
+      x: -2.032
+      y: -0.127
+    max:
+      x: 2.032
+      y: 0.127
+    width: 4.064
+    height: 0.254
+    center:
+      x: 0.0
+      y: 0.0
+  placed_graphics:
+    measurement: axis-aligned bounds after schematic placement, rotation, and mirroring
+    units: mm
+    available: true
+    min:
+      x: 138.938
+      y: 166.243
+    max:
+      x: 143.002
+      y: 166.497
+    width: 4.064
+    height: 0.254
+    center:
+      x: 140.97
+      y: 166.37

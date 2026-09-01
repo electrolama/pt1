@@ -1,0 +1,13 @@
+status: matched
+accepted: true
+oomp_id: electronic_connector_usb_c_surface_mount_16_pin_korean_hroparts_elec_typec31m12
+confidence: 1.0
+proposed_oomp_id: null
+inferred:
+  kind: null
+  package_size: null
+  value: USB-C
+  mpn: TYPE-C-31-M-12
+reasons:
+- Accepted from the AI/human match override file.
+candidates: []

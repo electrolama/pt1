@@ -1,0 +1,1312 @@
+bip_39_2_word_array:
+- thrive
+- tip
+bip_39_2_word_no_space: thrivetip
+bip_39_2_word_space: thrive tip
+bip_39_2_word_underscore: thrive_tip
+bip_39_3_word_array:
+- thrive
+- tip
+- finish
+bip_39_3_word_no_space: thrivetipfinish
+bip_39_3_word_space: thrive tip finish
+bip_39_3_word_underscore: thrive_tip_finish
+bip_39_full_array:
+- thrive
+- tip
+- finish
+- budget
+- bracket
+- system
+- grain
+- gap
+- shoot
+- advice
+- urge
+- reduce
+bip_39_full_no_space: thrivetipfinishbudgetbracketsystemgraingapshootadviceurgereduce
+bip_39_full_space: thrive tip finish budget bracket system grain gap shoot advice
+    urge reduce
+bip_39_full_underscore: thrive_tip_finish_budget_bracket_system_grain_gap_shoot_advice_urge_reduce
+dimensions_mm:
+    length: 2.0
+    width: 1.25
+directory: parts/electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+id: electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+id_no_class: electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+id_no_size: electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+id_no_type: electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+md5: e13c515c0ec1adb99962fac68083bdda
+md5_10: e13c515c0e
+md5_10_upper: E13C515C0E
+md5_5: e13c5
+md5_5_upper: E13C5
+md5_6: e13c51
+md5_6_alpha: 8sdox
+md5_6_alpha_upper: 8SDOX
+md5_6_upper: E13C51
+name: Electronic Ferrite Bead 0805 220 Ohm 2 Amp Murata Blm21Pg221Sn1D
+name_no_class: Electronic Ferrite Bead 0805 220 Ohm 2 Amp Murata Blm21Pg221Sn1D
+name_no_size: Electronic Ferrite Bead 0805 220 Ohm 2 Amp Murata Blm21Pg221Sn1D
+name_no_type: Electronic Ferrite Bead 0805 220 Ohm 2 Amp Murata Blm21Pg221Sn1D
+name_proper: Electronic Ferrite Bead 0805 220 Ohm 2 Amp Murata Blm21Pg221Sn1D
+name_short: Ferrite Bead 0805 220 Ohm 2 Amp
+name_space: electronic ferrite bead 0805 220 ohm 2 amp murata blm21pg221sn1d
+name_upper: ELECTRONIC FERRITE BEAD 0805 220 OHM 2 AMP MURATA BLM21PG221SN1D
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: run_python
+        description: Generate this component's standard SVG and PNG diagrams with
+            working_svg.py.
+        file_output: working_svg_assembly.svg
+        file_python: kicad_agents/component_svg_action.py
+        part_id: electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+        regenerate_pngs: false
+        timeout: '600'
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_square_pins_300.png
+        file_source: working_svg_square_pins.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_outline_300.png
+        file_source: working_svg_outline.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_part_id_300.png
+        file_source: working_svg_part_id.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_md5_6_alpha_300.png
+        file_source: working_svg_md5_6_alpha.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_bip_39_3_word_300.png
+        file_source: working_svg_bip_39_3_word.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_square_300.png
+        file_source: working_svg_square.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_dimensioned_300.png
+        file_source: working_svg_dimensioned.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    -   allow_upscale: false
+        command: image_resize
+        file_destination: working_svg_dimensioned_titles_300.png
+        file_source: working_svg_dimensioned_titles.png
+        maximum_dimension: 300
+        regenerate_pngs: false
+        resample: lanczos
+    description: Build component diagrams and proportional 300-pixel README previews
+        with deterministic Python actions.
+    file_test: ''
+    retries_until_complete: 0
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            dimensions_mm:
+                length: 2.0
+                width: 1.25
+            directory: parts\electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+            name: electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+            name_proper: Electronic Ferrite Bead 0805 220 Ohm 2 Amp Murata Blm21Pg221Sn1D
+            name_short: Ferrite Bead 0805 220 Ohm 2 Amp
+            name_space: electronic ferrite bead 0805 220 ohm 2 amp murata blm21pg221sn1d
+            name_upper: ELECTRONIC FERRITE BEAD 0805 220 OHM 2 AMP MURATA BLM21PG221SN1D
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: run_python
+                    description: Generate this component's standard SVG and PNG diagrams
+                        with working_svg.py.
+                    file_output: working_svg_assembly.svg
+                    file_python: kicad_agents/component_svg_action.py
+                    part_id: electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+                    regenerate_pngs: false
+                    timeout: '600'
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_square_pins_300.png
+                    file_source: working_svg_square_pins.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_outline_300.png
+                    file_source: working_svg_outline.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_part_id_300.png
+                    file_source: working_svg_part_id.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_md5_6_alpha_300.png
+                    file_source: working_svg_md5_6_alpha.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_bip_39_3_word_300.png
+                    file_source: working_svg_bip_39_3_word.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_square_300.png
+                    file_source: working_svg_square.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_dimensioned_300.png
+                    file_source: working_svg_dimensioned.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_dimensioned_titles_300.png
+                    file_source: working_svg_dimensioned_titles.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                description: Build component diagrams and proportional 300-pixel README
+                    previews with deterministic Python actions.
+                file_test: ''
+                retries_until_complete: 0
+            part_id: FB1
+            part_number_lcsc: C85840
+            part_number_manufacturer: BLM21PG221SN1D
+            part_page:
+                diagrams:
+                -   png: ''
+                    preview: working_svg_assembly.svg
+                    svg: working_svg_assembly.svg
+                    title: Assembly
+                -   png: working_svg_outline.png
+                    preview: working_svg_outline_300.png
+                    svg: working_svg_outline.svg
+                    title: Outline
+                -   png: working_svg_part_id.png
+                    preview: working_svg_part_id_300.png
+                    svg: working_svg_part_id.svg
+                    title: Part ID
+                -   png: working_svg_md5_6_alpha.png
+                    preview: working_svg_md5_6_alpha_300.png
+                    svg: working_svg_md5_6_alpha.svg
+                    title: MD5 alpha
+                -   png: working_svg_bip_39_3_word.png
+                    preview: working_svg_bip_39_3_word_300.png
+                    svg: working_svg_bip_39_3_word.svg
+                    title: BIP 39 words
+                -   png: working_svg_square.png
+                    preview: working_svg_square_300.png
+                    svg: working_svg_square.svg
+                    title: Square summary
+                -   png: working_svg_dimensioned.png
+                    preview: working_svg_dimensioned_300.png
+                    svg: working_svg_dimensioned.svg
+                    title: Dimensions
+                -   png: working_svg_dimensioned_titles.png
+                    preview: working_svg_dimensioned_titles_300.png
+                    svg: working_svg_dimensioned_titles.svg
+                    title: Dimensions with labels
+                file_previews:
+                -   preview: working_svg_square_pins_300.png
+                    title: Pinout drawing
+                -   preview: working_svg_outline_300.png
+                    title: Outline
+                -   preview: working_svg_part_id_300.png
+                    title: Part ID
+                -   preview: working_svg_md5_6_alpha_300.png
+                    title: MD5 alpha
+                -   preview: working_svg_bip_39_3_word_300.png
+                    title: BIP 39 words
+                -   preview: working_svg_square_300.png
+                    title: Square summary
+                -   preview: working_svg_dimensioned_300.png
+                    title: Dimensions
+                -   preview: working_svg_dimensioned_titles_300.png
+                    title: Dimensions with labels
+                has_datasheet: false
+                identifiers:
+                -   title: Manufacturer part number
+                    value: BLM21PG221SN1D
+                -   title: LCSC
+                    value: C85840
+                main_image:
+                    png: working_svg_square_pins.png
+                    preview: working_svg_square_pins_300.png
+                    svg: working_svg_square_pins.svg
+                    title: Pinout
+                oomp_id: electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+                pins: []
+                quick_facts:
+                -   title: OOMP ID
+                    value: electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+                -   title: Type
+                    value: Ferrite Bead
+                -   title: Package / style
+                    value: 0805
+                -   title: Nominal size
+                    value: "2.0 \xD7 1.25 mm"
+                repository_url: https://github.com/oomlout/oomp_electronic_version_5/tree/main/parts/electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+                summary: "Ferrite Bead 0805 220 Ohm 2 Amp is an OOMP electronic ferrite\
+                    \ bead definition. It uses the 0805 package or form factor. Its\
+                    \ nominal drawing size is 2.0 \xD7 1.25 mm."
+                taxonomy:
+                -   level: 1
+                    value: electronic
+                -   level: 2
+                    value: ferrite_bead
+                -   level: 3
+                    value: 0805
+                -   level: 4
+                    value: 220_ohm
+                -   level: 5
+                    value: 2_amp
+                -   level: 14
+                    value: murata
+                -   level: 15
+                    value: blm21pg221sn1d
+            regenerate_pngs: false
+            svg_details:
+            -   filename_extra: assembly
+                make_a4: false
+                output_formats:
+                - svg
+                padding: 0
+                stylesheet: style_oomp_assembly
+                svg_name: oomp_component_assembly
+                write_yaml: false
+            -   filename_extra: assembly_pins
+                make_a4: false
+                output_formats:
+                - svg
+                padding: 0
+                stylesheet: style_oomp_assembly
+                svg_name: oomp_component_assembly_pins
+                write_yaml: false
+            -   filename_extra: outline
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_outline
+                write_yaml: false
+            -   filename_extra: part_id
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_part_id
+                write_yaml: false
+            -   filename_extra: md5_6_alpha
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_md5_6_alpha
+                write_yaml: false
+            -   filename_extra: bip_39_3_word
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_bip_39_3_word
+                write_yaml: false
+            -   filename_extra: square
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_square
+                write_yaml: false
+            -   filename_extra: square_pins
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_square_pins
+                write_yaml: false
+            -   filename_extra: dimensioned
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_dimensioned
+                write_yaml: false
+            -   filename_extra: dimensioned_titles
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_dimensioned_titles
+                write_yaml: false
+            taxonomy_1: electronic
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: murata
+            taxonomy_15: blm21pg221sn1d
+            taxonomy_2: ferrite_bead
+            taxonomy_3: 0805
+            taxonomy_4: 220_ohm
+            taxonomy_5: 2_amp
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: source_file\template_jinja\oomp_category\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_3:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            dimensions_mm:
+                length: 2.0
+                width: 1.25
+            directory: parts\electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+            name: electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+            name_proper: Electronic Ferrite Bead 0805 220 Ohm 2 Amp Murata Blm21Pg221Sn1D
+            name_short: Ferrite Bead 0805 220 Ohm 2 Amp
+            name_space: electronic ferrite bead 0805 220 ohm 2 amp murata blm21pg221sn1d
+            name_upper: ELECTRONIC FERRITE BEAD 0805 220 OHM 2 AMP MURATA BLM21PG221SN1D
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: run_python
+                    description: Generate this component's standard SVG and PNG diagrams
+                        with working_svg.py.
+                    file_output: working_svg_assembly.svg
+                    file_python: kicad_agents/component_svg_action.py
+                    part_id: electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+                    regenerate_pngs: false
+                    timeout: '600'
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_square_pins_300.png
+                    file_source: working_svg_square_pins.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_outline_300.png
+                    file_source: working_svg_outline.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_part_id_300.png
+                    file_source: working_svg_part_id.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_md5_6_alpha_300.png
+                    file_source: working_svg_md5_6_alpha.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_bip_39_3_word_300.png
+                    file_source: working_svg_bip_39_3_word.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_square_300.png
+                    file_source: working_svg_square.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_dimensioned_300.png
+                    file_source: working_svg_dimensioned.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                -   allow_upscale: false
+                    command: image_resize
+                    file_destination: working_svg_dimensioned_titles_300.png
+                    file_source: working_svg_dimensioned_titles.png
+                    maximum_dimension: 300
+                    regenerate_pngs: false
+                    resample: lanczos
+                description: Build component diagrams and proportional 300-pixel README
+                    previews with deterministic Python actions.
+                file_test: ''
+                retries_until_complete: 0
+            oomlout_ai_roboclick_2:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        dimensions_mm:
+                            length: 2.0
+                            width: 1.25
+                        directory: parts\electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+                        name: electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+                        name_proper: Electronic Ferrite Bead 0805 220 Ohm 2 Amp Murata
+                            Blm21Pg221Sn1D
+                        name_short: Ferrite Bead 0805 220 Ohm 2 Amp
+                        name_space: electronic ferrite bead 0805 220 ohm 2 amp murata
+                            blm21pg221sn1d
+                        name_upper: ELECTRONIC FERRITE BEAD 0805 220 OHM 2 AMP MURATA
+                            BLM21PG221SN1D
+                        oomlout_ai_roboclick_1:
+                            actions:
+                            -   command: run_python
+                                description: Generate this component's standard SVG
+                                    and PNG diagrams with working_svg.py.
+                                file_output: working_svg_assembly.svg
+                                file_python: kicad_agents/component_svg_action.py
+                                part_id: electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+                                regenerate_pngs: false
+                                timeout: '600'
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_square_pins_300.png
+                                file_source: working_svg_square_pins.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_outline_300.png
+                                file_source: working_svg_outline.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_part_id_300.png
+                                file_source: working_svg_part_id.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_md5_6_alpha_300.png
+                                file_source: working_svg_md5_6_alpha.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_bip_39_3_word_300.png
+                                file_source: working_svg_bip_39_3_word.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_square_300.png
+                                file_source: working_svg_square.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_dimensioned_300.png
+                                file_source: working_svg_dimensioned.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            -   allow_upscale: false
+                                command: image_resize
+                                file_destination: working_svg_dimensioned_titles_300.png
+                                file_source: working_svg_dimensioned_titles.png
+                                maximum_dimension: 300
+                                regenerate_pngs: false
+                                resample: lanczos
+                            description: Build component diagrams and proportional
+                                300-pixel README previews with deterministic Python
+                                actions.
+                            file_test: ''
+                            retries_until_complete: 0
+                        part_id: FB1
+                        part_number_lcsc: C85840
+                        part_number_manufacturer: BLM21PG221SN1D
+                        part_page:
+                            diagrams:
+                            -   png: ''
+                                preview: working_svg_assembly.svg
+                                svg: working_svg_assembly.svg
+                                title: Assembly
+                            -   png: working_svg_outline.png
+                                preview: working_svg_outline_300.png
+                                svg: working_svg_outline.svg
+                                title: Outline
+                            -   png: working_svg_part_id.png
+                                preview: working_svg_part_id_300.png
+                                svg: working_svg_part_id.svg
+                                title: Part ID
+                            -   png: working_svg_md5_6_alpha.png
+                                preview: working_svg_md5_6_alpha_300.png
+                                svg: working_svg_md5_6_alpha.svg
+                                title: MD5 alpha
+                            -   png: working_svg_bip_39_3_word.png
+                                preview: working_svg_bip_39_3_word_300.png
+                                svg: working_svg_bip_39_3_word.svg
+                                title: BIP 39 words
+                            -   png: working_svg_square.png
+                                preview: working_svg_square_300.png
+                                svg: working_svg_square.svg
+                                title: Square summary
+                            -   png: working_svg_dimensioned.png
+                                preview: working_svg_dimensioned_300.png
+                                svg: working_svg_dimensioned.svg
+                                title: Dimensions
+                            -   png: working_svg_dimensioned_titles.png
+                                preview: working_svg_dimensioned_titles_300.png
+                                svg: working_svg_dimensioned_titles.svg
+                                title: Dimensions with labels
+                            file_previews:
+                            -   preview: working_svg_square_pins_300.png
+                                title: Pinout drawing
+                            -   preview: working_svg_outline_300.png
+                                title: Outline
+                            -   preview: working_svg_part_id_300.png
+                                title: Part ID
+                            -   preview: working_svg_md5_6_alpha_300.png
+                                title: MD5 alpha
+                            -   preview: working_svg_bip_39_3_word_300.png
+                                title: BIP 39 words
+                            -   preview: working_svg_square_300.png
+                                title: Square summary
+                            -   preview: working_svg_dimensioned_300.png
+                                title: Dimensions
+                            -   preview: working_svg_dimensioned_titles_300.png
+                                title: Dimensions with labels
+                            has_datasheet: false
+                            identifiers:
+                            -   title: Manufacturer part number
+                                value: BLM21PG221SN1D
+                            -   title: LCSC
+                                value: C85840
+                            main_image:
+                                png: working_svg_square_pins.png
+                                preview: working_svg_square_pins_300.png
+                                svg: working_svg_square_pins.svg
+                                title: Pinout
+                            oomp_id: electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+                            pins: []
+                            quick_facts:
+                            -   title: OOMP ID
+                                value: electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+                            -   title: Type
+                                value: Ferrite Bead
+                            -   title: Package / style
+                                value: 0805
+                            -   title: Nominal size
+                                value: "2.0 \xD7 1.25 mm"
+                            repository_url: https://github.com/oomlout/oomp_electronic_version_5/tree/main/parts/electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+                            summary: "Ferrite Bead 0805 220 Ohm 2 Amp is an OOMP electronic\
+                                \ ferrite bead definition. It uses the 0805 package\
+                                \ or form factor. Its nominal drawing size is 2.0\
+                                \ \xD7 1.25 mm."
+                            taxonomy:
+                            -   level: 1
+                                value: electronic
+                            -   level: 2
+                                value: ferrite_bead
+                            -   level: 3
+                                value: 0805
+                            -   level: 4
+                                value: 220_ohm
+                            -   level: 5
+                                value: 2_amp
+                            -   level: 14
+                                value: murata
+                            -   level: 15
+                                value: blm21pg221sn1d
+                        regenerate_pngs: false
+                        svg_details:
+                        -   filename_extra: assembly
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            padding: 0
+                            stylesheet: style_oomp_assembly
+                            svg_name: oomp_component_assembly
+                            write_yaml: false
+                        -   filename_extra: assembly_pins
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            padding: 0
+                            stylesheet: style_oomp_assembly
+                            svg_name: oomp_component_assembly_pins
+                            write_yaml: false
+                        -   filename_extra: outline
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_outline
+                            write_yaml: false
+                        -   filename_extra: part_id
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_part_id
+                            write_yaml: false
+                        -   filename_extra: md5_6_alpha
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_md5_6_alpha
+                            write_yaml: false
+                        -   filename_extra: bip_39_3_word
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_bip_39_3_word
+                            write_yaml: false
+                        -   filename_extra: square
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_square
+                            write_yaml: false
+                        -   filename_extra: square_pins
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_square_pins
+                            write_yaml: false
+                        -   filename_extra: dimensioned
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_dimensioned
+                            write_yaml: false
+                        -   filename_extra: dimensioned_titles
+                            make_a4: false
+                            output_formats:
+                            - svg
+                            - png
+                            padding: 0
+                            stylesheet: style_oomp
+                            svg_name: oomp_component_dimensioned_titles
+                            write_yaml: false
+                        taxonomy_1: electronic
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: murata
+                        taxonomy_15: blm21pg221sn1d
+                        taxonomy_2: ferrite_bead
+                        taxonomy_3: 0805
+                        taxonomy_4: 220_ohm
+                        taxonomy_5: 2_amp
+                        taxonomy_6: ''
+                        taxonomy_7: ''
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        url_chat: ''
+                    dict_data_files: {}
+                    dict_data_files_exists: {}
+                    file_output: label_oomp.svg
+                    file_template: source_file\template_jinja\oomp_category\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+                retries_until_complete: 0
+            part_id: FB1
+            part_number_lcsc: C85840
+            part_number_manufacturer: BLM21PG221SN1D
+            part_page:
+                diagrams:
+                -   png: ''
+                    preview: working_svg_assembly.svg
+                    svg: working_svg_assembly.svg
+                    title: Assembly
+                -   png: working_svg_outline.png
+                    preview: working_svg_outline_300.png
+                    svg: working_svg_outline.svg
+                    title: Outline
+                -   png: working_svg_part_id.png
+                    preview: working_svg_part_id_300.png
+                    svg: working_svg_part_id.svg
+                    title: Part ID
+                -   png: working_svg_md5_6_alpha.png
+                    preview: working_svg_md5_6_alpha_300.png
+                    svg: working_svg_md5_6_alpha.svg
+                    title: MD5 alpha
+                -   png: working_svg_bip_39_3_word.png
+                    preview: working_svg_bip_39_3_word_300.png
+                    svg: working_svg_bip_39_3_word.svg
+                    title: BIP 39 words
+                -   png: working_svg_square.png
+                    preview: working_svg_square_300.png
+                    svg: working_svg_square.svg
+                    title: Square summary
+                -   png: working_svg_dimensioned.png
+                    preview: working_svg_dimensioned_300.png
+                    svg: working_svg_dimensioned.svg
+                    title: Dimensions
+                -   png: working_svg_dimensioned_titles.png
+                    preview: working_svg_dimensioned_titles_300.png
+                    svg: working_svg_dimensioned_titles.svg
+                    title: Dimensions with labels
+                file_previews:
+                -   preview: working_svg_square_pins_300.png
+                    title: Pinout drawing
+                -   preview: working_svg_outline_300.png
+                    title: Outline
+                -   preview: working_svg_part_id_300.png
+                    title: Part ID
+                -   preview: working_svg_md5_6_alpha_300.png
+                    title: MD5 alpha
+                -   preview: working_svg_bip_39_3_word_300.png
+                    title: BIP 39 words
+                -   preview: working_svg_square_300.png
+                    title: Square summary
+                -   preview: working_svg_dimensioned_300.png
+                    title: Dimensions
+                -   preview: working_svg_dimensioned_titles_300.png
+                    title: Dimensions with labels
+                has_datasheet: false
+                identifiers:
+                -   title: Manufacturer part number
+                    value: BLM21PG221SN1D
+                -   title: LCSC
+                    value: C85840
+                main_image:
+                    png: working_svg_square_pins.png
+                    preview: working_svg_square_pins_300.png
+                    svg: working_svg_square_pins.svg
+                    title: Pinout
+                oomp_id: electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+                pins: []
+                quick_facts:
+                -   title: OOMP ID
+                    value: electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+                -   title: Type
+                    value: Ferrite Bead
+                -   title: Package / style
+                    value: 0805
+                -   title: Nominal size
+                    value: "2.0 \xD7 1.25 mm"
+                repository_url: https://github.com/oomlout/oomp_electronic_version_5/tree/main/parts/electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+                summary: "Ferrite Bead 0805 220 Ohm 2 Amp is an OOMP electronic ferrite\
+                    \ bead definition. It uses the 0805 package or form factor. Its\
+                    \ nominal drawing size is 2.0 \xD7 1.25 mm."
+                taxonomy:
+                -   level: 1
+                    value: electronic
+                -   level: 2
+                    value: ferrite_bead
+                -   level: 3
+                    value: 0805
+                -   level: 4
+                    value: 220_ohm
+                -   level: 5
+                    value: 2_amp
+                -   level: 14
+                    value: murata
+                -   level: 15
+                    value: blm21pg221sn1d
+            regenerate_pngs: false
+            svg_details:
+            -   filename_extra: assembly
+                make_a4: false
+                output_formats:
+                - svg
+                padding: 0
+                stylesheet: style_oomp_assembly
+                svg_name: oomp_component_assembly
+                write_yaml: false
+            -   filename_extra: assembly_pins
+                make_a4: false
+                output_formats:
+                - svg
+                padding: 0
+                stylesheet: style_oomp_assembly
+                svg_name: oomp_component_assembly_pins
+                write_yaml: false
+            -   filename_extra: outline
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_outline
+                write_yaml: false
+            -   filename_extra: part_id
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_part_id
+                write_yaml: false
+            -   filename_extra: md5_6_alpha
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_md5_6_alpha
+                write_yaml: false
+            -   filename_extra: bip_39_3_word
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_bip_39_3_word
+                write_yaml: false
+            -   filename_extra: square
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_square
+                write_yaml: false
+            -   filename_extra: square_pins
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_square_pins
+                write_yaml: false
+            -   filename_extra: dimensioned
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_dimensioned
+                write_yaml: false
+            -   filename_extra: dimensioned_titles
+                make_a4: false
+                output_formats:
+                - svg
+                - png
+                padding: 0
+                stylesheet: style_oomp
+                svg_name: oomp_component_dimensioned_titles
+                write_yaml: false
+            taxonomy_1: electronic
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: murata
+            taxonomy_15: blm21pg221sn1d
+            taxonomy_2: ferrite_bead
+            taxonomy_3: 0805
+            taxonomy_4: 220_ohm
+            taxonomy_5: 2_amp
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: README.md
+        file_template: C:\gh\oomp_electronic_version_5\source_file\template_jinja\oomp_category\template_jinja_markdown\working.md.j2
+        search_and_replace: []
+    file_test: ''
+    retries_until_complete: 0
+oomp_key: oomp_electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+part_id: FB1
+part_number_lcsc: C85840
+part_number_manufacturer: BLM21PG221SN1D
+part_page:
+    diagrams:
+    -   png: ''
+        preview: working_svg_assembly.svg
+        svg: working_svg_assembly.svg
+        title: Assembly
+    -   png: working_svg_outline.png
+        preview: working_svg_outline_300.png
+        svg: working_svg_outline.svg
+        title: Outline
+    -   png: working_svg_part_id.png
+        preview: working_svg_part_id_300.png
+        svg: working_svg_part_id.svg
+        title: Part ID
+    -   png: working_svg_md5_6_alpha.png
+        preview: working_svg_md5_6_alpha_300.png
+        svg: working_svg_md5_6_alpha.svg
+        title: MD5 alpha
+    -   png: working_svg_bip_39_3_word.png
+        preview: working_svg_bip_39_3_word_300.png
+        svg: working_svg_bip_39_3_word.svg
+        title: BIP 39 words
+    -   png: working_svg_square.png
+        preview: working_svg_square_300.png
+        svg: working_svg_square.svg
+        title: Square summary
+    -   png: working_svg_dimensioned.png
+        preview: working_svg_dimensioned_300.png
+        svg: working_svg_dimensioned.svg
+        title: Dimensions
+    -   png: working_svg_dimensioned_titles.png
+        preview: working_svg_dimensioned_titles_300.png
+        svg: working_svg_dimensioned_titles.svg
+        title: Dimensions with labels
+    file_previews:
+    -   preview: working_svg_square_pins_300.png
+        title: Pinout drawing
+    -   preview: working_svg_outline_300.png
+        title: Outline
+    -   preview: working_svg_part_id_300.png
+        title: Part ID
+    -   preview: working_svg_md5_6_alpha_300.png
+        title: MD5 alpha
+    -   preview: working_svg_bip_39_3_word_300.png
+        title: BIP 39 words
+    -   preview: working_svg_square_300.png
+        title: Square summary
+    -   preview: working_svg_dimensioned_300.png
+        title: Dimensions
+    -   preview: working_svg_dimensioned_titles_300.png
+        title: Dimensions with labels
+    has_datasheet: false
+    identifiers:
+    -   title: Manufacturer part number
+        value: BLM21PG221SN1D
+    -   title: LCSC
+        value: C85840
+    main_image:
+        png: working_svg_square_pins.png
+        preview: working_svg_square_pins_300.png
+        svg: working_svg_square_pins.svg
+        title: Pinout
+    oomp_id: electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+    pins: []
+    quick_facts:
+    -   title: OOMP ID
+        value: electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+    -   title: Type
+        value: Ferrite Bead
+    -   title: Package / style
+        value: 0805
+    -   title: Nominal size
+        value: "2.0 \xD7 1.25 mm"
+    repository_url: https://github.com/oomlout/oomp_electronic_version_5/tree/main/parts/electronic_ferrite_bead_0805_220_ohm_2_amp_murata_blm21pg221sn1d
+    summary: "Ferrite Bead 0805 220 Ohm 2 Amp is an OOMP electronic ferrite bead definition.\
+        \ It uses the 0805 package or form factor. Its nominal drawing size is 2.0\
+        \ \xD7 1.25 mm."
+    taxonomy:
+    -   level: 1
+        value: electronic
+    -   level: 2
+        value: ferrite_bead
+    -   level: 3
+        value: 0805
+    -   level: 4
+        value: 220_ohm
+    -   level: 5
+        value: 2_amp
+    -   level: 14
+        value: murata
+    -   level: 15
+        value: blm21pg221sn1d
+regenerate_pngs: false
+svg_details:
+-   filename_extra: assembly
+    make_a4: false
+    output_formats:
+    - svg
+    padding: 0
+    stylesheet: style_oomp_assembly
+    svg_name: oomp_component_assembly
+    write_yaml: false
+-   filename_extra: assembly_pins
+    make_a4: false
+    output_formats:
+    - svg
+    padding: 0
+    stylesheet: style_oomp_assembly
+    svg_name: oomp_component_assembly_pins
+    write_yaml: false
+-   filename_extra: outline
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_outline
+    write_yaml: false
+-   filename_extra: part_id
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_part_id
+    write_yaml: false
+-   filename_extra: md5_6_alpha
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_md5_6_alpha
+    write_yaml: false
+-   filename_extra: bip_39_3_word
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_bip_39_3_word
+    write_yaml: false
+-   filename_extra: square
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_square
+    write_yaml: false
+-   filename_extra: square_pins
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_square_pins
+    write_yaml: false
+-   filename_extra: dimensioned
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_dimensioned
+    write_yaml: false
+-   filename_extra: dimensioned_titles
+    make_a4: false
+    output_formats:
+    - svg
+    - png
+    padding: 0
+    stylesheet: style_oomp
+    svg_name: oomp_component_dimensioned_titles
+    write_yaml: false
+taxonomy_1: electronic
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: murata
+taxonomy_14_capital: Murata
+taxonomy_14_first_letter: m
+taxonomy_14_first_letter_upper: M
+taxonomy_14_length_1: m
+taxonomy_14_length_2: mu
+taxonomy_14_length_3: mur
+taxonomy_14_length_4: mura
+taxonomy_14_length_5: murat
+taxonomy_14_upper: MURATA
+taxonomy_14_upper_length_1: M
+taxonomy_14_upper_length_2: MU
+taxonomy_14_upper_length_3: MUR
+taxonomy_14_upper_length_4: MURA
+taxonomy_14_upper_length_5: MURAT
+taxonomy_15: blm21pg221sn1d
+taxonomy_15_capital: Blm21Pg221Sn1D
+taxonomy_15_first_letter: b
+taxonomy_15_first_letter_upper: B
+taxonomy_15_length_1: b
+taxonomy_15_length_2: bl
+taxonomy_15_length_3: blm
+taxonomy_15_length_4: blm2
+taxonomy_15_length_5: blm21
+taxonomy_15_upper: BLM21PG221SN1D
+taxonomy_15_upper_length_1: B
+taxonomy_15_upper_length_2: BL
+taxonomy_15_upper_length_3: BLM
+taxonomy_15_upper_length_4: BLM2
+taxonomy_15_upper_length_5: BLM21
+taxonomy_1_capital: Electronic
+taxonomy_1_first_letter: e
+taxonomy_1_first_letter_upper: E
+taxonomy_1_length_1: e
+taxonomy_1_length_2: el
+taxonomy_1_length_3: ele
+taxonomy_1_length_4: elec
+taxonomy_1_length_5: elect
+taxonomy_1_upper: ELECTRONIC
+taxonomy_1_upper_length_1: E
+taxonomy_1_upper_length_2: EL
+taxonomy_1_upper_length_3: ELE
+taxonomy_1_upper_length_4: ELEC
+taxonomy_1_upper_length_5: ELECT
+taxonomy_2: ferrite_bead
+taxonomy_2_capital: Ferrite Bead
+taxonomy_2_first_letter: f
+taxonomy_2_first_letter_upper: F
+taxonomy_2_length_1: f
+taxonomy_2_length_2: fe
+taxonomy_2_length_3: fer
+taxonomy_2_length_4: ferr
+taxonomy_2_length_5: ferri
+taxonomy_2_upper: FERRITE_BEAD
+taxonomy_2_upper_length_1: F
+taxonomy_2_upper_length_2: FE
+taxonomy_2_upper_length_3: FER
+taxonomy_2_upper_length_4: FERR
+taxonomy_2_upper_length_5: FERRI
+taxonomy_3: 0805
+taxonomy_3_capital: 0805
+taxonomy_3_first_letter: '0'
+taxonomy_3_first_letter_upper: '0'
+taxonomy_3_length_1: '0'
+taxonomy_3_length_2: 08
+taxonomy_3_length_3: 080
+taxonomy_3_length_4: 0805
+taxonomy_3_length_5: 0805
+taxonomy_3_upper: 0805
+taxonomy_3_upper_length_1: '0'
+taxonomy_3_upper_length_2: 08
+taxonomy_3_upper_length_3: 080
+taxonomy_3_upper_length_4: 0805
+taxonomy_3_upper_length_5: 0805
+taxonomy_4: 220_ohm
+taxonomy_4_capital: 220 Ohm
+taxonomy_4_first_letter: '2'
+taxonomy_4_first_letter_upper: '2'
+taxonomy_4_length_1: '2'
+taxonomy_4_length_2: '22'
+taxonomy_4_length_3: '220'
+taxonomy_4_length_4: '220_'
+taxonomy_4_length_5: 220_o
+taxonomy_4_upper: 220_OHM
+taxonomy_4_upper_length_1: '2'
+taxonomy_4_upper_length_2: '22'
+taxonomy_4_upper_length_3: '220'
+taxonomy_4_upper_length_4: '220_'
+taxonomy_4_upper_length_5: 220_O
+taxonomy_5: 2_amp
+taxonomy_5_capital: 2 Amp
+taxonomy_5_first_letter: '2'
+taxonomy_5_first_letter_upper: '2'
+taxonomy_5_length_1: '2'
+taxonomy_5_length_2: '2_'
+taxonomy_5_length_3: 2_a
+taxonomy_5_length_4: 2_am
+taxonomy_5_length_5: 2_amp
+taxonomy_5_upper: 2_AMP
+taxonomy_5_upper_length_1: '2'
+taxonomy_5_upper_length_2: '2_'
+taxonomy_5_upper_length_3: 2_A
+taxonomy_5_upper_length_4: 2_AM
+taxonomy_5_upper_length_5: 2_AMP
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+url_chat: ''

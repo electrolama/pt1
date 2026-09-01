@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64.0000mm" height="64.0000mm"
+     viewBox="0 0 64.0000 64.0000">
+  <text x="32.0000" y="5.0000" font-family="Arial, sans-serif" font-size="3.6000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#000000">Ferrite Bead 0805 220 Ohm 2</text>
+  <text x="32.0000" y="9.0000" font-family="Arial, sans-serif" font-size="3.6000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#000000">Amp</text>
+  <rect x="23.0000" y="24.5000" width="18.0000" height="9.0000" rx="1.2000" ry="1.2000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.8" />
+  <rect x="23.0000" y="24.5000" width="3.0000" height="9.0000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <rect x="38.0000" y="24.5000" width="3.0000" height="9.0000"  fill="#FFFFFF" stroke="#000000" stroke-width="0.6" />
+  <text x="19.0000" y="29.0000" font-family="Arial, sans-serif" font-size="2.8000" text-anchor="end" dominant-baseline="middle" fill="#000000">pin 1</text>
+  <text x="45.0000" y="29.0000" font-family="Arial, sans-serif" font-size="2.8000" text-anchor="start" dominant-baseline="middle" fill="#000000">pin 2</text>
+  <text x="32.0000" y="46.0000" font-family="Consolas, monospace" font-size="3.6000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#000000">8SDOX</text>
+  <text x="32.0000" y="53.0000" font-family="Consolas, monospace" font-size="2.8000" text-anchor="middle" dominant-baseline="middle" fill="#000000">thrive tip finish</text>
+</svg>

@@ -1,0 +1,17 @@
+status: matched
+accepted: true
+oomp_id: mechanical_mounting_hole_0_8_mm_round_plated
+confidence: 1.0
+proposed_oomp_id: mechanical_mounting_hole_0_8_mm_round_plated
+inferred:
+  kind: mounting_hole
+  style: round
+  plating: plated
+  drill_size:
+    x: 0.8
+    y: 0.8
+    diameter: 0.8
+    units: mm
+reasons:
+- Exact mechanical mounting-hole OOMP ID constructed from drill size, style, and plating.
+candidates: []

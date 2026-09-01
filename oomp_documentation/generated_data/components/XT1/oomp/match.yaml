@@ -1,0 +1,13 @@
+status: matched
+accepted: true
+oomp_id: electronic_crystal_3225_surface_mount_4_pin_12_mhz_20_pf
+confidence: 1.0
+proposed_oomp_id: null
+inferred:
+  kind: null
+  package_size: null
+  value: 12MHz
+  mpn: X322512MSB4SI
+reasons:
+- Accepted from the AI/human match override file.
+candidates: []

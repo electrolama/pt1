@@ -1,0 +1,213 @@
+available: true
+units:
+- reference: J1
+  source_file: kicad_file.kicad_sch
+  uuid: 4fab9c13-3668-4540-a4be-15a56083e927
+  library_id: project-tool-mini-RevA2-eagle-import:CONN_06LOCK
+  unit: 1
+  body_style: 1
+  position:
+    x: 148.59
+    y: 153.67
+    rotation: 180.0
+    mirror: null
+    units: mm
+  properties:
+    Reference: J1
+    Value: CONN_06LOCK
+    Footprint: project-tool-mini-RevA2:1X06_LOCK
+    Datasheet: ''
+    Description: ''
+  in_bom: true
+  on_board: true
+  in_position_files: true
+  dnp: false
+  pins:
+  - number: '1'
+    name: '1'
+    electrical_type: passive
+    graphic_style: line
+    local_position:
+      x: 5.08
+      y: -5.08
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 143.51
+      y: 158.75
+    net: USB3_P
+    net_aliases:
+    - USB3_P
+    net_scope: global
+    no_connect: false
+    connected_to: []
+  - number: '2'
+    name: '2'
+    electrical_type: passive
+    graphic_style: line
+    local_position:
+      x: 5.08
+      y: -2.54
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 143.51
+      y: 156.21
+    net: USB3_N
+    net_aliases:
+    - USB3_N
+    net_scope: global
+    no_connect: false
+    connected_to:
+    - reference: D2
+      pin_number: '1'
+      pin_name: I/O_1
+  - number: '3'
+    name: '3'
+    electrical_type: passive
+    graphic_style: line
+    local_position:
+      x: 5.08
+      y: 0.0
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 143.51
+      y: 153.67
+    net: TX_OUT
+    net_aliases:
+    - TX_OUT
+    net_scope: sheet
+    no_connect: false
+    connected_to:
+    - reference: IC1
+      pin_number: '14'
+      pin_name: DSR
+  - number: '4'
+    name: '4'
+    electrical_type: passive
+    graphic_style: line
+    local_position:
+      x: 5.08
+      y: 2.54
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 143.51
+      y: 151.13
+    net: RX_IN
+    net_aliases:
+    - RX_IN
+    net_scope: sheet
+    no_connect: false
+    connected_to:
+    - reference: IC1
+      pin_number: '11'
+      pin_name: DCD
+  - number: '5'
+    name: '5'
+    electrical_type: passive
+    graphic_style: line
+    local_position:
+      x: 5.08
+      y: 5.08
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 143.51
+      y: 148.59
+    net: VUSB_SW_OUT
+    net_aliases:
+    - VUSB_SW_OUT
+    net_scope: global
+    no_connect: false
+    connected_to:
+    - reference: C7
+      pin_number: '1'
+      pin_name: '1'
+    - reference: C8
+      pin_number: '1'
+      pin_name: '1'
+    - reference: C9
+      pin_number: '1'
+      pin_name: '1'
+    - reference: R4
+      pin_number: '2'
+      pin_name: '2'
+    - reference: SJ1
+      pin_number: '3'
+      pin_name: '3'
+  - number: '6'
+    name: '6'
+    electrical_type: passive
+    graphic_style: line
+    local_position:
+      x: 5.08
+      y: 7.62
+      rotation: 180.0
+    length: 5.08
+    position:
+      x: 143.51
+      y: 146.05
+    net: null
+    net_aliases: []
+    net_scope: sheet
+    no_connect: false
+    connected_to: []
+  size:
+    local_graphics:
+      measurement: symbol graphics only; excludes pins, properties, and text
+      units: mm
+      available: true
+      min:
+        x: -5.2832
+        y: -7.8232
+      max:
+        x: 1.4732
+        y: 10.3632
+      width: 6.7564
+      height: 18.1864
+      center:
+        x: -1.905
+        y: 1.27
+    placed_graphics:
+      measurement: axis-aligned bounds after schematic placement, rotation, and mirroring
+      units: mm
+      available: true
+      min:
+        x: 147.1168
+        y: 143.3068
+      max:
+        x: 153.8732
+        y: 161.4932
+      width: 6.7564
+      height: 18.1864
+      center:
+        x: 150.495
+        y: 152.4
+  warnings: []
+connected_components:
+- reference: C7
+  pin_number: '1'
+  pin_name: '1'
+- reference: C8
+  pin_number: '1'
+  pin_name: '1'
+- reference: C9
+  pin_number: '1'
+  pin_name: '1'
+- reference: D2
+  pin_number: '1'
+  pin_name: I/O_1
+- reference: IC1
+  pin_number: '11'
+  pin_name: DCD
+- reference: IC1
+  pin_number: '14'
+  pin_name: DSR
+- reference: R4
+  pin_number: '2'
+  pin_name: '2'
+- reference: SJ1
+  pin_number: '3'
+  pin_name: '3'
